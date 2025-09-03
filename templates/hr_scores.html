@@ -43,11 +43,20 @@
   const team = document.getElementById('team').value || '';
   const gameEl = document.getElementById('game');
   const game = gameEl ? gameEl.value : '';
-  const limit = document.getElementById('limit').value || '50';
+  let limit = document.getElementById('limit').value || '50';
   const homeredOnly = document.getElementById('homeredOnly');
   if (date) params.set('date', date); else params.delete('date');
       if (team) params.set('team', team); else params.delete('team');
   if (game) params.set('game', game); else params.delete('game');
+      // If homered-only, ensure a large limit so all candidates render
+      if (homeredOnly && homeredOnly.checked) {
+        const limNum = parseInt(limit, 10);
+        if (!Number.isFinite(limNum) || limNum < 300) {
+          limit = '500';
+          const limInput = document.getElementById('limit');
+          if (limInput) limInput.value = limit;
+        }
+      }
       params.set('limit', limit);
   if (homeredOnly && homeredOnly.checked) params.set('homered','1'); else params.delete('homered');
   // Be explicit about leading '?'
@@ -193,16 +202,20 @@
               </div>
               <span class="badge score-pill">{{ p.hr_score }}</span>
             </div>
-            <div class="mt-2 d-flex justify-content-between align-items-center">
+            <div class="mt-2 d-flex justify-content-start align-items-center">
               <div class="text-muted small d-flex align-items-center gap-2">
                 <span>Season HRs: {{ p.stats.homeRuns }}</span>
-                {% if is_today and p.game_state %}
-                  {% set st = p.game_state %}
-                  <span class="badge state-badge {% if st=='LIVE' %}state-live{% elif st=='FINAL' %}state-final{% else %}state-scheduled{% endif %} game-state-badge" data-team="{{ p.team }}">
-                    {% if st=='LIVE' %}Live{% elif st=='FINAL' %}Final{% else %}Scheduled{% endif %}
-                  </span>
-                {% endif %}
               </div>
+            </div>
+            {% if is_today and p.game_state %}
+              {% set st = p.game_state %}
+              <div class="mt-1">
+                <span class="badge state-badge {% if st=='LIVE' %}state-live{% elif st=='FINAL' %}state-final{% else %}state-scheduled{% endif %} game-state-badge" data-team="{{ p.team }}">
+                  {% if st=='LIVE' %}Live{% elif st=='FINAL' %}Final{% else %}Scheduled{% endif %}
+                </span>
+              </div>
+            {% endif %}
+            <div class="mt-1">
               {% if p.homered %}
                 <span class="badge bg-danger homered-badge" title="Homered on {{ date }}">Homered{% if p.hr_count_on_date and p.hr_count_on_date > 1 %} ×{{ p.hr_count_on_date }}{% endif %}</span>
               {% else %}
@@ -304,7 +317,10 @@
         const cb = document.getElementById('homeredOnly');
         if (cb) {
           cb.checked = (hom === '1' || hom === 'true');
-          cb.addEventListener('change', applyHomeredFilter);
+          cb.addEventListener('change', () => {
+            // Reload with homered param and bumped limit so all homers show
+            applyFilters();
+          });
           if (cb.checked) applyHomeredFilter();
         }
       } catch {}
