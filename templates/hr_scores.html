@@ -34,6 +34,8 @@
   .state-live { background: #dc3545; color: #fff; }
   .state-final { background: #198754; color: #fff; }
   .state-scheduled { background: #6c757d; color: #fff; }
+  /* Gold homered badge */
+  .homered-badge { background: #D4AF37; color: #000; font-weight: 700; }
   </style>
   <script>
     function applyFilters() {
@@ -217,9 +219,9 @@
             {% endif %}
             <div class="mt-1">
               {% if p.homered %}
-                <span class="badge bg-danger homered-badge" title="Homered on {{ date }}">Homered{% if p.hr_count_on_date and p.hr_count_on_date > 1 %} ×{{ p.hr_count_on_date }}{% endif %}</span>
+                <span class="badge homered-badge" title="Homered on {{ date }}">Homered{% if p.hr_count_on_date and p.hr_count_on_date > 1 %} ×{{ p.hr_count_on_date }}{% endif %}</span>
               {% else %}
-                <span class="badge bg-danger homered-badge d-none" title="Homered on {{ date }}">Homered</span>
+                <span class="badge homered-badge d-none" title="Homered on {{ date }}">Homered</span>
               {% endif %}
             </div>
           </div>
