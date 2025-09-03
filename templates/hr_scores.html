@@ -172,7 +172,7 @@
     <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3">
       {% for p in players %}
   <div class="col">
-  <div class="card player-card" data-team="{{ p.team }}" data-primary="{{ p.team_primary }}" data-text="{{ p.team_text }}" data-mlbam-id="{{ p.mlbam_id or '' }}" role="button" tabindex="0" aria-label="Open details for {{ p.name }}"
+  <div class="card player-card" data-team="{{ p.team }}" data-primary="{{ p.team_primary }}" data-text="{{ p.team_text }}" data-mlbam-id="{{ p.mlbam_id or '' }}" data-player-name="{{ p.name }}" role="button" tabindex="0" aria-label="Open details for {{ p.name }}"
        onclick="openPlayerModal('{{ p.name|e }}','{{ p.team|e }}')"
        onkeypress="if(event.key==='Enter'||event.key===' '){ openPlayerModal('{{ p.name|e }}','{{ p.team|e }}'); }">
           <div class="team-bar"></div>
@@ -342,6 +342,15 @@
   if (isToday) {
           const updateBadges = (hitters) => {
             // hitters is an object keyed by mlbam id -> { name, hr }
+            const nameMap = {};
+            try {
+              for (const [pid, rec] of Object.entries(hitters||{})) {
+                const nm = (rec && rec.name) ? String(rec.name) : '';
+                if (!nm) continue;
+                const key = nm.toLowerCase();
+                nameMap[key] = rec;
+              }
+            } catch {}
             document.querySelectorAll('.player-card').forEach(card => {
               const pid = (card.getAttribute('data-mlbam-id')||'').trim();
               if (!pid) return;
@@ -353,6 +362,16 @@
                 const count = parseInt(rec.hr||0);
                 badge.textContent = count>1 ? `Homered ×${count}` : 'Homered';
               } else {
+                // Fallback: match by name if id not found (some feeds can miss id mapping)
+                try {
+                  const nm = (card.getAttribute('data-player-name')||'').toLowerCase();
+                  const recByName = nameMap[nm];
+                  if (recByName) {
+                    badge.classList.remove('d-none');
+                    const count = parseInt(recByName.hr||0);
+                    badge.textContent = count>1 ? `Homered ×${count}` : 'Homered';
+                  }
+                } catch {}
                 // Do not hide if server rendered true for earlier in day; leave as-is
               }
             });
