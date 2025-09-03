@@ -44,10 +44,12 @@
   const gameEl = document.getElementById('game');
   const game = gameEl ? gameEl.value : '';
   const limit = document.getElementById('limit').value || '50';
+  const homeredOnly = document.getElementById('homeredOnly');
   if (date) params.set('date', date); else params.delete('date');
       if (team) params.set('team', team); else params.delete('team');
   if (game) params.set('game', game); else params.delete('game');
       params.set('limit', limit);
+  if (homeredOnly && homeredOnly.checked) params.set('homered','1'); else params.delete('homered');
   // Be explicit about leading '?'
   window.location.search = '?' + params.toString();
     }
@@ -102,6 +104,31 @@
       <span class="text-muted small">Date: {{ date }} | Generated: {{ generated_at }}</span>
     </div>
 
+    <!-- Scoring explainer (collapsible) -->
+    <div class="mb-3">
+      <button class="btn btn-outline-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#scoringHelp" aria-expanded="false" aria-controls="scoringHelp">
+        Scoring explainer
+      </button>
+      <div class="collapse mt-2" id="scoringHelp">
+        <div class="card">
+          <div class="card-body">
+            <h6 class="mb-2">How the HR Score is computed</h6>
+            <ul class="mb-2 small">
+              <li><strong>Power (52%)</strong>: season HRs, ISO, SLG, Statcast exit velocity and barrel rate (normalized).</li>
+              <li><strong>Recent (12%)</strong>: last-14-day HR rate.</li>
+              <li><strong>Pitcher (26%)</strong>: opponent ERA and HR allowed with handedness splits; bullpen blending when available.</li>
+              <li><strong>Park/Weather (7%)</strong>: ballpark HR factor and weather (wind, temperature, roof; domes minimize weather).</li>
+              <li><strong>H2H bonus</strong>: small bump for strong historical SLG/HR vs the opposing pitcher.</li>
+              <li><strong>Pitch-type bonus</strong>: alignment of batter xSLG-by-pitch vs pitcher’s top pitches and usage.</li>
+              <li><strong>Market scaler</strong>: team implied runs scale the score slightly.</li>
+              <li><strong>PA multiplier</strong>: lineup slot adjusts for expected plate appearances.</li>
+            </ul>
+            <p class="mb-0 small text-muted">Final scores are scaled and capped 0–100 using the selected date’s dataset.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     {% if not players or players|length == 0 %}
       <p class="text-muted">No players found. Ensure hr-scores-YYYY-MM-DD.json exists in /data. Try running generate_hr_scores.py.</p>
     {% else %}
@@ -133,7 +160,13 @@
         <label class="form-label m-0">Limit</label>
   <input id="limit" type="number" min="8" max="200" value="{{ limit or 50 }}" class="form-control form-control-sm" onchange="applyFilters()" />
       </div>
-      <div class="col-auto"><span class="text-muted small">Showing {{ shown }} of {{ total }}</span></div>
+      <div class="col-auto form-check ms-2">
+        <input class="form-check-input" type="checkbox" value="1" id="homeredOnly">
+        <label class="form-check-label" for="homeredOnly">
+          Homered only
+        </label>
+      </div>
+  <div class="col-auto"><span id="showingCount" class="text-muted small" data-total="{{ total }}">Showing {{ shown }} of {{ total }}</span></div>
     </div>
 
     <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3">
@@ -229,6 +262,31 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script>
+    function applyHomeredFilter() {
+      const cb = document.getElementById('homeredOnly');
+      const enabled = !!(cb && cb.checked);
+      document.querySelectorAll('.player-card').forEach(card => {
+        const col = card.closest('.col') || card.parentElement;
+        const badge = card.querySelector('.homered-badge');
+        const isVisible = !!(badge && !badge.classList.contains('d-none'));
+        if (enabled && !isVisible) {
+          if (col) col.style.display = 'none';
+        } else {
+          if (col) col.style.display = '';
+        }
+      });
+      // Update showing counter
+      const counter = document.getElementById('showingCount');
+      if (counter) {
+        const total = parseInt(counter.getAttribute('data-total')||'0');
+        const visible = Array.from(document.querySelectorAll('.player-card'))
+          .filter(card => {
+            const col = card.closest('.col') || card.parentElement;
+            return col && col.style.display !== 'none';
+          }).length;
+        counter.textContent = `Showing ${visible} of ${total}`;
+      }
+    }
     // Client-side fallback: apply team colors even if server-side variables are missing
     const TEAM_COLORS = {
       'ARI':'#A71930','ATL':'#CE1141','BAL':'#DF4601','BOS':'#BD3039','CHC':'#0E3386','CWS':'#27251F','CIN':'#C6011F','CLE':'#E31937',
@@ -239,6 +297,17 @@
     function hexToRgb(h){h=(h||'').replace('#','');if(h.length===3)h=h.split('').map(c=>c+c).join('');const r=parseInt(h.substr(0,2),16)||0;const g=parseInt(h.substr(2,2),16)||0;const b=parseInt(h.substr(4,2),16)||0;return [r,g,b];}
     function textColorForBg(hex){const [r,g,b]=hexToRgb(hex);const L=(0.2126*r+0.7152*g+0.0722*b)/255;return L>0.6?'#000000':'#FFFFFF';}
     window.addEventListener('DOMContentLoaded',()=>{
+      // Initialize Homered filter from URL param
+      try {
+        const params = new URLSearchParams(window.location.search);
+        const hom = params.get('homered');
+        const cb = document.getElementById('homeredOnly');
+        if (cb) {
+          cb.checked = (hom === '1' || hom === 'true');
+          cb.addEventListener('change', applyHomeredFilter);
+          if (cb.checked) applyHomeredFilter();
+        }
+      } catch {}
       document.querySelectorAll('.player-card').forEach(card=>{
         const team=(card.getAttribute('data-team')||'').toUpperCase();
   const primary=card.getAttribute('data-primary')||TEAM_COLORS[team]||'#444444';
@@ -287,6 +356,8 @@
                 // Do not hide if server rendered true for earlier in day; leave as-is
               }
             });
+            // Re-apply homered filter if enabled
+            if (document.getElementById('homeredOnly')?.checked) applyHomeredFilter();
           };
           const poll = async () => {
             try {
