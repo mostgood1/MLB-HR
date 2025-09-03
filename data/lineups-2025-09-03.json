@@ -1,0 +1,1145 @@
+{
+  "date": "2025-09-03",
+  "lineups": {
+    "WSH": [
+      {
+        "name": "Andr\u00e9s Chaparro",
+        "slot": 1
+      },
+      {
+        "name": "Brady House",
+        "slot": 2
+      },
+      {
+        "name": "CJ Abrams",
+        "slot": 3
+      },
+      {
+        "name": "Dylan Crews",
+        "slot": 4
+      },
+      {
+        "name": "Daylen Lile",
+        "slot": 5
+      },
+      {
+        "name": "Jacob Young",
+        "slot": 6
+      },
+      {
+        "name": "Luis Garc\u00eda Jr.",
+        "slot": 7
+      },
+      {
+        "name": "James Wood",
+        "slot": 8
+      },
+      {
+        "name": "Josh Bell",
+        "slot": 9
+      }
+    ],
+    "MIA": [
+      {
+        "name": "Brian Navarreto",
+        "slot": 1
+      },
+      {
+        "name": "Xavier Edwards",
+        "slot": 2
+      },
+      {
+        "name": "Victor Mesa Jr.",
+        "slot": 3
+      },
+      {
+        "name": "Troy Johnston",
+        "slot": 4
+      },
+      {
+        "name": "Otto Lopez",
+        "slot": 5
+      },
+      {
+        "name": "Liam Hicks",
+        "slot": 6
+      },
+      {
+        "name": "Agust\u00edn Ram\u00edrez",
+        "slot": 7
+      },
+      {
+        "name": "Javier Sanoja",
+        "slot": 8
+      },
+      {
+        "name": "Joey Wiemer",
+        "slot": 9
+      }
+    ],
+    "DET": [
+      {
+        "name": "Andy Ib\u00e1\u00f1ez",
+        "slot": 1
+      },
+      {
+        "name": "Colt Keith",
+        "slot": 2
+      },
+      {
+        "name": "Gleyber Torres",
+        "slot": 3
+      },
+      {
+        "name": "Jahmai Jones",
+        "slot": 4
+      },
+      {
+        "name": "Dillon Dingler",
+        "slot": 5
+      },
+      {
+        "name": "Jake Rogers",
+        "slot": 6
+      },
+      {
+        "name": "Javier B\u00e1ez",
+        "slot": 7
+      },
+      {
+        "name": "Justyn-Henry Malloy",
+        "slot": 8
+      },
+      {
+        "name": "Kerry Carpenter",
+        "slot": 9
+      }
+    ],
+    "NYM": [
+      {
+        "name": "Brandon Nimmo",
+        "slot": 1
+      },
+      {
+        "name": "Cedric Mullins",
+        "slot": 2
+      },
+      {
+        "name": "Brett Baty",
+        "slot": 3
+      },
+      {
+        "name": "Francisco Lindor",
+        "slot": 4
+      },
+      {
+        "name": "Hayden Senger",
+        "slot": 5
+      },
+      {
+        "name": "Jeff McNeil",
+        "slot": 6
+      },
+      {
+        "name": "Jared Young",
+        "slot": 7
+      },
+      {
+        "name": "Juan Soto",
+        "slot": 8
+      },
+      {
+        "name": "Pete Alonso",
+        "slot": 9
+      }
+    ],
+    "AZ": [
+      {
+        "name": "Adrian Del Castillo",
+        "slot": 1
+      },
+      {
+        "name": "Alek Thomas",
+        "slot": 2
+      },
+      {
+        "name": "Blaze Alexander",
+        "slot": 3
+      },
+      {
+        "name": "Gabriel Moreno",
+        "slot": 4
+      },
+      {
+        "name": "Connor Kaiser",
+        "slot": 5
+      },
+      {
+        "name": "Corbin Carroll",
+        "slot": 6
+      },
+      {
+        "name": "Geraldo Perdomo",
+        "slot": 7
+      },
+      {
+        "name": "Ildemaro Vargas",
+        "slot": 8
+      },
+      {
+        "name": "Jake McCarthy",
+        "slot": 9
+      }
+    ],
+    "TEX": [
+      {
+        "name": "Jonah Heim",
+        "slot": 1
+      },
+      {
+        "name": "Rowdy Tellez",
+        "slot": 2
+      },
+      {
+        "name": "Josh Jung",
+        "slot": 3
+      },
+      {
+        "name": "Josh Smith",
+        "slot": 4
+      },
+      {
+        "name": "Wyatt Langford",
+        "slot": 5
+      },
+      {
+        "name": "Michael Helman",
+        "slot": 6
+      },
+      {
+        "name": "Alejandro Osuna",
+        "slot": 7
+      },
+      {
+        "name": "Adolis Garc\u00eda",
+        "slot": 8
+      },
+      {
+        "name": "Kyle Higashioka",
+        "slot": 9
+      }
+    ],
+    "SD": [
+      {
+        "name": "Jose Iglesias",
+        "slot": 1
+      },
+      {
+        "name": "Fernando Tatis Jr.",
+        "slot": 2
+      },
+      {
+        "name": "Gavin Sheets",
+        "slot": 3
+      },
+      {
+        "name": "Will Wagner",
+        "slot": 4
+      },
+      {
+        "name": "Freddy Fermin",
+        "slot": 5
+      },
+      {
+        "name": "Ryan O'Hearn",
+        "slot": 6
+      },
+      {
+        "name": "Ram\u00f3n Laureano",
+        "slot": 7
+      },
+      {
+        "name": "Bryce Johnson",
+        "slot": 8
+      },
+      {
+        "name": "Mason McCoy",
+        "slot": 9
+      }
+    ],
+    "BAL": [
+      {
+        "name": "Alex Jackson",
+        "slot": 1
+      },
+      {
+        "name": "Coby Mayo",
+        "slot": 2
+      },
+      {
+        "name": "Colton Cowser",
+        "slot": 3
+      },
+      {
+        "name": "Daniel Johnson",
+        "slot": 4
+      },
+      {
+        "name": "Dylan Beavers",
+        "slot": 5
+      },
+      {
+        "name": "Emmanuel Rivera",
+        "slot": 6
+      },
+      {
+        "name": "Dylan Carlson",
+        "slot": 7
+      },
+      {
+        "name": "Jorge Mateo",
+        "slot": 8
+      },
+      {
+        "name": "Luis V\u00e1zquez",
+        "slot": 9
+      }
+    ],
+    "PIT": [
+      {
+        "name": "Oneil Cruz",
+        "slot": 1
+      },
+      {
+        "name": "Nick Yorke",
+        "slot": 2
+      },
+      {
+        "name": "Nick Gonzales",
+        "slot": 3
+      },
+      {
+        "name": "Andrew McCutchen",
+        "slot": 4
+      },
+      {
+        "name": "Bryan Reynolds",
+        "slot": 5
+      },
+      {
+        "name": "Liover Peguero",
+        "slot": 6
+      },
+      {
+        "name": "Jared Triolo",
+        "slot": 7
+      },
+      {
+        "name": "Joey Bart",
+        "slot": 8
+      },
+      {
+        "name": "Spencer Horwitz",
+        "slot": 9
+      }
+    ],
+    "LAD": [
+      {
+        "name": "Alex Call",
+        "slot": 1
+      },
+      {
+        "name": "Alex Freeland",
+        "slot": 2
+      },
+      {
+        "name": "Andy Pages",
+        "slot": 3
+      },
+      {
+        "name": "Dalton Rushing",
+        "slot": 4
+      },
+      {
+        "name": "Freddie Freeman",
+        "slot": 5
+      },
+      {
+        "name": "Hyeseong Kim",
+        "slot": 6
+      },
+      {
+        "name": "Enrique Hern\u00e1ndez",
+        "slot": 7
+      },
+      {
+        "name": "Justin Dean",
+        "slot": 8
+      },
+      {
+        "name": "Shohei Ohtani",
+        "slot": 9
+      }
+    ],
+    "CIN": [
+      {
+        "name": "Austin Hays",
+        "slot": 1
+      },
+      {
+        "name": "Elly De La Cruz",
+        "slot": 2
+      },
+      {
+        "name": "Gavin Lux",
+        "slot": 3
+      },
+      {
+        "name": "Jose Trevino",
+        "slot": 4
+      },
+      {
+        "name": "Matt McLain",
+        "slot": 5
+      },
+      {
+        "name": "Miguel Andujar",
+        "slot": 6
+      },
+      {
+        "name": "Ke'Bryan Hayes",
+        "slot": 7
+      },
+      {
+        "name": "Noelvi Marte",
+        "slot": 8
+      },
+      {
+        "name": "TJ Friedl",
+        "slot": 9
+      }
+    ],
+    "TOR": [
+      {
+        "name": "Ernie Clement",
+        "slot": 1
+      },
+      {
+        "name": "Ty France",
+        "slot": 2
+      },
+      {
+        "name": "Tyler Heineman",
+        "slot": 3
+      },
+      {
+        "name": "Nathan Lukes",
+        "slot": 4
+      },
+      {
+        "name": "Myles Straw",
+        "slot": 5
+      },
+      {
+        "name": "Alejandro Kirk",
+        "slot": 6
+      },
+      {
+        "name": "Addison Barger",
+        "slot": 7
+      },
+      {
+        "name": "George Springer",
+        "slot": 8
+      },
+      {
+        "name": "Isiah Kiner-Falefa",
+        "slot": 9
+      }
+    ],
+    "BOS": [
+      {
+        "name": "Alex Bregman",
+        "slot": 1
+      },
+      {
+        "name": "Ali S\u00e1nchez",
+        "slot": 2
+      },
+      {
+        "name": "David Hamilton",
+        "slot": 3
+      },
+      {
+        "name": "Carlos Narv\u00e1ez",
+        "slot": 4
+      },
+      {
+        "name": "Ceddanne Rafaela",
+        "slot": 5
+      },
+      {
+        "name": "Connor Wong",
+        "slot": 6
+      },
+      {
+        "name": "Jarren Duran",
+        "slot": 7
+      },
+      {
+        "name": "Masataka Yoshida",
+        "slot": 8
+      },
+      {
+        "name": "Nate Eaton",
+        "slot": 9
+      }
+    ],
+    "CLE": [
+      {
+        "name": "Angel Mart\u00ednez",
+        "slot": 1
+      },
+      {
+        "name": "Austin Hedges",
+        "slot": 2
+      },
+      {
+        "name": "Bo Naylor",
+        "slot": 3
+      },
+      {
+        "name": "Brayan Rocchio",
+        "slot": 4
+      },
+      {
+        "name": "C.J. Kayfus",
+        "slot": 5
+      },
+      {
+        "name": "Gabriel Arias",
+        "slot": 6
+      },
+      {
+        "name": "David Fry",
+        "slot": 7
+      },
+      {
+        "name": "Daniel Schneemann",
+        "slot": 8
+      },
+      {
+        "name": "George Valera",
+        "slot": 9
+      }
+    ],
+    "TB": [
+      {
+        "name": "Brandon Lowe",
+        "slot": 1
+      },
+      {
+        "name": "Carson Williams",
+        "slot": 2
+      },
+      {
+        "name": "Tristan Gray",
+        "slot": 3
+      },
+      {
+        "name": "Richie Palacios",
+        "slot": 4
+      },
+      {
+        "name": "Nick Fortes",
+        "slot": 5
+      },
+      {
+        "name": "Junior Caminero",
+        "slot": 6
+      },
+      {
+        "name": "Josh Lowe",
+        "slot": 7
+      },
+      {
+        "name": "Jake Mangum",
+        "slot": 8
+      },
+      {
+        "name": "Hunter Feduccia",
+        "slot": 9
+      }
+    ],
+    "SEA": [
+      {
+        "name": "Cal Raleigh",
+        "slot": 1
+      },
+      {
+        "name": "Randy Arozarena",
+        "slot": 2
+      },
+      {
+        "name": "Mitch Garver",
+        "slot": 3
+      },
+      {
+        "name": "Luke Raley",
+        "slot": 4
+      },
+      {
+        "name": "Leo Rivas",
+        "slot": 5
+      },
+      {
+        "name": "Julio Rodr\u00edguez",
+        "slot": 6
+      },
+      {
+        "name": "Josh Naylor",
+        "slot": 7
+      },
+      {
+        "name": "J.P. Crawford",
+        "slot": 8
+      },
+      {
+        "name": "Jorge Polanco",
+        "slot": 9
+      }
+    ],
+    "KC": [
+      {
+        "name": "Adam Frazier",
+        "slot": 1
+      },
+      {
+        "name": "Bobby Witt Jr.",
+        "slot": 2
+      },
+      {
+        "name": "Jac Caglianone",
+        "slot": 3
+      },
+      {
+        "name": "Carter Jensen",
+        "slot": 4
+      },
+      {
+        "name": "Kyle Isbel",
+        "slot": 5
+      },
+      {
+        "name": "Luke Maile",
+        "slot": 6
+      },
+      {
+        "name": "Maikel Garcia",
+        "slot": 7
+      },
+      {
+        "name": "Michael Massey",
+        "slot": 8
+      },
+      {
+        "name": "Nick Loftin",
+        "slot": 9
+      }
+    ],
+    "LAA": [
+      {
+        "name": "Bryce Teodosio",
+        "slot": 1
+      },
+      {
+        "name": "Jo Adell",
+        "slot": 2
+      },
+      {
+        "name": "Chris Taylor",
+        "slot": 3
+      },
+      {
+        "name": "Matthew Lugo",
+        "slot": 4
+      },
+      {
+        "name": "Niko Kavadas",
+        "slot": 5
+      },
+      {
+        "name": "Mike Trout",
+        "slot": 6
+      },
+      {
+        "name": "Luis Rengifo",
+        "slot": 7
+      },
+      {
+        "name": "Logan O'Hoppe",
+        "slot": 8
+      },
+      {
+        "name": "Oswald Peraza",
+        "slot": 9
+      }
+    ],
+    "CHC": [
+      {
+        "name": "Carlos Santana",
+        "slot": 1
+      },
+      {
+        "name": "Carson Kelly",
+        "slot": 2
+      },
+      {
+        "name": "Dansby Swanson",
+        "slot": 3
+      },
+      {
+        "name": "Ian Happ",
+        "slot": 4
+      },
+      {
+        "name": "Kevin Alc\u00e1ntara",
+        "slot": 5
+      },
+      {
+        "name": "Justin Turner",
+        "slot": 6
+      },
+      {
+        "name": "Kyle Tucker",
+        "slot": 7
+      },
+      {
+        "name": "Matt Shaw",
+        "slot": 8
+      },
+      {
+        "name": "Michael Busch",
+        "slot": 9
+      }
+    ],
+    "ATL": [
+      {
+        "name": "Vidal Bruj\u00e1n",
+        "slot": 1
+      },
+      {
+        "name": "Jake Fraley",
+        "slot": 2
+      },
+      {
+        "name": "Eli White",
+        "slot": 3
+      },
+      {
+        "name": "Sean Murphy",
+        "slot": 4
+      },
+      {
+        "name": "Ronald Acu\u00f1a Jr.",
+        "slot": 5
+      },
+      {
+        "name": "Ozzie Albies",
+        "slot": 6
+      },
+      {
+        "name": "Nacho Alvarez Jr.",
+        "slot": 7
+      },
+      {
+        "name": "Nick Allen",
+        "slot": 8
+      },
+      {
+        "name": "Michael Harris II",
+        "slot": 9
+      }
+    ],
+    "MIN": [
+      {
+        "name": "Brooks Lee",
+        "slot": 1
+      },
+      {
+        "name": "Byron Buxton",
+        "slot": 2
+      },
+      {
+        "name": "Matt Wallner",
+        "slot": 3
+      },
+      {
+        "name": "Ryan Fitzgerald",
+        "slot": 4
+      },
+      {
+        "name": "Mickey Gasper",
+        "slot": 5
+      },
+      {
+        "name": "Ryan Jeffers",
+        "slot": 6
+      },
+      {
+        "name": "Trevor Larnach",
+        "slot": 7
+      },
+      {
+        "name": "Royce Lewis",
+        "slot": 8
+      },
+      {
+        "name": "Edouard Julien",
+        "slot": 9
+      }
+    ],
+    "CWS": [
+      {
+        "name": "Bryan Ramos",
+        "slot": 1
+      },
+      {
+        "name": "Michael A. Taylor",
+        "slot": 2
+      },
+      {
+        "name": "Brooks Baldwin",
+        "slot": 3
+      },
+      {
+        "name": "Edgar Quero",
+        "slot": 4
+      },
+      {
+        "name": "Curtis Mead",
+        "slot": 5
+      },
+      {
+        "name": "Mike Tauchman",
+        "slot": 6
+      },
+      {
+        "name": "Andrew Benintendi",
+        "slot": 7
+      },
+      {
+        "name": "Will Robertson",
+        "slot": 8
+      },
+      {
+        "name": "Tim Elko",
+        "slot": 9
+      }
+    ],
+    "MIL": [
+      {
+        "name": "Brice Turang",
+        "slot": 1
+      },
+      {
+        "name": "Caleb Durbin",
+        "slot": 2
+      },
+      {
+        "name": "Anthony Seigler",
+        "slot": 3
+      },
+      {
+        "name": "Joey Ortiz",
+        "slot": 4
+      },
+      {
+        "name": "Jake Bauers",
+        "slot": 5
+      },
+      {
+        "name": "Jackson Chourio",
+        "slot": 6
+      },
+      {
+        "name": "Andruw Monasterio",
+        "slot": 7
+      },
+      {
+        "name": "Isaac Collins",
+        "slot": 8
+      },
+      {
+        "name": "Danny Jansen",
+        "slot": 9
+      }
+    ],
+    "PHI": [
+      {
+        "name": "Trea Turner",
+        "slot": 1
+      },
+      {
+        "name": "Weston Wilson",
+        "slot": 2
+      },
+      {
+        "name": "Rafael March\u00e1n",
+        "slot": 3
+      },
+      {
+        "name": "Nick Castellanos",
+        "slot": 4
+      },
+      {
+        "name": "Max Kepler",
+        "slot": 5
+      },
+      {
+        "name": "Harrison Bader",
+        "slot": 6
+      },
+      {
+        "name": "Kyle Schwarber",
+        "slot": 7
+      },
+      {
+        "name": "Alec Bohm",
+        "slot": 8
+      },
+      {
+        "name": "Brandon Marsh",
+        "slot": 9
+      }
+    ],
+    "STL": [
+      {
+        "name": "C\u00e9sar Prieto",
+        "slot": 1
+      },
+      {
+        "name": "Jimmy Crooks",
+        "slot": 2
+      },
+      {
+        "name": "Willson Contreras",
+        "slot": 3
+      },
+      {
+        "name": "Victor Scott II",
+        "slot": 4
+      },
+      {
+        "name": "Thomas Saggese",
+        "slot": 5
+      },
+      {
+        "name": "Pedro Pag\u00e9s",
+        "slot": 6
+      },
+      {
+        "name": "Nolan Gorman",
+        "slot": 7
+      },
+      {
+        "name": "Nathan Church",
+        "slot": 8
+      },
+      {
+        "name": "Garrett Hampson",
+        "slot": 9
+      }
+    ],
+    "ATH": [
+      {
+        "name": "Colby Thomas",
+        "slot": 1
+      },
+      {
+        "name": "Carlos Cortes",
+        "slot": 2
+      },
+      {
+        "name": "Jacob Wilson",
+        "slot": 3
+      },
+      {
+        "name": "Lawrence Butler",
+        "slot": 4
+      },
+      {
+        "name": "Brett Harris",
+        "slot": 5
+      },
+      {
+        "name": "Zack Gelof",
+        "slot": 6
+      },
+      {
+        "name": "Willie MacIver",
+        "slot": 7
+      },
+      {
+        "name": "Tyler Soderstrom",
+        "slot": 8
+      },
+      {
+        "name": "Shea Langeliers",
+        "slot": 9
+      }
+    ],
+    "HOU": [
+      {
+        "name": "Cam Smith",
+        "slot": 1
+      },
+      {
+        "name": "Carlos Correa",
+        "slot": 2
+      },
+      {
+        "name": "C\u00e9sar Salazar",
+        "slot": 3
+      },
+      {
+        "name": "Christian Walker",
+        "slot": 4
+      },
+      {
+        "name": "Chas McCormick",
+        "slot": 5
+      },
+      {
+        "name": "Jeremy Pe\u00f1a",
+        "slot": 6
+      },
+      {
+        "name": "Jacob Melton",
+        "slot": 7
+      },
+      {
+        "name": "Jes\u00fas S\u00e1nchez",
+        "slot": 8
+      },
+      {
+        "name": "Jose Altuve",
+        "slot": 9
+      }
+    ],
+    "NYY": [
+      {
+        "name": "Jasson Dom\u00ednguez",
+        "slot": 1
+      },
+      {
+        "name": "Aaron Judge",
+        "slot": 2
+      },
+      {
+        "name": "Jos\u00e9 Caballero",
+        "slot": 3
+      },
+      {
+        "name": "Amed Rosario",
+        "slot": 4
+      },
+      {
+        "name": "J.C. Escarra",
+        "slot": 5
+      },
+      {
+        "name": "Giancarlo Stanton",
+        "slot": 6
+      },
+      {
+        "name": "Jazz Chisholm Jr.",
+        "slot": 7
+      },
+      {
+        "name": "Cody Bellinger",
+        "slot": 8
+      },
+      {
+        "name": "Ryan McMahon",
+        "slot": 9
+      }
+    ],
+    "COL": [
+      {
+        "name": "Drew Romo",
+        "slot": 1
+      },
+      {
+        "name": "Braxton Fulford",
+        "slot": 2
+      },
+      {
+        "name": "Brenton Doyle",
+        "slot": 3
+      },
+      {
+        "name": "Ezequiel Tovar",
+        "slot": 4
+      },
+      {
+        "name": "Jordan Beck",
+        "slot": 5
+      },
+      {
+        "name": "Hunter Goodman",
+        "slot": 6
+      },
+      {
+        "name": "Ryan Ritter",
+        "slot": 7
+      },
+      {
+        "name": "Orlando Arcia",
+        "slot": 8
+      },
+      {
+        "name": "Mickey Moniak",
+        "slot": 9
+      }
+    ],
+    "SF": [
+      {
+        "name": "Casey Schmitt",
+        "slot": 1
+      },
+      {
+        "name": "Matt Chapman",
+        "slot": 2
+      },
+      {
+        "name": "Patrick Bailey",
+        "slot": 3
+      },
+      {
+        "name": "Rafael Devers",
+        "slot": 4
+      },
+      {
+        "name": "Luis Matos",
+        "slot": 5
+      },
+      {
+        "name": "Andrew Knizner",
+        "slot": 6
+      },
+      {
+        "name": "Jung Hoo Lee",
+        "slot": 7
+      },
+      {
+        "name": "Christian Koss",
+        "slot": 8
+      },
+      {
+        "name": "Wilmer Flores",
+        "slot": 9
+      }
+    ]
+  }
+}

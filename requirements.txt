@@ -1,0 +1,6 @@
+flask>=2.2
+pybaseball>=2.2.7
+requests>=2.31
+pandas>=2.0.0
+lxml>=4.9.3
+gunicorn>=21.2.0

@@ -1,0 +1,185 @@
+{
+  "date": "2025-09-03",
+  "pitchers": [
+    {
+      "name": "Casey Mize",
+      "mlbam_id": 663554,
+      "era": 3.95,
+      "homeRunsAllowed": 17
+    },
+    {
+      "name": "Jack Leiter",
+      "mlbam_id": 683004,
+      "era": 3.77,
+      "homeRunsAllowed": 14
+    },
+    {
+      "name": "Clay Holmes",
+      "mlbam_id": 605280,
+      "era": 3.6,
+      "homeRunsAllowed": 12
+    },
+    {
+      "name": "Zac Gallen",
+      "mlbam_id": 668678,
+      "era": 4.94,
+      "homeRunsAllowed": 26
+    },
+    {
+      "name": "Nestor Cortes",
+      "mlbam_id": 641482,
+      "era": 5.06,
+      "homeRunsAllowed": 9
+    },
+    {
+      "name": "Eury P\u00e9rez",
+      "mlbam_id": 691587,
+      "era": 4.04,
+      "homeRunsAllowed": 9
+    },
+    {
+      "name": "Shohei Ohtani",
+      "mlbam_id": 660271,
+      "era": 4.18,
+      "homeRunsAllowed": 3
+    },
+    {
+      "name": "Cade Povich",
+      "mlbam_id": 700249,
+      "era": 5.04,
+      "homeRunsAllowed": 15
+    },
+    {
+      "name": "Shane Bieber",
+      "mlbam_id": 669456,
+      "era": 2.38,
+      "homeRunsAllowed": 2
+    },
+    {
+      "name": "Zack Littell",
+      "mlbam_id": 641793,
+      "era": 3.63,
+      "homeRunsAllowed": 30
+    },
+    {
+      "name": "Braxton Ashcraft",
+      "mlbam_id": 677952,
+      "era": 2.58,
+      "homeRunsAllowed": 1
+    },
+    {
+      "name": "Mitchell Parker",
+      "mlbam_id": 680730,
+      "era": 5.94,
+      "homeRunsAllowed": 22
+    },
+    {
+      "name": "Joey Cantillo",
+      "mlbam_id": 676282,
+      "era": 3.93,
+      "homeRunsAllowed": 8
+    },
+    {
+      "name": "Brennan Bernardino",
+      "mlbam_id": 657514,
+      "era": 3.08,
+      "homeRunsAllowed": 1
+    },
+    {
+      "name": "George Kirby",
+      "mlbam_id": 669923,
+      "era": 3.94,
+      "homeRunsAllowed": 12
+    },
+    {
+      "name": "Aaron Nola",
+      "mlbam_id": 605400,
+      "era": 6.47,
+      "homeRunsAllowed": 14
+    },
+    {
+      "name": "Jose Quintana",
+      "mlbam_id": 500779,
+      "era": 3.69,
+      "homeRunsAllowed": 16
+    },
+    {
+      "name": "Ryan Bergert",
+      "mlbam_id": 686701,
+      "era": 2.67,
+      "homeRunsAllowed": 8
+    },
+    {
+      "name": "Cade Horton",
+      "mlbam_id": 690990,
+      "era": 2.92,
+      "homeRunsAllowed": 9
+    },
+    {
+      "name": "Adrian Houser",
+      "mlbam_id": 605288,
+      "era": 2.85,
+      "homeRunsAllowed": 6
+    },
+    {
+      "name": "Bryce Elder",
+      "mlbam_id": 693821,
+      "era": 5.85,
+      "homeRunsAllowed": 20
+    },
+    {
+      "name": "Caden Dana",
+      "mlbam_id": 702674,
+      "era": 7.5,
+      "homeRunsAllowed": 2
+    },
+    {
+      "name": "Zebby Matthews",
+      "mlbam_id": 805673,
+      "era": 5.06,
+      "homeRunsAllowed": 9
+    },
+    {
+      "name": "Yoendrys G\u00f3mez",
+      "mlbam_id": 672782,
+      "era": 5.2,
+      "homeRunsAllowed": 5
+    },
+    {
+      "name": "Matthew Liberatore",
+      "mlbam_id": 669461,
+      "era": 4.32,
+      "homeRunsAllowed": 16
+    },
+    {
+      "name": "Jeffrey Springs",
+      "mlbam_id": 605488,
+      "era": 4.17,
+      "homeRunsAllowed": 26
+    },
+    {
+      "name": "Jason Alexander",
+      "mlbam_id": 669920,
+      "era": 4.61,
+      "homeRunsAllowed": 9
+    },
+    {
+      "name": "Robbie Ray",
+      "mlbam_id": 592662,
+      "era": 3.18,
+      "homeRunsAllowed": 19
+    },
+    {
+      "name": "Will Warren",
+      "mlbam_id": 701542,
+      "era": 4.3,
+      "homeRunsAllowed": 16
+    },
+    {
+      "name": "Germ\u00e1n M\u00e1rquez",
+      "mlbam_id": 608566,
+      "era": 6.14,
+      "homeRunsAllowed": 15
+    }
+  ]
+}

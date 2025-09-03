@@ -1,0 +1,665 @@
+{
+  "date": "2025-09-03",
+  "pitchers": [
+    {
+      "name": "Tarik Skubal",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.095,
+      "fb_pct": 0.384,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Paul Skenes",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.065,
+      "fb_pct": 0.363,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Cristopher Sanchez",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.09,
+      "fb_pct": 0.242,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Garrett Crochet",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.133,
+      "fb_pct": 0.337,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Logan Webb",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.109,
+      "fb_pct": 0.242,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Jesus Luzardo",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.094,
+      "fb_pct": 0.363,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Hunter Brown",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.107,
+      "fb_pct": 0.332,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Framber Valdez",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.10800000000000001,
+      "fb_pct": 0.22,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Yoshinobu Yamamoto",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.115,
+      "fb_pct": 0.31,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Zack Wheeler",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.142,
+      "fb_pct": 0.385,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Max Fried",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.091,
+      "fb_pct": 0.3,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Joe Ryan",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.10099999999999999,
+      "fb_pct": 0.47700000000000004,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Nick Pivetta",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.091,
+      "fb_pct": 0.484,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Matthew Boyd",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.077,
+      "fb_pct": 0.445,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Jacob deGrom",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.132,
+      "fb_pct": 0.39799999999999996,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Andrew Abbott",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.078,
+      "fb_pct": 0.48700000000000004,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Michael Wacha",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.066,
+      "fb_pct": 0.425,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Freddy Peralta",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.091,
+      "fb_pct": 0.449,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Bryan Woo",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.124,
+      "fb_pct": 0.42,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Jose Soriano",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.149,
+      "fb_pct": 0.163,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Sonny Gray",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.146,
+      "fb_pct": 0.355,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "David Peterson",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.084,
+      "fb_pct": 0.244,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Kevin Gausman",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.105,
+      "fb_pct": 0.436,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Brady Singer",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.086,
+      "fb_pct": 0.40299999999999997,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Dylan Cease",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.127,
+      "fb_pct": 0.424,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "MacKenzie Gore",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.11699999999999999,
+      "fb_pct": 0.418,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Carlos Rodon",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.111,
+      "fb_pct": 0.41700000000000004,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Merrill Kelly",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.12,
+      "fb_pct": 0.385,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Mitch Keller",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.094,
+      "fb_pct": 0.35600000000000004,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Yusei Kikuchi",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.11599999999999999,
+      "fb_pct": 0.413,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Luis Severino",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.08199999999999999,
+      "fb_pct": 0.35600000000000004,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Chris Bassitt",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.14,
+      "fb_pct": 0.341,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Dean Kremer",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.109,
+      "fb_pct": 0.405,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Jack Flaherty",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.135,
+      "fb_pct": 0.435,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Robbie Ray",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.09300000000000001,
+      "fb_pct": 0.466,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Ryan Pepiot",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.147,
+      "fb_pct": 0.42200000000000004,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Nick Martinez",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.10800000000000001,
+      "fb_pct": 0.413,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Brayan Bello",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.10300000000000001,
+      "fb_pct": 0.311,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Luis Castillo",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.11199999999999999,
+      "fb_pct": 0.40299999999999997,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Clay Holmes",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.105,
+      "fb_pct": 0.267,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Shane Baz",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.16899999999999998,
+      "fb_pct": 0.36700000000000005,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Zack Littell",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.145,
+      "fb_pct": 0.408,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Jose Berrios",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.126,
+      "fb_pct": 0.4,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Sandy Alcantara",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.11199999999999999,
+      "fb_pct": 0.331,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Jeffrey Springs",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.126,
+      "fb_pct": 0.45799999999999996,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Brandon Pfaadt",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.136,
+      "fb_pct": 0.33799999999999997,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Gavin Williams",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.146,
+      "fb_pct": 0.35600000000000004,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Tanner Bibee",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.139,
+      "fb_pct": 0.40399999999999997,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Zac Gallen",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.14400000000000002,
+      "fb_pct": 0.38,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Chris Paddack",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.131,
+      "fb_pct": 0.442,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Tomoyuki Sugano",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.129,
+      "fb_pct": 0.401,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Mitchell Parker",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.113,
+      "fb_pct": 0.41200000000000003,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Andre Pallante",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.187,
+      "fb_pct": 0.228,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Seth Lugo",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.154,
+      "fb_pct": 0.41600000000000004,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Jake Irvin",
+      "barrel_rate_allowed": null,
+      "hr_fb": 0.166,
+      "fb_pct": 0.36700000000000005,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "date": "2025-09-02",
+  "pitchers": [
+    {
+      "name": "Clayton Kershaw",
+      "mlbam_id": 477132,
+      "era": 3.28,
+      "homeRunsAllowed": 7
+    },
+    {
+      "name": "Scott Barlow",
+      "mlbam_id": 605130,
+      "era": 3.79,
+      "homeRunsAllowed": 6
+    },
+    {
+      "name": "Sawyer Gipson-Long",
+      "mlbam_id": 687830,
+      "era": 5.59,
+      "homeRunsAllowed": 6
+    },
+    {
+      "name": "Nolan McLean",
+      "mlbam_id": 690997,
+      "era": 1.37,
+      "homeRunsAllowed": 1
+    },
+    {
+      "name": "Carmen Mlodzinski",
+      "mlbam_id": 669387,
+      "era": 3.87,
+      "homeRunsAllowed": 8
+    },
+    {
+      "name": "Adam Mazur",
+      "mlbam_id": 800049,
+      "era": 5.74,
+      "homeRunsAllowed": 2
+    },
+    {
+      "name": "Jos\u00e9 Berr\u00edos",
+      "mlbam_id": 621244,
+      "era": 4.02,
+      "homeRunsAllowed": 23
+    },
+    {
+      "name": "Bryan Woo",
+      "mlbam_id": 693433,
+      "era": 3.02,
+      "homeRunsAllowed": 24
+    },
+    {
+      "name": "Slade Cecconi",
+      "mlbam_id": 677944,
+      "era": 4.78,
+      "homeRunsAllowed": 22
+    },
+    {
+      "name": "Cade Cavalli",
+      "mlbam_id": 676917,
+      "era": 4.85,
+      "homeRunsAllowed": 6
+    },
+    {
+      "name": "Drew Rasmussen",
+      "mlbam_id": 656876,
+      "era": 2.74,
+      "homeRunsAllowed": 16
+    },
+    {
+      "name": "Garrett Crochet",
+      "mlbam_id": 676979,
+      "era": 2.67,
+      "homeRunsAllowed": 20
+    },
+    {
+      "name": "Michael Lorenzen",
+      "mlbam_id": 547179,
+      "era": 4.54,
+      "homeRunsAllowed": 19
+    },
+    {
+      "name": "Shota Imanaga",
+      "mlbam_id": 684007,
+      "era": 3.15,
+      "homeRunsAllowed": 23
+    },
+    {
+      "name": "Simeon Woods Richardson",
+      "mlbam_id": 680573,
+      "era": 4.53,
+      "homeRunsAllowed": 16
+    },
+    {
+      "name": "Miles Mikolas",
+      "mlbam_id": 571945,
+      "era": 4.89,
+      "homeRunsAllowed": 24
+    },
+    {
+      "name": "Luis Severino",
+      "mlbam_id": 622663,
+      "era": 4.65,
+      "homeRunsAllowed": 13
+    },
+    {
+      "name": "Kyle Freeland",
+      "mlbam_id": 607536,
+      "era": 5.41,
+      "homeRunsAllowed": 21
+    },
+    {
+      "name": "Logan Webb",
+      "mlbam_id": 657277,
+      "era": 3.17,
+      "homeRunsAllowed": 13
+    },
+    {
+      "name": "Framber Valdez",
+      "mlbam_id": 664285,
+      "era": 3.4,
+      "homeRunsAllowed": 11
+    },
+    {
+      "name": "Mitch Farris",
+      "mlbam_id": 815083,
+      "era": 1.8,
+      "homeRunsAllowed": 0
+    },
+    {
+      "name": "Davis Martin",
+      "mlbam_id": 663436,
+      "era": 4.06,
+      "homeRunsAllowed": 19
+    },
+    {
+      "name": "Max Fried",
+      "mlbam_id": 608331,
+      "era": 2.98,
+      "homeRunsAllowed": 13
+    },
+    {
+      "name": "Joey Wentz",
+      "mlbam_id": 666214,
+      "era": 5.12,
+      "homeRunsAllowed": 8
+    },
+    {
+      "name": "Yu Darvish",
+      "mlbam_id": 506433,
+      "era": 5.75,
+      "homeRunsAllowed": 9
+    },
+    {
+      "name": "Tyler Wells",
+      "mlbam_id": 669330,
+      "era": 3.6,
+      "homeRunsAllowed": 1
+    },
+    {
+      "name": "Nabil Crismatt",
+      "mlbam_id": 622503,
+      "era": 2.14,
+      "homeRunsAllowed": 1
+    },
+    {
+      "name": "Jacob Latz",
+      "mlbam_id": 656641,
+      "era": 3.15,
+      "homeRunsAllowed": 6
+    }
+  ]
+}

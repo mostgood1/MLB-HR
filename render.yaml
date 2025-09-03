@@ -1,0 +1,34 @@
+services:
+  - type: web
+    name: hr-scores-app
+    env: python
+    plan: free
+    region: oregon
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn -w ${WEB_CONCURRENCY:-2} -k gthread -t 120 -b 0.0.0.0:$PORT hr_scores_app:app
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      # Optional keys used by data fetchers; set in Render dashboard if needed
+      # - key: ODDS_API_KEY
+      #   sync: false
+    healthCheckPath: /
+    routes:
+      - type: rewrite
+        source: /(.*)
+        destination: /$1
+services:
+  - type: web
+    name: hr-scores
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn -w 2 -k gthread -b 0.0.0.0:$PORT hr_scores_app:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: ODDS_API_KEY
+        sync: false
+    autoDeploy: true
+    healthCheckPath: /

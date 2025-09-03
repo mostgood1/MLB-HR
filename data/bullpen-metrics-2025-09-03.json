@@ -1,0 +1,187 @@
+{
+  "date": "2025-09-03",
+  "bullpens": {
+    "WSH": {
+      "hr9": 1.3310382814651611
+    },
+    "MIA": {
+      "hr9": 1.1758182309981067
+    },
+    "DET": {
+      "hr9": 1.159731543624161
+    },
+    "NYM": {
+      "hr9": 0.9058441558441559
+    },
+    "AZ": {
+      "hr9": 1.205614973262032
+    },
+    "TEX": {
+      "hr9": 1.0785522788203754
+    },
+    "SD": {
+      "hr9": 1.0562347188264058
+    },
+    "BAL": {
+      "hr9": 1.3789731051344742
+    },
+    "PIT": {
+      "hr9": 0.9839543105792765
+    },
+    "LAD": {
+      "hr9": 1.168481219379423
+    },
+    "CIN": {
+      "hr9": 1.1774106175514625
+    },
+    "TOR": {
+      "hr9": 1.3784440842787682
+    },
+    "BOS": {
+      "hr9": 1.0334928229665072
+    },
+    "CLE": {
+      "hr9": 1.124075595727198
+    },
+    "TB": {
+      "hr9": 1.3326970275429508
+    },
+    "SEA": {
+      "hr9": 1.2151797603195738
+    },
+    "KC": {
+      "hr9": 1.0342298288508558
+    },
+    "LAA": {
+      "hr9": 1.3846153846153846
+    },
+    "CHC": {
+      "hr9": 1.2481751824817517
+    },
+    "ATL": {
+      "hr9": 1.2292682926829268
+    },
+    "MIN": {
+      "hr9": 1.2444444444444445
+    },
+    "CWS": {
+      "hr9": 1.1468895587832284
+    },
+    "MIL": {
+      "hr9": 1.0689469431726366
+    },
+    "PHI": {
+      "hr9": 1.087051142546246
+    },
+    "STL": {
+      "hr9": 1.0552560646900269
+    },
+    "ATH": {
+      "hr9": 1.426005361930295
+    },
+    "HOU": {
+      "hr9": 1.2206673842841764
+    },
+    "NYY": {
+      "hr9": 1.0932065217391305
+    },
+    "COL": {
+      "hr9": 1.5515534781413254
+    },
+    "SF": {
+      "hr9": 0.8921993499458287
+    }
+  },
+  "starters": {
+    "Mitchell Parker": {
+      "expected_ip": 5.5
+    },
+    "Eury P\u00e9rez": {
+      "expected_ip": 5.5
+    },
+    "Casey Mize": {
+      "expected_ip": 5.5
+    },
+    "Clay Holmes": {
+      "expected_ip": 5.5
+    },
+    "Zac Gallen": {
+      "expected_ip": 5.5
+    },
+    "Jack Leiter": {
+      "expected_ip": 5.5
+    },
+    "Nestor Cortes": {
+      "expected_ip": 5.5
+    },
+    "Cade Povich": {
+      "expected_ip": 5.5
+    },
+    "Braxton Ashcraft": {
+      "expected_ip": 5.5
+    },
+    "Shohei Ohtani": {
+      "expected_ip": 5.5
+    },
+    "Zack Littell": {
+      "expected_ip": 5.5
+    },
+    "Shane Bieber": {
+      "expected_ip": 5.5
+    },
+    "Brennan Bernardino": {
+      "expected_ip": 5.5
+    },
+    "Joey Cantillo": {
+      "expected_ip": 5.5
+    },
+    "Adrian Houser": {
+      "expected_ip": 5.5
+    },
+    "George Kirby": {
+      "expected_ip": 5.5
+    },
+    "Ryan Bergert": {
+      "expected_ip": 5.5
+    },
+    "Caden Dana": {
+      "expected_ip": 5.5
+    },
+    "Cade Horton": {
+      "expected_ip": 5.5
+    },
+    "Bryce Elder": {
+      "expected_ip": 5.5
+    },
+    "Zebby Matthews": {
+      "expected_ip": 5.5
+    },
+    "Yoendrys G\u00f3mez": {
+      "expected_ip": 5.5
+    },
+    "Jose Quintana": {
+      "expected_ip": 5.5
+    },
+    "Aaron Nola": {
+      "expected_ip": 5.5
+    },
+    "Matthew Liberatore": {
+      "expected_ip": 5.5
+    },
+    "Jeffrey Springs": {
+      "expected_ip": 5.5
+    },
+    "Jason Alexander": {
+      "expected_ip": 5.5
+    },
+    "Will Warren": {
+      "expected_ip": 5.5
+    },
+    "Germ\u00e1n M\u00e1rquez": {
+      "expected_ip": 5.5
+    },
+    "Robbie Ray": {
+      "expected_ip": 5.5
+    }
+  }
+}
