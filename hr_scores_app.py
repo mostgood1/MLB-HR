@@ -487,6 +487,48 @@ def api_player_detail():
 _LIVE_HR_CACHE: dict[str, dict] = {}
 _LIVE_HR_TTL_SEC = 90
 
+def _fetch_hr_hitters_from_statsapi(date: str) -> dict:
+    """Fallback: scan MLB StatsAPI game feeds for home_run events for the date."""
+    try:
+        sched_url = f"https://statsapi.mlb.com/api/v1/schedule?sportId=1&date={date}"
+        rs = requests.get(sched_url, timeout=12)
+        dates = (rs.json().get('dates') or []) if rs.status_code == 200 else []
+        games = dates[0].get('games', []) if dates else []
+    except Exception:
+        games = []
+    hitters: dict[str, dict] = {}
+    for g in games:
+        game_pk = g.get('gamePk')
+        if not game_pk:
+            continue
+        try:
+            feed_url = f"https://statsapi.mlb.com/api/v1.1/game/{game_pk}/feed/live"
+            rf = requests.get(feed_url, timeout=12)
+            if rf.status_code != 200:
+                continue
+            feed = rf.json()
+        except Exception:
+            continue
+        plays = (((feed.get('liveData') or {}).get('plays') or {}).get('allPlays')) or []
+        for p in plays:
+            res = (p.get('result') or {})
+            et = (res.get('eventType') or '').lower()
+            ev = (res.get('event') or '').lower()
+            if et == 'home_run' or 'home run' in ev:
+                matchup = p.get('matchup') or {}
+                batter = matchup.get('batter') or {}
+                pid = batter.get('id')
+                name = batter.get('fullName') or batter.get('lastFirstName')
+                if not pid:
+                    continue
+                key = str(pid)
+                rec = hitters.get(key)
+                if not rec:
+                    hitters[key] = {'name': name, 'hr': 1}
+                else:
+                    rec['hr'] = int(rec.get('hr') or 0) + 1
+    return {'date': date, 'hitters': hitters}
+
 
 @app.route('/api/live-hr-hitters')
 def api_live_hr_hitters():
@@ -504,8 +546,15 @@ def api_live_hr_hitters():
         if not entry or (now - entry.get('ts', 0)) > _LIVE_HR_TTL_SEC:
             try:
                 out = _fetch_hr_hitters_for_date(date) or {'date': date, 'hitters': {}}
+                # Fallback to StatsAPI if empty
+                if not out.get('hitters'):
+                    out = _fetch_hr_hitters_from_statsapi(date)
             except Exception:
-                out = {'date': date, 'hitters': {}}
+                # Try StatsAPI as a fallback path
+                try:
+                    out = _fetch_hr_hitters_from_statsapi(date)
+                except Exception:
+                    out = {'date': date, 'hitters': {}}
             _LIVE_HR_CACHE[date] = {'ts': now, 'data': out}
         return jsonify(_LIVE_HR_CACHE[date]['data'])
 
