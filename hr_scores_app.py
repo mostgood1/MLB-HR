@@ -29,6 +29,8 @@ def data_dir() -> str:
     return DATA_DIR_LOCAL if os.path.isdir(DATA_DIR_LOCAL) else DATA_DIR_FALLBACK
 
 app = Flask(__name__, template_folder=os.path.join(APP_DIR, 'templates'))
+# WSGI alias for Gunicorn when invoked as `gunicorn hr_scores_app`
+application = app
 # Ensure template updates reflect without full restart when developing
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 try:
