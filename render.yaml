@@ -5,7 +5,7 @@ services:
     plan: free
     region: oregon
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn -w ${WEB_CONCURRENCY:-2} -k gthread -t 120 -b 0.0.0.0:$PORT hr_scores_app:app
+  startCommand: gunicorn -w ${WEB_CONCURRENCY:-2} -k gthread -t 120 -b 0.0.0.0:$PORT wsgi:application
     autoDeploy: true
     envVars:
       - key: PYTHON_VERSION
