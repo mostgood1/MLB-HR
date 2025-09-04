@@ -351,10 +351,11 @@
       try {
         const params = new URLSearchParams(window.location.search);
         const selectedDate = params.get('date');
-        const today = new Date();
-        const yyyy = today.getFullYear();
-        const mm = String(today.getMonth()+1).padStart(2,'0');
-        const dd = String(today.getDate()).padStart(2,'0');
+        // Compute today in the user's local timezone (not UTC)
+        const now = new Date();
+        const yyyy = now.getFullYear();
+        const mm = String(now.getMonth()+1).padStart(2,'0');
+        const dd = String(now.getDate()).padStart(2,'0');
         const todayStr = `${yyyy}-${mm}-${dd}`;
         const isToday = !selectedDate || selectedDate === todayStr;
   if (isToday) {
@@ -398,7 +399,8 @@
           };
           const poll = async () => {
             try {
-              const url = `/api/live-hr-hitters?date=${todayStr}`;
+              const useDate = selectedDate || todayStr;
+              const url = `/api/live-hr-hitters?date=${useDate}`;
               const res = await fetch(url, { cache: 'no-store' });
               if (res.ok) {
                 const data = await res.json();
@@ -428,7 +430,8 @@
           };
           const pollStates = async () => {
             try {
-              const res = await fetch(`/api/game-states?date=${todayStr}`, { cache: 'no-store' });
+              const useDate = selectedDate || todayStr;
+              const res = await fetch(`/api/game-states?date=${useDate}`, { cache: 'no-store' });
               if (res.ok) { const d = await res.json(); applyState(d && d.teams); }
             } catch {}
           };

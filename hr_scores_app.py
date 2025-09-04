@@ -533,14 +533,13 @@ def _fetch_hr_hitters_from_statsapi(date: str) -> dict:
 @app.route('/api/live-hr-hitters')
 def api_live_hr_hitters():
     """Return hitters who have homered for the given date.
-    - If date == today and fetcher is available, compute live (cached for ~90s).
+    - If fetcher is available, compute for the requested date (cached ~90s).
     - Else, try to load hr-hitters-<date>.json from data.
     Response: { date, hitters: { <mlbam_id>: { name, hr } } }
     """
     date = request.args.get('date') or datetime.now().strftime('%Y-%m-%d')
-    today = datetime.now().strftime('%Y-%m-%d')
-    # live path
-    if date == today and _fetch_hr_hitters_for_date is not None:
+    # live path for any requested date if fetcher exists
+    if _fetch_hr_hitters_for_date is not None:
         entry = _LIVE_HR_CACHE.get(date)
         now = time.time()
         if not entry or (now - entry.get('ts', 0)) > _LIVE_HR_TTL_SEC:
