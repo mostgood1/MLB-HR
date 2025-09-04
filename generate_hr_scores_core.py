@@ -505,7 +505,8 @@ def _compute_scores(date_str: Optional[str] = None) -> Dict:
             teams_today.add(v['opp_team'])
     implied_vals_today = [implied_by_team.get(t) for t in teams_today if implied_by_team.get(t) is not None]
     market_scaler_by_team = {}
-    if implied_vals_today:
+    # If implied totals provide no real differentiation (all equal), neutralize scaling
+    if implied_vals_today and not (len(set(round(v, 3) for v in implied_vals_today)) == 1):
         lo = min(implied_vals_today)
         hi = max(implied_vals_today)
         span = hi - lo if hi > lo else 1.0

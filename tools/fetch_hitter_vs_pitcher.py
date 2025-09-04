@@ -144,35 +144,49 @@ def lineup_batters_for_team(date: str, team_abbr: str) -> List[Dict[str, Any]]:
 
 
 def fetch_bvp(bid: int, pid: int, year: int) -> Dict[str, Any]:
-    # Use people/{id}/stats endpoint directly (more stable than hydrate variants)
-    url = (
+    """Fetch batter vs pitcher. Try current season; if zero PA, fall back to career.
+    Returns empty dict if no data.
+    """
+    def _parse(data: dict) -> Dict[str, Any]:
+        try:
+            splits = []
+            for blk in (data.get('stats') or []):
+                splits.extend(blk.get('splits') or [])
+            best = None
+            for sp in splits:
+                st = sp.get('stat') or {}
+                pa = int(st.get('plateAppearances') or 0)
+                if best is None or pa > best[0]:
+                    best = (pa, st)
+            if not best or best[0] == 0:
+                return {}
+            st = best[1]
+            return {
+                'pa': int(st.get('plateAppearances') or 0),
+                'hr': int(st.get('homeRuns') or 0),
+                'avg': float(st.get('avg') or 0),
+                'slg': float(st.get('slg') or 0),
+            }
+        except Exception:
+            return {}
+
+    # Season-specific first
+    url_season = (
         f"https://statsapi.mlb.com/api/v1/people/{int(bid)}/stats?stats=vsPlayer&group=hitting&"
         f"opposingPlayerId={int(pid)}&season={year}&gameType=R"
     )
-    data = http_json(url)
-    # shape: { stats: [{ splits: [ { stat: {...}, opponent: {...}} ] }] }
-    try:
-        splits = []
-        for blk in (data.get('stats') or []):
-            splits.extend(blk.get('splits') or [])
-        # choose the split with max PA (usually only one)
-        best = None
-        for sp in splits:
-            st = sp.get('stat') or {}
-            pa = int(st.get('plateAppearances') or 0)
-            if best is None or pa > best[0]:
-                best = (pa, st)
-        if not best or best[0] == 0:
-            return {}
-        st = best[1]
-        return {
-            'pa': int(st.get('plateAppearances') or 0),
-            'hr': int(st.get('homeRuns') or 0),
-            'avg': float(st.get('avg') or 0),
-            'slg': float(st.get('slg') or 0),
-        }
-    except Exception:
-        return {}
+    data = http_json(url_season)
+    rec = _parse(data)
+    if rec:
+        return rec
+    # Career fallback (omit season)
+    url_career = (
+        f"https://statsapi.mlb.com/api/v1/people/{int(bid)}/stats?stats=vsPlayer&group=hitting&"
+        f"opposingPlayerId={int(pid)}&gameType=R"
+    )
+    data2 = http_json(url_career)
+    rec2 = _parse(data2)
+    return rec2 or {}
 
 
 def main():
@@ -205,7 +219,7 @@ def main():
                 bid = int(b['mlbam_id'])
                 bname = b.get('name')
                 futures[ex.submit(fetch_bvp, bid, pid, year)] = (bname, pitcher['name'])
-        for f in as_completed(futures):
+    for f in as_completed(futures):
             bname, pname = futures[f]
             stats = f.result() or {}
             if stats:
