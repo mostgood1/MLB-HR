@@ -1,380 +1,32 @@
 {
   "copyright": "Copyright 2025 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
-  "totalItems": 14,
+  "totalItems": 15,
   "totalEvents": 0,
-  "totalGames": 14,
-  "totalGamesInProgress": 0,
+  "totalGames": 15,
+  "totalGamesInProgress": 3,
   "dates": [
     {
-      "date": "2025-09-02",
-      "totalItems": 14,
+      "date": "2025-09-03",
+      "totalItems": 15,
       "totalEvents": 0,
-      "totalGames": 14,
-      "totalGamesInProgress": 0,
+      "totalGames": 15,
+      "totalGamesInProgress": 3,
       "games": [
         {
-          "gamePk": 776490,
-          "gameGuid": "ff3b133f-fb32-4032-9740-c59cf3d101de",
-          "link": "/api/v1.1/game/776490/feed/live",
+          "gamePk": 776477,
+          "gameGuid": "742e5dbc-3af8-4308-8bfa-075ba7840570",
+          "link": "/api/v1.1/game/776477/feed/live",
           "gameType": "R",
           "season": "2025",
-          "gameDate": "2025-09-02T22:40:00Z",
-          "officialDate": "2025-09-02",
+          "gameDate": "2025-09-03T17:05:00Z",
+          "officialDate": "2025-09-03",
           "status": {
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "statusCode": "F",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
+            "statusCode": "I",
             "startTimeTBD": false,
-            "abstractGameCode": "F"
-          },
-          "teams": {
-            "away": {
-              "leagueRecord": {
-                "wins": 75,
-                "losses": 64,
-                "pct": ".540"
-              },
-              "score": 12,
-              "team": {
-                "id": 121,
-                "name": "New York Mets",
-                "link": "/api/v1/teams/121"
-              },
-              "isWinner": true,
-              "probablePitcher": {
-                "id": 690997,
-                "fullName": "Nolan McLean",
-                "link": "/api/v1/people/690997"
-              },
-              "splitSquad": false,
-              "seriesNumber": 45
-            },
-            "home": {
-              "leagueRecord": {
-                "wins": 80,
-                "losses": 60,
-                "pct": ".571"
-              },
-              "score": 5,
-              "team": {
-                "id": 116,
-                "name": "Detroit Tigers",
-                "link": "/api/v1/teams/116"
-              },
-              "isWinner": false,
-              "probablePitcher": {
-                "id": 687830,
-                "fullName": "Sawyer Gipson-Long",
-                "link": "/api/v1/people/687830"
-              },
-              "splitSquad": false,
-              "seriesNumber": 45
-            }
-          },
-          "venue": {
-            "id": 2394,
-            "name": "Comerica Park",
-            "link": "/api/v1/venues/2394"
-          },
-          "content": {
-            "link": "/api/v1/game/776490/content"
-          },
-          "isTie": false,
-          "gameNumber": 1,
-          "publicFacing": true,
-          "doubleHeader": "N",
-          "gamedayType": "P",
-          "tiebreaker": "N",
-          "calendarEventID": "14-776490-2025-09-02",
-          "seasonDisplay": "2025",
-          "dayNight": "night",
-          "scheduledInnings": 9,
-          "reverseHomeAwayStatus": false,
-          "inningBreakLength": 120,
-          "gamesInSeries": 3,
-          "seriesGameNumber": 2,
-          "seriesDescription": "Regular Season",
-          "recordSource": "S",
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game"
-        },
-        {
-          "gamePk": 776496,
-          "gameGuid": "7e17363c-b789-478b-bcfe-b95721092399",
-          "link": "/api/v1.1/game/776496/feed/live",
-          "gameType": "R",
-          "season": "2025",
-          "gameDate": "2025-09-02T22:40:00Z",
-          "officialDate": "2025-09-02",
-          "status": {
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "statusCode": "F",
-            "startTimeTBD": false,
-            "abstractGameCode": "F"
-          },
-          "teams": {
-            "away": {
-              "leagueRecord": {
-                "wins": 78,
-                "losses": 60,
-                "pct": ".565"
-              },
-              "score": 7,
-              "team": {
-                "id": 119,
-                "name": "Los Angeles Dodgers",
-                "link": "/api/v1/teams/119"
-              },
-              "isWinner": false,
-              "probablePitcher": {
-                "id": 477132,
-                "fullName": "Clayton Kershaw",
-                "link": "/api/v1/people/477132"
-              },
-              "splitSquad": false,
-              "seriesNumber": 46
-            },
-            "home": {
-              "leagueRecord": {
-                "wins": 62,
-                "losses": 77,
-                "pct": ".446"
-              },
-              "score": 9,
-              "team": {
-                "id": 134,
-                "name": "Pittsburgh Pirates",
-                "link": "/api/v1/teams/134"
-              },
-              "isWinner": true,
-              "probablePitcher": {
-                "id": 669387,
-                "fullName": "Carmen Mlodzinski",
-                "link": "/api/v1/people/669387"
-              },
-              "splitSquad": false,
-              "seriesNumber": 45
-            }
-          },
-          "venue": {
-            "id": 31,
-            "name": "PNC Park",
-            "link": "/api/v1/venues/31"
-          },
-          "content": {
-            "link": "/api/v1/game/776496/content"
-          },
-          "isTie": false,
-          "gameNumber": 1,
-          "publicFacing": true,
-          "doubleHeader": "N",
-          "gamedayType": "P",
-          "tiebreaker": "N",
-          "calendarEventID": "14-776496-2025-09-02",
-          "seasonDisplay": "2025",
-          "dayNight": "night",
-          "scheduledInnings": 9,
-          "reverseHomeAwayStatus": false,
-          "inningBreakLength": 120,
-          "gamesInSeries": 3,
-          "seriesGameNumber": 1,
-          "seriesDescription": "Regular Season",
-          "recordSource": "S",
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game"
-        },
-        {
-          "gamePk": 776491,
-          "gameGuid": "c64a6f3d-aba7-4354-8642-a5351f4fb2b1",
-          "link": "/api/v1.1/game/776491/feed/live",
-          "gameType": "R",
-          "season": "2025",
-          "gameDate": "2025-09-02T22:40:00Z",
-          "officialDate": "2025-09-02",
-          "status": {
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "statusCode": "F",
-            "startTimeTBD": false,
-            "abstractGameCode": "F"
-          },
-          "teams": {
-            "away": {
-              "leagueRecord": {
-                "wins": 80,
-                "losses": 59,
-                "pct": ".576"
-              },
-              "score": 12,
-              "team": {
-                "id": 141,
-                "name": "Toronto Blue Jays",
-                "link": "/api/v1/teams/141"
-              },
-              "isWinner": true,
-              "probablePitcher": {
-                "id": 621244,
-                "fullName": "Jos\u00e9 Berr\u00edos",
-                "link": "/api/v1/people/621244"
-              },
-              "splitSquad": false,
-              "seriesNumber": 45
-            },
-            "home": {
-              "leagueRecord": {
-                "wins": 70,
-                "losses": 69,
-                "pct": ".504"
-              },
-              "score": 9,
-              "team": {
-                "id": 113,
-                "name": "Cincinnati Reds",
-                "link": "/api/v1/teams/113"
-              },
-              "isWinner": false,
-              "probablePitcher": {
-                "id": 605130,
-                "fullName": "Scott Barlow",
-                "link": "/api/v1/people/605130"
-              },
-              "splitSquad": false,
-              "seriesNumber": 45
-            }
-          },
-          "venue": {
-            "id": 2602,
-            "name": "Great American Ball Park",
-            "link": "/api/v1/venues/2602"
-          },
-          "content": {
-            "link": "/api/v1/game/776491/content"
-          },
-          "isTie": false,
-          "gameNumber": 1,
-          "publicFacing": true,
-          "doubleHeader": "N",
-          "gamedayType": "P",
-          "tiebreaker": "N",
-          "calendarEventID": "14-776491-2025-09-02",
-          "seasonDisplay": "2025",
-          "dayNight": "night",
-          "scheduledInnings": 9,
-          "reverseHomeAwayStatus": false,
-          "inningBreakLength": 120,
-          "gamesInSeries": 3,
-          "seriesGameNumber": 2,
-          "seriesDescription": "Regular Season",
-          "recordSource": "S",
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game"
-        },
-        {
-          "gamePk": 776493,
-          "gameGuid": "0b78322a-0082-4fc6-b042-d4a0307ef5bf",
-          "link": "/api/v1.1/game/776493/feed/live",
-          "gameType": "R",
-          "season": "2025",
-          "gameDate": "2025-09-02T22:45:00Z",
-          "officialDate": "2025-09-02",
-          "status": {
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "statusCode": "F",
-            "startTimeTBD": false,
-            "abstractGameCode": "F"
-          },
-          "teams": {
-            "away": {
-              "leagueRecord": {
-                "wins": 68,
-                "losses": 69,
-                "pct": ".496"
-              },
-              "score": 7,
-              "team": {
-                "id": 114,
-                "name": "Cleveland Guardians",
-                "link": "/api/v1/teams/114"
-              },
-              "isWinner": false,
-              "probablePitcher": {
-                "id": 677944,
-                "fullName": "Slade Cecconi",
-                "link": "/api/v1/people/677944"
-              },
-              "splitSquad": false,
-              "seriesNumber": 45
-            },
-            "home": {
-              "leagueRecord": {
-                "wins": 78,
-                "losses": 62,
-                "pct": ".557"
-              },
-              "score": 11,
-              "team": {
-                "id": 111,
-                "name": "Boston Red Sox",
-                "link": "/api/v1/teams/111"
-              },
-              "isWinner": true,
-              "probablePitcher": {
-                "id": 676979,
-                "fullName": "Garrett Crochet",
-                "link": "/api/v1/people/676979"
-              },
-              "splitSquad": false,
-              "seriesNumber": 45
-            }
-          },
-          "venue": {
-            "id": 3,
-            "name": "Fenway Park",
-            "link": "/api/v1/venues/3"
-          },
-          "content": {
-            "link": "/api/v1/game/776493/content"
-          },
-          "isTie": false,
-          "gameNumber": 1,
-          "publicFacing": true,
-          "doubleHeader": "N",
-          "gamedayType": "P",
-          "tiebreaker": "N",
-          "calendarEventID": "14-776493-2025-09-02",
-          "seasonDisplay": "2025",
-          "dayNight": "night",
-          "scheduledInnings": 9,
-          "reverseHomeAwayStatus": false,
-          "inningBreakLength": 120,
-          "gamesInSeries": 3,
-          "seriesGameNumber": 2,
-          "seriesDescription": "Regular Season",
-          "recordSource": "S",
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game"
-        },
-        {
-          "gamePk": 776482,
-          "gameGuid": "33817388-2739-4006-8ff4-79d0af651311",
-          "link": "/api/v1.1/game/776482/feed/live",
-          "gameType": "R",
-          "season": "2025",
-          "gameDate": "2025-09-02T22:45:00Z",
-          "officialDate": "2025-09-02",
-          "status": {
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "statusCode": "F",
-            "startTimeTBD": false,
-            "abstractGameCode": "F"
+            "abstractGameCode": "L"
           },
           "teams": {
             "away": {
@@ -383,17 +35,16 @@
                 "losses": 74,
                 "pct": ".468"
               },
-              "score": 2,
+              "score": 5,
               "team": {
                 "id": 146,
                 "name": "Miami Marlins",
                 "link": "/api/v1/teams/146"
               },
-              "isWinner": false,
               "probablePitcher": {
-                "id": 800049,
-                "fullName": "Adam Mazur",
-                "link": "/api/v1/people/800049"
+                "id": 691587,
+                "fullName": "Eury P\u00e9rez",
+                "link": "/api/v1/people/691587"
               },
               "splitSquad": false,
               "seriesNumber": 45
@@ -404,17 +55,16 @@
                 "losses": 83,
                 "pct": ".399"
               },
-              "score": 5,
+              "score": 8,
               "team": {
                 "id": 120,
                 "name": "Washington Nationals",
                 "link": "/api/v1/teams/120"
               },
-              "isWinner": true,
               "probablePitcher": {
-                "id": 676917,
-                "fullName": "Cade Cavalli",
-                "link": "/api/v1/people/676917"
+                "id": 680730,
+                "fullName": "Mitchell Parker",
+                "link": "/api/v1/people/680730"
               },
               "splitSquad": false,
               "seriesNumber": 45
@@ -426,235 +76,59 @@
             "link": "/api/v1/venues/3309"
           },
           "content": {
-            "link": "/api/v1/game/776482/content"
+            "link": "/api/v1/game/776477/content"
           },
-          "isTie": false,
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
           "gamedayType": "P",
           "tiebreaker": "N",
-          "calendarEventID": "14-776482-2025-09-02",
+          "calendarEventID": "14-776477-2025-09-03",
           "seasonDisplay": "2025",
-          "dayNight": "night",
+          "dayNight": "day",
           "scheduledInnings": 9,
           "reverseHomeAwayStatus": false,
           "inningBreakLength": 120,
           "gamesInSeries": 3,
-          "seriesGameNumber": 2,
+          "seriesGameNumber": 3,
           "seriesDescription": "Regular Season",
           "recordSource": "S",
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game"
         },
         {
-          "gamePk": 776485,
-          "gameGuid": "64cdf88e-ffc1-4244-a3c0-2c2d9d780b25",
-          "link": "/api/v1.1/game/776485/feed/live",
+          "gamePk": 776478,
+          "gameGuid": "b51cc592-81e1-4d8d-8780-bc1b4bb0aa0d",
+          "link": "/api/v1.1/game/776478/feed/live",
           "gameType": "R",
           "season": "2025",
-          "gameDate": "2025-09-02T23:35:00Z",
-          "officialDate": "2025-09-02",
+          "gameDate": "2025-09-03T17:10:00Z",
+          "officialDate": "2025-09-03",
           "status": {
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "statusCode": "F",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
+            "statusCode": "I",
             "startTimeTBD": false,
-            "abstractGameCode": "F"
+            "abstractGameCode": "L"
           },
           "teams": {
             "away": {
               "leagueRecord": {
-                "wins": 73,
-                "losses": 66,
-                "pct": ".525"
+                "wins": 75,
+                "losses": 64,
+                "pct": ".540"
               },
-              "score": 5,
+              "score": 2,
               "team": {
-                "id": 136,
-                "name": "Seattle Mariners",
-                "link": "/api/v1/teams/136"
+                "id": 121,
+                "name": "New York Mets",
+                "link": "/api/v1/teams/121"
               },
-              "isWinner": false,
               "probablePitcher": {
-                "id": 693433,
-                "fullName": "Bryan Woo",
-                "link": "/api/v1/people/693433"
-              },
-              "splitSquad": false,
-              "seriesNumber": 45
-            },
-            "home": {
-              "leagueRecord": {
-                "wins": 69,
-                "losses": 69,
-                "pct": ".500"
-              },
-              "score": 6,
-              "team": {
-                "id": 139,
-                "name": "Tampa Bay Rays",
-                "link": "/api/v1/teams/139"
-              },
-              "isWinner": true,
-              "probablePitcher": {
-                "id": 656876,
-                "fullName": "Drew Rasmussen",
-                "link": "/api/v1/people/656876"
-              },
-              "splitSquad": false,
-              "seriesNumber": 45
-            }
-          },
-          "venue": {
-            "id": 2523,
-            "name": "George M. Steinbrenner Field",
-            "link": "/api/v1/venues/2523"
-          },
-          "content": {
-            "link": "/api/v1/game/776485/content"
-          },
-          "isTie": false,
-          "gameNumber": 1,
-          "publicFacing": true,
-          "doubleHeader": "N",
-          "gamedayType": "P",
-          "tiebreaker": "N",
-          "calendarEventID": "14-776485-2025-09-02",
-          "seasonDisplay": "2025",
-          "dayNight": "night",
-          "scheduledInnings": 9,
-          "reverseHomeAwayStatus": false,
-          "inningBreakLength": 120,
-          "gamesInSeries": 3,
-          "seriesGameNumber": 2,
-          "seriesDescription": "Regular Season",
-          "recordSource": "S",
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game"
-        },
-        {
-          "gamePk": 776488,
-          "gameGuid": "692f933c-1ef4-43db-8137-bf9a0e6885aa",
-          "link": "/api/v1.1/game/776488/feed/live",
-          "gameType": "R",
-          "season": "2025",
-          "gameDate": "2025-09-02T23:40:00Z",
-          "officialDate": "2025-09-02",
-          "status": {
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "statusCode": "F",
-            "startTimeTBD": false,
-            "abstractGameCode": "F"
-          },
-          "teams": {
-            "away": {
-              "leagueRecord": {
-                "wins": 65,
-                "losses": 73,
-                "pct": ".471"
-              },
-              "score": 5,
-              "team": {
-                "id": 108,
-                "name": "Los Angeles Angels",
-                "link": "/api/v1/teams/108"
-              },
-              "isWinner": true,
-              "probablePitcher": {
-                "id": 815083,
-                "fullName": "Mitch Farris",
-                "link": "/api/v1/people/815083"
-              },
-              "splitSquad": false,
-              "seriesNumber": 45
-            },
-            "home": {
-              "leagueRecord": {
-                "wins": 70,
-                "losses": 68,
-                "pct": ".507"
-              },
-              "score": 1,
-              "team": {
-                "id": 118,
-                "name": "Kansas City Royals",
-                "link": "/api/v1/teams/118"
-              },
-              "isWinner": false,
-              "probablePitcher": {
-                "id": 547179,
-                "fullName": "Michael Lorenzen",
-                "link": "/api/v1/people/547179"
-              },
-              "splitSquad": false,
-              "seriesNumber": 45
-            }
-          },
-          "venue": {
-            "id": 7,
-            "name": "Kauffman Stadium",
-            "link": "/api/v1/venues/7"
-          },
-          "content": {
-            "link": "/api/v1/game/776488/content"
-          },
-          "isTie": false,
-          "gameNumber": 1,
-          "publicFacing": true,
-          "doubleHeader": "N",
-          "gamedayType": "P",
-          "tiebreaker": "N",
-          "calendarEventID": "14-776488-2025-09-02",
-          "seasonDisplay": "2025",
-          "dayNight": "night",
-          "scheduledInnings": 9,
-          "reverseHomeAwayStatus": false,
-          "inningBreakLength": 120,
-          "gamesInSeries": 3,
-          "seriesGameNumber": 1,
-          "seriesDescription": "Regular Season",
-          "recordSource": "S",
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game"
-        },
-        {
-          "gamePk": 776487,
-          "gameGuid": "1c43bc4c-bfe8-4f2d-ab9e-2912a9190c13",
-          "link": "/api/v1.1/game/776487/feed/live",
-          "gameType": "R",
-          "season": "2025",
-          "gameDate": "2025-09-02T23:40:00Z",
-          "officialDate": "2025-09-02",
-          "status": {
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "statusCode": "F",
-            "startTimeTBD": false,
-            "abstractGameCode": "F"
-          },
-          "teams": {
-            "away": {
-              "leagueRecord": {
-                "wins": 62,
-                "losses": 77,
-                "pct": ".446"
-              },
-              "score": 3,
-              "team": {
-                "id": 144,
-                "name": "Atlanta Braves",
-                "link": "/api/v1/teams/144"
-              },
-              "isWinner": false,
-              "probablePitcher": {
-                "id": 666214,
-                "fullName": "Joey Wentz",
-                "link": "/api/v1/people/666214"
+                "id": 605280,
+                "fullName": "Clay Holmes",
+                "link": "/api/v1/people/605280"
               },
               "splitSquad": false,
               "seriesNumber": 45
@@ -662,502 +136,65 @@
             "home": {
               "leagueRecord": {
                 "wins": 80,
-                "losses": 59,
-                "pct": ".576"
-              },
-              "score": 4,
-              "team": {
-                "id": 112,
-                "name": "Chicago Cubs",
-                "link": "/api/v1/teams/112"
-              },
-              "isWinner": true,
-              "probablePitcher": {
-                "id": 684007,
-                "fullName": "Shota Imanaga",
-                "link": "/api/v1/people/684007"
-              },
-              "splitSquad": false,
-              "seriesNumber": 46
-            }
-          },
-          "venue": {
-            "id": 17,
-            "name": "Wrigley Field",
-            "link": "/api/v1/venues/17"
-          },
-          "content": {
-            "link": "/api/v1/game/776487/content"
-          },
-          "isTie": false,
-          "gameNumber": 1,
-          "publicFacing": true,
-          "doubleHeader": "N",
-          "gamedayType": "P",
-          "tiebreaker": "N",
-          "calendarEventID": "14-776487-2025-09-02",
-          "seasonDisplay": "2025",
-          "dayNight": "night",
-          "scheduledInnings": 9,
-          "reverseHomeAwayStatus": false,
-          "inningBreakLength": 120,
-          "gamesInSeries": 3,
-          "seriesGameNumber": 2,
-          "seriesDescription": "Regular Season",
-          "recordSource": "S",
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game"
-        },
-        {
-          "gamePk": 776484,
-          "gameGuid": "1646a1e4-7b34-4733-b47d-87e39a6a2346",
-          "link": "/api/v1.1/game/776484/feed/live",
-          "gameType": "R",
-          "season": "2025",
-          "gameDate": "2025-09-02T23:40:00Z",
-          "officialDate": "2025-09-02",
-          "status": {
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "statusCode": "F",
-            "startTimeTBD": false,
-            "abstractGameCode": "F"
-          },
-          "teams": {
-            "away": {
-              "leagueRecord": {
-                "wins": 51,
-                "losses": 88,
-                "pct": ".367"
-              },
-              "score": 12,
-              "team": {
-                "id": 145,
-                "name": "Chicago White Sox",
-                "link": "/api/v1/teams/145"
-              },
-              "isWinner": true,
-              "probablePitcher": {
-                "id": 663436,
-                "fullName": "Davis Martin",
-                "link": "/api/v1/people/663436"
-              },
-              "splitSquad": false,
-              "seriesNumber": 45
-            },
-            "home": {
-              "leagueRecord": {
-                "wins": 62,
-                "losses": 76,
-                "pct": ".449"
-              },
-              "score": 3,
-              "team": {
-                "id": 142,
-                "name": "Minnesota Twins",
-                "link": "/api/v1/teams/142"
-              },
-              "isWinner": false,
-              "probablePitcher": {
-                "id": 680573,
-                "fullName": "Simeon Woods Richardson",
-                "link": "/api/v1/people/680573"
-              },
-              "splitSquad": false,
-              "seriesNumber": 45
-            }
-          },
-          "venue": {
-            "id": 3312,
-            "name": "Target Field",
-            "link": "/api/v1/venues/3312"
-          },
-          "content": {
-            "link": "/api/v1/game/776484/content"
-          },
-          "isTie": false,
-          "gameNumber": 1,
-          "publicFacing": true,
-          "doubleHeader": "N",
-          "gamedayType": "P",
-          "tiebreaker": "N",
-          "calendarEventID": "14-776484-2025-09-02",
-          "seasonDisplay": "2025",
-          "dayNight": "night",
-          "scheduledInnings": 9,
-          "reverseHomeAwayStatus": false,
-          "inningBreakLength": 120,
-          "gamesInSeries": 4,
-          "seriesGameNumber": 2,
-          "seriesDescription": "Regular Season",
-          "recordSource": "S",
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game"
-        },
-        {
-          "gamePk": 776483,
-          "gameGuid": "eeab6466-d00e-436b-846a-f4ddbdc3e948",
-          "link": "/api/v1.1/game/776483/feed/live",
-          "gameType": "R",
-          "season": "2025",
-          "gameDate": "2025-09-02T23:45:00Z",
-          "officialDate": "2025-09-02",
-          "status": {
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "statusCode": "F",
-            "startTimeTBD": false,
-            "abstractGameCode": "F"
-          },
-          "teams": {
-            "away": {
-              "leagueRecord": {
-                "wins": 64,
-                "losses": 76,
-                "pct": ".457"
-              },
-              "score": 1,
-              "team": {
-                "id": 133,
-                "name": "Athletics",
-                "link": "/api/v1/teams/133"
-              },
-              "isWinner": false,
-              "probablePitcher": {
-                "id": 622663,
-                "fullName": "Luis Severino",
-                "link": "/api/v1/people/622663"
-              },
-              "splitSquad": false,
-              "seriesNumber": 45
-            },
-            "home": {
-              "leagueRecord": {
-                "wins": 69,
-                "losses": 71,
-                "pct": ".493"
-              },
-              "score": 2,
-              "team": {
-                "id": 138,
-                "name": "St. Louis Cardinals",
-                "link": "/api/v1/teams/138"
-              },
-              "isWinner": true,
-              "probablePitcher": {
-                "id": 571945,
-                "fullName": "Miles Mikolas",
-                "link": "/api/v1/people/571945"
-              },
-              "splitSquad": false,
-              "seriesNumber": 45
-            }
-          },
-          "venue": {
-            "id": 2889,
-            "name": "Busch Stadium",
-            "link": "/api/v1/venues/2889"
-          },
-          "content": {
-            "link": "/api/v1/game/776483/content"
-          },
-          "isTie": false,
-          "gameNumber": 1,
-          "publicFacing": true,
-          "doubleHeader": "N",
-          "gamedayType": "P",
-          "tiebreaker": "N",
-          "calendarEventID": "14-776483-2025-09-02",
-          "seasonDisplay": "2025",
-          "dayNight": "night",
-          "scheduledInnings": 9,
-          "reverseHomeAwayStatus": false,
-          "inningBreakLength": 120,
-          "gamesInSeries": 3,
-          "seriesGameNumber": 2,
-          "seriesDescription": "Regular Season",
-          "recordSource": "S",
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game"
-        },
-        {
-          "gamePk": 776489,
-          "gameGuid": "0508a3e8-fbca-4f02-85b8-d6e75e46e928",
-          "link": "/api/v1.1/game/776489/feed/live",
-          "gameType": "R",
-          "season": "2025",
-          "gameDate": "2025-09-03T00:10:00Z",
-          "officialDate": "2025-09-02",
-          "status": {
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "statusCode": "F",
-            "startTimeTBD": false,
-            "abstractGameCode": "F"
-          },
-          "teams": {
-            "away": {
-              "leagueRecord": {
-                "wins": 77,
-                "losses": 61,
-                "pct": ".558"
-              },
-              "score": 7,
-              "team": {
-                "id": 147,
-                "name": "New York Yankees",
-                "link": "/api/v1/teams/147"
-              },
-              "isWinner": true,
-              "probablePitcher": {
-                "id": 608331,
-                "fullName": "Max Fried",
-                "link": "/api/v1/people/608331"
-              },
-              "splitSquad": false,
-              "seriesNumber": 45
-            },
-            "home": {
-              "leagueRecord": {
-                "wins": 76,
-                "losses": 63,
-                "pct": ".547"
-              },
-              "score": 1,
-              "team": {
-                "id": 117,
-                "name": "Houston Astros",
-                "link": "/api/v1/teams/117"
-              },
-              "isWinner": false,
-              "probablePitcher": {
-                "id": 664285,
-                "fullName": "Framber Valdez",
-                "link": "/api/v1/people/664285"
-              },
-              "splitSquad": false,
-              "seriesNumber": 45
-            }
-          },
-          "venue": {
-            "id": 2392,
-            "name": "Daikin Park",
-            "link": "/api/v1/venues/2392"
-          },
-          "content": {
-            "link": "/api/v1/game/776489/content"
-          },
-          "isTie": false,
-          "gameNumber": 1,
-          "publicFacing": true,
-          "doubleHeader": "N",
-          "gamedayType": "P",
-          "tiebreaker": "N",
-          "calendarEventID": "14-776489-2025-09-02",
-          "seasonDisplay": "2025",
-          "dayNight": "night",
-          "scheduledInnings": 9,
-          "reverseHomeAwayStatus": false,
-          "inningBreakLength": 145,
-          "gamesInSeries": 3,
-          "seriesGameNumber": 1,
-          "seriesDescription": "Regular Season",
-          "recordSource": "S",
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game"
-        },
-        {
-          "gamePk": 776486,
-          "gameGuid": "1f27da69-0ccd-46dd-a7b8-e789c29c4161",
-          "link": "/api/v1.1/game/776486/feed/live",
-          "gameType": "R",
-          "season": "2025",
-          "gameDate": "2025-09-03T00:40:00Z",
-          "officialDate": "2025-09-02",
-          "status": {
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "statusCode": "F",
-            "startTimeTBD": false,
-            "abstractGameCode": "F"
-          },
-          "teams": {
-            "away": {
-              "leagueRecord": {
-                "wins": 70,
-                "losses": 69,
-                "pct": ".504"
-              },
-              "score": 7,
-              "team": {
-                "id": 137,
-                "name": "San Francisco Giants",
-                "link": "/api/v1/teams/137"
-              },
-              "isWinner": true,
-              "probablePitcher": {
-                "id": 657277,
-                "fullName": "Logan Webb",
-                "link": "/api/v1/people/657277"
-              },
-              "splitSquad": false,
-              "seriesNumber": 45
-            },
-            "home": {
-              "leagueRecord": {
-                "wins": 39,
-                "losses": 100,
-                "pct": ".281"
-              },
-              "score": 4,
-              "team": {
-                "id": 115,
-                "name": "Colorado Rockies",
-                "link": "/api/v1/teams/115"
-              },
-              "isWinner": false,
-              "probablePitcher": {
-                "id": 607536,
-                "fullName": "Kyle Freeland",
-                "link": "/api/v1/people/607536"
-              },
-              "splitSquad": false,
-              "seriesNumber": 45
-            }
-          },
-          "venue": {
-            "id": 19,
-            "name": "Coors Field",
-            "link": "/api/v1/venues/19"
-          },
-          "content": {
-            "link": "/api/v1/game/776486/content"
-          },
-          "isTie": false,
-          "gameNumber": 1,
-          "publicFacing": true,
-          "doubleHeader": "N",
-          "gamedayType": "P",
-          "tiebreaker": "N",
-          "calendarEventID": "14-776486-2025-09-02",
-          "seasonDisplay": "2025",
-          "dayNight": "night",
-          "scheduledInnings": 9,
-          "reverseHomeAwayStatus": false,
-          "inningBreakLength": 120,
-          "gamesInSeries": 3,
-          "seriesGameNumber": 2,
-          "seriesDescription": "Regular Season",
-          "recordSource": "S",
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game"
-        },
-        {
-          "gamePk": 776480,
-          "gameGuid": "0956d0ab-1286-451f-b453-7cc59dda67f2",
-          "link": "/api/v1.1/game/776480/feed/live",
-          "gameType": "R",
-          "season": "2025",
-          "gameDate": "2025-09-03T01:40:00Z",
-          "officialDate": "2025-09-02",
-          "status": {
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "statusCode": "F",
-            "startTimeTBD": false,
-            "abstractGameCode": "F"
-          },
-          "teams": {
-            "away": {
-              "leagueRecord": {
-                "wins": 63,
-                "losses": 76,
-                "pct": ".453"
+                "losses": 60,
+                "pct": ".571"
               },
               "score": 6,
               "team": {
-                "id": 110,
-                "name": "Baltimore Orioles",
-                "link": "/api/v1/teams/110"
+                "id": 116,
+                "name": "Detroit Tigers",
+                "link": "/api/v1/teams/116"
               },
-              "isWinner": true,
               "probablePitcher": {
-                "id": 669330,
-                "fullName": "Tyler Wells",
-                "link": "/api/v1/people/669330"
-              },
-              "splitSquad": false,
-              "seriesNumber": 45
-            },
-            "home": {
-              "leagueRecord": {
-                "wins": 76,
-                "losses": 63,
-                "pct": ".547"
-              },
-              "score": 2,
-              "team": {
-                "id": 135,
-                "name": "San Diego Padres",
-                "link": "/api/v1/teams/135"
-              },
-              "isWinner": false,
-              "probablePitcher": {
-                "id": 506433,
-                "fullName": "Yu Darvish",
-                "link": "/api/v1/people/506433"
+                "id": 663554,
+                "fullName": "Casey Mize",
+                "link": "/api/v1/people/663554"
               },
               "splitSquad": false,
               "seriesNumber": 45
             }
           },
           "venue": {
-            "id": 2680,
-            "name": "Petco Park",
-            "link": "/api/v1/venues/2680"
+            "id": 2394,
+            "name": "Comerica Park",
+            "link": "/api/v1/venues/2394"
           },
           "content": {
-            "link": "/api/v1/game/776480/content"
+            "link": "/api/v1/game/776478/content"
           },
-          "isTie": false,
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
           "gamedayType": "P",
           "tiebreaker": "N",
-          "calendarEventID": "14-776480-2025-09-02",
+          "calendarEventID": "14-776478-2025-09-03",
           "seasonDisplay": "2025",
-          "dayNight": "night",
+          "dayNight": "day",
           "scheduledInnings": 9,
           "reverseHomeAwayStatus": false,
           "inningBreakLength": 120,
           "gamesInSeries": 3,
-          "seriesGameNumber": 2,
+          "seriesGameNumber": 3,
           "seriesDescription": "Regular Season",
           "recordSource": "S",
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game"
         },
         {
-          "gamePk": 776481,
-          "gameGuid": "0989620e-59a9-4e96-ba46-6dbdc9665c68",
-          "link": "/api/v1.1/game/776481/feed/live",
+          "gamePk": 776468,
+          "gameGuid": "0894127e-a033-40e3-8bb2-2c7c49cb7372",
+          "link": "/api/v1.1/game/776468/feed/live",
           "gameType": "R",
           "season": "2025",
-          "gameDate": "2025-09-03T01:40:00Z",
-          "officialDate": "2025-09-02",
+          "gameDate": "2025-09-03T19:40:00Z",
+          "officialDate": "2025-09-03",
           "status": {
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "statusCode": "F",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
+            "statusCode": "I",
             "startTimeTBD": false,
-            "abstractGameCode": "F"
+            "abstractGameCode": "L"
           },
           "teams": {
             "away": {
@@ -1166,17 +203,16 @@
                 "losses": 68,
                 "pct": ".514"
               },
-              "score": 3,
+              "score": 0,
               "team": {
                 "id": 140,
                 "name": "Texas Rangers",
                 "link": "/api/v1/teams/140"
               },
-              "isWinner": false,
               "probablePitcher": {
-                "id": 656641,
-                "fullName": "Jacob Latz",
-                "link": "/api/v1/people/656641"
+                "id": 683004,
+                "fullName": "Jack Leiter",
+                "link": "/api/v1/people/683004"
               },
               "splitSquad": false,
               "seriesNumber": 45
@@ -1187,17 +223,16 @@
                 "losses": 71,
                 "pct": ".493"
               },
-              "score": 5,
+              "score": 0,
               "team": {
                 "id": 109,
                 "name": "Arizona Diamondbacks",
                 "link": "/api/v1/teams/109"
               },
-              "isWinner": true,
               "probablePitcher": {
-                "id": 622503,
-                "fullName": "Nabil Crismatt",
-                "link": "/api/v1/people/622503"
+                "id": 668678,
+                "fullName": "Zac Gallen",
+                "link": "/api/v1/people/668678"
               },
               "splitSquad": false,
               "seriesNumber": 45
@@ -1209,15 +244,180 @@
             "link": "/api/v1/venues/15"
           },
           "content": {
-            "link": "/api/v1/game/776481/content"
+            "link": "/api/v1/game/776468/content"
           },
-          "isTie": false,
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
           "gamedayType": "P",
           "tiebreaker": "N",
-          "calendarEventID": "14-776481-2025-09-02",
+          "calendarEventID": "14-776468-2025-09-03",
+          "seasonDisplay": "2025",
+          "dayNight": "day",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 3,
+          "seriesGameNumber": 3,
+          "seriesDescription": "Regular Season",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 776465,
+          "gameGuid": "d11e1fef-5d70-480b-b67b-483ae55de748",
+          "link": "/api/v1.1/game/776465/feed/live",
+          "gameType": "R",
+          "season": "2025",
+          "gameDate": "2025-09-03T20:10:00Z",
+          "officialDate": "2025-09-03",
+          "status": {
+            "abstractGameState": "Preview",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
+            "statusCode": "P",
+            "startTimeTBD": false,
+            "abstractGameCode": "P"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 63,
+                "losses": 76,
+                "pct": ".453"
+              },
+              "score": 0,
+              "team": {
+                "id": 110,
+                "name": "Baltimore Orioles",
+                "link": "/api/v1/teams/110"
+              },
+              "probablePitcher": {
+                "id": 700249,
+                "fullName": "Cade Povich",
+                "link": "/api/v1/people/700249"
+              },
+              "splitSquad": false,
+              "seriesNumber": 45
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 76,
+                "losses": 63,
+                "pct": ".547"
+              },
+              "score": 0,
+              "team": {
+                "id": 135,
+                "name": "San Diego Padres",
+                "link": "/api/v1/teams/135"
+              },
+              "probablePitcher": {
+                "id": 641482,
+                "fullName": "Nestor Cortes",
+                "link": "/api/v1/people/641482"
+              },
+              "splitSquad": false,
+              "seriesNumber": 45
+            }
+          },
+          "venue": {
+            "id": 2680,
+            "name": "Petco Park",
+            "link": "/api/v1/venues/2680"
+          },
+          "content": {
+            "link": "/api/v1/game/776465/content"
+          },
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "P",
+          "tiebreaker": "N",
+          "calendarEventID": "14-776465-2025-09-03",
+          "seasonDisplay": "2025",
+          "dayNight": "day",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 3,
+          "seriesGameNumber": 3,
+          "seriesDescription": "Regular Season",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 776479,
+          "gameGuid": "3e428975-6683-4b1e-bbf0-17ae4d0d7959",
+          "link": "/api/v1.1/game/776479/feed/live",
+          "gameType": "R",
+          "season": "2025",
+          "gameDate": "2025-09-03T22:40:00Z",
+          "officialDate": "2025-09-03",
+          "status": {
+            "abstractGameState": "Preview",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
+            "statusCode": "P",
+            "startTimeTBD": false,
+            "abstractGameCode": "P"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 78,
+                "losses": 60,
+                "pct": ".565"
+              },
+              "team": {
+                "id": 119,
+                "name": "Los Angeles Dodgers",
+                "link": "/api/v1/teams/119"
+              },
+              "probablePitcher": {
+                "id": 686218,
+                "fullName": "Emmet Sheehan",
+                "link": "/api/v1/people/686218"
+              },
+              "splitSquad": false,
+              "seriesNumber": 46
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 62,
+                "losses": 77,
+                "pct": ".446"
+              },
+              "team": {
+                "id": 134,
+                "name": "Pittsburgh Pirates",
+                "link": "/api/v1/teams/134"
+              },
+              "probablePitcher": {
+                "id": 677952,
+                "fullName": "Braxton Ashcraft",
+                "link": "/api/v1/people/677952"
+              },
+              "splitSquad": false,
+              "seriesNumber": 45
+            }
+          },
+          "venue": {
+            "id": 31,
+            "name": "PNC Park",
+            "link": "/api/v1/venues/31"
+          },
+          "content": {
+            "link": "/api/v1/game/776479/content"
+          },
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "P",
+          "tiebreaker": "N",
+          "calendarEventID": "14-776479-2025-09-03",
           "seasonDisplay": "2025",
           "dayNight": "night",
           "scheduledInnings": 9,
@@ -1225,6 +425,828 @@
           "inningBreakLength": 120,
           "gamesInSeries": 3,
           "seriesGameNumber": 2,
+          "seriesDescription": "Regular Season",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 776475,
+          "gameGuid": "0cc78b37-856b-4ba1-b492-d0dbe0dfc188",
+          "link": "/api/v1.1/game/776475/feed/live",
+          "gameType": "R",
+          "season": "2025",
+          "gameDate": "2025-09-03T22:40:00Z",
+          "officialDate": "2025-09-03",
+          "status": {
+            "abstractGameState": "Preview",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
+            "statusCode": "P",
+            "startTimeTBD": false,
+            "abstractGameCode": "P"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 80,
+                "losses": 59,
+                "pct": ".576"
+              },
+              "team": {
+                "id": 141,
+                "name": "Toronto Blue Jays",
+                "link": "/api/v1/teams/141"
+              },
+              "probablePitcher": {
+                "id": 669456,
+                "fullName": "Shane Bieber",
+                "link": "/api/v1/people/669456"
+              },
+              "splitSquad": false,
+              "seriesNumber": 45
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 70,
+                "losses": 69,
+                "pct": ".504"
+              },
+              "team": {
+                "id": 113,
+                "name": "Cincinnati Reds",
+                "link": "/api/v1/teams/113"
+              },
+              "probablePitcher": {
+                "id": 641793,
+                "fullName": "Zack Littell",
+                "link": "/api/v1/people/641793"
+              },
+              "splitSquad": false,
+              "seriesNumber": 45
+            }
+          },
+          "venue": {
+            "id": 2602,
+            "name": "Great American Ball Park",
+            "link": "/api/v1/venues/2602"
+          },
+          "content": {
+            "link": "/api/v1/game/776475/content"
+          },
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "P",
+          "tiebreaker": "N",
+          "calendarEventID": "14-776475-2025-09-03",
+          "seasonDisplay": "2025",
+          "dayNight": "night",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 3,
+          "seriesGameNumber": 3,
+          "seriesDescription": "Regular Season",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 776474,
+          "gameGuid": "d806aebc-8bea-4a76-b306-43b420afcfea",
+          "link": "/api/v1.1/game/776474/feed/live",
+          "gameType": "R",
+          "season": "2025",
+          "gameDate": "2025-09-03T22:45:00Z",
+          "officialDate": "2025-09-03",
+          "status": {
+            "abstractGameState": "Preview",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
+            "statusCode": "P",
+            "startTimeTBD": false,
+            "abstractGameCode": "P"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 68,
+                "losses": 69,
+                "pct": ".496"
+              },
+              "team": {
+                "id": 114,
+                "name": "Cleveland Guardians",
+                "link": "/api/v1/teams/114"
+              },
+              "probablePitcher": {
+                "id": 676282,
+                "fullName": "Joey Cantillo",
+                "link": "/api/v1/people/676282"
+              },
+              "splitSquad": false,
+              "seriesNumber": 45
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 78,
+                "losses": 62,
+                "pct": ".557"
+              },
+              "team": {
+                "id": 111,
+                "name": "Boston Red Sox",
+                "link": "/api/v1/teams/111"
+              },
+              "probablePitcher": {
+                "id": 657514,
+                "fullName": "Brennan Bernardino",
+                "link": "/api/v1/people/657514"
+              },
+              "splitSquad": false,
+              "seriesNumber": 45
+            }
+          },
+          "venue": {
+            "id": 3,
+            "name": "Fenway Park",
+            "link": "/api/v1/venues/3"
+          },
+          "content": {
+            "link": "/api/v1/game/776474/content"
+          },
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "P",
+          "tiebreaker": "N",
+          "calendarEventID": "14-776474-2025-09-03",
+          "seasonDisplay": "2025",
+          "dayNight": "night",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 3,
+          "seriesGameNumber": 3,
+          "seriesDescription": "Regular Season",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 776476,
+          "gameGuid": "b32167db-6af5-419b-bbd3-5c487eb8edf1",
+          "link": "/api/v1.1/game/776476/feed/live",
+          "gameType": "R",
+          "season": "2025",
+          "gameDate": "2025-09-03T23:35:00Z",
+          "officialDate": "2025-09-03",
+          "status": {
+            "abstractGameState": "Preview",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
+            "statusCode": "S",
+            "startTimeTBD": false,
+            "abstractGameCode": "P"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 73,
+                "losses": 66,
+                "pct": ".525"
+              },
+              "team": {
+                "id": 136,
+                "name": "Seattle Mariners",
+                "link": "/api/v1/teams/136"
+              },
+              "probablePitcher": {
+                "id": 669923,
+                "fullName": "George Kirby",
+                "link": "/api/v1/people/669923"
+              },
+              "splitSquad": false,
+              "seriesNumber": 45
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 69,
+                "losses": 69,
+                "pct": ".500"
+              },
+              "team": {
+                "id": 139,
+                "name": "Tampa Bay Rays",
+                "link": "/api/v1/teams/139"
+              },
+              "probablePitcher": {
+                "id": 605288,
+                "fullName": "Adrian Houser",
+                "link": "/api/v1/people/605288"
+              },
+              "splitSquad": false,
+              "seriesNumber": 45
+            }
+          },
+          "venue": {
+            "id": 2523,
+            "name": "George M. Steinbrenner Field",
+            "link": "/api/v1/venues/2523"
+          },
+          "content": {
+            "link": "/api/v1/game/776476/content"
+          },
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "P",
+          "tiebreaker": "N",
+          "calendarEventID": "14-776476-2025-09-03",
+          "seasonDisplay": "2025",
+          "dayNight": "night",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 3,
+          "seriesGameNumber": 3,
+          "seriesDescription": "Regular Season",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 776466,
+          "gameGuid": "2865d77e-6cc9-4baa-aed1-076ca9e14e74",
+          "link": "/api/v1.1/game/776466/feed/live",
+          "gameType": "R",
+          "season": "2025",
+          "gameDate": "2025-09-03T23:40:00Z",
+          "officialDate": "2025-09-03",
+          "status": {
+            "abstractGameState": "Preview",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
+            "statusCode": "P",
+            "startTimeTBD": false,
+            "abstractGameCode": "P"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 65,
+                "losses": 73,
+                "pct": ".471"
+              },
+              "team": {
+                "id": 108,
+                "name": "Los Angeles Angels",
+                "link": "/api/v1/teams/108"
+              },
+              "probablePitcher": {
+                "id": 702674,
+                "fullName": "Caden Dana",
+                "link": "/api/v1/people/702674"
+              },
+              "splitSquad": false,
+              "seriesNumber": 45
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 70,
+                "losses": 68,
+                "pct": ".507"
+              },
+              "team": {
+                "id": 118,
+                "name": "Kansas City Royals",
+                "link": "/api/v1/teams/118"
+              },
+              "probablePitcher": {
+                "id": 686701,
+                "fullName": "Ryan Bergert",
+                "link": "/api/v1/people/686701"
+              },
+              "splitSquad": false,
+              "seriesNumber": 45
+            }
+          },
+          "venue": {
+            "id": 7,
+            "name": "Kauffman Stadium",
+            "link": "/api/v1/venues/7"
+          },
+          "content": {
+            "link": "/api/v1/game/776466/content"
+          },
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "P",
+          "tiebreaker": "N",
+          "calendarEventID": "14-776466-2025-09-03",
+          "seasonDisplay": "2025",
+          "dayNight": "night",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 3,
+          "seriesGameNumber": 2,
+          "seriesDescription": "Regular Season",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 776473,
+          "gameGuid": "c73ca405-9cd8-4876-ae43-387e1eea7f7d",
+          "link": "/api/v1.1/game/776473/feed/live",
+          "gameType": "R",
+          "season": "2025",
+          "gameDate": "2025-09-03T23:40:00Z",
+          "officialDate": "2025-09-03",
+          "status": {
+            "abstractGameState": "Preview",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
+            "statusCode": "S",
+            "startTimeTBD": false,
+            "abstractGameCode": "P"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 62,
+                "losses": 77,
+                "pct": ".446"
+              },
+              "team": {
+                "id": 144,
+                "name": "Atlanta Braves",
+                "link": "/api/v1/teams/144"
+              },
+              "probablePitcher": {
+                "id": 693821,
+                "fullName": "Bryce Elder",
+                "link": "/api/v1/people/693821"
+              },
+              "splitSquad": false,
+              "seriesNumber": 45
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 80,
+                "losses": 59,
+                "pct": ".576"
+              },
+              "team": {
+                "id": 112,
+                "name": "Chicago Cubs",
+                "link": "/api/v1/teams/112"
+              },
+              "probablePitcher": {
+                "id": 690990,
+                "fullName": "Cade Horton",
+                "link": "/api/v1/people/690990"
+              },
+              "splitSquad": false,
+              "seriesNumber": 46
+            }
+          },
+          "venue": {
+            "id": 17,
+            "name": "Wrigley Field",
+            "link": "/api/v1/venues/17"
+          },
+          "content": {
+            "link": "/api/v1/game/776473/content"
+          },
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "P",
+          "tiebreaker": "N",
+          "calendarEventID": "14-776473-2025-09-03",
+          "seasonDisplay": "2025",
+          "dayNight": "night",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 3,
+          "seriesGameNumber": 3,
+          "seriesDescription": "Regular Season",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 776469,
+          "gameGuid": "05858649-3866-486a-bf96-5bcea771a5a8",
+          "link": "/api/v1.1/game/776469/feed/live",
+          "gameType": "R",
+          "season": "2025",
+          "gameDate": "2025-09-03T23:40:00Z",
+          "officialDate": "2025-09-03",
+          "status": {
+            "abstractGameState": "Preview",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
+            "statusCode": "P",
+            "startTimeTBD": false,
+            "abstractGameCode": "P"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 51,
+                "losses": 88,
+                "pct": ".367"
+              },
+              "score": 0,
+              "team": {
+                "id": 145,
+                "name": "Chicago White Sox",
+                "link": "/api/v1/teams/145"
+              },
+              "probablePitcher": {
+                "id": 672782,
+                "fullName": "Yoendrys G\u00f3mez",
+                "link": "/api/v1/people/672782"
+              },
+              "splitSquad": false,
+              "seriesNumber": 45
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 62,
+                "losses": 76,
+                "pct": ".449"
+              },
+              "score": 0,
+              "team": {
+                "id": 142,
+                "name": "Minnesota Twins",
+                "link": "/api/v1/teams/142"
+              },
+              "probablePitcher": {
+                "id": 805673,
+                "fullName": "Zebby Matthews",
+                "link": "/api/v1/people/805673"
+              },
+              "splitSquad": false,
+              "seriesNumber": 45
+            }
+          },
+          "venue": {
+            "id": 3312,
+            "name": "Target Field",
+            "link": "/api/v1/venues/3312"
+          },
+          "content": {
+            "link": "/api/v1/game/776469/content"
+          },
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "P",
+          "tiebreaker": "N",
+          "calendarEventID": "14-776469-2025-09-03",
+          "seasonDisplay": "2025",
+          "dayNight": "night",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 4,
+          "seriesGameNumber": 3,
+          "seriesDescription": "Regular Season",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 776471,
+          "gameGuid": "7c28a2a3-32fe-4203-ac25-96b8cf686f97",
+          "link": "/api/v1.1/game/776471/feed/live",
+          "gameType": "R",
+          "season": "2025",
+          "gameDate": "2025-09-03T23:40:00Z",
+          "officialDate": "2025-09-03",
+          "status": {
+            "abstractGameState": "Preview",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
+            "statusCode": "S",
+            "startTimeTBD": false,
+            "abstractGameCode": "P"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 80,
+                "losses": 58,
+                "pct": ".580"
+              },
+              "team": {
+                "id": 143,
+                "name": "Philadelphia Phillies",
+                "link": "/api/v1/teams/143"
+              },
+              "probablePitcher": {
+                "id": 605400,
+                "fullName": "Aaron Nola",
+                "link": "/api/v1/people/605400"
+              },
+              "splitSquad": false,
+              "seriesNumber": 45
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 85,
+                "losses": 54,
+                "pct": ".612"
+              },
+              "team": {
+                "id": 158,
+                "name": "Milwaukee Brewers",
+                "link": "/api/v1/teams/158"
+              },
+              "probablePitcher": {
+                "id": 500779,
+                "fullName": "Jose Quintana",
+                "link": "/api/v1/people/500779"
+              },
+              "splitSquad": false,
+              "seriesNumber": 45
+            }
+          },
+          "venue": {
+            "id": 32,
+            "name": "American Family Field",
+            "link": "/api/v1/venues/32"
+          },
+          "content": {
+            "link": "/api/v1/game/776471/content"
+          },
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "P",
+          "tiebreaker": "N",
+          "calendarEventID": "14-776471-2025-09-03",
+          "seasonDisplay": "2025",
+          "dayNight": "night",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 3,
+          "seriesGameNumber": 2,
+          "seriesDescription": "Regular Season",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 776470,
+          "gameGuid": "805cf351-5894-4c92-ad82-0503414c0cc1",
+          "link": "/api/v1.1/game/776470/feed/live",
+          "gameType": "R",
+          "season": "2025",
+          "gameDate": "2025-09-03T23:45:00Z",
+          "officialDate": "2025-09-03",
+          "status": {
+            "abstractGameState": "Preview",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
+            "statusCode": "P",
+            "startTimeTBD": false,
+            "abstractGameCode": "P"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 64,
+                "losses": 76,
+                "pct": ".457"
+              },
+              "team": {
+                "id": 133,
+                "name": "Athletics",
+                "link": "/api/v1/teams/133"
+              },
+              "probablePitcher": {
+                "id": 605488,
+                "fullName": "Jeffrey Springs",
+                "link": "/api/v1/people/605488"
+              },
+              "splitSquad": false,
+              "seriesNumber": 45
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 69,
+                "losses": 71,
+                "pct": ".493"
+              },
+              "team": {
+                "id": 138,
+                "name": "St. Louis Cardinals",
+                "link": "/api/v1/teams/138"
+              },
+              "probablePitcher": {
+                "id": 669461,
+                "fullName": "Matthew Liberatore",
+                "link": "/api/v1/people/669461"
+              },
+              "splitSquad": false,
+              "seriesNumber": 45
+            }
+          },
+          "venue": {
+            "id": 2889,
+            "name": "Busch Stadium",
+            "link": "/api/v1/venues/2889"
+          },
+          "content": {
+            "link": "/api/v1/game/776470/content"
+          },
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "P",
+          "tiebreaker": "N",
+          "calendarEventID": "14-776470-2025-09-03",
+          "seasonDisplay": "2025",
+          "dayNight": "night",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 3,
+          "seriesGameNumber": 3,
+          "seriesDescription": "Regular Season",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 776472,
+          "gameGuid": "0ab3cb11-7cb5-4a78-8e38-2fe060eb2706",
+          "link": "/api/v1.1/game/776472/feed/live",
+          "gameType": "R",
+          "season": "2025",
+          "gameDate": "2025-09-04T00:10:00Z",
+          "officialDate": "2025-09-03",
+          "status": {
+            "abstractGameState": "Preview",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
+            "statusCode": "S",
+            "startTimeTBD": false,
+            "abstractGameCode": "P"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 77,
+                "losses": 61,
+                "pct": ".558"
+              },
+              "team": {
+                "id": 147,
+                "name": "New York Yankees",
+                "link": "/api/v1/teams/147"
+              },
+              "probablePitcher": {
+                "id": 701542,
+                "fullName": "Will Warren",
+                "link": "/api/v1/people/701542"
+              },
+              "splitSquad": false,
+              "seriesNumber": 45
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 76,
+                "losses": 63,
+                "pct": ".547"
+              },
+              "team": {
+                "id": 117,
+                "name": "Houston Astros",
+                "link": "/api/v1/teams/117"
+              },
+              "probablePitcher": {
+                "id": 669920,
+                "fullName": "Jason Alexander",
+                "link": "/api/v1/people/669920"
+              },
+              "splitSquad": false,
+              "seriesNumber": 45
+            }
+          },
+          "venue": {
+            "id": 2392,
+            "name": "Daikin Park",
+            "link": "/api/v1/venues/2392"
+          },
+          "content": {
+            "link": "/api/v1/game/776472/content"
+          },
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "P",
+          "tiebreaker": "N",
+          "calendarEventID": "14-776472-2025-09-03",
+          "seasonDisplay": "2025",
+          "dayNight": "night",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 145,
+          "gamesInSeries": 3,
+          "seriesGameNumber": 2,
+          "seriesDescription": "Regular Season",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 776467,
+          "gameGuid": "7a2ab058-c131-4d1e-b40a-ac3c402fe315",
+          "link": "/api/v1.1/game/776467/feed/live",
+          "gameType": "R",
+          "season": "2025",
+          "gameDate": "2025-09-04T00:40:00Z",
+          "officialDate": "2025-09-03",
+          "status": {
+            "abstractGameState": "Preview",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
+            "statusCode": "S",
+            "startTimeTBD": false,
+            "abstractGameCode": "P"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 70,
+                "losses": 69,
+                "pct": ".504"
+              },
+              "team": {
+                "id": 137,
+                "name": "San Francisco Giants",
+                "link": "/api/v1/teams/137"
+              },
+              "probablePitcher": {
+                "id": 592662,
+                "fullName": "Robbie Ray",
+                "link": "/api/v1/people/592662"
+              },
+              "splitSquad": false,
+              "seriesNumber": 45
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 39,
+                "losses": 100,
+                "pct": ".281"
+              },
+              "team": {
+                "id": 115,
+                "name": "Colorado Rockies",
+                "link": "/api/v1/teams/115"
+              },
+              "probablePitcher": {
+                "id": 608566,
+                "fullName": "Germ\u00e1n M\u00e1rquez",
+                "link": "/api/v1/people/608566"
+              },
+              "splitSquad": false,
+              "seriesNumber": 45
+            }
+          },
+          "venue": {
+            "id": 19,
+            "name": "Coors Field",
+            "link": "/api/v1/venues/19"
+          },
+          "content": {
+            "link": "/api/v1/game/776467/content"
+          },
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "P",
+          "tiebreaker": "N",
+          "calendarEventID": "14-776467-2025-09-03",
+          "seasonDisplay": "2025",
+          "dayNight": "night",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 3,
+          "seriesGameNumber": 3,
           "seriesDescription": "Regular Season",
           "recordSource": "S",
           "ifNecessary": "N",

@@ -55,6 +55,16 @@ def _latest_hr_scores_path(target_date: Optional[str]) -> Optional[str]:
         return None
 
 
+def _tz_today_str() -> str:
+    tz_name = os.environ.get('APP_TZ', 'America/Los_Angeles')
+    try:
+        from zoneinfo import ZoneInfo  # Python 3.9+
+        return datetime.now(ZoneInfo(tz_name)).strftime('%Y-%m-%d')
+    except Exception:
+        # Fallback to server local time if zoneinfo not available
+        return datetime.now().strftime('%Y-%m-%d')
+
+
 def _load_scores(path: str) -> Dict:
     with open(path, 'r', encoding='utf-8') as f:
         return json.load(f)
@@ -259,7 +269,7 @@ def _filter_sort_limit(data: Dict, team: Optional[str] = None, limit: Optional[i
 
 @app.route('/api/hr-scores')
 def api_hr_scores():
-    date = request.args.get('date')
+    date = request.args.get('date') or _tz_today_str()
     team = request.args.get('team')
     limit = request.args.get('limit')
     limit_i = None
@@ -285,7 +295,10 @@ def version():
 
 @app.route('/')
 def index():
+    # If no date query, use America/Los_Angeles today
     date = request.args.get('date')
+    tz_today = _tz_today_str()
+    effective_date = date or tz_today
     team = request.args.get('team')
     game = request.args.get('game')
     try:
@@ -293,20 +306,20 @@ def index():
     except Exception:
         limit = 50
 
-    path = _latest_hr_scores_path(date)
+    path = _latest_hr_scores_path(effective_date)
     if not path:
         abort(404, description='No hr-scores files found. Run generate_hr_scores.py first.')
     data = _load_scores(path)
 
     # Load schedule and build games list for the selected date
     dd = data_dir()
-    sched_path = _pick_data_file('fresh-schedule-', date) or os.path.join(dd, 'todays-schedule.json')
+    sched_path = _pick_data_file('fresh-schedule-', effective_date) or os.path.join(dd, 'todays-schedule.json')
     schedule = _load_json(sched_path) if sched_path and os.path.exists(sched_path) else {}
     games = _games_for_date(schedule) if schedule else []
     team_states = _team_game_states(schedule) if schedule else {}
     # Determine selected date (explicit query param or the data file's date)
-    today_str = datetime.now().strftime('%Y-%m-%d')
-    selected_date = date or data.get('date')
+    today_str = tz_today
+    selected_date = date or data.get('date') or tz_today
     is_today = (selected_date == today_str)
 
     # Optional game filter: restrict players to the selected game's teams
@@ -328,15 +341,15 @@ def index():
     team_codes = sorted(list({p.get('team') for p in data.get('players', []) if p.get('team')}))
 
     # Attach image URLs and team branding for the shown players
-    players_path = _pick_data_file('player-stats-', date)
+    players_path = _pick_data_file('player-stats-', effective_date)
     id_map = _player_id_map(players_path)
     # schedule is already loaded above
     # Load HR hitters strictly for the selected date (no fallback), keyed by MLBAM id
     hr_hitters = {}
     try:
-        if date:
+        if effective_date:
             dd = data_dir()
-            exact_hr_path = os.path.join(dd, f"hr-hitters-{date}.json")
+            exact_hr_path = os.path.join(dd, f"hr-hitters-{effective_date}.json")
             if os.path.exists(exact_hr_path):
                 hr_json = _load_json(exact_hr_path)
                 hr_hitters = hr_json.get('hitters') or {}
@@ -388,7 +401,7 @@ def index():
 
 @app.route('/api/player-detail')
 def api_player_detail():
-    date = request.args.get('date')
+    date = request.args.get('date') or _tz_today_str()
     name = request.args.get('name')
     team = request.args.get('team')
     if not name:
@@ -537,7 +550,7 @@ def api_live_hr_hitters():
     - Else, try to load hr-hitters-<date>.json from data.
     Response: { date, hitters: { <mlbam_id>: { name, hr } } }
     """
-    date = request.args.get('date') or datetime.now().strftime('%Y-%m-%d')
+    date = request.args.get('date') or _tz_today_str()
     # live path for any requested date if fetcher exists
     if _fetch_hr_hitters_for_date is not None:
         entry = _LIVE_HR_CACHE.get(date)
@@ -577,7 +590,7 @@ def api_game_states():
     """Return per-team game state for a date using live MLB StatsAPI schedule.
     Response: { date, teams: { ABBR: 'LIVE'|'FINAL'|'SCHEDULED' } }
     """
-    date = request.args.get('date') or datetime.now().strftime('%Y-%m-%d')
+    date = request.args.get('date') or _tz_today_str()
     entry = _GAME_STATE_CACHE.get(date)
     now = time.time()
     if entry and (now - entry.get('ts', 0)) <= _GAME_STATE_TTL_SEC:
