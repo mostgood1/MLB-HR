@@ -1,0 +1,77 @@
+{
+  "date": "2025-09-04",
+  "pitchers": [
+    {
+      "name": "Paul Skenes",
+      "mlbam_id": 694973,
+      "era": 2.05,
+      "homeRunsAllowed": 10
+    },
+    {
+      "name": "Freddy Peralta",
+      "mlbam_id": 642547,
+      "era": 2.58,
+      "homeRunsAllowed": 16
+    },
+    {
+      "name": "Blake Snell",
+      "mlbam_id": 605483,
+      "era": 2.41,
+      "homeRunsAllowed": 3
+    },
+    {
+      "name": "Ryan Pepiot",
+      "mlbam_id": 686752,
+      "era": 3.7,
+      "homeRunsAllowed": 26
+    },
+    {
+      "name": "Taj Bradley",
+      "mlbam_id": 671737,
+      "era": 4.82,
+      "homeRunsAllowed": 15
+    },
+    {
+      "name": "Logan Allen",
+      "mlbam_id": 671106,
+      "era": 4.42,
+      "homeRunsAllowed": 18
+    },
+    {
+      "name": "Ranger Su\u00e1rez",
+      "mlbam_id": 624133,
+      "era": 3.02,
+      "homeRunsAllowed": 10
+    },
+    {
+      "name": "Noah Cameron",
+      "mlbam_id": 702070,
+      "era": 2.92,
+      "homeRunsAllowed": 13
+    },
+    {
+      "name": "Fraser Ellard",
+      "mlbam_id": 686642,
+      "era": 4.82,
+      "homeRunsAllowed": 0
+    },
+    {
+      "name": "Carlos Rod\u00f3n",
+      "mlbam_id": 607074,
+      "era": 3.18,
+      "homeRunsAllowed": 19
+    },
+    {
+      "name": "Cristian Javier",
+      "mlbam_id": 664299,
+      "era": 3.38,
+      "homeRunsAllowed": 1
+    },
+    {
+      "name": "Kyle Hendricks",
+      "mlbam_id": 543294,
+      "era": 4.89,
+      "homeRunsAllowed": 21
+    }
+  ]
+}

@@ -1,0 +1,4382 @@
+{
+  "date": "2025-09-04",
+  "generated_at": "2025-09-04T08:32:17.937817",
+  "source_dates": {
+    "players": "2025-09-04",
+    "pitchers": "2025-09-04",
+    "recent": "2025-09-04",
+    "schedule": "2025-09-04",
+    "statcast": "2025-09-04"
+  },
+  "total_players": 168,
+  "players": [
+    {
+      "name": "Kyle Schwarber",
+      "team": "PHI",
+      "position": "Outfielder",
+      "hr_score": 72.3,
+      "homer_likelihood_score": 72.3,
+      "stats": {
+        "homeRuns": 49,
+        "battingAvg": 0.243,
+        "slugging": 0.573,
+        "iso": 0.33
+      },
+      "opposing_pitcher": "Freddy Peralta",
+      "pitcher_era": 2.58,
+      "pitcher_hr_allowed": 16,
+      "factors": {
+        "power_comp": 94.5,
+        "recent_comp": 28.6,
+        "pitcher_comp": 41.9,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 1.8,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Aaron Judge",
+      "team": "NYY",
+      "position": "Outfielder",
+      "hr_score": 70.5,
+      "homer_likelihood_score": 70.5,
+      "stats": {
+        "homeRuns": 43,
+        "battingAvg": 0.323,
+        "slugging": 0.666,
+        "iso": 0.343
+      },
+      "opposing_pitcher": "Cristian Javier",
+      "pitcher_era": 3.38,
+      "pitcher_hr_allowed": 1,
+      "factors": {
+        "power_comp": 93.4,
+        "recent_comp": 21.4,
+        "pitcher_comp": 37.4,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 4.0
+      }
+    },
+    {
+      "name": "Junior Caminero",
+      "team": "TB",
+      "position": "Third Base",
+      "hr_score": 69.7,
+      "homer_likelihood_score": 69.7,
+      "stats": {
+        "homeRuns": 40,
+        "battingAvg": 0.263,
+        "slugging": 0.54,
+        "iso": 0.277
+      },
+      "opposing_pitcher": "Logan Allen",
+      "pitcher_era": 4.42,
+      "pitcher_hr_allowed": 18,
+      "factors": {
+        "power_comp": 78.6,
+        "recent_comp": 35.7,
+        "pitcher_comp": 66.5,
+        "park_weather_pct": -4.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.6,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Byron Buxton",
+      "team": "MIN",
+      "position": "Outfielder",
+      "hr_score": 65.1,
+      "homer_likelihood_score": 65.1,
+      "stats": {
+        "homeRuns": 29,
+        "battingAvg": 0.273,
+        "slugging": 0.559,
+        "iso": 0.286
+      },
+      "opposing_pitcher": "Fraser Ellard",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 0,
+      "factors": {
+        "power_comp": 77.2,
+        "recent_comp": 28.6,
+        "pitcher_comp": 54.1,
+        "park_weather_pct": -3.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.7,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Shohei Ohtani",
+      "team": "LAD",
+      "position": "Two-Way Player",
+      "hr_score": 64.5,
+      "homer_likelihood_score": 64.5,
+      "stats": {
+        "homeRuns": 46,
+        "battingAvg": 0.28,
+        "slugging": 0.61,
+        "iso": 0.33
+      },
+      "opposing_pitcher": "Paul Skenes",
+      "pitcher_era": 2.05,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 92.4,
+        "recent_comp": 14.3,
+        "pitcher_comp": 29.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Colson Montgomery",
+      "team": "CWS",
+      "position": "Shortstop",
+      "hr_score": 63.9,
+      "homer_likelihood_score": 63.9,
+      "stats": {
+        "homeRuns": 16,
+        "battingAvg": 0.223,
+        "slugging": 0.531,
+        "iso": 0.308
+      },
+      "opposing_pitcher": "Taj Bradley",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 15,
+      "factors": {
+        "power_comp": 64.5,
+        "recent_comp": 42.9,
+        "pitcher_comp": 68.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.4,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Brandon Lowe",
+      "team": "TB",
+      "position": "Second Base",
+      "hr_score": 63.7,
+      "homer_likelihood_score": 63.7,
+      "stats": {
+        "homeRuns": 28,
+        "battingAvg": 0.265,
+        "slugging": 0.493,
+        "iso": 0.228
+      },
+      "opposing_pitcher": "Logan Allen",
+      "pitcher_era": 4.42,
+      "pitcher_hr_allowed": 18,
+      "factors": {
+        "power_comp": 65.7,
+        "recent_comp": 28.6,
+        "pitcher_comp": 66.5,
+        "park_weather_pct": -4.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.2,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 3.0
+      }
+    },
+    {
+      "name": "Vinnie Pasquantino",
+      "team": "KC",
+      "position": "First Base",
+      "hr_score": 63.5,
+      "homer_likelihood_score": 63.5,
+      "stats": {
+        "homeRuns": 28,
+        "battingAvg": 0.256,
+        "slugging": 0.461,
+        "iso": 0.205
+      },
+      "opposing_pitcher": "Kyle Hendricks",
+      "pitcher_era": 4.89,
+      "pitcher_hr_allowed": 21,
+      "factors": {
+        "power_comp": 66.6,
+        "recent_comp": 21.4,
+        "pitcher_comp": 75.2,
+        "park_weather_pct": -5.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.1,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Salvador Perez",
+      "team": "KC",
+      "position": "Catcher",
+      "hr_score": 63.4,
+      "homer_likelihood_score": 63.4,
+      "stats": {
+        "homeRuns": 23,
+        "battingAvg": 0.239,
+        "slugging": 0.439,
+        "iso": 0.2
+      },
+      "opposing_pitcher": "Kyle Hendricks",
+      "pitcher_era": 4.89,
+      "pitcher_hr_allowed": 21,
+      "factors": {
+        "power_comp": 65.5,
+        "recent_comp": 7.1,
+        "pitcher_comp": 75.2,
+        "park_weather_pct": -5.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 2.2,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Bobby Witt Jr.",
+      "team": "KC",
+      "position": "Shortstop",
+      "hr_score": 63.0,
+      "homer_likelihood_score": 63.0,
+      "stats": {
+        "homeRuns": 20,
+        "battingAvg": 0.295,
+        "slugging": 0.501,
+        "iso": 0.206
+      },
+      "opposing_pitcher": "Kyle Hendricks",
+      "pitcher_era": 4.89,
+      "pitcher_hr_allowed": 21,
+      "factors": {
+        "power_comp": 60.6,
+        "recent_comp": 14.3,
+        "pitcher_comp": 75.2,
+        "park_weather_pct": -5.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 6.0
+      }
+    },
+    {
+      "name": "Jo Adell",
+      "team": "LAA",
+      "position": "Outfielder",
+      "hr_score": 62.1,
+      "homer_likelihood_score": 62.1,
+      "stats": {
+        "homeRuns": 33,
+        "battingAvg": 0.242,
+        "slugging": 0.502,
+        "iso": 0.26
+      },
+      "opposing_pitcher": "Noah Cameron",
+      "pitcher_era": 2.92,
+      "pitcher_hr_allowed": 13,
+      "factors": {
+        "power_comp": 74.5,
+        "recent_comp": 35.7,
+        "pitcher_comp": 43.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.8,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Yandy D\u00edaz",
+      "team": "TB",
+      "position": "First Base",
+      "hr_score": 61.7,
+      "homer_likelihood_score": 61.7,
+      "stats": {
+        "homeRuns": 22,
+        "battingAvg": 0.294,
+        "slugging": 0.479,
+        "iso": 0.185
+      },
+      "opposing_pitcher": "Logan Allen",
+      "pitcher_era": 4.42,
+      "pitcher_hr_allowed": 18,
+      "factors": {
+        "power_comp": 56.2,
+        "recent_comp": 14.3,
+        "pitcher_comp": 66.5,
+        "park_weather_pct": -4.0,
+        "h2h_bonus": 2.0,
+        "pitchtype_bonus": 1.7,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 5.0
+      }
+    },
+    {
+      "name": "Giancarlo Stanton",
+      "team": "NYY",
+      "position": "Designated Hitter",
+      "hr_score": 59.8,
+      "homer_likelihood_score": 59.8,
+      "stats": {
+        "homeRuns": 18,
+        "battingAvg": 0.287,
+        "slugging": 0.619,
+        "iso": 0.332
+      },
+      "opposing_pitcher": "Cristian Javier",
+      "pitcher_era": 3.38,
+      "pitcher_hr_allowed": 1,
+      "factors": {
+        "power_comp": 74.5,
+        "recent_comp": 21.4,
+        "pitcher_comp": 37.4,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 1.2,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 1.0
+      }
+    },
+    {
+      "name": "Christian Walker",
+      "team": "HOU",
+      "position": "First Base",
+      "hr_score": 58.5,
+      "homer_likelihood_score": 58.5,
+      "stats": {
+        "homeRuns": 21,
+        "battingAvg": 0.235,
+        "slugging": 0.406,
+        "iso": 0.171
+      },
+      "opposing_pitcher": "Carlos Rod\u00f3n",
+      "pitcher_era": 3.18,
+      "pitcher_hr_allowed": 19,
+      "factors": {
+        "power_comp": 55.7,
+        "recent_comp": 35.7,
+        "pitcher_comp": 52.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.17,
+        "pitchtype_bonus": 0.2,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 8.0
+      }
+    },
+    {
+      "name": "Kyle Manzardo",
+      "team": "CLE",
+      "position": "First Base",
+      "hr_score": 58.1,
+      "homer_likelihood_score": 58.1,
+      "stats": {
+        "homeRuns": 24,
+        "battingAvg": 0.231,
+        "slugging": 0.459,
+        "iso": 0.228
+      },
+      "opposing_pitcher": "Ryan Pepiot",
+      "pitcher_era": 3.7,
+      "pitcher_hr_allowed": 26,
+      "factors": {
+        "power_comp": 59.6,
+        "recent_comp": 21.4,
+        "pitcher_comp": 65.3,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.6,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Jazz Chisholm Jr.",
+      "team": "NYY",
+      "position": "Second Base",
+      "hr_score": 58.0,
+      "homer_likelihood_score": 58.0,
+      "stats": {
+        "homeRuns": 28,
+        "battingAvg": 0.243,
+        "slugging": 0.501,
+        "iso": 0.258
+      },
+      "opposing_pitcher": "Cristian Javier",
+      "pitcher_era": 3.38,
+      "pitcher_hr_allowed": 1,
+      "factors": {
+        "power_comp": 69.0,
+        "recent_comp": 42.9,
+        "pitcher_comp": 37.4,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.3,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Lenyn Sosa",
+      "team": "CWS",
+      "position": "Second Base",
+      "hr_score": 57.3,
+      "homer_likelihood_score": 57.3,
+      "stats": {
+        "homeRuns": 19,
+        "battingAvg": 0.265,
+        "slugging": 0.434,
+        "iso": 0.169
+      },
+      "opposing_pitcher": "Taj Bradley",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 15,
+      "factors": {
+        "power_comp": 54.5,
+        "recent_comp": 14.3,
+        "pitcher_comp": 68.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 1.3,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 2.0
+      }
+    },
+    {
+      "name": "Trent Grisham",
+      "team": "NYY",
+      "position": "Outfielder",
+      "hr_score": 57.3,
+      "homer_likelihood_score": 57.3,
+      "stats": {
+        "homeRuns": 29,
+        "battingAvg": 0.245,
+        "slugging": 0.479,
+        "iso": 0.234
+      },
+      "opposing_pitcher": "Cristian Javier",
+      "pitcher_era": 3.38,
+      "pitcher_hr_allowed": 1,
+      "factors": {
+        "power_comp": 67.3,
+        "recent_comp": 42.9,
+        "pitcher_comp": 37.4,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.4,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Zach Neto",
+      "team": "LAA",
+      "position": "Shortstop",
+      "hr_score": 57.2,
+      "homer_likelihood_score": 57.2,
+      "stats": {
+        "homeRuns": 25,
+        "battingAvg": 0.261,
+        "slugging": 0.483,
+        "iso": 0.222
+      },
+      "opposing_pitcher": "Noah Cameron",
+      "pitcher_era": 2.92,
+      "pitcher_hr_allowed": 13,
+      "factors": {
+        "power_comp": 65.8,
+        "recent_comp": 28.6,
+        "pitcher_comp": 43.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 1.3,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Tristan Gray",
+      "team": "TB",
+      "position": "Third Base",
+      "hr_score": 56.9,
+      "homer_likelihood_score": 56.9,
+      "stats": {
+        "homeRuns": 2,
+        "battingAvg": 0.194,
+        "slugging": 0.389,
+        "iso": 0.195
+      },
+      "opposing_pitcher": "Logan Allen",
+      "pitcher_era": 4.42,
+      "pitcher_hr_allowed": 18,
+      "factors": {
+        "power_comp": 53.6,
+        "recent_comp": 14.3,
+        "pitcher_comp": 66.5,
+        "park_weather_pct": -4.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 1.1,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 4.0
+      }
+    },
+    {
+      "name": "Ben Rice",
+      "team": "NYY",
+      "position": "First Base",
+      "hr_score": 56.9,
+      "homer_likelihood_score": 56.9,
+      "stats": {
+        "homeRuns": 22,
+        "battingAvg": 0.245,
+        "slugging": 0.482,
+        "iso": 0.237
+      },
+      "opposing_pitcher": "Cristian Javier",
+      "pitcher_era": 3.38,
+      "pitcher_hr_allowed": 1,
+      "factors": {
+        "power_comp": 68.5,
+        "recent_comp": 21.4,
+        "pitcher_comp": 37.4,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.3,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 3.0
+      }
+    },
+    {
+      "name": "Jos\u00e9 Ram\u00edrez",
+      "team": "CLE",
+      "position": "Third Base",
+      "hr_score": 56.6,
+      "homer_likelihood_score": 56.6,
+      "stats": {
+        "homeRuns": 26,
+        "battingAvg": 0.278,
+        "slugging": 0.491,
+        "iso": 0.213
+      },
+      "opposing_pitcher": "Ryan Pepiot",
+      "pitcher_era": 3.7,
+      "pitcher_hr_allowed": 26,
+      "factors": {
+        "power_comp": 61.3,
+        "recent_comp": 0.0,
+        "pitcher_comp": 65.3,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.7,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Matt Wallner",
+      "team": "MIN",
+      "position": "Outfielder",
+      "hr_score": 56.3,
+      "homer_likelihood_score": 56.3,
+      "stats": {
+        "homeRuns": 20,
+        "battingAvg": 0.207,
+        "slugging": 0.475,
+        "iso": 0.268
+      },
+      "opposing_pitcher": "Fraser Ellard",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 0,
+      "factors": {
+        "power_comp": 60.7,
+        "recent_comp": 28.6,
+        "pitcher_comp": 54.1,
+        "park_weather_pct": -3.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.5,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Andrew Benintendi",
+      "team": "CWS",
+      "position": "Outfielder",
+      "hr_score": 56.1,
+      "homer_likelihood_score": 56.1,
+      "stats": {
+        "homeRuns": 17,
+        "battingAvg": 0.244,
+        "slugging": 0.425,
+        "iso": 0.181
+      },
+      "opposing_pitcher": "Taj Bradley",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 15,
+      "factors": {
+        "power_comp": 53.5,
+        "recent_comp": 21.4,
+        "pitcher_comp": 68.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.9,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Christopher Morel",
+      "team": "TB",
+      "position": "Outfielder",
+      "hr_score": 55.9,
+      "homer_likelihood_score": 55.9,
+      "stats": {
+        "homeRuns": 10,
+        "battingAvg": 0.218,
+        "slugging": 0.403,
+        "iso": 0.185
+      },
+      "opposing_pitcher": "Logan Allen",
+      "pitcher_era": 4.42,
+      "pitcher_hr_allowed": 18,
+      "factors": {
+        "power_comp": 52.7,
+        "recent_comp": 7.1,
+        "pitcher_comp": 66.5,
+        "park_weather_pct": -4.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.4,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 6.0
+      }
+    },
+    {
+      "name": "Maikel Garcia",
+      "team": "KC",
+      "position": "Third Base",
+      "hr_score": 55.8,
+      "homer_likelihood_score": 55.8,
+      "stats": {
+        "homeRuns": 15,
+        "battingAvg": 0.294,
+        "slugging": 0.469,
+        "iso": 0.175
+      },
+      "opposing_pitcher": "Kyle Hendricks",
+      "pitcher_era": 4.89,
+      "pitcher_hr_allowed": 21,
+      "factors": {
+        "power_comp": 49.9,
+        "recent_comp": 21.4,
+        "pitcher_comp": 75.2,
+        "park_weather_pct": -5.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 2.0
+      }
+    },
+    {
+      "name": "Mike Yastrzemski",
+      "team": "KC",
+      "position": "Outfielder",
+      "hr_score": 55.0,
+      "homer_likelihood_score": 55.0,
+      "stats": {
+        "homeRuns": 15,
+        "battingAvg": 0.235,
+        "slugging": 0.403,
+        "iso": 0.168
+      },
+      "opposing_pitcher": "Kyle Hendricks",
+      "pitcher_era": 4.89,
+      "pitcher_hr_allowed": 21,
+      "factors": {
+        "power_comp": 49.8,
+        "recent_comp": 14.3,
+        "pitcher_comp": 75.2,
+        "park_weather_pct": -5.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 1.8,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": -1.0
+      }
+    },
+    {
+      "name": "Taylor Ward",
+      "team": "LAA",
+      "position": "Outfielder",
+      "hr_score": 54.7,
+      "homer_likelihood_score": 54.7,
+      "stats": {
+        "homeRuns": 30,
+        "battingAvg": 0.227,
+        "slugging": 0.474,
+        "iso": 0.247
+      },
+      "opposing_pitcher": "Noah Cameron",
+      "pitcher_era": 2.92,
+      "pitcher_hr_allowed": 13,
+      "factors": {
+        "power_comp": 67.9,
+        "recent_comp": 7.1,
+        "pitcher_comp": 43.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.3,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Jac Caglianone",
+      "team": "KC",
+      "position": "Outfielder",
+      "hr_score": 54.0,
+      "homer_likelihood_score": 54.0,
+      "stats": {
+        "homeRuns": 5,
+        "battingAvg": 0.145,
+        "slugging": 0.276,
+        "iso": 0.131
+      },
+      "opposing_pitcher": "Kyle Hendricks",
+      "pitcher_era": 4.89,
+      "pitcher_hr_allowed": 21,
+      "factors": {
+        "power_comp": 45.2,
+        "recent_comp": 0.0,
+        "pitcher_comp": 75.2,
+        "park_weather_pct": -5.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 2.7,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 3.0
+      }
+    },
+    {
+      "name": "Randal Grichuk",
+      "team": "KC",
+      "position": "Outfielder",
+      "hr_score": 54.0,
+      "homer_likelihood_score": 54.0,
+      "stats": {
+        "homeRuns": 8,
+        "battingAvg": 0.233,
+        "slugging": 0.417,
+        "iso": 0.184
+      },
+      "opposing_pitcher": "Kyle Hendricks",
+      "pitcher_era": 4.89,
+      "pitcher_hr_allowed": 21,
+      "factors": {
+        "power_comp": 53.4,
+        "recent_comp": 0.0,
+        "pitcher_comp": 75.2,
+        "park_weather_pct": -5.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Bryan Ramos",
+      "team": "CWS",
+      "position": "Third Base",
+      "hr_score": 53.5,
+      "homer_likelihood_score": 53.5,
+      "stats": {
+        "homeRuns": 0,
+        "battingAvg": 0.2,
+        "slugging": 0.4,
+        "iso": 0.2
+      },
+      "opposing_pitcher": "Taj Bradley",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 15,
+      "factors": {
+        "power_comp": 48.0,
+        "recent_comp": 0.0,
+        "pitcher_comp": 68.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 2.2,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 3.0
+      }
+    },
+    {
+      "name": "Bryce Harper",
+      "team": "PHI",
+      "position": "First Base",
+      "hr_score": 52.9,
+      "homer_likelihood_score": 52.9,
+      "stats": {
+        "homeRuns": 23,
+        "battingAvg": 0.267,
+        "slugging": 0.499,
+        "iso": 0.232
+      },
+      "opposing_pitcher": "Freddy Peralta",
+      "pitcher_era": 2.58,
+      "pitcher_hr_allowed": 16,
+      "factors": {
+        "power_comp": 62.0,
+        "recent_comp": 14.3,
+        "pitcher_comp": 41.9,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 1.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Cody Bellinger",
+      "team": "NYY",
+      "position": "Outfielder",
+      "hr_score": 52.0,
+      "homer_likelihood_score": 52.0,
+      "stats": {
+        "homeRuns": 27,
+        "battingAvg": 0.278,
+        "slugging": 0.505,
+        "iso": 0.227
+      },
+      "opposing_pitcher": "Cristian Javier",
+      "pitcher_era": 3.38,
+      "pitcher_hr_allowed": 1,
+      "factors": {
+        "power_comp": 60.9,
+        "recent_comp": 21.4,
+        "pitcher_comp": 37.4,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 2.0
+      }
+    },
+    {
+      "name": "Austin Wells",
+      "team": "NYY",
+      "position": "Catcher",
+      "hr_score": 51.8,
+      "homer_likelihood_score": 51.8,
+      "stats": {
+        "homeRuns": 20,
+        "battingAvg": 0.217,
+        "slugging": 0.447,
+        "iso": 0.23
+      },
+      "opposing_pitcher": "Cristian Javier",
+      "pitcher_era": 3.38,
+      "pitcher_hr_allowed": 1,
+      "factors": {
+        "power_comp": 57.8,
+        "recent_comp": 21.4,
+        "pitcher_comp": 37.4,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 5.0
+      }
+    },
+    {
+      "name": "Andy Pages",
+      "team": "LAD",
+      "position": "Outfielder",
+      "hr_score": 51.6,
+      "homer_likelihood_score": 51.6,
+      "stats": {
+        "homeRuns": 24,
+        "battingAvg": 0.272,
+        "slugging": 0.463,
+        "iso": 0.191
+      },
+      "opposing_pitcher": "Paul Skenes",
+      "pitcher_era": 2.05,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 54.8,
+        "recent_comp": 28.6,
+        "pitcher_comp": 29.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 2.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 6.0
+      }
+    },
+    {
+      "name": "Bo Naylor",
+      "team": "CLE",
+      "position": "Catcher",
+      "hr_score": 51.5,
+      "homer_likelihood_score": 51.5,
+      "stats": {
+        "homeRuns": 11,
+        "battingAvg": 0.181,
+        "slugging": 0.352,
+        "iso": 0.171
+      },
+      "opposing_pitcher": "Ryan Pepiot",
+      "pitcher_era": 3.7,
+      "pitcher_hr_allowed": 26,
+      "factors": {
+        "power_comp": 47.2,
+        "recent_comp": 0.0,
+        "pitcher_comp": 65.3,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.5,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 5.0
+      }
+    },
+    {
+      "name": "Gabriel Arias",
+      "team": "CLE",
+      "position": "Shortstop",
+      "hr_score": 51.5,
+      "homer_likelihood_score": 51.5,
+      "stats": {
+        "homeRuns": 10,
+        "battingAvg": 0.223,
+        "slugging": 0.37,
+        "iso": 0.147
+      },
+      "opposing_pitcher": "Ryan Pepiot",
+      "pitcher_era": 3.7,
+      "pitcher_hr_allowed": 26,
+      "factors": {
+        "power_comp": 47.4,
+        "recent_comp": 7.1,
+        "pitcher_comp": 65.3,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 1.5,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 1.0
+      }
+    },
+    {
+      "name": "Brice Turang",
+      "team": "MIL",
+      "position": "Second Base",
+      "hr_score": 51.2,
+      "homer_likelihood_score": 51.2,
+      "stats": {
+        "homeRuns": 17,
+        "battingAvg": 0.291,
+        "slugging": 0.45,
+        "iso": 0.159
+      },
+      "opposing_pitcher": "Ranger Su\u00e1rez",
+      "pitcher_era": 3.02,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 49.1,
+        "recent_comp": 28.6,
+        "pitcher_comp": 41.6,
+        "park_weather_pct": 5.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.3,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 8.0
+      }
+    },
+    {
+      "name": "Jeremy Pe\u00f1a",
+      "team": "HOU",
+      "position": "Shortstop",
+      "hr_score": 50.8,
+      "homer_likelihood_score": 50.8,
+      "stats": {
+        "homeRuns": 15,
+        "battingAvg": 0.306,
+        "slugging": 0.48,
+        "iso": 0.174
+      },
+      "opposing_pitcher": "Carlos Rod\u00f3n",
+      "pitcher_era": 3.18,
+      "pitcher_hr_allowed": 19,
+      "factors": {
+        "power_comp": 50.4,
+        "recent_comp": 14.3,
+        "pitcher_comp": 52.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.94,
+        "pitchtype_bonus": 0.4,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 2.0
+      }
+    },
+    {
+      "name": "Royce Lewis",
+      "team": "MIN",
+      "position": "Third Base",
+      "hr_score": 50.7,
+      "homer_likelihood_score": 50.7,
+      "stats": {
+        "homeRuns": 10,
+        "battingAvg": 0.237,
+        "slugging": 0.394,
+        "iso": 0.157
+      },
+      "opposing_pitcher": "Fraser Ellard",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 0,
+      "factors": {
+        "power_comp": 49.5,
+        "recent_comp": 28.6,
+        "pitcher_comp": 54.1,
+        "park_weather_pct": -3.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.7,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Christian Yelich",
+      "team": "MIL",
+      "position": "Outfielder",
+      "hr_score": 50.7,
+      "homer_likelihood_score": 50.7,
+      "stats": {
+        "homeRuns": 27,
+        "battingAvg": 0.268,
+        "slugging": 0.464,
+        "iso": 0.196
+      },
+      "opposing_pitcher": "Ranger Su\u00e1rez",
+      "pitcher_era": 3.02,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 58.3,
+        "recent_comp": 7.1,
+        "pitcher_comp": 41.6,
+        "park_weather_pct": 5.0,
+        "h2h_bonus": 0.13,
+        "pitchtype_bonus": 0.7,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 1.0
+      }
+    },
+    {
+      "name": "Brooks Baldwin",
+      "team": "CWS",
+      "position": "Outfielder",
+      "hr_score": 50.4,
+      "homer_likelihood_score": 50.4,
+      "stats": {
+        "homeRuns": 9,
+        "battingAvg": 0.247,
+        "slugging": 0.4,
+        "iso": 0.153
+      },
+      "opposing_pitcher": "Taj Bradley",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 15,
+      "factors": {
+        "power_comp": 45.5,
+        "recent_comp": 7.1,
+        "pitcher_comp": 68.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 1.1,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Tim Elko",
+      "team": "CWS",
+      "position": "First Base",
+      "hr_score": 50.2,
+      "homer_likelihood_score": 50.2,
+      "stats": {
+        "homeRuns": 4,
+        "battingAvg": 0.134,
+        "slugging": 0.328,
+        "iso": 0.194
+      },
+      "opposing_pitcher": "Taj Bradley",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 15,
+      "factors": {
+        "power_comp": 41.6,
+        "recent_comp": 0.0,
+        "pitcher_comp": 68.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 8.0
+      }
+    },
+    {
+      "name": "Daniel Schneemann",
+      "team": "CLE",
+      "position": "Second Base",
+      "hr_score": 50.1,
+      "homer_likelihood_score": 50.1,
+      "stats": {
+        "homeRuns": 11,
+        "battingAvg": 0.218,
+        "slugging": 0.377,
+        "iso": 0.159
+      },
+      "opposing_pitcher": "Ryan Pepiot",
+      "pitcher_era": 3.7,
+      "pitcher_hr_allowed": 26,
+      "factors": {
+        "power_comp": 46.6,
+        "recent_comp": 7.1,
+        "pitcher_comp": 65.3,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 2.0
+      }
+    },
+    {
+      "name": "Michael A. Taylor",
+      "team": "CWS",
+      "position": "Outfielder",
+      "hr_score": 49.9,
+      "homer_likelihood_score": 49.9,
+      "stats": {
+        "homeRuns": 8,
+        "battingAvg": 0.205,
+        "slugging": 0.382,
+        "iso": 0.177
+      },
+      "opposing_pitcher": "Taj Bradley",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 15,
+      "factors": {
+        "power_comp": 44.0,
+        "recent_comp": 0.0,
+        "pitcher_comp": 68.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.3,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 4.0
+      }
+    },
+    {
+      "name": "Jes\u00fas S\u00e1nchez",
+      "team": "HOU",
+      "position": "Outfielder",
+      "hr_score": 49.9,
+      "homer_likelihood_score": 49.9,
+      "stats": {
+        "homeRuns": 12,
+        "battingAvg": 0.254,
+        "slugging": 0.416,
+        "iso": 0.162
+      },
+      "opposing_pitcher": "Carlos Rod\u00f3n",
+      "pitcher_era": 3.18,
+      "pitcher_hr_allowed": 19,
+      "factors": {
+        "power_comp": 52.1,
+        "recent_comp": 14.3,
+        "pitcher_comp": 52.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 1.0
+      }
+    },
+    {
+      "name": "Kody Clemens",
+      "team": "MIN",
+      "position": "Second Base",
+      "hr_score": 49.8,
+      "homer_likelihood_score": 49.8,
+      "stats": {
+        "homeRuns": 14,
+        "battingAvg": 0.207,
+        "slugging": 0.417,
+        "iso": 0.21
+      },
+      "opposing_pitcher": "Fraser Ellard",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 0,
+      "factors": {
+        "power_comp": 52.0,
+        "recent_comp": 7.1,
+        "pitcher_comp": 54.1,
+        "park_weather_pct": -3.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 2.0
+      }
+    },
+    {
+      "name": "Jose Altuve",
+      "team": "HOU",
+      "position": "Outfielder",
+      "hr_score": 49.5,
+      "homer_likelihood_score": 49.5,
+      "stats": {
+        "homeRuns": 24,
+        "battingAvg": 0.27,
+        "slugging": 0.452,
+        "iso": 0.182
+      },
+      "opposing_pitcher": "Carlos Rod\u00f3n",
+      "pitcher_era": 3.18,
+      "pitcher_hr_allowed": 19,
+      "factors": {
+        "power_comp": 52.0,
+        "recent_comp": 14.3,
+        "pitcher_comp": 52.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.7,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": -1.0
+      }
+    },
+    {
+      "name": "Nick Loftin",
+      "team": "KC",
+      "position": "Outfielder",
+      "hr_score": 49.5,
+      "homer_likelihood_score": 49.5,
+      "stats": {
+        "homeRuns": 4,
+        "battingAvg": 0.197,
+        "slugging": 0.342,
+        "iso": 0.145
+      },
+      "opposing_pitcher": "Kyle Hendricks",
+      "pitcher_era": 4.89,
+      "pitcher_hr_allowed": 21,
+      "factors": {
+        "power_comp": 43.2,
+        "recent_comp": 7.1,
+        "pitcher_comp": 75.2,
+        "park_weather_pct": -5.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Mike Trout",
+      "team": "LAA",
+      "position": "Outfielder",
+      "hr_score": 49.2,
+      "homer_likelihood_score": 49.2,
+      "stats": {
+        "homeRuns": 20,
+        "battingAvg": 0.231,
+        "slugging": 0.425,
+        "iso": 0.194
+      },
+      "opposing_pitcher": "Noah Cameron",
+      "pitcher_era": 2.92,
+      "pitcher_hr_allowed": 13,
+      "factors": {
+        "power_comp": 54.8,
+        "recent_comp": 0.0,
+        "pitcher_comp": 43.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.1,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 5.0
+      }
+    },
+    {
+      "name": "Andrew Vaughn",
+      "team": "MIL",
+      "position": "First Base",
+      "hr_score": 49.0,
+      "homer_likelihood_score": 49.0,
+      "stats": {
+        "homeRuns": 14,
+        "battingAvg": 0.234,
+        "slugging": 0.394,
+        "iso": 0.16
+      },
+      "opposing_pitcher": "Ranger Su\u00e1rez",
+      "pitcher_era": 3.02,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 56.2,
+        "recent_comp": 0.0,
+        "pitcher_comp": 41.6,
+        "park_weather_pct": 5.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.2,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 3.0
+      }
+    },
+    {
+      "name": "Kyle Teel",
+      "team": "CWS",
+      "position": "Catcher",
+      "hr_score": 48.8,
+      "homer_likelihood_score": 48.8,
+      "stats": {
+        "homeRuns": 5,
+        "battingAvg": 0.285,
+        "slugging": 0.414,
+        "iso": 0.129
+      },
+      "opposing_pitcher": "Taj Bradley",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 15,
+      "factors": {
+        "power_comp": 38.8,
+        "recent_comp": 7.1,
+        "pitcher_comp": 68.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 1.01,
+        "pitchtype_bonus": 1.5,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 1.0
+      }
+    },
+    {
+      "name": "Yainer Diaz",
+      "team": "HOU",
+      "position": "Catcher",
+      "hr_score": 48.5,
+      "homer_likelihood_score": 48.5,
+      "stats": {
+        "homeRuns": 18,
+        "battingAvg": 0.253,
+        "slugging": 0.413,
+        "iso": 0.16
+      },
+      "opposing_pitcher": "Carlos Rod\u00f3n",
+      "pitcher_era": 3.18,
+      "pitcher_hr_allowed": 19,
+      "factors": {
+        "power_comp": 52.1,
+        "recent_comp": 7.1,
+        "pitcher_comp": 52.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Mike Tauchman",
+      "team": "CWS",
+      "position": "Outfielder",
+      "hr_score": 48.4,
+      "homer_likelihood_score": 48.4,
+      "stats": {
+        "homeRuns": 8,
+        "battingAvg": 0.271,
+        "slugging": 0.408,
+        "iso": 0.137
+      },
+      "opposing_pitcher": "Taj Bradley",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 15,
+      "factors": {
+        "power_comp": 40.1,
+        "recent_comp": 0.0,
+        "pitcher_comp": 68.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 6.0
+      }
+    },
+    {
+      "name": "Anthony Volpe",
+      "team": "NYY",
+      "position": "Shortstop",
+      "hr_score": 48.2,
+      "homer_likelihood_score": 48.2,
+      "stats": {
+        "homeRuns": 19,
+        "battingAvg": 0.207,
+        "slugging": 0.398,
+        "iso": 0.191
+      },
+      "opposing_pitcher": "Cristian Javier",
+      "pitcher_era": 3.38,
+      "pitcher_hr_allowed": 1,
+      "factors": {
+        "power_comp": 53.7,
+        "recent_comp": 7.1,
+        "pitcher_comp": 37.4,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 6.0
+      }
+    },
+    {
+      "name": "Ryan Fitzgerald",
+      "team": "MIN",
+      "position": "Third Base",
+      "hr_score": 48.1,
+      "homer_likelihood_score": 48.1,
+      "stats": {
+        "homeRuns": 1,
+        "battingAvg": 0.19,
+        "slugging": 0.333,
+        "iso": 0.143
+      },
+      "opposing_pitcher": "Fraser Ellard",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 0,
+      "factors": {
+        "power_comp": 44.0,
+        "recent_comp": 0.0,
+        "pitcher_comp": 54.1,
+        "park_weather_pct": -3.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 2.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 5.0
+      }
+    },
+    {
+      "name": "Logan O'Hoppe",
+      "team": "LAA",
+      "position": "Catcher",
+      "hr_score": 47.8,
+      "homer_likelihood_score": 47.8,
+      "stats": {
+        "homeRuns": 19,
+        "battingAvg": 0.22,
+        "slugging": 0.393,
+        "iso": 0.173
+      },
+      "opposing_pitcher": "Noah Cameron",
+      "pitcher_era": 2.92,
+      "pitcher_hr_allowed": 13,
+      "factors": {
+        "power_comp": 53.4,
+        "recent_comp": 7.1,
+        "pitcher_comp": 43.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 1.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "David Fry",
+      "team": "CLE",
+      "position": "First Base",
+      "hr_score": 47.8,
+      "homer_likelihood_score": 47.8,
+      "stats": {
+        "homeRuns": 7,
+        "battingAvg": 0.159,
+        "slugging": 0.349,
+        "iso": 0.19
+      },
+      "opposing_pitcher": "Ryan Pepiot",
+      "pitcher_era": 3.7,
+      "pitcher_hr_allowed": 26,
+      "factors": {
+        "power_comp": 42.9,
+        "recent_comp": 7.1,
+        "pitcher_comp": 65.3,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.6,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Max Kepler",
+      "team": "PHI",
+      "position": "Outfielder",
+      "hr_score": 47.6,
+      "homer_likelihood_score": 47.6,
+      "stats": {
+        "homeRuns": 14,
+        "battingAvg": 0.213,
+        "slugging": 0.376,
+        "iso": 0.163
+      },
+      "opposing_pitcher": "Freddy Peralta",
+      "pitcher_era": 2.58,
+      "pitcher_hr_allowed": 16,
+      "factors": {
+        "power_comp": 49.3,
+        "recent_comp": 7.1,
+        "pitcher_comp": 41.9,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 1.35,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 4.0
+      }
+    },
+    {
+      "name": "Jackson Chourio",
+      "team": "MIL",
+      "position": "Outfielder",
+      "hr_score": 47.5,
+      "homer_likelihood_score": 47.5,
+      "stats": {
+        "homeRuns": 18,
+        "battingAvg": 0.28,
+        "slugging": 0.483,
+        "iso": 0.203
+      },
+      "opposing_pitcher": "Ranger Su\u00e1rez",
+      "pitcher_era": 3.02,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 54.6,
+        "recent_comp": 7.1,
+        "pitcher_comp": 41.6,
+        "park_weather_pct": 5.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.1,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Josh Lowe",
+      "team": "TB",
+      "position": "Outfielder",
+      "hr_score": 47.3,
+      "homer_likelihood_score": 47.3,
+      "stats": {
+        "homeRuns": 9,
+        "battingAvg": 0.24,
+        "slugging": 0.392,
+        "iso": 0.152
+      },
+      "opposing_pitcher": "Logan Allen",
+      "pitcher_era": 4.42,
+      "pitcher_hr_allowed": 18,
+      "factors": {
+        "power_comp": 40.7,
+        "recent_comp": 14.3,
+        "pitcher_comp": 66.5,
+        "park_weather_pct": -4.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.4,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Carlos Correa",
+      "team": "HOU",
+      "position": "Shortstop",
+      "hr_score": 47.3,
+      "homer_likelihood_score": 47.3,
+      "stats": {
+        "homeRuns": 10,
+        "battingAvg": 0.273,
+        "slugging": 0.389,
+        "iso": 0.116
+      },
+      "opposing_pitcher": "Carlos Rod\u00f3n",
+      "pitcher_era": 3.18,
+      "pitcher_hr_allowed": 19,
+      "factors": {
+        "power_comp": 43.8,
+        "recent_comp": 7.1,
+        "pitcher_comp": 52.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.9,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 5.0
+      }
+    },
+    {
+      "name": "Adam Frazier",
+      "team": "KC",
+      "position": "Second Base",
+      "hr_score": 47.3,
+      "homer_likelihood_score": 47.3,
+      "stats": {
+        "homeRuns": 5,
+        "battingAvg": 0.27,
+        "slugging": 0.365,
+        "iso": 0.095
+      },
+      "opposing_pitcher": "Kyle Hendricks",
+      "pitcher_era": 4.89,
+      "pitcher_hr_allowed": 21,
+      "factors": {
+        "power_comp": 29.5,
+        "recent_comp": 0.0,
+        "pitcher_comp": 75.2,
+        "park_weather_pct": -5.0,
+        "h2h_bonus": 2.0,
+        "pitchtype_bonus": 0.3,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 8.0
+      }
+    },
+    {
+      "name": "Oneil Cruz",
+      "team": "PIT",
+      "position": "Outfielder",
+      "hr_score": 47.0,
+      "homer_likelihood_score": 47.0,
+      "stats": {
+        "homeRuns": 19,
+        "battingAvg": 0.202,
+        "slugging": 0.389,
+        "iso": 0.187
+      },
+      "opposing_pitcher": "Blake Snell",
+      "pitcher_era": 2.41,
+      "pitcher_hr_allowed": 3,
+      "factors": {
+        "power_comp": 60.3,
+        "recent_comp": 7.1,
+        "pitcher_comp": 27.3,
+        "park_weather_pct": -6.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.2,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 2.0
+      }
+    },
+    {
+      "name": "William Contreras",
+      "team": "MIL",
+      "position": "Catcher",
+      "hr_score": 47.0,
+      "homer_likelihood_score": 47.0,
+      "stats": {
+        "homeRuns": 17,
+        "battingAvg": 0.261,
+        "slugging": 0.412,
+        "iso": 0.151
+      },
+      "opposing_pitcher": "Ranger Su\u00e1rez",
+      "pitcher_era": 3.02,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 48.1,
+        "recent_comp": 28.6,
+        "pitcher_comp": 41.6,
+        "park_weather_pct": 5.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.4,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Yo\u00e1n Moncada",
+      "team": "LAA",
+      "position": "Third Base",
+      "hr_score": 46.9,
+      "homer_likelihood_score": 46.9,
+      "stats": {
+        "homeRuns": 11,
+        "battingAvg": 0.228,
+        "slugging": 0.447,
+        "iso": 0.219
+      },
+      "opposing_pitcher": "Noah Cameron",
+      "pitcher_era": 2.92,
+      "pitcher_hr_allowed": 13,
+      "factors": {
+        "power_comp": 52.4,
+        "recent_comp": 14.3,
+        "pitcher_comp": 43.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.1,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": -1.0
+      }
+    },
+    {
+      "name": "Freddie Freeman",
+      "team": "LAD",
+      "position": "First Base",
+      "hr_score": 46.9,
+      "homer_likelihood_score": 46.9,
+      "stats": {
+        "homeRuns": 18,
+        "battingAvg": 0.297,
+        "slugging": 0.494,
+        "iso": 0.197
+      },
+      "opposing_pitcher": "Paul Skenes",
+      "pitcher_era": 2.05,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 56.1,
+        "recent_comp": 21.4,
+        "pitcher_comp": 29.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.4,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Nick Castellanos",
+      "team": "PHI",
+      "position": "Outfielder",
+      "hr_score": 46.7,
+      "homer_likelihood_score": 46.7,
+      "stats": {
+        "homeRuns": 16,
+        "battingAvg": 0.253,
+        "slugging": 0.403,
+        "iso": 0.15
+      },
+      "opposing_pitcher": "Freddy Peralta",
+      "pitcher_era": 2.58,
+      "pitcher_hr_allowed": 16,
+      "factors": {
+        "power_comp": 46.8,
+        "recent_comp": 0.0,
+        "pitcher_comp": 41.9,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 2.0,
+        "pitchtype_bonus": 0.3,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 5.0
+      }
+    },
+    {
+      "name": "Trevor Larnach",
+      "team": "MIN",
+      "position": "Outfielder",
+      "hr_score": 46.7,
+      "homer_likelihood_score": 46.7,
+      "stats": {
+        "homeRuns": 16,
+        "battingAvg": 0.254,
+        "slugging": 0.413,
+        "iso": 0.159
+      },
+      "opposing_pitcher": "Fraser Ellard",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 0,
+      "factors": {
+        "power_comp": 48.5,
+        "recent_comp": 0.0,
+        "pitcher_comp": 54.1,
+        "park_weather_pct": -3.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.2,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 1.0
+      }
+    },
+    {
+      "name": "Yordan Alvarez",
+      "team": "HOU",
+      "position": "Outfielder",
+      "hr_score": 46.7,
+      "homer_likelihood_score": 46.7,
+      "stats": {
+        "homeRuns": 4,
+        "battingAvg": 0.252,
+        "slugging": 0.39,
+        "iso": 0.138
+      },
+      "opposing_pitcher": "Carlos Rod\u00f3n",
+      "pitcher_era": 3.18,
+      "pitcher_hr_allowed": 19,
+      "factors": {
+        "power_comp": 47.9,
+        "recent_comp": 7.1,
+        "pitcher_comp": 52.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.3,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Angel Mart\u00ednez",
+      "team": "CLE",
+      "position": "Outfielder",
+      "hr_score": 46.6,
+      "homer_likelihood_score": 46.6,
+      "stats": {
+        "homeRuns": 10,
+        "battingAvg": 0.226,
+        "slugging": 0.362,
+        "iso": 0.136
+      },
+      "opposing_pitcher": "Ryan Pepiot",
+      "pitcher_era": 3.7,
+      "pitcher_hr_allowed": 26,
+      "factors": {
+        "power_comp": 38.4,
+        "recent_comp": 0.0,
+        "pitcher_comp": 65.3,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 6.0
+      }
+    },
+    {
+      "name": "Brooks Lee",
+      "team": "MIN",
+      "position": "Third Base",
+      "hr_score": 45.9,
+      "homer_likelihood_score": 45.9,
+      "stats": {
+        "homeRuns": 14,
+        "battingAvg": 0.242,
+        "slugging": 0.379,
+        "iso": 0.137
+      },
+      "opposing_pitcher": "Fraser Ellard",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 0,
+      "factors": {
+        "power_comp": 45.6,
+        "recent_comp": 7.1,
+        "pitcher_comp": 54.1,
+        "park_weather_pct": -3.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.5,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Nolan Jones",
+      "team": "CLE",
+      "position": "Outfielder",
+      "hr_score": 45.9,
+      "homer_likelihood_score": 45.9,
+      "stats": {
+        "homeRuns": 5,
+        "battingAvg": 0.215,
+        "slugging": 0.313,
+        "iso": 0.098
+      },
+      "opposing_pitcher": "Ryan Pepiot",
+      "pitcher_era": 3.7,
+      "pitcher_hr_allowed": 26,
+      "factors": {
+        "power_comp": 38.2,
+        "recent_comp": 14.3,
+        "pitcher_comp": 65.3,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.3,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Luke Keaschall",
+      "team": "MIN",
+      "position": "Second Base",
+      "hr_score": 45.8,
+      "homer_likelihood_score": 45.8,
+      "stats": {
+        "homeRuns": 4,
+        "battingAvg": 0.308,
+        "slugging": 0.496,
+        "iso": 0.188
+      },
+      "opposing_pitcher": "Fraser Ellard",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 0,
+      "factors": {
+        "power_comp": 44.6,
+        "recent_comp": 14.3,
+        "pitcher_comp": 54.1,
+        "park_weather_pct": -3.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "C.J. Kayfus",
+      "team": "CLE",
+      "position": "First Base",
+      "hr_score": 45.8,
+      "homer_likelihood_score": 45.8,
+      "stats": {
+        "homeRuns": 2,
+        "battingAvg": 0.203,
+        "slugging": 0.38,
+        "iso": 0.177
+      },
+      "opposing_pitcher": "Ryan Pepiot",
+      "pitcher_era": 3.7,
+      "pitcher_hr_allowed": 26,
+      "factors": {
+        "power_comp": 39.4,
+        "recent_comp": 0.0,
+        "pitcher_comp": 65.3,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 3.0
+      }
+    },
+    {
+      "name": "Will Smith",
+      "team": "LAD",
+      "position": "Catcher",
+      "hr_score": 45.8,
+      "homer_likelihood_score": 45.8,
+      "stats": {
+        "homeRuns": 17,
+        "battingAvg": 0.296,
+        "slugging": 0.497,
+        "iso": 0.201
+      },
+      "opposing_pitcher": "Paul Skenes",
+      "pitcher_era": 2.05,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 55.9,
+        "recent_comp": 14.3,
+        "pitcher_comp": 29.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.4,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Everson Pereira",
+      "team": "TB",
+      "position": "Outfielder",
+      "hr_score": 45.5,
+      "homer_likelihood_score": 45.5,
+      "stats": {
+        "homeRuns": 1,
+        "battingAvg": 0.154,
+        "slugging": 0.256,
+        "iso": 0.102
+      },
+      "opposing_pitcher": "Logan Allen",
+      "pitcher_era": 4.42,
+      "pitcher_hr_allowed": 18,
+      "factors": {
+        "power_comp": 35.7,
+        "recent_comp": 7.1,
+        "pitcher_comp": 66.5,
+        "park_weather_pct": -4.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 2.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Victor Caratini",
+      "team": "HOU",
+      "position": "Catcher",
+      "hr_score": 45.5,
+      "homer_likelihood_score": 45.5,
+      "stats": {
+        "homeRuns": 11,
+        "battingAvg": 0.266,
+        "slugging": 0.419,
+        "iso": 0.153
+      },
+      "opposing_pitcher": "Carlos Rod\u00f3n",
+      "pitcher_era": 3.18,
+      "pitcher_hr_allowed": 19,
+      "factors": {
+        "power_comp": 45.6,
+        "recent_comp": 7.1,
+        "pitcher_comp": 52.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.3,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Will Robertson",
+      "team": "CWS",
+      "position": "Outfielder",
+      "hr_score": 45.2,
+      "homer_likelihood_score": 45.2,
+      "stats": {
+        "homeRuns": 0,
+        "battingAvg": 0.097,
+        "slugging": 0.129,
+        "iso": 0.032
+      },
+      "opposing_pitcher": "Taj Bradley",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 15,
+      "factors": {
+        "power_comp": 38.8,
+        "recent_comp": 0.0,
+        "pitcher_comp": 68.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.6,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": -1.0
+      }
+    },
+    {
+      "name": "Austin Hedges",
+      "team": "CLE",
+      "position": "Catcher",
+      "hr_score": 45.1,
+      "homer_likelihood_score": 45.1,
+      "stats": {
+        "homeRuns": 4,
+        "battingAvg": 0.147,
+        "slugging": 0.264,
+        "iso": 0.117
+      },
+      "opposing_pitcher": "Ryan Pepiot",
+      "pitcher_era": 3.7,
+      "pitcher_hr_allowed": 26,
+      "factors": {
+        "power_comp": 31.1,
+        "recent_comp": 7.1,
+        "pitcher_comp": 65.3,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.8,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 8.0
+      }
+    },
+    {
+      "name": "Ram\u00f3n Ur\u00edas",
+      "team": "HOU",
+      "position": "Third Base",
+      "hr_score": 45.1,
+      "homer_likelihood_score": 45.1,
+      "stats": {
+        "homeRuns": 10,
+        "battingAvg": 0.252,
+        "slugging": 0.397,
+        "iso": 0.145
+      },
+      "opposing_pitcher": "Carlos Rod\u00f3n",
+      "pitcher_era": 3.18,
+      "pitcher_hr_allowed": 19,
+      "factors": {
+        "power_comp": 44.7,
+        "recent_comp": 7.1,
+        "pitcher_comp": 52.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.4,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Matthew Lugo",
+      "team": "LAA",
+      "position": "Outfielder",
+      "hr_score": 44.9,
+      "homer_likelihood_score": 44.9,
+      "stats": {
+        "homeRuns": 3,
+        "battingAvg": 0.19,
+        "slugging": 0.414,
+        "iso": 0.224
+      },
+      "opposing_pitcher": "Noah Cameron",
+      "pitcher_era": 2.92,
+      "pitcher_hr_allowed": 13,
+      "factors": {
+        "power_comp": 47.9,
+        "recent_comp": 0.0,
+        "pitcher_comp": 43.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 4.0
+      }
+    },
+    {
+      "name": "Edgar Quero",
+      "team": "CWS",
+      "position": "Catcher",
+      "hr_score": 44.9,
+      "homer_likelihood_score": 44.9,
+      "stats": {
+        "homeRuns": 5,
+        "battingAvg": 0.284,
+        "slugging": 0.389,
+        "iso": 0.105
+      },
+      "opposing_pitcher": "Taj Bradley",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 15,
+      "factors": {
+        "power_comp": 35.5,
+        "recent_comp": 7.1,
+        "pitcher_comp": 68.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.8,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Teoscar Hern\u00e1ndez",
+      "team": "LAD",
+      "position": "Outfielder",
+      "hr_score": 44.9,
+      "homer_likelihood_score": 44.9,
+      "stats": {
+        "homeRuns": 21,
+        "battingAvg": 0.246,
+        "slugging": 0.45,
+        "iso": 0.204
+      },
+      "opposing_pitcher": "Paul Skenes",
+      "pitcher_era": 2.05,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 57.4,
+        "recent_comp": 0.0,
+        "pitcher_comp": 29.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.4,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Weston Wilson",
+      "team": "PHI",
+      "position": "Outfielder",
+      "hr_score": 44.7,
+      "homer_likelihood_score": 44.7,
+      "stats": {
+        "homeRuns": 4,
+        "battingAvg": 0.219,
+        "slugging": 0.411,
+        "iso": 0.192
+      },
+      "opposing_pitcher": "Freddy Peralta",
+      "pitcher_era": 2.58,
+      "pitcher_hr_allowed": 16,
+      "factors": {
+        "power_comp": 46.0,
+        "recent_comp": 14.3,
+        "pitcher_comp": 41.9,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.3,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 2.0
+      }
+    },
+    {
+      "name": "Harrison Bader",
+      "team": "PHI",
+      "position": "Outfielder",
+      "hr_score": 44.6,
+      "homer_likelihood_score": 44.6,
+      "stats": {
+        "homeRuns": 14,
+        "battingAvg": 0.27,
+        "slugging": 0.448,
+        "iso": 0.178
+      },
+      "opposing_pitcher": "Freddy Peralta",
+      "pitcher_era": 2.58,
+      "pitcher_hr_allowed": 16,
+      "factors": {
+        "power_comp": 49.9,
+        "recent_comp": 7.1,
+        "pitcher_comp": 41.9,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.3,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": -1.0
+      }
+    },
+    {
+      "name": "Tyler Tolbert",
+      "team": "KC",
+      "position": "Second Base",
+      "hr_score": 44.6,
+      "homer_likelihood_score": 44.6,
+      "stats": {
+        "homeRuns": 1,
+        "battingAvg": 0.222,
+        "slugging": 0.333,
+        "iso": 0.111
+      },
+      "opposing_pitcher": "Kyle Hendricks",
+      "pitcher_era": 4.89,
+      "pitcher_hr_allowed": 21,
+      "factors": {
+        "power_comp": 31.5,
+        "recent_comp": 0.0,
+        "pitcher_comp": 75.2,
+        "park_weather_pct": -5.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 2.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Ryan McMahon",
+      "team": "NYY",
+      "position": "Third Base",
+      "hr_score": 44.5,
+      "homer_likelihood_score": 44.5,
+      "stats": {
+        "homeRuns": 18,
+        "battingAvg": 0.219,
+        "slugging": 0.391,
+        "iso": 0.172
+      },
+      "opposing_pitcher": "Cristian Javier",
+      "pitcher_era": 3.38,
+      "pitcher_hr_allowed": 1,
+      "factors": {
+        "power_comp": 51.4,
+        "recent_comp": 7.1,
+        "pitcher_comp": 37.4,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.2,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Luke Maile",
+      "team": "KC",
+      "position": "Catcher",
+      "hr_score": 44.4,
+      "homer_likelihood_score": 44.4,
+      "stats": {
+        "homeRuns": 1,
+        "battingAvg": 0.2,
+        "slugging": 0.314,
+        "iso": 0.114
+      },
+      "opposing_pitcher": "Kyle Hendricks",
+      "pitcher_era": 4.89,
+      "pitcher_hr_allowed": 21,
+      "factors": {
+        "power_comp": 31.8,
+        "recent_comp": 0.0,
+        "pitcher_comp": 75.2,
+        "park_weather_pct": -5.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 4.0
+      }
+    },
+    {
+      "name": "Nick Fortes",
+      "team": "TB",
+      "position": "Catcher",
+      "hr_score": 44.0,
+      "homer_likelihood_score": 44.0,
+      "stats": {
+        "homeRuns": 4,
+        "battingAvg": 0.218,
+        "slugging": 0.333,
+        "iso": 0.115
+      },
+      "opposing_pitcher": "Logan Allen",
+      "pitcher_era": 4.42,
+      "pitcher_hr_allowed": 18,
+      "factors": {
+        "power_comp": 36.8,
+        "recent_comp": 7.1,
+        "pitcher_comp": 66.5,
+        "park_weather_pct": -4.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Ryan Jeffers",
+      "team": "MIN",
+      "position": "Catcher",
+      "hr_score": 43.9,
+      "homer_likelihood_score": 43.9,
+      "stats": {
+        "homeRuns": 9,
+        "battingAvg": 0.262,
+        "slugging": 0.395,
+        "iso": 0.133
+      },
+      "opposing_pitcher": "Fraser Ellard",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 0,
+      "factors": {
+        "power_comp": 41.6,
+        "recent_comp": 0.0,
+        "pitcher_comp": 54.1,
+        "park_weather_pct": -3.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.1,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 3.0
+      }
+    },
+    {
+      "name": "J.T. Realmuto",
+      "team": "PHI",
+      "position": "Catcher",
+      "hr_score": 43.9,
+      "homer_likelihood_score": 43.9,
+      "stats": {
+        "homeRuns": 11,
+        "battingAvg": 0.266,
+        "slugging": 0.401,
+        "iso": 0.135
+      },
+      "opposing_pitcher": "Freddy Peralta",
+      "pitcher_era": 2.58,
+      "pitcher_hr_allowed": 16,
+      "factors": {
+        "power_comp": 45.4,
+        "recent_comp": 14.3,
+        "pitcher_comp": 41.9,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.7,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Jhonkensy Noel",
+      "team": "CLE",
+      "position": "Outfielder",
+      "hr_score": 43.9,
+      "homer_likelihood_score": 43.9,
+      "stats": {
+        "homeRuns": 3,
+        "battingAvg": 0.153,
+        "slugging": 0.246,
+        "iso": 0.093
+      },
+      "opposing_pitcher": "Ryan Pepiot",
+      "pitcher_era": 3.7,
+      "pitcher_hr_allowed": 26,
+      "factors": {
+        "power_comp": 30.8,
+        "recent_comp": 7.1,
+        "pitcher_comp": 65.3,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 3.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Edouard Julien",
+      "team": "MIN",
+      "position": "Second Base",
+      "hr_score": 43.8,
+      "homer_likelihood_score": 43.8,
+      "stats": {
+        "homeRuns": 3,
+        "battingAvg": 0.193,
+        "slugging": 0.31,
+        "iso": 0.117
+      },
+      "opposing_pitcher": "Fraser Ellard",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 0,
+      "factors": {
+        "power_comp": 37.6,
+        "recent_comp": 0.0,
+        "pitcher_comp": 54.1,
+        "park_weather_pct": -3.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.9,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 6.0
+      }
+    },
+    {
+      "name": "Carson Williams",
+      "team": "TB",
+      "position": "Shortstop",
+      "hr_score": 43.5,
+      "homer_likelihood_score": 43.5,
+      "stats": {
+        "homeRuns": 1,
+        "battingAvg": 0.206,
+        "slugging": 0.353,
+        "iso": 0.147
+      },
+      "opposing_pitcher": "Logan Allen",
+      "pitcher_era": 4.42,
+      "pitcher_hr_allowed": 18,
+      "factors": {
+        "power_comp": 30.4,
+        "recent_comp": 7.1,
+        "pitcher_comp": 66.5,
+        "park_weather_pct": -4.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 1.9,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 2.0
+      }
+    },
+    {
+      "name": "Korey Lee",
+      "team": "CWS",
+      "position": "Catcher",
+      "hr_score": 43.5,
+      "homer_likelihood_score": 43.5,
+      "stats": {
+        "homeRuns": 1,
+        "battingAvg": 0.281,
+        "slugging": 0.469,
+        "iso": 0.188
+      },
+      "opposing_pitcher": "Taj Bradley",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 15,
+      "factors": {
+        "power_comp": 34.0,
+        "recent_comp": 7.1,
+        "pitcher_comp": 68.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.1,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Cam Smith",
+      "team": "HOU",
+      "position": "Outfielder",
+      "hr_score": 43.5,
+      "homer_likelihood_score": 43.5,
+      "stats": {
+        "homeRuns": 8,
+        "battingAvg": 0.243,
+        "slugging": 0.359,
+        "iso": 0.116
+      },
+      "opposing_pitcher": "Carlos Rod\u00f3n",
+      "pitcher_era": 3.18,
+      "pitcher_hr_allowed": 19,
+      "factors": {
+        "power_comp": 37.8,
+        "recent_comp": 7.1,
+        "pitcher_comp": 52.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 6.0
+      }
+    },
+    {
+      "name": "Chase Meidroth",
+      "team": "CWS",
+      "position": "Shortstop",
+      "hr_score": 43.2,
+      "homer_likelihood_score": 43.2,
+      "stats": {
+        "homeRuns": 4,
+        "battingAvg": 0.251,
+        "slugging": 0.322,
+        "iso": 0.071
+      },
+      "opposing_pitcher": "Taj Bradley",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 15,
+      "factors": {
+        "power_comp": 28.8,
+        "recent_comp": 7.1,
+        "pitcher_comp": 68.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.5,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 5.0
+      }
+    },
+    {
+      "name": "Andruw Monasterio",
+      "team": "MIL",
+      "position": "Shortstop",
+      "hr_score": 43.1,
+      "homer_likelihood_score": 43.1,
+      "stats": {
+        "homeRuns": 4,
+        "battingAvg": 0.294,
+        "slugging": 0.5,
+        "iso": 0.206
+      },
+      "opposing_pitcher": "Ranger Su\u00e1rez",
+      "pitcher_era": 3.02,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 40.6,
+        "recent_comp": 14.3,
+        "pitcher_comp": 41.6,
+        "park_weather_pct": 5.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.1,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 5.0
+      }
+    },
+    {
+      "name": "Bryan Reynolds",
+      "team": "PIT",
+      "position": "Outfielder",
+      "hr_score": 42.9,
+      "homer_likelihood_score": 42.9,
+      "stats": {
+        "homeRuns": 15,
+        "battingAvg": 0.244,
+        "slugging": 0.409,
+        "iso": 0.165
+      },
+      "opposing_pitcher": "Blake Snell",
+      "pitcher_era": 2.41,
+      "pitcher_hr_allowed": 3,
+      "factors": {
+        "power_comp": 52.1,
+        "recent_comp": 14.3,
+        "pitcher_comp": 27.3,
+        "park_weather_pct": -6.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.4,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Taylor Trammell",
+      "team": "HOU",
+      "position": "Outfielder",
+      "hr_score": 42.8,
+      "homer_likelihood_score": 42.8,
+      "stats": {
+        "homeRuns": 3,
+        "battingAvg": 0.202,
+        "slugging": 0.343,
+        "iso": 0.141
+      },
+      "opposing_pitcher": "Carlos Rod\u00f3n",
+      "pitcher_era": 3.18,
+      "pitcher_hr_allowed": 19,
+      "factors": {
+        "power_comp": 41.5,
+        "recent_comp": 0.0,
+        "pitcher_comp": 52.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.6,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Kyle Isbel",
+      "team": "KC",
+      "position": "Outfielder",
+      "hr_score": 42.6,
+      "homer_likelihood_score": 42.6,
+      "stats": {
+        "homeRuns": 4,
+        "battingAvg": 0.265,
+        "slugging": 0.369,
+        "iso": 0.104
+      },
+      "opposing_pitcher": "Kyle Hendricks",
+      "pitcher_era": 4.89,
+      "pitcher_hr_allowed": 21,
+      "factors": {
+        "power_comp": 29.5,
+        "recent_comp": 0.0,
+        "pitcher_comp": 75.2,
+        "park_weather_pct": -5.0,
+        "h2h_bonus": 0.1,
+        "pitchtype_bonus": 0.6,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 1.0
+      }
+    },
+    {
+      "name": "Danny Jansen",
+      "team": "MIL",
+      "position": "Catcher",
+      "hr_score": 42.5,
+      "homer_likelihood_score": 42.5,
+      "stats": {
+        "homeRuns": 11,
+        "battingAvg": 0.204,
+        "slugging": 0.373,
+        "iso": 0.169
+      },
+      "opposing_pitcher": "Ranger Su\u00e1rez",
+      "pitcher_era": 3.02,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 46.8,
+        "recent_comp": 0.0,
+        "pitcher_comp": 41.6,
+        "park_weather_pct": 5.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Bob Seymour",
+      "team": "TB",
+      "position": "First Base",
+      "hr_score": 42.3,
+      "homer_likelihood_score": 42.3,
+      "stats": {
+        "homeRuns": 1,
+        "battingAvg": 0.211,
+        "slugging": 0.316,
+        "iso": 0.105
+      },
+      "opposing_pitcher": "Logan Allen",
+      "pitcher_era": 4.42,
+      "pitcher_hr_allowed": 18,
+      "factors": {
+        "power_comp": 26.0,
+        "recent_comp": 0.0,
+        "pitcher_comp": 66.5,
+        "park_weather_pct": -4.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 1.7,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 8.0
+      }
+    },
+    {
+      "name": "Trea Turner",
+      "team": "PHI",
+      "position": "Shortstop",
+      "hr_score": 42.3,
+      "homer_likelihood_score": 42.3,
+      "stats": {
+        "homeRuns": 14,
+        "battingAvg": 0.302,
+        "slugging": 0.454,
+        "iso": 0.152
+      },
+      "opposing_pitcher": "Freddy Peralta",
+      "pitcher_era": 2.58,
+      "pitcher_hr_allowed": 16,
+      "factors": {
+        "power_comp": 45.4,
+        "recent_comp": 7.1,
+        "pitcher_comp": 41.9,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Brayan Rocchio",
+      "team": "CLE",
+      "position": "Shortstop",
+      "hr_score": 42.3,
+      "homer_likelihood_score": 42.3,
+      "stats": {
+        "homeRuns": 4,
+        "battingAvg": 0.235,
+        "slugging": 0.338,
+        "iso": 0.103
+      },
+      "opposing_pitcher": "Ryan Pepiot",
+      "pitcher_era": 3.7,
+      "pitcher_hr_allowed": 26,
+      "factors": {
+        "power_comp": 29.9,
+        "recent_comp": 7.1,
+        "pitcher_comp": 65.3,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.3,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 4.0
+      }
+    },
+    {
+      "name": "Paul Goldschmidt",
+      "team": "NYY",
+      "position": "First Base",
+      "hr_score": 42.2,
+      "homer_likelihood_score": 42.2,
+      "stats": {
+        "homeRuns": 10,
+        "battingAvg": 0.277,
+        "slugging": 0.418,
+        "iso": 0.141
+      },
+      "opposing_pitcher": "Cristian Javier",
+      "pitcher_era": 3.38,
+      "pitcher_hr_allowed": 1,
+      "factors": {
+        "power_comp": 48.2,
+        "recent_comp": 0.0,
+        "pitcher_comp": 37.4,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.4,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Steven Kwan",
+      "team": "CLE",
+      "position": "Outfielder",
+      "hr_score": 42.1,
+      "homer_likelihood_score": 42.1,
+      "stats": {
+        "homeRuns": 10,
+        "battingAvg": 0.274,
+        "slugging": 0.382,
+        "iso": 0.108
+      },
+      "opposing_pitcher": "Ryan Pepiot",
+      "pitcher_era": 3.7,
+      "pitcher_hr_allowed": 26,
+      "factors": {
+        "power_comp": 34.5,
+        "recent_comp": 0.0,
+        "pitcher_comp": 65.3,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.1,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Travis d'Arnaud",
+      "team": "LAA",
+      "position": "Catcher",
+      "hr_score": 42.0,
+      "homer_likelihood_score": 42.0,
+      "stats": {
+        "homeRuns": 6,
+        "battingAvg": 0.2,
+        "slugging": 0.346,
+        "iso": 0.146
+      },
+      "opposing_pitcher": "Noah Cameron",
+      "pitcher_era": 2.92,
+      "pitcher_hr_allowed": 13,
+      "factors": {
+        "power_comp": 44.9,
+        "recent_comp": 0.0,
+        "pitcher_comp": 43.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 1.0
+      }
+    },
+    {
+      "name": "Amed Rosario",
+      "team": "NYY",
+      "position": "Third Base",
+      "hr_score": 41.8,
+      "homer_likelihood_score": 41.8,
+      "stats": {
+        "homeRuns": 5,
+        "battingAvg": 0.283,
+        "slugging": 0.434,
+        "iso": 0.151
+      },
+      "opposing_pitcher": "Cristian Javier",
+      "pitcher_era": 3.38,
+      "pitcher_hr_allowed": 1,
+      "factors": {
+        "power_comp": 39.8,
+        "recent_comp": 0.0,
+        "pitcher_comp": 37.4,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 1.3,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 8.0
+      }
+    },
+    {
+      "name": "Caleb Durbin",
+      "team": "MIL",
+      "position": "Third Base",
+      "hr_score": 41.8,
+      "homer_likelihood_score": 41.8,
+      "stats": {
+        "homeRuns": 10,
+        "battingAvg": 0.257,
+        "slugging": 0.397,
+        "iso": 0.14
+      },
+      "opposing_pitcher": "Ranger Su\u00e1rez",
+      "pitcher_era": 3.02,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 36.9,
+        "recent_comp": 21.4,
+        "pitcher_comp": 41.6,
+        "park_weather_pct": 5.0,
+        "h2h_bonus": 0.74,
+        "pitchtype_bonus": 0.3,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 2.0
+      }
+    },
+    {
+      "name": "Michael Massey",
+      "team": "KC",
+      "position": "Second Base",
+      "hr_score": 41.7,
+      "homer_likelihood_score": 41.7,
+      "stats": {
+        "homeRuns": 2,
+        "battingAvg": 0.223,
+        "slugging": 0.282,
+        "iso": 0.059
+      },
+      "opposing_pitcher": "Kyle Hendricks",
+      "pitcher_era": 4.89,
+      "pitcher_hr_allowed": 21,
+      "factors": {
+        "power_comp": 26.1,
+        "recent_comp": 0.0,
+        "pitcher_comp": 75.2,
+        "park_weather_pct": -5.0,
+        "h2h_bonus": 0.18,
+        "pitchtype_bonus": 1.8,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Andrew McCutchen",
+      "team": "PIT",
+      "position": "Outfielder",
+      "hr_score": 41.5,
+      "homer_likelihood_score": 41.5,
+      "stats": {
+        "homeRuns": 13,
+        "battingAvg": 0.247,
+        "slugging": 0.391,
+        "iso": 0.144
+      },
+      "opposing_pitcher": "Blake Snell",
+      "pitcher_era": 2.41,
+      "pitcher_hr_allowed": 3,
+      "factors": {
+        "power_comp": 46.6,
+        "recent_comp": 14.3,
+        "pitcher_comp": 27.3,
+        "park_weather_pct": -6.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.7,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 3.0
+      }
+    },
+    {
+      "name": "Tommy Pham",
+      "team": "PIT",
+      "position": "Outfielder",
+      "hr_score": 41.4,
+      "homer_likelihood_score": 41.4,
+      "stats": {
+        "homeRuns": 8,
+        "battingAvg": 0.264,
+        "slugging": 0.389,
+        "iso": 0.125
+      },
+      "opposing_pitcher": "Blake Snell",
+      "pitcher_era": 2.41,
+      "pitcher_hr_allowed": 3,
+      "factors": {
+        "power_comp": 41.9,
+        "recent_comp": 14.3,
+        "pitcher_comp": 27.3,
+        "park_weather_pct": -6.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 1.2,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 8.0
+      }
+    },
+    {
+      "name": "Brandon Marsh",
+      "team": "PHI",
+      "position": "Outfielder",
+      "hr_score": 41.4,
+      "homer_likelihood_score": 41.4,
+      "stats": {
+        "homeRuns": 8,
+        "battingAvg": 0.275,
+        "slugging": 0.415,
+        "iso": 0.14
+      },
+      "opposing_pitcher": "Freddy Peralta",
+      "pitcher_era": 2.58,
+      "pitcher_hr_allowed": 16,
+      "factors": {
+        "power_comp": 41.1,
+        "recent_comp": 7.1,
+        "pitcher_comp": 41.9,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.9,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 1.0
+      }
+    },
+    {
+      "name": "Jake Bauers",
+      "team": "MIL",
+      "position": "Outfielder",
+      "hr_score": 41.4,
+      "homer_likelihood_score": 41.4,
+      "stats": {
+        "homeRuns": 5,
+        "battingAvg": 0.188,
+        "slugging": 0.333,
+        "iso": 0.145
+      },
+      "opposing_pitcher": "Ranger Su\u00e1rez",
+      "pitcher_era": 3.02,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 44.7,
+        "recent_comp": 0.0,
+        "pitcher_comp": 41.6,
+        "park_weather_pct": 5.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Jasson Dom\u00ednguez",
+      "team": "NYY",
+      "position": "Outfielder",
+      "hr_score": 40.8,
+      "homer_likelihood_score": 40.8,
+      "stats": {
+        "homeRuns": 10,
+        "battingAvg": 0.254,
+        "slugging": 0.388,
+        "iso": 0.134
+      },
+      "opposing_pitcher": "Cristian Javier",
+      "pitcher_era": 3.38,
+      "pitcher_hr_allowed": 1,
+      "factors": {
+        "power_comp": 40.9,
+        "recent_comp": 7.1,
+        "pitcher_comp": 37.4,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 2.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Alexander Canario",
+      "team": "PIT",
+      "position": "Outfielder",
+      "hr_score": 40.6,
+      "homer_likelihood_score": 40.6,
+      "stats": {
+        "homeRuns": 5,
+        "battingAvg": 0.211,
+        "slugging": 0.33,
+        "iso": 0.119
+      },
+      "opposing_pitcher": "Blake Snell",
+      "pitcher_era": 2.41,
+      "pitcher_hr_allowed": 3,
+      "factors": {
+        "power_comp": 44.1,
+        "recent_comp": 14.3,
+        "pitcher_comp": 27.3,
+        "park_weather_pct": -6.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.3,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 5.0
+      }
+    },
+    {
+      "name": "Edmundo Sosa",
+      "team": "PHI",
+      "position": "Second Base",
+      "hr_score": 40.6,
+      "homer_likelihood_score": 40.6,
+      "stats": {
+        "homeRuns": 7,
+        "battingAvg": 0.27,
+        "slugging": 0.427,
+        "iso": 0.157
+      },
+      "opposing_pitcher": "Freddy Peralta",
+      "pitcher_era": 2.58,
+      "pitcher_hr_allowed": 16,
+      "factors": {
+        "power_comp": 41.2,
+        "recent_comp": 7.1,
+        "pitcher_comp": 41.9,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.4,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Bryson Stott",
+      "team": "PHI",
+      "position": "Second Base",
+      "hr_score": 40.5,
+      "homer_likelihood_score": 40.5,
+      "stats": {
+        "homeRuns": 9,
+        "battingAvg": 0.248,
+        "slugging": 0.369,
+        "iso": 0.121
+      },
+      "opposing_pitcher": "Freddy Peralta",
+      "pitcher_era": 2.58,
+      "pitcher_hr_allowed": 16,
+      "factors": {
+        "power_comp": 37.9,
+        "recent_comp": 7.1,
+        "pitcher_comp": 41.9,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.9,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 3.0
+      }
+    },
+    {
+      "name": "Enrique Hern\u00e1ndez",
+      "team": "LAD",
+      "position": "First Base",
+      "hr_score": 40.5,
+      "homer_likelihood_score": 40.5,
+      "stats": {
+        "homeRuns": 8,
+        "battingAvg": 0.197,
+        "slugging": 0.351,
+        "iso": 0.154
+      },
+      "opposing_pitcher": "Paul Skenes",
+      "pitcher_era": 2.05,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 47.4,
+        "recent_comp": 0.0,
+        "pitcher_comp": 29.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 3.0
+      }
+    },
+    {
+      "name": "James Outman",
+      "team": "MIN",
+      "position": "Outfielder",
+      "hr_score": 40.4,
+      "homer_likelihood_score": 40.4,
+      "stats": {
+        "homeRuns": 2,
+        "battingAvg": 0.134,
+        "slugging": 0.268,
+        "iso": 0.134
+      },
+      "opposing_pitcher": "Fraser Ellard",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 0,
+      "factors": {
+        "power_comp": 38.3,
+        "recent_comp": 0.0,
+        "pitcher_comp": 54.1,
+        "park_weather_pct": -3.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": -1.0
+      }
+    },
+    {
+      "name": "Curtis Mead",
+      "team": "CWS",
+      "position": "First Base",
+      "hr_score": 40.2,
+      "homer_likelihood_score": 40.2,
+      "stats": {
+        "homeRuns": 3,
+        "battingAvg": 0.247,
+        "slugging": 0.33,
+        "iso": 0.083
+      },
+      "opposing_pitcher": "Taj Bradley",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 15,
+      "factors": {
+        "power_comp": 29.1,
+        "recent_comp": 0.0,
+        "pitcher_comp": 68.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.3,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Isaac Collins",
+      "team": "MIL",
+      "position": "Outfielder",
+      "hr_score": 39.6,
+      "homer_likelihood_score": 39.6,
+      "stats": {
+        "homeRuns": 9,
+        "battingAvg": 0.276,
+        "slugging": 0.433,
+        "iso": 0.157
+      },
+      "opposing_pitcher": "Ranger Su\u00e1rez",
+      "pitcher_era": 3.02,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 40.1,
+        "recent_comp": 7.1,
+        "pitcher_comp": 41.6,
+        "park_weather_pct": 5.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.2,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": -1.0
+      }
+    },
+    {
+      "name": "Carter Jensen",
+      "team": "KC",
+      "position": "Catcher",
+      "hr_score": 39.5,
+      "homer_likelihood_score": 39.5,
+      "stats": {
+        "homeRuns": 0,
+        "battingAvg": 0.0,
+        "slugging": 0.0,
+        "iso": 0.0
+      },
+      "opposing_pitcher": "Kyle Hendricks",
+      "pitcher_era": 4.89,
+      "pitcher_hr_allowed": 21,
+      "factors": {
+        "power_comp": 22.0,
+        "recent_comp": 0.0,
+        "pitcher_comp": 75.2,
+        "park_weather_pct": -5.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 5.0
+      }
+    },
+    {
+      "name": "Richie Palacios",
+      "team": "TB",
+      "position": "Outfielder",
+      "hr_score": 39.3,
+      "homer_likelihood_score": 39.3,
+      "stats": {
+        "homeRuns": 0,
+        "battingAvg": 0.333,
+        "slugging": 0.444,
+        "iso": 0.111
+      },
+      "opposing_pitcher": "Logan Allen",
+      "pitcher_era": 4.42,
+      "pitcher_hr_allowed": 18,
+      "factors": {
+        "power_comp": 28.6,
+        "recent_comp": 0.0,
+        "pitcher_comp": 66.5,
+        "park_weather_pct": -4.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 1.0
+      }
+    },
+    {
+      "name": "Michael Conforto",
+      "team": "LAD",
+      "position": "Outfielder",
+      "hr_score": 39.2,
+      "homer_likelihood_score": 39.2,
+      "stats": {
+        "homeRuns": 10,
+        "battingAvg": 0.188,
+        "slugging": 0.327,
+        "iso": 0.139
+      },
+      "opposing_pitcher": "Paul Skenes",
+      "pitcher_era": 2.05,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 44.0,
+        "recent_comp": 7.1,
+        "pitcher_comp": 29.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 1.1,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": -1.0
+      }
+    },
+    {
+      "name": "Oswald Peraza",
+      "team": "LAA",
+      "position": "Third Base",
+      "hr_score": 39.1,
+      "homer_likelihood_score": 39.1,
+      "stats": {
+        "homeRuns": 4,
+        "battingAvg": 0.166,
+        "slugging": 0.259,
+        "iso": 0.093
+      },
+      "opposing_pitcher": "Noah Cameron",
+      "pitcher_era": 2.92,
+      "pitcher_hr_allowed": 13,
+      "factors": {
+        "power_comp": 32.9,
+        "recent_comp": 7.1,
+        "pitcher_comp": 43.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 8.0
+      }
+    },
+    {
+      "name": "Alec Bohm",
+      "team": "PHI",
+      "position": "Third Base",
+      "hr_score": 39.1,
+      "homer_likelihood_score": 39.1,
+      "stats": {
+        "homeRuns": 9,
+        "battingAvg": 0.276,
+        "slugging": 0.388,
+        "iso": 0.112
+      },
+      "opposing_pitcher": "Freddy Peralta",
+      "pitcher_era": 2.58,
+      "pitcher_hr_allowed": 16,
+      "factors": {
+        "power_comp": 39.4,
+        "recent_comp": 0.0,
+        "pitcher_comp": 41.9,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.8,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Spencer Horwitz",
+      "team": "PIT",
+      "position": "First Base",
+      "hr_score": 38.6,
+      "homer_likelihood_score": 38.6,
+      "stats": {
+        "homeRuns": 7,
+        "battingAvg": 0.257,
+        "slugging": 0.388,
+        "iso": 0.131
+      },
+      "opposing_pitcher": "Blake Snell",
+      "pitcher_era": 2.41,
+      "pitcher_hr_allowed": 3,
+      "factors": {
+        "power_comp": 39.7,
+        "recent_comp": 14.3,
+        "pitcher_comp": 27.3,
+        "park_weather_pct": -6.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.4,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 6.0
+      }
+    },
+    {
+      "name": "Mookie Betts",
+      "team": "LAD",
+      "position": "Shortstop",
+      "hr_score": 38.3,
+      "homer_likelihood_score": 38.3,
+      "stats": {
+        "homeRuns": 14,
+        "battingAvg": 0.25,
+        "slugging": 0.374,
+        "iso": 0.124
+      },
+      "opposing_pitcher": "Paul Skenes",
+      "pitcher_era": 2.05,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 42.8,
+        "recent_comp": 7.1,
+        "pitcher_comp": 29.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.5,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Jake Mangum",
+      "team": "TB",
+      "position": "Outfielder",
+      "hr_score": 38.1,
+      "homer_likelihood_score": 38.1,
+      "stats": {
+        "homeRuns": 2,
+        "battingAvg": 0.293,
+        "slugging": 0.364,
+        "iso": 0.071
+      },
+      "opposing_pitcher": "Logan Allen",
+      "pitcher_era": 4.42,
+      "pitcher_hr_allowed": 18,
+      "factors": {
+        "power_comp": 27.0,
+        "recent_comp": 0.0,
+        "pitcher_comp": 66.5,
+        "park_weather_pct": -4.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Mauricio Dub\u00f3n",
+      "team": "HOU",
+      "position": "Second Base",
+      "hr_score": 38.1,
+      "homer_likelihood_score": 38.1,
+      "stats": {
+        "homeRuns": 7,
+        "battingAvg": 0.251,
+        "slugging": 0.373,
+        "iso": 0.122
+      },
+      "opposing_pitcher": "Carlos Rod\u00f3n",
+      "pitcher_era": 3.18,
+      "pitcher_hr_allowed": 19,
+      "factors": {
+        "power_comp": 30.9,
+        "recent_comp": 0.0,
+        "pitcher_comp": 52.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 1.39,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Blake Perkins",
+      "team": "MIL",
+      "position": "Outfielder",
+      "hr_score": 38.1,
+      "homer_likelihood_score": 38.1,
+      "stats": {
+        "homeRuns": 3,
+        "battingAvg": 0.207,
+        "slugging": 0.345,
+        "iso": 0.138
+      },
+      "opposing_pitcher": "Ranger Su\u00e1rez",
+      "pitcher_era": 3.02,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 34.2,
+        "recent_comp": 0.0,
+        "pitcher_comp": 41.6,
+        "park_weather_pct": 5.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 6.0
+      }
+    },
+    {
+      "name": "Sal Frelick",
+      "team": "MIL",
+      "position": "Outfielder",
+      "hr_score": 38.0,
+      "homer_likelihood_score": 38.0,
+      "stats": {
+        "homeRuns": 10,
+        "battingAvg": 0.298,
+        "slugging": 0.411,
+        "iso": 0.113
+      },
+      "opposing_pitcher": "Ranger Su\u00e1rez",
+      "pitcher_era": 3.02,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 36.0,
+        "recent_comp": 7.1,
+        "pitcher_comp": 41.6,
+        "park_weather_pct": 5.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.3,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Luis Rengifo",
+      "team": "LAA",
+      "position": "Third Base",
+      "hr_score": 37.9,
+      "homer_likelihood_score": 37.9,
+      "stats": {
+        "homeRuns": 7,
+        "battingAvg": 0.245,
+        "slugging": 0.338,
+        "iso": 0.093
+      },
+      "opposing_pitcher": "Noah Cameron",
+      "pitcher_era": 2.92,
+      "pitcher_hr_allowed": 13,
+      "factors": {
+        "power_comp": 35.3,
+        "recent_comp": 0.0,
+        "pitcher_comp": 43.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.6,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 2.0
+      }
+    },
+    {
+      "name": "Henry Davis",
+      "team": "PIT",
+      "position": "Catcher",
+      "hr_score": 37.7,
+      "homer_likelihood_score": 37.7,
+      "stats": {
+        "homeRuns": 6,
+        "battingAvg": 0.171,
+        "slugging": 0.289,
+        "iso": 0.118
+      },
+      "opposing_pitcher": "Blake Snell",
+      "pitcher_era": 2.41,
+      "pitcher_hr_allowed": 3,
+      "factors": {
+        "power_comp": 44.6,
+        "recent_comp": 7.1,
+        "pitcher_comp": 27.3,
+        "park_weather_pct": -6.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Mickey Gasper",
+      "team": "MIN",
+      "position": "Second Base",
+      "hr_score": 37.6,
+      "homer_likelihood_score": 37.6,
+      "stats": {
+        "homeRuns": 1,
+        "battingAvg": 0.147,
+        "slugging": 0.206,
+        "iso": 0.059
+      },
+      "opposing_pitcher": "Fraser Ellard",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 0,
+      "factors": {
+        "power_comp": 27.7,
+        "recent_comp": 7.1,
+        "pitcher_comp": 54.1,
+        "park_weather_pct": -3.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 4.0
+      }
+    },
+    {
+      "name": "Austin Martin",
+      "team": "MIN",
+      "position": "Outfielder",
+      "hr_score": 37.5,
+      "homer_likelihood_score": 37.5,
+      "stats": {
+        "homeRuns": 1,
+        "battingAvg": 0.26,
+        "slugging": 0.351,
+        "iso": 0.091
+      },
+      "opposing_pitcher": "Fraser Ellard",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 0,
+      "factors": {
+        "power_comp": 25.3,
+        "recent_comp": 0.0,
+        "pitcher_comp": 54.1,
+        "park_weather_pct": -3.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.7,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 8.0
+      }
+    },
+    {
+      "name": "Alex Freeland",
+      "team": "LAD",
+      "position": "Shortstop",
+      "hr_score": 37.5,
+      "homer_likelihood_score": 37.5,
+      "stats": {
+        "homeRuns": 2,
+        "battingAvg": 0.19,
+        "slugging": 0.31,
+        "iso": 0.12
+      },
+      "opposing_pitcher": "Paul Skenes",
+      "pitcher_era": 2.05,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 35.0,
+        "recent_comp": 14.3,
+        "pitcher_comp": 29.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 1.1,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 5.0
+      }
+    },
+    {
+      "name": "Dalton Rushing",
+      "team": "LAD",
+      "position": "Catcher",
+      "hr_score": 37.0,
+      "homer_likelihood_score": 37.0,
+      "stats": {
+        "homeRuns": 3,
+        "battingAvg": 0.19,
+        "slugging": 0.293,
+        "iso": 0.103
+      },
+      "opposing_pitcher": "Paul Skenes",
+      "pitcher_era": 2.05,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 38.5,
+        "recent_comp": 7.1,
+        "pitcher_comp": 29.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 4.0
+      }
+    },
+    {
+      "name": "J.C. Escarra",
+      "team": "NYY",
+      "position": "Catcher",
+      "hr_score": 36.7,
+      "homer_likelihood_score": 36.7,
+      "stats": {
+        "homeRuns": 2,
+        "battingAvg": 0.202,
+        "slugging": 0.333,
+        "iso": 0.131
+      },
+      "opposing_pitcher": "Cristian Javier",
+      "pitcher_era": 3.38,
+      "pitcher_hr_allowed": 1,
+      "factors": {
+        "power_comp": 38.2,
+        "recent_comp": 0.0,
+        "pitcher_comp": 37.4,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.4,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": -1.0
+      }
+    },
+    {
+      "name": "DaShawn Keirsey Jr.",
+      "team": "MIN",
+      "position": "Outfielder",
+      "hr_score": 36.6,
+      "homer_likelihood_score": 36.6,
+      "stats": {
+        "homeRuns": 2,
+        "battingAvg": 0.11,
+        "slugging": 0.183,
+        "iso": 0.073
+      },
+      "opposing_pitcher": "Fraser Ellard",
+      "pitcher_era": 4.82,
+      "pitcher_hr_allowed": 0,
+      "factors": {
+        "power_comp": 25.8,
+        "recent_comp": 0.0,
+        "pitcher_comp": 54.1,
+        "park_weather_pct": -3.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 2.4,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Hunter Feduccia",
+      "team": "TB",
+      "position": "Catcher",
+      "hr_score": 36.4,
+      "homer_likelihood_score": 36.4,
+      "stats": {
+        "homeRuns": 0,
+        "battingAvg": 0.132,
+        "slugging": 0.189,
+        "iso": 0.057
+      },
+      "opposing_pitcher": "Logan Allen",
+      "pitcher_era": 4.42,
+      "pitcher_hr_allowed": 18,
+      "factors": {
+        "power_comp": 24.6,
+        "recent_comp": 0.0,
+        "pitcher_comp": 66.5,
+        "park_weather_pct": -4.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": -1.0
+      }
+    },
+    {
+      "name": "Chris Taylor",
+      "team": "LAA",
+      "position": "Outfielder",
+      "hr_score": 36.2,
+      "homer_likelihood_score": 36.2,
+      "stats": {
+        "homeRuns": 1,
+        "battingAvg": 0.2,
+        "slugging": 0.325,
+        "iso": 0.125
+      },
+      "opposing_pitcher": "Noah Cameron",
+      "pitcher_era": 2.92,
+      "pitcher_hr_allowed": 13,
+      "factors": {
+        "power_comp": 32.6,
+        "recent_comp": 0.0,
+        "pitcher_comp": 43.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 3.0
+      }
+    },
+    {
+      "name": "George Valera",
+      "team": "CLE",
+      "position": "Outfielder",
+      "hr_score": 35.8,
+      "homer_likelihood_score": 35.8,
+      "stats": {
+        "homeRuns": 0,
+        "battingAvg": 0.5,
+        "slugging": 0.5,
+        "iso": 0.0
+      },
+      "opposing_pitcher": "Ryan Pepiot",
+      "pitcher_era": 3.7,
+      "pitcher_hr_allowed": 26,
+      "factors": {
+        "power_comp": 23.5,
+        "recent_comp": 0.0,
+        "pitcher_comp": 65.3,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": -1.0
+      }
+    },
+    {
+      "name": "Liover Peguero",
+      "team": "PIT",
+      "position": "Shortstop",
+      "hr_score": 34.9,
+      "homer_likelihood_score": 34.9,
+      "stats": {
+        "homeRuns": 4,
+        "battingAvg": 0.192,
+        "slugging": 0.37,
+        "iso": 0.178
+      },
+      "opposing_pitcher": "Blake Snell",
+      "pitcher_era": 2.41,
+      "pitcher_hr_allowed": 3,
+      "factors": {
+        "power_comp": 38.6,
+        "recent_comp": 0.0,
+        "pitcher_comp": 27.3,
+        "park_weather_pct": -6.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 1.2,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Jared Triolo",
+      "team": "PIT",
+      "position": "Shortstop",
+      "hr_score": 34.9,
+      "homer_likelihood_score": 34.9,
+      "stats": {
+        "homeRuns": 5,
+        "battingAvg": 0.222,
+        "slugging": 0.351,
+        "iso": 0.129
+      },
+      "opposing_pitcher": "Blake Snell",
+      "pitcher_era": 2.41,
+      "pitcher_hr_allowed": 3,
+      "factors": {
+        "power_comp": 37.0,
+        "recent_comp": 14.3,
+        "pitcher_comp": 27.3,
+        "park_weather_pct": -6.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.3,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Chandler Simpson",
+      "team": "TB",
+      "position": "Outfielder",
+      "hr_score": 34.9,
+      "homer_likelihood_score": 34.9,
+      "stats": {
+        "homeRuns": 0,
+        "battingAvg": 0.294,
+        "slugging": 0.344,
+        "iso": 0.05
+      },
+      "opposing_pitcher": "Logan Allen",
+      "pitcher_era": 4.42,
+      "pitcher_hr_allowed": 18,
+      "factors": {
+        "power_comp": 20.7,
+        "recent_comp": 0.0,
+        "pitcher_comp": 66.5,
+        "park_weather_pct": -4.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.1,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Joey Ortiz",
+      "team": "MIL",
+      "position": "Shortstop",
+      "hr_score": 34.8,
+      "homer_likelihood_score": 34.8,
+      "stats": {
+        "homeRuns": 7,
+        "battingAvg": 0.23,
+        "slugging": 0.324,
+        "iso": 0.094
+      },
+      "opposing_pitcher": "Ranger Su\u00e1rez",
+      "pitcher_era": 3.02,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 32.0,
+        "recent_comp": 0.0,
+        "pitcher_comp": 41.6,
+        "park_weather_pct": 5.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Miguel Rojas",
+      "team": "LAD",
+      "position": "Second Base",
+      "hr_score": 34.6,
+      "homer_likelihood_score": 34.6,
+      "stats": {
+        "homeRuns": 6,
+        "battingAvg": 0.257,
+        "slugging": 0.389,
+        "iso": 0.132
+      },
+      "opposing_pitcher": "Paul Skenes",
+      "pitcher_era": 2.05,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 38.3,
+        "recent_comp": 0.0,
+        "pitcher_comp": 29.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Alex Call",
+      "team": "LAD",
+      "position": "Outfielder",
+      "hr_score": 34.2,
+      "homer_likelihood_score": 34.2,
+      "stats": {
+        "homeRuns": 4,
+        "battingAvg": 0.269,
+        "slugging": 0.384,
+        "iso": 0.115
+      },
+      "opposing_pitcher": "Paul Skenes",
+      "pitcher_era": 2.05,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 32.6,
+        "recent_comp": 0.0,
+        "pitcher_comp": 29.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 8.0
+      }
+    },
+    {
+      "name": "Niko Kavadas",
+      "team": "LAA",
+      "position": "Outfield",
+      "hr_score": 33.7,
+      "homer_likelihood_score": 33.7,
+      "stats": {
+        "homeRuns": 0,
+        "battingAvg": 0.1,
+        "slugging": 0.1,
+        "iso": 0.0
+      },
+      "opposing_pitcher": "Noah Cameron",
+      "pitcher_era": 2.92,
+      "pitcher_hr_allowed": 13,
+      "factors": {
+        "power_comp": 25.2,
+        "recent_comp": 0.0,
+        "pitcher_comp": 43.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.4,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 6.0
+      }
+    },
+    {
+      "name": "Jacob Melton",
+      "team": "HOU",
+      "position": "Outfielder",
+      "hr_score": 33.7,
+      "homer_likelihood_score": 33.7,
+      "stats": {
+        "homeRuns": 0,
+        "battingAvg": 0.149,
+        "slugging": 0.179,
+        "iso": 0.03
+      },
+      "opposing_pitcher": "Carlos Rod\u00f3n",
+      "pitcher_era": 3.18,
+      "pitcher_hr_allowed": 19,
+      "factors": {
+        "power_comp": 23.3,
+        "recent_comp": 0.0,
+        "pitcher_comp": 52.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 3.0
+      }
+    },
+    {
+      "name": "Joey Bart",
+      "team": "PIT",
+      "position": "Catcher",
+      "hr_score": 33.2,
+      "homer_likelihood_score": 33.2,
+      "stats": {
+        "homeRuns": 2,
+        "battingAvg": 0.249,
+        "slugging": 0.324,
+        "iso": 0.075
+      },
+      "opposing_pitcher": "Blake Snell",
+      "pitcher_era": 2.41,
+      "pitcher_hr_allowed": 3,
+      "factors": {
+        "power_comp": 35.7,
+        "recent_comp": 0.0,
+        "pitcher_comp": 27.3,
+        "park_weather_pct": -6.0,
+        "h2h_bonus": 0.97,
+        "pitchtype_bonus": 0.3,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": -1.0
+      }
+    },
+    {
+      "name": "Rafael March\u00e1n",
+      "team": "PHI",
+      "position": "Catcher",
+      "hr_score": 33.0,
+      "homer_likelihood_score": 33.0,
+      "stats": {
+        "homeRuns": 1,
+        "battingAvg": 0.186,
+        "slugging": 0.256,
+        "iso": 0.07
+      },
+      "opposing_pitcher": "Freddy Peralta",
+      "pitcher_era": 2.58,
+      "pitcher_hr_allowed": 16,
+      "factors": {
+        "power_comp": 25.4,
+        "recent_comp": 0.0,
+        "pitcher_comp": 41.9,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 6.0
+      }
+    },
+    {
+      "name": "Jos\u00e9 Caballero",
+      "team": "NYY",
+      "position": "Shortstop",
+      "hr_score": 32.3,
+      "homer_likelihood_score": 32.3,
+      "stats": {
+        "homeRuns": 4,
+        "battingAvg": 0.232,
+        "slugging": 0.335,
+        "iso": 0.103
+      },
+      "opposing_pitcher": "Cristian Javier",
+      "pitcher_era": 3.38,
+      "pitcher_hr_allowed": 1,
+      "factors": {
+        "power_comp": 30.1,
+        "recent_comp": 0.0,
+        "pitcher_comp": 37.4,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Nick Gonzales",
+      "team": "PIT",
+      "position": "Second Base",
+      "hr_score": 31.6,
+      "homer_likelihood_score": 31.6,
+      "stats": {
+        "homeRuns": 5,
+        "battingAvg": 0.279,
+        "slugging": 0.384,
+        "iso": 0.105
+      },
+      "opposing_pitcher": "Blake Snell",
+      "pitcher_era": 2.41,
+      "pitcher_hr_allowed": 3,
+      "factors": {
+        "power_comp": 33.9,
+        "recent_comp": 0.0,
+        "pitcher_comp": 27.3,
+        "park_weather_pct": -6.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.3,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Anthony Seigler",
+      "team": "MIL",
+      "position": "Second Base",
+      "hr_score": 31.1,
+      "homer_likelihood_score": 31.1,
+      "stats": {
+        "homeRuns": 0,
+        "battingAvg": 0.194,
+        "slugging": 0.21,
+        "iso": 0.016
+      },
+      "opposing_pitcher": "Ranger Su\u00e1rez",
+      "pitcher_era": 3.02,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 21.9,
+        "recent_comp": 0.0,
+        "pitcher_comp": 41.6,
+        "park_weather_pct": 5.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.3,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 4.0
+      }
+    },
+    {
+      "name": "Scott Kingery",
+      "team": "LAA",
+      "position": "Second Base",
+      "hr_score": 30.7,
+      "homer_likelihood_score": 30.7,
+      "stats": {
+        "homeRuns": 0,
+        "battingAvg": 0.16,
+        "slugging": 0.2,
+        "iso": 0.04
+      },
+      "opposing_pitcher": "Noah Cameron",
+      "pitcher_era": 2.92,
+      "pitcher_hr_allowed": 13,
+      "factors": {
+        "power_comp": 23.7,
+        "recent_comp": 0.0,
+        "pitcher_comp": 43.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.2,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Hyeseong Kim",
+      "team": "LAD",
+      "position": "Second Base",
+      "hr_score": 30.1,
+      "homer_likelihood_score": 30.1,
+      "stats": {
+        "homeRuns": 2,
+        "battingAvg": 0.302,
+        "slugging": 0.403,
+        "iso": 0.101
+      },
+      "opposing_pitcher": "Paul Skenes",
+      "pitcher_era": 2.05,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 29.1,
+        "recent_comp": 0.0,
+        "pitcher_comp": 29.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 1.0
+      }
+    },
+    {
+      "name": "C\u00e9sar Salazar",
+      "team": "HOU",
+      "position": "Catcher",
+      "hr_score": 30.0,
+      "homer_likelihood_score": 30.0,
+      "stats": {
+        "homeRuns": 0,
+        "battingAvg": 0.231,
+        "slugging": 0.231,
+        "iso": 0.0
+      },
+      "opposing_pitcher": "Carlos Rod\u00f3n",
+      "pitcher_era": 3.18,
+      "pitcher_hr_allowed": 19,
+      "factors": {
+        "power_comp": 14.3,
+        "recent_comp": 0.0,
+        "pitcher_comp": 52.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.9,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 4.0
+      }
+    },
+    {
+      "name": "Garrett Stubbs",
+      "team": "PHI",
+      "position": "Catcher",
+      "hr_score": 28.4,
+      "homer_likelihood_score": 28.4,
+      "stats": {
+        "homeRuns": 0,
+        "battingAvg": 0.0,
+        "slugging": 0.0,
+        "iso": 0.0
+      },
+      "opposing_pitcher": "Freddy Peralta",
+      "pitcher_era": 2.58,
+      "pitcher_hr_allowed": 16,
+      "factors": {
+        "power_comp": 15.7,
+        "recent_comp": 0.0,
+        "pitcher_comp": 41.9,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.2,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 8.0
+      }
+    },
+    {
+      "name": "Nick Yorke",
+      "team": "PIT",
+      "position": "Second Base",
+      "hr_score": 28.4,
+      "homer_likelihood_score": 28.4,
+      "stats": {
+        "homeRuns": 0,
+        "battingAvg": 0.5,
+        "slugging": 0.5,
+        "iso": 0.0
+      },
+      "opposing_pitcher": "Blake Snell",
+      "pitcher_era": 2.41,
+      "pitcher_hr_allowed": 3,
+      "factors": {
+        "power_comp": 27.7,
+        "recent_comp": 0.0,
+        "pitcher_comp": 27.3,
+        "park_weather_pct": -6.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 1.0
+      }
+    },
+    {
+      "name": "Bryce Teodosio",
+      "team": "LAA",
+      "position": "Outfielder",
+      "hr_score": 27.9,
+      "homer_likelihood_score": 27.9,
+      "stats": {
+        "homeRuns": 0,
+        "battingAvg": 0.197,
+        "slugging": 0.263,
+        "iso": 0.066
+      },
+      "opposing_pitcher": "Noah Cameron",
+      "pitcher_era": 2.92,
+      "pitcher_hr_allowed": 13,
+      "factors": {
+        "power_comp": 18.6,
+        "recent_comp": 0.0,
+        "pitcher_comp": 43.2,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Ryan Kreidler",
+      "team": "PIT",
+      "position": "Outfielder",
+      "hr_score": 27.0,
+      "homer_likelihood_score": 27.0,
+      "stats": {
+        "homeRuns": 0,
+        "battingAvg": 0.105,
+        "slugging": 0.105,
+        "iso": 0.0
+      },
+      "opposing_pitcher": "Blake Snell",
+      "pitcher_era": 2.41,
+      "pitcher_hr_allowed": 3,
+      "factors": {
+        "power_comp": 23.2,
+        "recent_comp": 0.0,
+        "pitcher_comp": 27.3,
+        "park_weather_pct": -6.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.2,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 4.0
+      }
+    },
+    {
+      "name": "Cam Devanney",
+      "team": "PIT",
+      "position": "Shortstop",
+      "hr_score": 25.5,
+      "homer_likelihood_score": 25.5,
+      "stats": {
+        "homeRuns": 0,
+        "battingAvg": 0.1,
+        "slugging": 0.1,
+        "iso": 0.0
+      },
+      "opposing_pitcher": "Blake Snell",
+      "pitcher_era": 2.41,
+      "pitcher_hr_allowed": 3,
+      "factors": {
+        "power_comp": 22.8,
+        "recent_comp": 0.0,
+        "pitcher_comp": 27.3,
+        "park_weather_pct": -6.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 0.0
+      }
+    },
+    {
+      "name": "Justin Dean",
+      "team": "LAD",
+      "position": "Outfielder",
+      "hr_score": 15.0,
+      "homer_likelihood_score": 15.0,
+      "stats": {
+        "homeRuns": 0,
+        "battingAvg": 0.0,
+        "slugging": 0.0,
+        "iso": 0.0
+      },
+      "opposing_pitcher": "Paul Skenes",
+      "pitcher_era": 2.05,
+      "pitcher_hr_allowed": 10,
+      "factors": {
+        "power_comp": 0.0,
+        "recent_comp": 0.0,
+        "pitcher_comp": 29.6,
+        "park_weather_pct": 0.0,
+        "h2h_bonus": 0.0,
+        "pitchtype_bonus": 0.0,
+        "market_scaler_pct": 0.0,
+        "pa_multiplier_pct": 2.0
+      }
+    }
+  ]
+}

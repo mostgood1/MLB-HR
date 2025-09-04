@@ -1,0 +1,79 @@
+{
+  "date": "2025-09-04",
+  "bullpens": {
+    "MIL": {
+      "hr9": 1.0684491978609625
+    },
+    "PHI": {
+      "hr9": 1.0872972972972974
+    },
+    "PIT": {
+      "hr9": 0.9767818574514038
+    },
+    "LAD": {
+      "hr9": 1.1755002704164412
+    },
+    "TB": {
+      "hr9": 1.3302652950730915
+    },
+    "CLE": {
+      "hr9": 1.1158238172920065
+    },
+    "KC": {
+      "hr9": 1.0339805825242718
+    },
+    "LAA": {
+      "hr9": 1.3744922826969943
+    },
+    "MIN": {
+      "hr9": 1.2426470588235294
+    },
+    "CWS": {
+      "hr9": 1.1384657236126225
+    },
+    "HOU": {
+      "hr9": 1.233502538071066
+    },
+    "NYY": {
+      "hr9": 1.09341252699784
+    }
+  },
+  "starters": {
+    "Freddy Peralta": {
+      "expected_ip": 5.5
+    },
+    "Ranger Su\u00e1rez": {
+      "expected_ip": 5.5
+    },
+    "Paul Skenes": {
+      "expected_ip": 5.5
+    },
+    "Blake Snell": {
+      "expected_ip": 5.5
+    },
+    "Ryan Pepiot": {
+      "expected_ip": 5.5
+    },
+    "Logan Allen": {
+      "expected_ip": 5.5
+    },
+    "Noah Cameron": {
+      "expected_ip": 5.5
+    },
+    "Kyle Hendricks": {
+      "expected_ip": 5.5
+    },
+    "Taj Bradley": {
+      "expected_ip": 5.5
+    },
+    "Fraser Ellard": {
+      "expected_ip": 5.5
+    },
+    "Cristian Javier": {
+      "expected_ip": 5.5
+    },
+    "Carlos Rod\u00f3n": {
+      "expected_ip": 5.5
+    }
+  }
+}

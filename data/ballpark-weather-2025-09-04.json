@@ -1,0 +1,79 @@
+{
+  "date": "2025-09-04",
+  "ballpark_factors": {
+    "MIN_park": {
+      "hr_factor": 0.99,
+      "venue_name": "Target Field"
+    },
+    "MIL_park": {
+      "hr_factor": 1.05,
+      "venue_name": "American Family Field"
+    },
+    "KC_park": {
+      "hr_factor": 0.95,
+      "venue_name": "Kauffman Stadium"
+    },
+    "PIT_park": {
+      "hr_factor": 0.94,
+      "venue_name": "PNC Park"
+    },
+    "HOU_park": {
+      "hr_factor": 1.0,
+      "venue_name": "Minute Maid Park"
+    },
+    "TB_park": {
+      "hr_factor": 0.96,
+      "venue_name": "Tropicana Field"
+    }
+  },
+  "weather_conditions": {
+    "MIN_park": {
+      "temperature": 53.13,
+      "wind_speed": 3.31,
+      "wind_direction": "SE",
+      "game_period": "night",
+      "game_time_utc": "2025-09-04T23:40:00Z",
+      "game_time_local": "2025-09-04 18:40"
+    },
+    "MIL_park": {
+      "temperature": 65.23,
+      "wind_speed": 13.09,
+      "wind_direction": "W",
+      "game_period": "day",
+      "game_time_utc": "2025-09-04T20:10:00Z",
+      "game_time_local": "2025-09-04 15:10"
+    },
+    "KC_park": {
+      "temperature": 77.41,
+      "wind_speed": 5.21,
+      "wind_direction": "SW",
+      "game_period": "night",
+      "game_time_utc": "2025-09-04T23:40:00Z",
+      "game_time_local": "2025-09-04 18:40"
+    },
+    "PIT_park": {
+      "temperature": 63.48,
+      "wind_speed": 3.29,
+      "wind_direction": "W",
+      "game_period": "night",
+      "game_time_utc": "2025-09-04T22:40:00Z",
+      "game_time_local": "2025-09-04 18:40"
+    },
+    "HOU_park": {
+      "temperature": 90.25,
+      "wind_speed": 11.32,
+      "wind_direction": "SE",
+      "game_period": "night",
+      "game_time_utc": "2025-09-04T23:40:00Z",
+      "game_time_local": "2025-09-04 18:40"
+    },
+    "TB_park": {
+      "temperature": 82.13,
+      "wind_speed": 4.5,
+      "wind_direction": "E",
+      "game_period": "night",
+      "game_time_utc": "2025-09-04T23:35:00Z",
+      "game_time_local": "2025-09-04 19:35"
+    }
+  }
+}
