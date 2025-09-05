@@ -316,7 +316,16 @@ def _park_weather_factor(ballpark: dict, weather: dict) -> float:
             bonus += 0.02
         elif temp <= 55:
             bonus -= 0.02
-    return max(0.9, min(1.1, hr_factor * (1.0 + bonus)))
+    # Allow env-tunable clamp range
+    try:
+        clamp_min = float(os.getenv('PARK_CLAMP_MIN', '0.9'))
+    except Exception:
+        clamp_min = 0.9
+    try:
+        clamp_max = float(os.getenv('PARK_CLAMP_MAX', '1.1'))
+    except Exception:
+        clamp_max = 1.1
+    return max(clamp_min, min(clamp_max, hr_factor * (1.0 + bonus)))
 
 
 def _compute_scores(date_str: Optional[str] = None) -> Dict:
@@ -505,6 +514,16 @@ def _compute_scores(date_str: Optional[str] = None) -> Dict:
             teams_today.add(v['opp_team'])
     implied_vals_today = [implied_by_team.get(t) for t in teams_today if implied_by_team.get(t) is not None]
     market_scaler_by_team = {}
+    # Market scaling range (tightened by default), env-tunable
+    try:
+        market_lo = float(os.getenv('MARKET_SCALE_MIN', '0.99'))
+    except Exception:
+        market_lo = 0.99
+    try:
+        market_hi = float(os.getenv('MARKET_SCALE_MAX', '1.03'))
+    except Exception:
+        market_hi = 1.03
+    market_lo, market_hi = max(0.9, min(market_lo, market_hi)), max(market_lo, market_hi)
     # If implied totals provide no real differentiation (all equal), neutralize scaling
     if implied_vals_today and not (len(set(round(v, 3) for v in implied_vals_today)) == 1):
         lo = min(implied_vals_today)
@@ -516,7 +535,7 @@ def _compute_scores(date_str: Optional[str] = None) -> Dict:
                 market_scaler_by_team[t] = 1.0
             else:
                 norm01 = (v - lo) / span
-                market_scaler_by_team[t] = 0.98 + 0.06 * max(0.0, min(1.0, norm01))
+                market_scaler_by_team[t] = market_lo + (market_hi - market_lo) * max(0.0, min(1.0, norm01))
     else:
         for t in teams_today:
             market_scaler_by_team[t] = 1.0
@@ -658,6 +677,12 @@ def _compute_scores(date_str: Optional[str] = None) -> Dict:
             (park_factors.get(park_key) if park_key else {}),
             (weather_conditions.get(park_key) if park_key else {})
         )
+        # Apply multiplicatively with exponent k (env-tunable)
+        try:
+            park_k = float(os.getenv('PARK_EXPONENT', '1.1'))
+        except Exception:
+            park_k = 1.1
+        park_mult = max(0.5, min(1.5, (park_factor ** park_k)))
 
         # H2H bonus: small bounded bump if batter has strong SLG/HR history vs the pitcher
         h2h_bonus = 0.0
@@ -719,11 +744,14 @@ def _compute_scores(date_str: Optional[str] = None) -> Dict:
             0.52 * power_comp +
             0.12 * recent_comp +
             0.26 * pitcher_comp +
-            0.07 * (park_factor * 100.0) +
+            # Remove additive park term; use multiplicative below
+            0.00 * (park_factor * 100.0) +
             h2h_bonus +
             pitchtype_bonus
         )
         market_factor = market_scaler_by_team.get(team, 1.0)
+        # First apply park multiplier, then market
+        hr_score = hr_score * park_mult
         hr_score = hr_score * market_factor
 
         pa_multiplier = 1.0
@@ -741,7 +769,7 @@ def _compute_scores(date_str: Optional[str] = None) -> Dict:
             'power_comp': round(power_comp, 1),
             'recent_comp': round(recent_comp, 1),
             'pitcher_comp': round(pitcher_comp, 1),
-            'park_weather_pct': round((park_factor - 1.0) * 100.0, 1),
+            'park_weather_pct': round((park_mult - 1.0) * 100.0, 1),
             'h2h_bonus': round(h2h_bonus, 2),
             'pitchtype_bonus': round(pitchtype_bonus, 1),
             'market_scaler_pct': round((market_factor - 1.0) * 100.0, 1),
