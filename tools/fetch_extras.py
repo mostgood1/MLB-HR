@@ -501,6 +501,8 @@ def fetch_implied_totals(date: str):
         norm_to_orig.setdefault(nt, t)
     out_map = {t: None for t in norm_teams}
     api_key = os.getenv('ODDS_API_KEY') or os.getenv('THE_ODDS_API_KEY') or None
+    if not api_key:
+        print("[implied] No ODDS_API_KEY found; will try ESPN fallback then use 4.5 defaults if needed")
     def american_to_prob(odds):
         try:
             o = float(odds)
@@ -545,6 +547,7 @@ def fetch_implied_totals(date: str):
                 out_map[aa] = even
 
     # 1) Try The Odds API if key provided
+    used_odds_api = False
     if api_key:
         try:
             # Fetch totals and team totals (no date filter in free tier; returns upcoming)
@@ -598,6 +601,7 @@ def fetch_implied_totals(date: str):
 
             # If we have games data, parse it
             if isinstance(games, list):
+                used_odds_api = True
                 # Team name normalization from odds to MLB abbr
                 NAME_TO_ABBR = {
                     'Arizona Diamondbacks': 'ARI', 'Atlanta Braves': 'ATL', 'Baltimore Orioles': 'BAL', 'Boston Red Sox': 'BOS',
@@ -754,6 +758,22 @@ def fetch_implied_totals(date: str):
 
     # As a final fallback, set a league-average implied runs (4.5) so it's not blank
     filled_norm = {k: (out_map.get(k) if out_map.get(k) is not None else 4.5) for k in out_map.keys()}
+    # Emit a small debug summary so it's obvious what source populated values
+    try:
+        populated = {k: v for k, v in out_map.items() if v is not None}
+        all_uniform = all(abs(v - 4.5) < 1e-9 for v in filled_norm.values())
+        dbg = {
+            'date': date,
+            'used_odds_api': used_odds_api,
+            'teams_total': len(filled_norm),
+            'populated_from_sources': len(populated),
+            'uniform_fallback_4_5': bool(all_uniform),
+        }
+        save_json(dbg, os.path.join(DATA_DIR, f'implied-totals-debug-{date}.json'))
+        if all_uniform:
+            print(f"[implied] Warning: uniform 4.5 fallback used for {len(filled_norm)} teams (no odds available)")
+    except Exception:
+        pass
     # Map back to original schedule keys to be consistent with other files
     final_out = {norm_to_orig.get(k, k): v for k, v in filled_norm.items()}
     save_json({'date': date, 'teams': final_out}, os.path.join(DATA_DIR, f'implied-totals-{date}.json'))

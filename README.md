@@ -37,6 +37,16 @@ Environment variables:
 	# or for current session only
 	$env:ODDS_API_KEY = "<your-key>"
 
+Optional .env:
+
+- daily_update.py will read a local .env file (KEY=VALUE) in this folder if present. Example:
+
+	ODDS_API_KEY=your-key-here
+
+Debugging implied totals:
+
+- The extras fetch will write implied-totals-YYYY-MM-DD.json and a small implied-totals-debug-YYYY-MM-DD.json summary that notes whether The Odds API was used or if a 4.5 fallback occurred.
+
 Task Scheduler (optional):
 
 - Program/script: powershell.exe
