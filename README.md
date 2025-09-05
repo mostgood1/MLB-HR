@@ -4,6 +4,7 @@ Contents:
 - hr_scores_app.py: Flask server for viewing HR scores
 - generate_hr_scores_core.py: Deterministic scorer (self-contained copy)
 - daily_update.py: One-shot runner to fetch minimal data and generate scores
+- backtest.py: Offline evaluator over historical dates using hr-hitters ground truth
 - tools/fetch_basics.py: Minimal MLB StatsAPI fetchers (schedule, players, pitchers, recent)
 - templates/hr_scores.html: HTML template for UI
 - data/: JSON inputs/outputs used by this app
@@ -46,6 +47,14 @@ Optional .env:
 Debugging implied totals:
 
 - The extras fetch will write implied-totals-YYYY-MM-DD.json and a small implied-totals-debug-YYYY-MM-DD.json summary that notes whether The Odds API was used or if a 4.5 fallback occurred.
+
+Backtesting (new):
+
+- Evaluate the model over past slates (requires data/hr-hitters-YYYY-MM-DD.json and matching player/schedule files):
+
+	python backtest.py --dates 2025-09-02,2025-09-03,2025-09-04
+
+- The script sweeps a few env-tunable parameters (e.g., PARK_EXPONENT, MARKET_SCALE_MIN/MAX) and reports AUC, Brier, and Top-K metrics.
 
 Task Scheduler (optional):
 
