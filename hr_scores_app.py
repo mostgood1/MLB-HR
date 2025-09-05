@@ -322,6 +322,49 @@ def index():
     selected_date = date or data.get('date') or tz_today
     is_today = (selected_date == today_str)
 
+    # Build a full-slate sorted list for top-K metrics BEFORE any filtering
+    players_all_sorted = sorted(list(data.get('players', [])), key=lambda p: p.get('hr_score', 0), reverse=True)
+    # Player id map and ground truth homers for the date
+    players_path = _pick_data_file('player-stats-', effective_date)
+    id_map = _player_id_map(players_path)
+    hr_hitters = {}
+    try:
+        if effective_date:
+            exact_hr_path = os.path.join(dd, f"hr-hitters-{effective_date}.json")
+            if os.path.exists(exact_hr_path):
+                hr_json = _load_json(exact_hr_path)
+                hr_hitters = hr_json.get('hitters') or {}
+    except Exception:
+        hr_hitters = {}
+
+    # Compute Top-K hit rate summary using id and name fallbacks
+    def _topk_summary(players_sorted: list[dict], ks=(10,20,30)):
+        name_hit = set()
+        try:
+            for rec in (hr_hitters or {}).values():
+                nm = (rec.get('name') or '').strip().lower()
+                if nm:
+                    name_hit.add(nm)
+        except Exception:
+            pass
+        id_hit = set(str(k) for k in (hr_hitters or {}).keys())
+        out = []
+        for k in ks:
+            topk = players_sorted[:k]
+            hits = 0
+            for p in topk:
+                pid = id_map.get((p.get('name'), _norm_team(p.get('team'))))
+                if pid is not None and str(pid) in id_hit:
+                    hits += 1
+                else:
+                    nm = (p.get('name') or '').strip().lower()
+                    if nm in name_hit:
+                        hits += 1
+            rate = (hits / k) if k > 0 else 0.0
+            out.append({'k': k, 'hits': hits, 'rate': rate})
+        return out
+    topk_summary = _topk_summary(players_all_sorted) if hr_hitters else []
+
     # Optional game filter: restrict players to the selected game's teams
     if game and games:
         try:
@@ -341,20 +384,8 @@ def index():
     team_codes = sorted(list({p.get('team') for p in data.get('players', []) if p.get('team')}))
 
     # Attach image URLs and team branding for the shown players
-    players_path = _pick_data_file('player-stats-', effective_date)
-    id_map = _player_id_map(players_path)
     # schedule is already loaded above
-    # Load HR hitters strictly for the selected date (no fallback), keyed by MLBAM id
-    hr_hitters = {}
-    try:
-        if effective_date:
-            dd = data_dir()
-            exact_hr_path = os.path.join(dd, f"hr-hitters-{effective_date}.json")
-            if os.path.exists(exact_hr_path):
-                hr_json = _load_json(exact_hr_path)
-                hr_hitters = hr_json.get('hitters') or {}
-    except Exception:
-        hr_hitters = {}
+    # HR hitters already loaded above for summary
     for p in filtered.get('players', []):
         pid = id_map.get((p.get('name'), p.get('team')))
         if pid:
@@ -396,7 +427,8 @@ def index():
                            team_codes=team_codes,
                games=games,
                is_today=is_today,
-               players=filtered.get('players', []))
+               players=filtered.get('players', []),
+               topk_summary=topk_summary)
 
 
 @app.route('/api/player-detail')
