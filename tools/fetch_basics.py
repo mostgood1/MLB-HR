@@ -380,10 +380,44 @@ def fetch_recent_simple(date: str) -> dict:
     """Recent HR form: last 14 days HR count via Statcast (by batter), with safe fallbacks."""
     end_d = datetime.strptime(date, '%Y-%m-%d').date()
     start_d = end_d - timedelta(days=14)
+    
+    # Fallback path using MLB StatsAPI aggregated by date range for all hitters
+    def _fallback_recent_from_statsapi(start_date: str, end_date: str) -> dict:
+        try:
+            url = (
+                "https://statsapi.mlb.com/api/v1/stats"
+                f"?stats=byDateRange&group=hitting&gameType=R&playerPool=ALL&startDate={start_date}&endDate={end_date}"
+            )
+            data = http_json(url)
+            splits = []
+            for blk in (data.get('stats') or []):
+                splits.extend(blk.get('splits') or [])
+            players: List[dict] = []
+            for sp in splits:
+                stat = sp.get('stat') or {}
+                hr = int(stat.get('homeRuns') or 0)
+                if hr <= 0:
+                    continue
+                person = sp.get('player') or sp.get('person') or {}
+                name = person.get('fullName') or person.get('firstLastName') or person.get('lastFirstName')
+                pid = person.get('id')
+                if not pid:
+                    pid = sp.get('playerId') or sp.get('personId')
+                try:
+                    pid = int(pid) if pid is not None else None
+                except Exception:
+                    pid = None
+                if name:
+                    players.append({'name': name, 'mlbam_id': pid, 'last_14_day_hr': int(hr)})
+            return {'date': date, 'players': players}
+        except Exception:
+            return {'date': date, 'players': []}
+
     try:
         from pybaseball import statcast
     except Exception:
-        return {'date': date, 'players': []}
+        # If pybaseball is unavailable, try StatsAPI fallback
+        return _fallback_recent_from_statsapi(start_d.strftime('%Y-%m-%d'), end_d.strftime('%Y-%m-%d'))
 
     def chunks(it: Iterable[int], size: int = 50):
         buf = []
@@ -414,13 +448,14 @@ def fetch_recent_simple(date: str) -> dict:
     try:
         df = statcast(start_dt=start_d.strftime('%Y-%m-%d'), end_dt=end_d.strftime('%Y-%m-%d'))
         if df is None or df.empty:
-            return {'date': date, 'players': []}
+            # Fallback to StatsAPI if Statcast returned nothing
+            return _fallback_recent_from_statsapi(start_d.strftime('%Y-%m-%d'), end_d.strftime('%Y-%m-%d'))
         # Only count batter home runs
         if 'events' not in df.columns or 'batter' not in df.columns:
-            return {'date': date, 'players': []}
+            return _fallback_recent_from_statsapi(start_d.strftime('%Y-%m-%d'), end_d.strftime('%Y-%m-%d'))
         hr_df = df[df['events'] == 'home_run']
         if hr_df.empty:
-            return {'date': date, 'players': []}
+            return _fallback_recent_from_statsapi(start_d.strftime('%Y-%m-%d'), end_d.strftime('%Y-%m-%d'))
         counts = hr_df.groupby('batter').size().sort_values(ascending=False)
         ids = [int(i) for i in counts.index.tolist() if pd.notna(i)]
         id_to_name = lookup_names(ids) if ids else {}
@@ -433,7 +468,8 @@ def fetch_recent_simple(date: str) -> dict:
             players.append({'name': id_to_name.get(pid_int), 'mlbam_id': pid_int, 'last_14_day_hr': int(cnt)})
         return {'date': date, 'players': players}
     except Exception:
-        return {'date': date, 'players': []}
+        # Final fallback: StatsAPI aggregated query
+        return _fallback_recent_from_statsapi(start_d.strftime('%Y-%m-%d'), end_d.strftime('%Y-%m-%d'))
 
 def fetch_ballpark_weather(date: str) -> dict:
     """
