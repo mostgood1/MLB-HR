@@ -47,6 +47,7 @@ def main():
     steps = [
         [sys.executable, os.path.join(APP_DIR, 'tools', 'fetch_basics.py'), '--date', date],
         [sys.executable, os.path.join(APP_DIR, 'tools', 'fetch_extras.py'), '--date', date],
+    [sys.executable, os.path.join(APP_DIR, 'tools', 'fetch_player_hr_odds.py'), '--date', date],
         # Use the robust H2H fetcher that writes both JS and dated JSON
         [sys.executable, os.path.join(APP_DIR, 'tools', 'fetch_hitter_vs_pitcher.py'), '--date', date],
         [sys.executable, os.path.join(APP_DIR, 'tools', 'fetch_hr_hitters.py'), '--date', yday],
