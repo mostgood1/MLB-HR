@@ -47,6 +47,7 @@
   const game = gameEl ? gameEl.value : '';
   let limit = document.getElementById('limit').value || '50';
   const homeredOnly = document.getElementById('homeredOnly');
+  const valueOnly = document.getElementById('valueOnly');
   if (date) params.set('date', date); else params.delete('date');
       if (team) params.set('team', team); else params.delete('team');
   if (game) params.set('game', game); else params.delete('game');
@@ -61,6 +62,7 @@
       }
       params.set('limit', limit);
   if (homeredOnly && homeredOnly.checked) params.set('homered','1'); else params.delete('homered');
+  if (valueOnly && valueOnly.checked) params.set('value','1'); else params.delete('value');
   // Be explicit about leading '?'
   window.location.search = '?' + params.toString();
     }
@@ -98,6 +100,39 @@
           <div class="col-6 col-md-4"><span class="badge bg-secondary">PA%</span> ${f.pa_multiplier_pct ?? '-'}% </div>
         </div>`;
       const w = d.weather || {}; const p = d.park || {}; const h = d.h2h || {};
+      // Odds
+      const o = d.odds || {};
+      const best = o.best;
+      const offers = Array.isArray(o.offers) ? o.offers : [];
+      if (best && (best.best_prob || best.best_american)) {
+        const probPct = best.best_prob ? (best.best_prob * 100).toFixed(1) + '%' : '-';
+    let amer = (best.best_american!==undefined && best.best_american!==null) ? best.best_american : '-';
+    if (typeof amer === 'number' && amer >= 0) amer = `+${amer}`;
+    let html = `<div><span class="badge bg-dark">Anytime HR Odds</span> ${amer} (${probPct})` + (best.source ? ` — <span class="text-muted small">${best.source}</span>` : '') + `</div>`;
+        if (offers.length > 0) {
+          html += '<div class="small mt-1">' + offers.slice(0,6).map(off => {
+            const pp = (off.prob!==undefined && off.prob!==null) ? (off.prob*100).toFixed(1)+'%' : '-';
+            const a = (off.american!==undefined && off.american!==null) ? off.american : '-';
+            const b = off.book || 'Book';
+            return `<span class=\"badge text-bg-light me-1 mb-1\">${b}: ${pp} (${a})</span>`;
+          }).join('') + '</div>';
+        }
+        document.getElementById('playerModalOdds').innerHTML = html;
+        try {
+          const val = (d.odds && d.odds.value) || {};
+          const container = document.getElementById('playerModalOdds');
+          if (container && (val.value_pp !== undefined || val.fair_american !== undefined)) {
+            const fair = (typeof val.fair_american === 'number') ? (val.fair_american >= 0 ? `+${val.fair_american}` : `${val.fair_american}`) : '-';
+            const vpp = (typeof val.value_pp === 'number') ? `${val.value_pp.toFixed(1)}pp` : '-';
+            const div = document.createElement('div');
+            div.className = 'small text-muted';
+            div.innerHTML = `<span class=\"badge text-bg-success me-1\">Value</span> Model−Market: ${vpp} · Fair: ${fair}`;
+            container.appendChild(div);
+          }
+        } catch {}
+      } else {
+        document.getElementById('playerModalOdds').innerHTML = '';
+      }
       document.getElementById('playerModalWeather').textContent = `Weather: ${w.temperature ?? '-'}°F, wind ${w.wind_speed ?? '-'} mph ${w.wind_direction ?? ''}${w.roof ? `, roof ${w.roof}`:''}`;
       document.getElementById('playerModalPark').textContent = `Park: ${p.venue_name ?? '-'} | HR factor ${p.hr_factor ?? '-'}`;
   const pitcherLabel = d.opposing_pitcher ? `Vs ${d.opposing_pitcher}` : 'Vs Pitcher';
@@ -195,13 +230,19 @@
           Homered only
         </label>
       </div>
+      <div class="col-auto form-check ms-2">
+        <input class="form-check-input" type="checkbox" value="1" id="valueOnly">
+        <label class="form-check-label" for="valueOnly">
+          Value only
+        </label>
+      </div>
   <div class="col-auto"><span id="showingCount" class="text-muted small" data-total="{{ total }}">Showing {{ shown }} of {{ total }}</span></div>
     </div>
 
     <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3">
       {% for p in players %}
   <div class="col">
-  <div class="card player-card" data-team="{{ p.team }}" data-primary="{{ p.team_primary }}" data-text="{{ p.team_text }}" data-mlbam-id="{{ p.mlbam_id or '' }}" data-player-name="{{ p.name }}" role="button" tabindex="0" aria-label="Open details for {{ p.name }}"
+  <div class="card player-card" data-team="{{ p.team }}" data-primary="{{ p.team_primary }}" data-text="{{ p.team_text }}" data-mlbam-id="{{ p.mlbam_id or '' }}" data-player-name="{{ p.name }}" data-value="{% if p.value_pp is defined and p.value_pp >= 35 %}1{% else %}0{% endif %}" role="button" tabindex="0" aria-label="Open details for {{ p.name }}"
        onclick="openPlayerModal('{{ p.name|e }}','{{ p.team|e }}')"
        onkeypress="if(event.key==='Enter'||event.key===' '){ openPlayerModal('{{ p.name|e }}','{{ p.team|e }}'); }">
           <div class="team-bar"></div>
@@ -220,12 +261,20 @@
                   vs {% if p.opponent_team %}<span class="badge opp-badge" data-opp="{{ p.opponent_team }}">{{ p.opponent_team }}</span>{% else %}TBD{% endif %}
                 </div>
               </div>
-              <span class="badge score-pill">{{ p.hr_score }}</span>
-            </div>
-            <div class="mt-2 d-flex justify-content-start align-items-center">
-              <div class="text-muted small d-flex align-items-center gap-2">
-                <span>Season HRs: {{ p.stats.homeRuns }}</span>
+              <div class="d-flex flex-column align-items-end">
+                <span class="badge score-pill">{{ p.hr_score }}</span>
+                {% if p.value_pp is defined and p.value_pp >= 35 %}
+                  <span class="badge rounded-pill bg-success mt-1">value</span>
+                {% endif %}
               </div>
+            </div>
+      <div class="mt-2 text-muted small">
+              <div>Season HRs: {{ p.stats.homeRuns }}</div>
+              {% if p.odds_prob %}
+                <div class="mt-1">
+                  <span class="badge rounded-pill bg-dark" title="Anytime HR ({{ p.odds_source or 'Odds' }})">{% set amer = p.odds_american %}{% if amer is not none %}{% if amer >= 0 %}+{{ amer }}{% else %}{{ amer }}{% endif %}{% else %}-{% endif %} ({{ (p.odds_prob*100)|round(1) }}%)</span>
+                </div>
+              {% endif %}
             </div>
             {% if is_today and p.game_state %}
               {% set st = p.game_state %}
@@ -280,6 +329,7 @@
             </div>
             <div class="col-12 col-md-8">
               <div class="mb-2" id="playerModalFactors"></div>
+              <div class="mb-2" id="playerModalOdds"></div>
               <div class="text-muted" id="playerModalWeather"></div>
               <div class="text-muted" id="playerModalPark"></div>
               <div class="mt-2" id="playerModalH2H"></div>
@@ -295,6 +345,18 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script>
+    function updateShowingCount() {
+      const counter = document.getElementById('showingCount');
+      if (counter) {
+        const total = parseInt(counter.getAttribute('data-total')||'0');
+        const visible = Array.from(document.querySelectorAll('.player-card'))
+          .filter(card => {
+            const col = card.closest('.col') || card.parentElement;
+            return col && col.style.display !== 'none';
+          }).length;
+        counter.textContent = `Showing ${visible} of ${total}`;
+      }
+    }
     function applyHomeredFilter() {
       const cb = document.getElementById('homeredOnly');
       const enabled = !!(cb && cb.checked);
@@ -308,17 +370,26 @@
           if (col) col.style.display = '';
         }
       });
-      // Update showing counter
-      const counter = document.getElementById('showingCount');
-      if (counter) {
-        const total = parseInt(counter.getAttribute('data-total')||'0');
-        const visible = Array.from(document.querySelectorAll('.player-card'))
-          .filter(card => {
-            const col = card.closest('.col') || card.parentElement;
-            return col && col.style.display !== 'none';
-          }).length;
-        counter.textContent = `Showing ${visible} of ${total}`;
-      }
+      updateShowingCount();
+    }
+    function applyValueFilter() {
+      const cb = document.getElementById('valueOnly');
+      const enabled = !!(cb && cb.checked);
+      document.querySelectorAll('.player-card').forEach(card => {
+        const col = card.closest('.col') || card.parentElement;
+        const isValue = (card.getAttribute('data-value')||'0') === '1';
+        if (enabled && !isValue) {
+          if (col) col.style.display = 'none';
+        } else {
+          // Only show if not hidden by other filters
+          if (col && col.style.display === 'none') {
+            // leave hidden (homered filter may have applied)
+          } else if (col) {
+            col.style.display = '';
+          }
+        }
+      });
+      updateShowingCount();
     }
     // Client-side fallback: apply team colors even if server-side variables are missing
     const TEAM_COLORS = {
@@ -334,7 +405,9 @@
       try {
         const params = new URLSearchParams(window.location.search);
         const hom = params.get('homered');
+        const val = params.get('value');
         const cb = document.getElementById('homeredOnly');
+        const vb = document.getElementById('valueOnly');
         if (cb) {
           cb.checked = (hom === '1' || hom === 'true');
           cb.addEventListener('change', () => {
@@ -342,6 +415,14 @@
             applyFilters();
           });
           if (cb.checked) applyHomeredFilter();
+        }
+        if (vb) {
+          vb.checked = (val === '1' || val === 'true');
+          vb.addEventListener('change', () => {
+            // Reload to persist param; client-side filter will apply on load
+            applyFilters();
+          });
+          if (vb.checked) applyValueFilter();
         }
       } catch {}
       document.querySelectorAll('.player-card').forEach(card=>{

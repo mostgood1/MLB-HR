@@ -7,7 +7,7 @@ Prefers hr_app/data but will fall back to ../data for compatibility.
 """
 from __future__ import annotations
 
-import os, json
+import os, json, re, unicodedata
 from datetime import datetime
 from typing import Optional, Dict
 
@@ -75,6 +75,20 @@ def _load_json(path: str) -> Dict:
         return json.load(f)
 
 
+def _prob_to_american(p: float) -> Optional[int]:
+    try:
+        p = float(p)
+    except Exception:
+        return None
+    p = max(1e-6, min(1 - 1e-6, p))
+    if p >= 0.5:
+        # negative odds
+        val = -int(round(100 * p / (1 - p)))
+    else:
+        val = int(round(100 * (1 - p) / p))
+    return val
+
+
 SCHED_ABBR_MAP = {
     'WSN': 'WSH', 'CHW': 'CWS', 'TBR': 'TB', 'KCR': 'KC', 'SDP': 'SD',
     'SFG': 'SF', 'KCA': 'KC', 'TBA': 'TB', 'NYA': 'NYY',
@@ -113,6 +127,57 @@ def _pick_data_file(prefix: str, target_date: str | None) -> str | None:
         return os.path.join(dd, files[0]) if files else None
     except FileNotFoundError:
         return None
+
+
+def _norm_name_key(name: str | None) -> str:
+    s = unicodedata.normalize('NFKD', str(name or '')).encode('ascii', 'ignore').decode('ascii')
+    s = s.strip()
+    # Remove anything after a slash (e.g., "Shohei Ohtani/Los Angeles Dodgers")
+    if '/' in s:
+        s = s.split('/', 1)[0].strip()
+    # Remove trailing team in parentheses e.g., "Aaron Judge (NYY)"
+    s = re.sub(r"\s*\([A-Z]{2,4}\)$", '', s)
+    # Remove common punctuation and compress spaces
+    s = re.sub(r"[\.'’`-]", ' ', s)
+    # Remove common name suffixes (Jr., Sr., II, III, IV, V, VI) at end
+    s = re.sub(r"\s+(?i:(jr|sr|ii|iii|iv|v|vi))\.?$", '', s)
+    s = re.sub(r"\s+", ' ', s).strip()
+    return s.lower()
+
+
+def _load_player_hr_odds(target_date: str | None) -> tuple[dict, str | None]:
+    """Load player HR odds map: name(lower) -> { best_prob, best_american, offers } and source string.
+    Returns ({}, None) if not available.
+    """
+    try:
+        p = _pick_data_file('player-hr-odds-', target_date)
+        if not p or not os.path.exists(p):
+            return {}, None
+        j = _load_json(p)
+        players = j.get('players') or {}
+        out = {}
+        for name, rec in players.items():
+            if not name:
+                continue
+            try:
+                key = _norm_name_key(name)
+                bp = rec.get('best_prob')
+                ba = rec.get('best_american')
+                offers = rec.get('offers') or []
+                out[key] = {
+                    'best_prob': float(bp) if bp is not None else None,
+                    'best_american': int(ba) if ba is not None else None,
+                    'offers': offers
+                }
+                # Also add a variant without jr/sr/roman suffix if present (non-destructive)
+                alt = re.sub(r"\s+(jr|sr|ii|iii|iv|v)\b\.?$", '', key)
+                if alt and alt != key and alt not in out:
+                    out[alt] = out[key]
+            except Exception:
+                continue
+        return out, (j.get('source') or None)
+    except Exception:
+        return {}, None
 
 
 # Primary brand colors per MLB team (hex). Keep codes aligned with our normalized team abbrs.
@@ -379,6 +444,9 @@ def index():
                 data = dict(data)
                 data['players'] = [p for p in data.get('players', []) if p.get('team') in allowed]
 
+    # Load player HR odds for the effective date
+    odds_map, odds_source = _load_player_hr_odds(effective_date)
+
     filtered = _filter_sort_limit(data, team=team, limit=limit)
 
     team_codes = sorted(list({p.get('team') for p in data.get('players', []) if p.get('team')}))
@@ -386,6 +454,12 @@ def index():
     # Attach image URLs and team branding for the shown players
     # schedule is already loaded above
     # HR hitters already loaded above for summary
+    # Value threshold (percentage points) for showing a badge
+    try:
+        value_thresh_pp = float(os.environ.get('VALUE_BADGE_MIN_PP', '1.5'))
+    except Exception:
+        value_thresh_pp = 1.5
+
     for p in filtered.get('players', []):
         pid = id_map.get((p.get('name'), p.get('team')))
         if pid:
@@ -415,6 +489,27 @@ def index():
             p['matchup'] = t or ''
         # Game state for badges (only meaningful for current date)
         p['game_state'] = team_states.get(t) if t else None
+        # Attach odds if available
+        try:
+            key = _norm_name_key(p.get('name'))
+            om = odds_map.get(key)
+            if om:
+                p['odds_prob'] = om.get('best_prob')
+                p['odds_american'] = om.get('best_american')
+                p['odds_source'] = odds_source
+                # Compute value vs market in percentage points and fair odds
+                try:
+                    p_model = max(0.0, min(1.0, (p.get('hr_score') or 0) / 100.0))
+                    p_market = float(om.get('best_prob')) if om.get('best_prob') is not None else None
+                    if p_market is not None:
+                        delta_pp = (p_model - p_market) * 100.0
+                        p['value_pp'] = round(delta_pp, 1)
+                        p['fair_american'] = _prob_to_american(p_model)
+                        p['has_value'] = (delta_pp >= value_thresh_pp)
+                except Exception:
+                    pass
+        except Exception:
+            pass
 
     return render_template('hr_scores.html',
                            date=filtered.get('date'),
@@ -497,6 +592,38 @@ def api_player_detail():
     primary = TEAM_COLORS.get(t or '', '#444444')
     team_logo = _team_logo_url(t)
 
+    # Player odds (best + offers)
+    odds_best = None
+    odds_offers = []
+    try:
+        odds_map, odds_source = _load_player_hr_odds(date)
+        key = _norm_name_key(player.get('name'))
+        om = odds_map.get(key)
+        if om:
+            odds_best = {
+                'best_prob': om.get('best_prob'),
+                'best_american': om.get('best_american'),
+                'source': odds_source
+            }
+            odds_offers = om.get('offers') or []
+            # Compute value details for modal
+            try:
+                p_model = max(0.0, min(1.0, (player.get('hr_score') or 0) / 100.0))
+                p_market = float(om.get('best_prob')) if om.get('best_prob') is not None else None
+                fair_amer = _prob_to_american(p_model)
+                value_pp = ((p_model - p_market) * 100.0) if p_market is not None else None
+            except Exception:
+                fair_amer = None
+                value_pp = None
+        else:
+            fair_amer = None
+            value_pp = None
+    except Exception:
+        odds_best = None
+        odds_offers = []
+        fair_amer = None
+        value_pp = None
+
     detail = {
         'date': scores.get('date'),
         'name': player.get('name'),
@@ -511,6 +638,14 @@ def api_player_detail():
         'team_primary': primary,
         'team_text': _text_color_for_bg(primary),
         'team_logo': team_logo,
+        'odds': {
+            'best': odds_best,
+            'offers': odds_offers,
+            'value': {
+                'value_pp': value_pp,
+                'fair_american': fair_amer
+            }
+        },
         'park': {
             'team_home': home_abbr,
             'venue_name': pf.get('venue_name') or wc.get('venue_name'),
@@ -526,6 +661,38 @@ def api_player_detail():
         'h2h': h2h
     }
     return jsonify(detail)
+
+
+@app.route('/api/odds-diff')
+def api_odds_diff():
+    """Diagnostics: list players without matched odds and odds names without a matching player for a date.
+    Query: ?date=YYYY-MM-DD
+    Response: { date, missing_for_players: [names], unmatched_odds_names: [names], counts: { players: n, odds: m, matched: k } }
+    """
+    date = request.args.get('date') or _tz_today_str()
+    scores_path = _latest_hr_scores_path(date)
+    if not scores_path:
+        return jsonify({'error': 'No hr-scores files found', 'date': date}), 404
+    scores = _load_scores(scores_path)
+    odds_map, _src = _load_player_hr_odds(date)
+    # Build normalized sets
+    player_names = [p.get('name') for p in scores.get('players', []) if p.get('name')]
+    player_keys = [_norm_name_key(nm) for nm in player_names]
+    player_key_set = set(player_keys)
+    odds_key_set = set(odds_map.keys())
+    matched = player_key_set & odds_key_set
+    missing_players = sorted([nm for nm in player_names if _norm_name_key(nm) not in odds_key_set])
+    unmatched_odds = sorted([nm for nm in odds_key_set if nm not in player_key_set])
+    return jsonify({
+        'date': date,
+        'counts': {
+            'players': len(player_key_set),
+            'odds': len(odds_key_set),
+            'matched': len(matched)
+        },
+        'missing_for_players': missing_players[:200],
+        'unmatched_odds_names': unmatched_odds[:200]
+    })
 
 
 # Simple in-process cache for live HR lookups to avoid heavy repeated queries

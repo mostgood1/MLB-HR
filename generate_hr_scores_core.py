@@ -12,6 +12,7 @@ from datetime import datetime
 from typing import Dict, List, Tuple, Optional
 import unicodedata
 import re
+import math
 
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(APP_DIR, 'data')
@@ -98,6 +99,39 @@ def _norm_name_simple(n: str) -> str:
     return s.strip()
 
 
+def _norm_name_key(n: str) -> str:
+    """Normalize a player's name for cross-source matching.
+    - Strip anything after '/' (e.g., "Name/Team").
+    - Remove trailing team in parentheses.
+    - Lowercase, remove punctuation, compress spaces.
+    """
+    if not n:
+        return ''
+    s = unicodedata.normalize('NFKD', str(n)).encode('ascii', 'ignore').decode('ascii')
+    s = s.strip()
+    if '/' in s:
+        s = s.split('/', 1)[0].strip()
+    s = re.sub(r"\s*\([A-Z]{2,4}\)$", '', s)
+    s = s.lower()
+    s = re.sub(r"[\.'’`-]", ' ', s)
+    s = re.sub(r"\s+", ' ', s).strip()
+    # Drop jr/sr/roman suffix
+    s = re.sub(r"\s+(jr|sr|ii|iii|iv|v)\b\.?$", '', s)
+    return s
+
+
+def _logit(p: float) -> float:
+    p = max(1e-6, min(1 - 1e-6, float(p)))
+    return math.log(p / (1.0 - p))
+
+
+def _sigmoid(z: float) -> float:
+    try:
+        return 1.0 / (1.0 + math.exp(-z))
+    except OverflowError:
+        return 0.0 if z < 0 else 1.0
+
+
 def _list_data_files(prefix: str) -> List[str]:
     try:
         return sorted([f for f in os.listdir(DATA_DIR) if f.startswith(prefix)], reverse=True)
@@ -154,6 +188,30 @@ def _normalize(values: List[float]) -> Dict[float, float]:
 def _load_json(path: str) -> dict:
     with open(path, 'r', encoding='utf-8') as f:
         return json.load(f)
+
+
+def _index_player_odds(odds_json: Optional[dict]) -> Tuple[Dict[str, float], Optional[str]]:
+    """Return (map of normalized player name -> best_prob, source)."""
+    if not odds_json or not isinstance(odds_json, dict):
+        return {}, None
+    players = odds_json.get('players') or {}
+    out: Dict[str, float] = {}
+    for name, rec in players.items():
+        if not name:
+            continue
+        try:
+            key = _norm_name_key(name)
+            bp = rec.get('best_prob')
+            if bp is None:
+                continue
+            p = float(bp)
+            if p <= 0.0:
+                continue
+            out[key] = p
+            # add alt key without suffix (already handled in key creator)
+        except Exception:
+            continue
+    return out, odds_json.get('source')
 
 
 def _index_recent_form(recent: dict) -> Dict[str, float]:
@@ -414,6 +472,14 @@ def _compute_scores(date_str: Optional[str] = None) -> Dict:
     pitcher_top_pitches_idx, batter_xslg_by_pitch_idx = _index_pitch_type(pitch_type_data)
     bullpen_hr9_by_team, starter_expected_ip = _index_bullpen(bullpen_data)
     implied_by_team = _index_implied(implied_data)
+
+    # Optional player HR odds for market blend
+    try:
+        player_odds_path, _ = _pick_dated_file_optional('player-hr-odds-', target_date)
+        player_odds_json = _load_json(player_odds_path) if player_odds_path else None
+    except Exception:
+        player_odds_json = None
+    player_odds_map, player_odds_source = _index_player_odds(player_odds_json)
 
     lineup_slot_by_player = {}
     lineup_slot_by_norm_player = {}
@@ -763,6 +829,34 @@ def _compute_scores(date_str: Optional[str] = None) -> Dict:
             pa_multiplier = pa_map.get(int(slot), 1.0)
             hr_score = hr_score * pa_multiplier
 
+        # Optional market blend with player odds (logit blend)
+        blend_delta_pts = 0.0
+        try:
+            alpha = float(os.getenv('PLAYER_MARKET_ALPHA', '0.1'))
+        except Exception:
+            alpha = 0.1
+        if alpha > 0.0 and player_odds_map:
+            key = _norm_name_key(name)
+            p_market = player_odds_map.get(key)
+            if p_market is not None and p_market > 0.0:
+                # Convert model score to pseudo-probability and blend on logit scale
+                p_model = max(0.01, min(0.99, hr_score / 100.0))
+                z_blend = (1.0 - alpha) * _logit(p_model) + alpha * _logit(max(0.01, min(0.99, float(p_market))))
+                p_blend = _sigmoid(z_blend)
+                score_blend = p_blend * 100.0
+                # Cap adjustment to ±cap points
+                try:
+                    cap_pts = float(os.getenv('PLAYER_MARKET_BLEND_CAP', '3.0'))
+                except Exception:
+                    cap_pts = 3.0
+                blend_delta = score_blend - hr_score
+                if blend_delta > cap_pts:
+                    blend_delta = cap_pts
+                elif blend_delta < -cap_pts:
+                    blend_delta = -cap_pts
+                hr_score = hr_score + blend_delta
+                blend_delta_pts = blend_delta
+
         hr_score = max(0.0, min(100.0, round(hr_score, 1)))
 
         factors = {
@@ -773,6 +867,7 @@ def _compute_scores(date_str: Optional[str] = None) -> Dict:
             'h2h_bonus': round(h2h_bonus, 2),
             'pitchtype_bonus': round(pitchtype_bonus, 1),
             'market_scaler_pct': round((market_factor - 1.0) * 100.0, 1),
+            'market_blend_delta': round(blend_delta_pts, 1) if blend_delta_pts else 0.0,
             'pa_multiplier_pct': round((pa_multiplier - 1.0) * 100.0, 1)
         }
 

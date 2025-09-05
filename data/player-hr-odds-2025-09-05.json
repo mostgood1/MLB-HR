@@ -1,0 +1,7536 @@
+{
+  "date": "2025-09-05",
+  "source": "Bovada",
+  "players": {
+    "CJ Abrams": {
+      "best_american": 550,
+      "best_prob": 0.15385,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 550,
+          "prob": 0.15385,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 6000,
+          "prob": 0.01639,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Riley Adams": {
+      "best_american": 575,
+      "best_prob": 0.14815,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 575,
+          "prob": 0.14815,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 7000,
+          "prob": 0.01408,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Josh Bell": {
+      "best_american": 475,
+      "best_prob": 0.17391,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 475,
+          "prob": 0.17391,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 7000,
+          "prob": 0.01408,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Dylan Crews": {
+      "best_american": 650,
+      "best_prob": 0.13333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 650,
+          "prob": 0.13333,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Luis Garcia": {
+      "best_american": 650,
+      "best_prob": 0.13333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 650,
+          "prob": 0.13333,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Brady House": {
+      "best_american": 850,
+      "best_prob": 0.10526,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 850,
+          "prob": 0.10526,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 10000,
+          "prob": 0.0099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Daylen Lile": {
+      "best_american": 650,
+      "best_prob": 0.13333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 650,
+          "prob": 0.13333,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 15000,
+          "prob": 0.00662,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "James Wood": {
+      "best_american": 350,
+      "best_prob": 0.22222,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 350,
+          "prob": 0.22222,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 3500,
+          "prob": 0.02778,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Jacob Young": {
+      "best_american": 1600,
+      "best_prob": 0.05882,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1600,
+          "prob": 0.05882,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Michael Busch": {
+      "best_american": 260,
+      "best_prob": 0.27778,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 260,
+          "prob": 0.27778,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 3000,
+          "prob": 0.03226,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Pete Crow-Armstrong": {
+      "best_american": 320,
+      "best_prob": 0.2381,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 320,
+          "prob": 0.2381,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 4000,
+          "prob": 0.02439,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Ian Happ": {
+      "best_american": 320,
+      "best_prob": 0.2381,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 320,
+          "prob": 0.2381,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 4000,
+          "prob": 0.02439,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Nico Hoerner": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 15000,
+          "prob": 0.00662,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Carson Kelly": {
+      "best_american": 575,
+      "best_prob": 0.14815,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 575,
+          "prob": 0.14815,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Carlos Santana": {
+      "best_american": 525,
+      "best_prob": 0.16,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 525,
+          "prob": 0.16,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Matt Shaw": {
+      "best_american": 650,
+      "best_prob": 0.13333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 650,
+          "prob": 0.13333,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 7500,
+          "prob": 0.01316,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Seiya Suzuki": {
+      "best_american": 375,
+      "best_prob": 0.21053,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 375,
+          "prob": 0.21053,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 2500,
+          "prob": 0.03846,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Dansby Swanson": {
+      "best_american": 475,
+      "best_prob": 0.17391,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 475,
+          "prob": 0.17391,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 6500,
+          "prob": 0.01515,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Andres Chaparro": {
+      "best_american": 550,
+      "best_prob": 0.15385,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 550,
+          "prob": 0.15385,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Robert Hassell III": {
+      "best_american": 850,
+      "best_prob": 0.10526,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 850,
+          "prob": 0.10526,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Willi Castro": {
+      "best_american": 550,
+      "best_prob": 0.15385,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 550,
+          "prob": 0.15385,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Reese McGuire": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Luis Garcia Jr.": {
+      "best_american": 10000,
+      "best_prob": 0.0099,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 10000,
+          "prob": 0.0099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Michael Busch/Chicago Cubs": {
+      "best_american": 350,
+      "best_prob": 0.22222,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 350,
+          "prob": 0.22222,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Pete Crow-Armstrong/Chicago Cubs": {
+      "best_american": 400,
+      "best_prob": 0.2,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 400,
+          "prob": 0.2,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Seiya Suzuki/Chicago Cubs": {
+      "best_american": 400,
+      "best_prob": 0.2,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 400,
+          "prob": 0.2,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Ian Happ/Chicago Cubs": {
+      "best_american": 500,
+      "best_prob": 0.16667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 500,
+          "prob": 0.16667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Dansby Swanson/Chicago Cubs": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Carlos Santana/Chicago Cubs": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Matt Shaw/Chicago Cubs": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "James Wood/Washington Nationals": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "C.J. Abrams/Washington Nationals": {
+      "best_american": 900,
+      "best_prob": 0.1,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 900,
+          "prob": 0.1,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Riley Adams/Washington Nationals": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Josh Bell/Washington Nationals": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Nico Hoerner/Chicago Cubs": {
+      "best_american": 1100,
+      "best_prob": 0.08333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1100,
+          "prob": 0.08333,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Luis Garcia/Washington Nationals": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Brady House/Washington Nationals": {
+      "best_american": 1400,
+      "best_prob": 0.06667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1400,
+          "prob": 0.06667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Daylen Lile/Washington Nationals": {
+      "best_american": 1600,
+      "best_prob": 0.05882,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1600,
+          "prob": 0.05882,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Brooks Baldwin": {
+      "best_american": 850,
+      "best_prob": 0.10526,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 850,
+          "prob": 0.10526,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 10000,
+          "prob": 0.0099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Andrew Benintendi": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 12000,
+          "prob": 0.00826,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Curtis Mead": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 12000,
+          "prob": 0.00826,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Chase Meidroth": {
+      "best_american": 1300,
+      "best_prob": 0.07143,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1300,
+          "prob": 0.07143,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 14000,
+          "prob": 0.00709,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Colson Montgomery": {
+      "best_american": 390,
+      "best_prob": 0.20408,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 390,
+          "prob": 0.20408,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 5500,
+          "prob": 0.01786,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Edgar Quero": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 12000,
+          "prob": 0.00826,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Lenyn Sosa": {
+      "best_american": 650,
+      "best_prob": 0.13333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 650,
+          "prob": 0.13333,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 8000,
+          "prob": 0.01235,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Mike Tauchman": {
+      "best_american": 850,
+      "best_prob": 0.10526,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 850,
+          "prob": 0.10526,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 9000,
+          "prob": 0.01099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Kyle Teel": {
+      "best_american": 900,
+      "best_prob": 0.1,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 900,
+          "prob": 0.1,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 10000,
+          "prob": 0.0099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Kerry Carpenter": {
+      "best_american": 450,
+      "best_prob": 0.18182,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 450,
+          "prob": 0.18182,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 4500,
+          "prob": 0.02174,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Dillon Dingler": {
+      "best_american": 750,
+      "best_prob": 0.11765,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 750,
+          "prob": 0.11765,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 9000,
+          "prob": 0.01099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Riley Greene": {
+      "best_american": 300,
+      "best_prob": 0.25,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 300,
+          "prob": 0.25,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 4000,
+          "prob": 0.02439,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Colt Keith": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 8000,
+          "prob": 0.01235,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Zach McKinstry": {
+      "best_american": 950,
+      "best_prob": 0.09524,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 950,
+          "prob": 0.09524,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 9000,
+          "prob": 0.01099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Wenceel Perez": {
+      "best_american": 750,
+      "best_prob": 0.11765,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 750,
+          "prob": 0.11765,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 7000,
+          "prob": 0.01408,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Trey Sweeney": {
+      "best_american": 1100,
+      "best_prob": 0.08333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1100,
+          "prob": 0.08333,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 9000,
+          "prob": 0.01099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Spencer Torkelson": {
+      "best_american": 380,
+      "best_prob": 0.20833,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 380,
+          "prob": 0.20833,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 5000,
+          "prob": 0.01961,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Gleyber Torres": {
+      "best_american": 750,
+      "best_prob": 0.11765,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 750,
+          "prob": 0.11765,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 9000,
+          "prob": 0.01099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Riley Greene/Detroit Tigers": {
+      "best_american": 400,
+      "best_prob": 0.2,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 400,
+          "prob": 0.2,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Spencer Torkelson/Detroit Tigers": {
+      "best_american": 500,
+      "best_prob": 0.16667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 500,
+          "prob": 0.16667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Kerry Carpenter/Detroit Tigers": {
+      "best_american": 500,
+      "best_prob": 0.16667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 500,
+          "prob": 0.16667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Colt Keith/Detroit Tigers": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Wenceel Perez/Detroit Tigers": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Dillon Dingler/Detroit Tigers": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Zach McKinstry/Detroit Tigers": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Colson Montgomery/Chicago White Sox": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Gleyber Torres/Detroit Tigers": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Trey Sweeney/Detroit Tigers": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Lenyn Sosa/Chicago White Sox": {
+      "best_american": 900,
+      "best_prob": 0.1,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 900,
+          "prob": 0.1,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Kyle Teel/Chicago White Sox": {
+      "best_american": 1100,
+      "best_prob": 0.08333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1100,
+          "prob": 0.08333,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Edgar Quero/Chicago White Sox": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Curtis Mead/Chicago White Sox": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Brooks Baldwin/Chicago White Sox": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Mike Tauchman/Chicago White Sox": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Andrew Benintendi/Chicago White Sox": {
+      "best_american": 1400,
+      "best_prob": 0.06667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1400,
+          "prob": 0.06667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Chase Meidroth/Chicago White Sox": {
+      "best_american": 1800,
+      "best_prob": 0.05263,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1800,
+          "prob": 0.05263,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Luis Arraez": {
+      "best_american": 1600,
+      "best_prob": 0.05882,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1600,
+          "prob": 0.05882,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 1600,
+          "prob": 0.05882,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Jake Cronenworth": {
+      "best_american": 750,
+      "best_prob": 0.11765,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 750,
+          "prob": 0.11765,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Elias Diaz": {
+      "best_american": 650,
+      "best_prob": 0.13333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 650,
+          "prob": 0.13333,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 650,
+          "prob": 0.13333,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Jose Iglesias": {
+      "best_american": 1500,
+      "best_prob": 0.0625,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1500,
+          "prob": 0.0625,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 1500,
+          "prob": 0.0625,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Ramon Laureano": {
+      "best_american": 450,
+      "best_prob": 0.18182,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 450,
+          "prob": 0.18182,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 450,
+          "prob": 0.18182,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Manny Machado": {
+      "best_american": 350,
+      "best_prob": 0.22222,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 350,
+          "prob": 0.22222,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 350,
+          "prob": 0.22222,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Jackson Merrill": {
+      "best_american": 575,
+      "best_prob": 0.14815,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 575,
+          "prob": 0.14815,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Ryan O'Hearn": {
+      "best_american": 650,
+      "best_prob": 0.13333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 650,
+          "prob": 0.13333,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 650,
+          "prob": 0.13333,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Fernando Tatis Jr.": {
+      "best_american": 325,
+      "best_prob": 0.23529,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 325,
+          "prob": 0.23529,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 350,
+          "prob": 0.22222,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Jordan Beck": {
+      "best_american": 550,
+      "best_prob": 0.15385,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 550,
+          "prob": 0.15385,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 550,
+          "prob": 0.15385,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Warming Bernabel": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Brenton Doyle": {
+      "best_american": 525,
+      "best_prob": 0.16,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 525,
+          "prob": 0.16,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 525,
+          "prob": 0.16,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Yanquiel Fernandez": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Tyler Freeman": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 750,
+          "prob": 0.11765,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Hunter Goodman": {
+      "best_american": 290,
+      "best_prob": 0.25641,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 300,
+          "prob": 0.25,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 290,
+          "prob": 0.25641,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Kyle Karros": {
+      "best_american": 850,
+      "best_prob": 0.10526,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 850,
+          "prob": 0.10526,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 850,
+          "prob": 0.10526,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Mickey Moniak": {
+      "best_american": 425,
+      "best_prob": 0.19048,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 475,
+          "prob": 0.17391,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 425,
+          "prob": 0.19048,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Ezequiel Tovar": {
+      "best_american": 500,
+      "best_prob": 0.16667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 500,
+          "prob": 0.16667,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 500,
+          "prob": 0.16667,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Andrew McCutchen": {
+      "best_american": 10000,
+      "best_prob": 0.0099,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 10000,
+          "prob": 0.0099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Bryan Reynolds": {
+      "best_american": 9000,
+      "best_prob": 0.01099,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 9000,
+          "prob": 0.01099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Cam Devanney": {
+      "best_american": 14000,
+      "best_prob": 0.00709,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 14000,
+          "prob": 0.00709,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Jared Triolo": {
+      "best_american": 12000,
+      "best_prob": 0.00826,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 12000,
+          "prob": 0.00826,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Joey Bart": {
+      "best_american": 11000,
+      "best_prob": 0.00901,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 11000,
+          "prob": 0.00901,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Nick Gonzales": {
+      "best_american": 15000,
+      "best_prob": 0.00662,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 15000,
+          "prob": 0.00662,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Oneil Cruz": {
+      "best_american": 8000,
+      "best_prob": 0.01235,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 8000,
+          "prob": 0.01235,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Spencer Horwitz": {
+      "best_american": 12000,
+      "best_prob": 0.00826,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 12000,
+          "prob": 0.00826,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Tommy Pham": {
+      "best_american": 12000,
+      "best_prob": 0.00826,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 12000,
+          "prob": 0.00826,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Andrew Vaughn": {
+      "best_american": 7500,
+      "best_prob": 0.01316,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 7500,
+          "prob": 0.01316,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Blake Perkins": {
+      "best_american": 13000,
+      "best_prob": 0.00763,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 13000,
+          "prob": 0.00763,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Brice Turang": {
+      "best_american": 7000,
+      "best_prob": 0.01408,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 7000,
+          "prob": 0.01408,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Caleb Durbin": {
+      "best_american": 15000,
+      "best_prob": 0.00662,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 15000,
+          "prob": 0.00662,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Christian Yelich": {
+      "best_american": 7500,
+      "best_prob": 0.01316,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 7500,
+          "prob": 0.01316,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Isaac Collins": {
+      "best_american": 13000,
+      "best_prob": 0.00763,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 13000,
+          "prob": 0.00763,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Jackson Chourio": {
+      "best_american": 4500,
+      "best_prob": 0.02174,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 4500,
+          "prob": 0.02174,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Joey Ortiz": {
+      "best_american": 14000,
+      "best_prob": 0.00709,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 14000,
+          "prob": 0.00709,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "William Contreras": {
+      "best_american": 7000,
+      "best_prob": 0.01408,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 7000,
+          "prob": 0.01408,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Andrew Vaughn/Milwaukee Brewers": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jackson Chourio/Milwaukee Brewers": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "William Contreras/Milwaukee Brewers": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Oneil Cruz/Pittsburgh Pirates": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Brice Turang/Milwaukee Brewers": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Isaac Collins/Milwaukee Brewers": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Bryan Reynolds/Pittsburgh Pirates": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Joey Ortiz/Milwaukee Brewers": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Spencer Horwitz/Pittsburgh Pirates": {
+      "best_american": 1400,
+      "best_prob": 0.06667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1400,
+          "prob": 0.06667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Andrew McCutchen/Pittsburgh Pirates": {
+      "best_american": 1400,
+      "best_prob": 0.06667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1400,
+          "prob": 0.06667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Sal Frelick/Milwaukee Brewers": {
+      "best_american": 1400,
+      "best_prob": 0.06667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1400,
+          "prob": 0.06667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Blake Perkins/Milwaukee Brewers": {
+      "best_american": 1400,
+      "best_prob": 0.06667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1400,
+          "prob": 0.06667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Tommy Pham/Pittsburgh Pirates": {
+      "best_american": 1400,
+      "best_prob": 0.06667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1400,
+          "prob": 0.06667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Caleb Durbin/Milwaukee Brewers": {
+      "best_american": 1400,
+      "best_prob": 0.06667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1400,
+          "prob": 0.06667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Henry Davis/Pittsburgh Pirates": {
+      "best_american": 1400,
+      "best_prob": 0.06667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1400,
+          "prob": 0.06667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Cam Devanney/Pittsburgh Pirates": {
+      "best_american": 1600,
+      "best_prob": 0.05882,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1600,
+          "prob": 0.05882,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jared Triolo/Pittsburgh Pirates": {
+      "best_american": 1600,
+      "best_prob": 0.05882,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1600,
+          "prob": 0.05882,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Nick Gonzales/Pittsburgh Pirates": {
+      "best_american": 2000,
+      "best_prob": 0.04762,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 2000,
+          "prob": 0.04762,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Miguel Andujar": {
+      "best_american": 650,
+      "best_prob": 0.13333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 650,
+          "prob": 0.13333,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 10000,
+          "prob": 0.0099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Elly De La Cruz": {
+      "best_american": 575,
+      "best_prob": 0.14815,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 575,
+          "prob": 0.14815,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 10000,
+          "prob": 0.0099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "TJ Friedl": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 12000,
+          "prob": 0.00826,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Ke'Bryan Hayes": {
+      "best_american": 625,
+      "best_prob": 0.13793,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 625,
+          "prob": 0.13793,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 12000,
+          "prob": 0.00826,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Austin Hays": {
+      "best_american": 475,
+      "best_prob": 0.17391,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 475,
+          "prob": 0.17391,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 8000,
+          "prob": 0.01235,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Noelvi Marte": {
+      "best_american": 525,
+      "best_prob": 0.16,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 525,
+          "prob": 0.16,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 9000,
+          "prob": 0.01099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Matt McLain": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 10000,
+          "prob": 0.0099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Sal Stewart": {
+      "best_american": 625,
+      "best_prob": 0.13793,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 625,
+          "prob": 0.13793,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 7000,
+          "prob": 0.01408,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Jose Trevino": {
+      "best_american": 850,
+      "best_prob": 0.10526,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 850,
+          "prob": 0.10526,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 12000,
+          "prob": 0.00826,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Pete Alonso": {
+      "best_american": 260,
+      "best_prob": 0.27778,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 260,
+          "prob": 0.27778,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 2000,
+          "prob": 0.04762,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Francisco Alvarez": {
+      "best_american": 400,
+      "best_prob": 0.2,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 400,
+          "prob": 0.2,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 5000,
+          "prob": 0.01961,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Francisco Lindor": {
+      "best_american": 300,
+      "best_prob": 0.25,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 300,
+          "prob": 0.25,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 2500,
+          "prob": 0.03846,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Starling Marte": {
+      "best_american": 550,
+      "best_prob": 0.15385,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 550,
+          "prob": 0.15385,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 7500,
+          "prob": 0.01316,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Jeff McNeil": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 9000,
+          "prob": 0.01099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Cedric Mullins": {
+      "best_american": 550,
+      "best_prob": 0.15385,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 550,
+          "prob": 0.15385,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 8000,
+          "prob": 0.01235,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Brandon Nimmo": {
+      "best_american": 375,
+      "best_prob": 0.21053,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 375,
+          "prob": 0.21053,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 5000,
+          "prob": 0.01961,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Juan Soto": {
+      "best_american": 235,
+      "best_prob": 0.29851,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 235,
+          "prob": 0.29851,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 2500,
+          "prob": 0.03846,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Mark Vientos": {
+      "best_american": 350,
+      "best_prob": 0.22222,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 350,
+          "prob": 0.22222,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 3000,
+          "prob": 0.03226,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Pete Alonso/New York Mets": {
+      "best_american": 325,
+      "best_prob": 0.23529,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 325,
+          "prob": 0.23529,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Juan Soto/New York Mets": {
+      "best_american": 375,
+      "best_prob": 0.21053,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 375,
+          "prob": 0.21053,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Francisco Lindor/New York Mets": {
+      "best_american": 500,
+      "best_prob": 0.16667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 500,
+          "prob": 0.16667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Mark Vientos/New York Mets": {
+      "best_american": 500,
+      "best_prob": 0.16667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 500,
+          "prob": 0.16667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Starling Marte/New York Mets": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Brandon Nimmo/New York Mets": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Noelvi Marte/Cincinnati Reds": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Elly De La Cruz/Cincinnati Reds": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Austin Hays/Cincinnati Reds": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Luis Torrens/New York Mets": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Spencer Steer/Cincinnati Reds": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jose Trevino/Cincinnati Reds": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Miguel Andujar/Cincinnati Reds": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jeff McNeil/New York Mets": {
+      "best_american": 1100,
+      "best_prob": 0.08333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1100,
+          "prob": 0.08333,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Luisangel Acuna/New York Mets": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Ke'Bryan Hayes/Cincinnati Reds": {
+      "best_american": 1400,
+      "best_prob": 0.06667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1400,
+          "prob": 0.06667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "TJ Friedl/Cincinnati Reds": {
+      "best_american": 1400,
+      "best_prob": 0.06667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1400,
+          "prob": 0.06667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Santiago Espinal/Cincinnati Reds": {
+      "best_american": 1800,
+      "best_prob": 0.05263,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1800,
+          "prob": 0.05263,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Coby Mayo": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "Player to Hit a Home Run in the Game"
+        }
+      ]
+    },
+    "Colton Cowser": {
+      "best_american": 450,
+      "best_prob": 0.18182,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 450,
+          "prob": 0.18182,
+          "market": "Player to Hit a Home Run in the Game"
+        }
+      ]
+    },
+    "Dylan Beavers": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "Player to Hit a Home Run in the Game"
+        }
+      ]
+    },
+    "Emmanuel Rivera": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "Player to Hit a Home Run in the Game"
+        }
+      ]
+    },
+    "Gunnar Henderson": {
+      "best_american": 350,
+      "best_prob": 0.22222,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 350,
+          "prob": 0.22222,
+          "market": "Player to Hit a Home Run in the Game"
+        }
+      ]
+    },
+    "Jackson Holliday": {
+      "best_american": 500,
+      "best_prob": 0.16667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 500,
+          "prob": 0.16667,
+          "market": "Player to Hit a Home Run in the Game"
+        }
+      ]
+    },
+    "Jeremiah Jackson": {
+      "best_american": 550,
+      "best_prob": 0.15385,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 550,
+          "prob": 0.15385,
+          "market": "Player to Hit a Home Run in the Game"
+        }
+      ]
+    },
+    "Ryan Mountcastle": {
+      "best_american": 550,
+      "best_prob": 0.15385,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 550,
+          "prob": 0.15385,
+          "market": "Player to Hit a Home Run in the Game"
+        }
+      ]
+    },
+    "Samuel Basallo": {
+      "best_american": 450,
+      "best_prob": 0.18182,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 450,
+          "prob": 0.18182,
+          "market": "Player to Hit a Home Run in the Game"
+        }
+      ]
+    },
+    "Alex Call": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "Player to Hit a Home Run in the Game"
+        }
+      ]
+    },
+    "Andy Pages": {
+      "best_american": 400,
+      "best_prob": 0.2,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 400,
+          "prob": 0.2,
+          "market": "Player to Hit a Home Run in the Game"
+        }
+      ]
+    },
+    "Dalton Rushing": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "Player to Hit a Home Run in the Game"
+        }
+      ]
+    },
+    "Freddie Freeman": {
+      "best_american": 300,
+      "best_prob": 0.25,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 300,
+          "prob": 0.25,
+          "market": "Player to Hit a Home Run in the Game"
+        }
+      ]
+    },
+    "Michael Conforto": {
+      "best_american": 400,
+      "best_prob": 0.2,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 400,
+          "prob": 0.2,
+          "market": "Player to Hit a Home Run in the Game"
+        }
+      ]
+    },
+    "Miguel Rojas": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "Player to Hit a Home Run in the Game"
+        }
+      ]
+    },
+    "Mookie Betts": {
+      "best_american": 350,
+      "best_prob": 0.22222,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 350,
+          "prob": 0.22222,
+          "market": "Player to Hit a Home Run in the Game"
+        }
+      ]
+    },
+    "Shohei Ohtani": {
+      "best_american": 180,
+      "best_prob": 0.35714,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 180,
+          "prob": 0.35714,
+          "market": "Player to Hit a Home Run in the Game"
+        }
+      ]
+    },
+    "Teoscar Hernandez": {
+      "best_american": 350,
+      "best_prob": 0.22222,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 350,
+          "prob": 0.22222,
+          "market": "Player to Hit a Home Run in the Game"
+        }
+      ]
+    },
+    "Shohei Ohtani/Los Angeles Dodgers": {
+      "best_american": 300,
+      "best_prob": 0.25,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 300,
+          "prob": 0.25,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Freddie Freeman/Los Angeles Dodgers": {
+      "best_american": 500,
+      "best_prob": 0.16667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 500,
+          "prob": 0.16667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Teoscar Hernandez/Los Angeles Dodgers": {
+      "best_american": 500,
+      "best_prob": 0.16667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 500,
+          "prob": 0.16667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Andy Pages/Los Angeles Dodgers": {
+      "best_american": 550,
+      "best_prob": 0.15385,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 550,
+          "prob": 0.15385,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Michael Conforto/Los Angeles Dodgers": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Mookie Betts/Los Angeles Dodgers": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Dalton Rushing/Los Angeles Dodgers": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Gunnar Henderson/Baltimore Orioles": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Colton Cowser/Baltimore Orioles": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Ryan Mountcastle/Baltimore Orioles": {
+      "best_american": 900,
+      "best_prob": 0.1,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 900,
+          "prob": 0.1,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jackson Holliday/Baltimore Orioles": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jeremiah Jackson/Baltimore Orioles": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Samuel Basallo/Baltimore Orioles": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Coby Mayo/Baltimore Orioles": {
+      "best_american": 1100,
+      "best_prob": 0.08333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1100,
+          "prob": 0.08333,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Hyeseong Kim/Los Angeles Dodgers": {
+      "best_american": 1100,
+      "best_prob": 0.08333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1100,
+          "prob": 0.08333,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Dylan Beavers/Baltimore Orioles": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Miguel Rojas/Los Angeles Dodgers": {
+      "best_american": 1400,
+      "best_prob": 0.06667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1400,
+          "prob": 0.06667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Emmanuel Rivera/Baltimore Orioles": {
+      "best_american": 1800,
+      "best_prob": 0.05263,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1800,
+          "prob": 0.05263,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Addison Barger": {
+      "best_american": 375,
+      "best_prob": 0.21053,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 375,
+          "prob": 0.21053,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Bo Bichette": {
+      "best_american": 475,
+      "best_prob": 0.17391,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 475,
+          "prob": 0.17391,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 4000,
+          "prob": 0.02439,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Ernie Clement": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 12000,
+          "prob": 0.00826,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Andres Gimenez": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Vladimir Guerrero Jr.": {
+      "best_american": 400,
+      "best_prob": 0.2,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 400,
+          "prob": 0.2,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Alejandro Kirk": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 6500,
+          "prob": 0.01515,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Nathan Lukes": {
+      "best_american": 850,
+      "best_prob": 0.10526,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 850,
+          "prob": 0.10526,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 10000,
+          "prob": 0.0099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "George Springer": {
+      "best_american": 300,
+      "best_prob": 0.25,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 300,
+          "prob": 0.25,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 3000,
+          "prob": 0.03226,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Daulton Varsho": {
+      "best_american": 300,
+      "best_prob": 0.25,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 300,
+          "prob": 0.25,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 2000,
+          "prob": 0.04762,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Cody Bellinger": {
+      "best_american": 375,
+      "best_prob": 0.21053,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 375,
+          "prob": 0.21053,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 3500,
+          "prob": 0.02778,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Jose Caballero": {
+      "best_american": 950,
+      "best_prob": 0.09524,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 950,
+          "prob": 0.09524,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Trent Grisham": {
+      "best_american": 350,
+      "best_prob": 0.22222,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 350,
+          "prob": 0.22222,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 3500,
+          "prob": 0.02778,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Aaron Judge": {
+      "best_american": 205,
+      "best_prob": 0.32787,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 205,
+          "prob": 0.32787,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 1500,
+          "prob": 0.0625,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Ryan McMahon": {
+      "best_american": 425,
+      "best_prob": 0.19048,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 425,
+          "prob": 0.19048,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 4000,
+          "prob": 0.02439,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Ben Rice": {
+      "best_american": 300,
+      "best_prob": 0.25,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 300,
+          "prob": 0.25,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 3000,
+          "prob": 0.03226,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Giancarlo Stanton": {
+      "best_american": 235,
+      "best_prob": 0.29851,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 235,
+          "prob": 0.29851,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 2500,
+          "prob": 0.03846,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Anthony Volpe": {
+      "best_american": 575,
+      "best_prob": 0.14815,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 575,
+          "prob": 0.14815,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 6500,
+          "prob": 0.01515,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Austin Wells": {
+      "best_american": 350,
+      "best_prob": 0.22222,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 350,
+          "prob": 0.22222,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 3000,
+          "prob": 0.03226,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Giancarlo Stanton/New York Yankees": {
+      "best_american": 250,
+      "best_prob": 0.28571,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 250,
+          "prob": 0.28571,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Aaron Judge/New York Yankees": {
+      "best_american": 300,
+      "best_prob": 0.25,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 300,
+          "prob": 0.25,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Ben Rice/New York Yankees": {
+      "best_american": 400,
+      "best_prob": 0.2,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 400,
+          "prob": 0.2,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Trent Grisham/New York Yankees": {
+      "best_american": 450,
+      "best_prob": 0.18182,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 450,
+          "prob": 0.18182,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Cody Bellinger/New York Yankees": {
+      "best_american": 500,
+      "best_prob": 0.16667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 500,
+          "prob": 0.16667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Vladimir Guerrero Jr./Toronto Blue Jays": {
+      "best_american": 500,
+      "best_prob": 0.16667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 500,
+          "prob": 0.16667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "George Springer/Toronto Blue Jays": {
+      "best_american": 500,
+      "best_prob": 0.16667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 500,
+          "prob": 0.16667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Daulton Varsho/Toronto Blue Jays": {
+      "best_american": 500,
+      "best_prob": 0.16667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 500,
+          "prob": 0.16667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Ryan McMahon/New York Yankees": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Addison Barger/Toronto Blue Jays": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Anthony Volpe/New York Yankees": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Bo Bichette/Toronto Blue Jays": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Paul Goldschmidt/New York Yankees": {
+      "best_american": 900,
+      "best_prob": 0.1,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 900,
+          "prob": 0.1,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Ernie Clement/Toronto Blue Jays": {
+      "best_american": 900,
+      "best_prob": 0.1,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 900,
+          "prob": 0.1,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Tyler Heineman/Toronto Blue Jays": {
+      "best_american": 1100,
+      "best_prob": 0.08333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1100,
+          "prob": 0.08333,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jose Caballero/New York Yankees": {
+      "best_american": 1100,
+      "best_prob": 0.08333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1100,
+          "prob": 0.08333,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Nathan Lukes/Toronto Blue Jays": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Andres Gimenez/Toronto Blue Jays": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Harrison Bader": {
+      "best_american": 650,
+      "best_prob": 0.13333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 650,
+          "prob": 0.13333,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 6000,
+          "prob": 0.01639,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Alec Bohm": {
+      "best_american": 750,
+      "best_prob": 0.11765,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 750,
+          "prob": 0.11765,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 9000,
+          "prob": 0.01099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Bryce Harper": {
+      "best_american": 260,
+      "best_prob": 0.27778,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 260,
+          "prob": 0.27778,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 2500,
+          "prob": 0.03846,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Max Kepler": {
+      "best_american": 475,
+      "best_prob": 0.17391,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 475,
+          "prob": 0.17391,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 5500,
+          "prob": 0.01786,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Rafael Marchan": {
+      "best_american": 1100,
+      "best_prob": 0.08333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1100,
+          "prob": 0.08333,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Brandon Marsh": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Kyle Schwarber": {
+      "best_american": 190,
+      "best_prob": 0.34483,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 190,
+          "prob": 0.34483,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 1500,
+          "prob": 0.0625,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Bryson Stott": {
+      "best_american": 850,
+      "best_prob": 0.10526,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 850,
+          "prob": 0.10526,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 10000,
+          "prob": 0.0099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Trea Turner": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 6500,
+          "prob": 0.01515,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Xavier Edwards": {
+      "best_american": 2500,
+      "best_prob": 0.03846,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 2500,
+          "prob": 0.03846,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Heriberto Hernandez": {
+      "best_american": 900,
+      "best_prob": 0.1,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 900,
+          "prob": 0.1,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 15000,
+          "prob": 0.00662,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Otto Lopez": {
+      "best_american": 1400,
+      "best_prob": 0.06667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1400,
+          "prob": 0.06667,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 15000,
+          "prob": 0.00662,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Jakob Marsee": {
+      "best_american": 1400,
+      "best_prob": 0.06667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1400,
+          "prob": 0.06667,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 14000,
+          "prob": 0.00709,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Connor Norby": {
+      "best_american": 850,
+      "best_prob": 0.10526,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 850,
+          "prob": 0.10526,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 15000,
+          "prob": 0.00662,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Agustin Ramirez": {
+      "best_american": 750,
+      "best_prob": 0.11765,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 750,
+          "prob": 0.11765,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 10000,
+          "prob": 0.0099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Javier Sanoja": {
+      "best_american": 1600,
+      "best_prob": 0.05882,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1600,
+          "prob": 0.05882,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Eric Wagaman": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 12000,
+          "prob": 0.00826,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Joey Wiemer": {
+      "best_american": 1100,
+      "best_prob": 0.08333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1100,
+          "prob": 0.08333,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 15000,
+          "prob": 0.00662,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Kyle Schwarber/Philadelphia Phillies": {
+      "best_american": 250,
+      "best_prob": 0.28571,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 250,
+          "prob": 0.28571,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Bryce Harper/Philadelphia Phillies": {
+      "best_american": 375,
+      "best_prob": 0.21053,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 375,
+          "prob": 0.21053,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Max Kepler/Philadelphia Phillies": {
+      "best_american": 500,
+      "best_prob": 0.16667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 500,
+          "prob": 0.16667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Trea Turner/Philadelphia Phillies": {
+      "best_american": 550,
+      "best_prob": 0.15385,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 550,
+          "prob": 0.15385,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Brandon Marsh/Philadelphia Phillies": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Harrison Bader/Philadelphia Phillies": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Alec Bohm/Philadelphia Phillies": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Bryson Stott/Philadelphia Phillies": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Rafael Marchan/Philadelphia Phillies": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Agustin Ramirez/Miami Marlins": {
+      "best_american": 1800,
+      "best_prob": 0.05263,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1800,
+          "prob": 0.05263,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Eric Wagaman/Miami Marlins": {
+      "best_american": 2000,
+      "best_prob": 0.04762,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 2000,
+          "prob": 0.04762,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Connor Norby/Miami Marlins": {
+      "best_american": 2000,
+      "best_prob": 0.04762,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 2000,
+          "prob": 0.04762,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Joey Wiemer/Miami Marlins": {
+      "best_american": 2000,
+      "best_prob": 0.04762,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 2000,
+          "prob": 0.04762,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Heriberto Hernandez/Miami Marlins": {
+      "best_american": 2000,
+      "best_prob": 0.04762,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 2000,
+          "prob": 0.04762,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jakob Marsee/Miami Marlins": {
+      "best_american": 2000,
+      "best_prob": 0.04762,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 2000,
+          "prob": 0.04762,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Otto Lopez/Miami Marlins": {
+      "best_american": 2200,
+      "best_prob": 0.04348,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 2200,
+          "prob": 0.04348,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Xavier Edwards/Miami Marlins": {
+      "best_american": 2500,
+      "best_prob": 0.03846,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 2500,
+          "prob": 0.03846,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Javier Sanoja/Miami Marlins": {
+      "best_american": 3500,
+      "best_prob": 0.02778,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 3500,
+          "prob": 0.02778,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Randy Arozarena": {
+      "best_american": 475,
+      "best_prob": 0.17391,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 475,
+          "prob": 0.17391,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 5000,
+          "prob": 0.01961,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Dominic Canzone": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 11000,
+          "prob": 0.00901,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "J.P. Crawford": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 15000,
+          "prob": 0.00662,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Mitch Garver": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 6500,
+          "prob": 0.01515,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Josh Naylor": {
+      "best_american": 750,
+      "best_prob": 0.11765,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 750,
+          "prob": 0.11765,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 10000,
+          "prob": 0.0099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Jorge Polanco": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 9000,
+          "prob": 0.01099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Cal Raleigh": {
+      "best_american": 290,
+      "best_prob": 0.25641,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 290,
+          "prob": 0.25641,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 3000,
+          "prob": 0.03226,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Julio Rodriguez": {
+      "best_american": 500,
+      "best_prob": 0.16667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 500,
+          "prob": 0.16667,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 4000,
+          "prob": 0.02439,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Eugenio Suarez": {
+      "best_american": 475,
+      "best_prob": 0.17391,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 475,
+          "prob": 0.17391,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 4500,
+          "prob": 0.02174,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Ronald Acuna Jr.": {
+      "best_american": 390,
+      "best_prob": 0.20408,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 390,
+          "prob": 0.20408,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 4000,
+          "prob": 0.02439,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Ozzie Albies": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 8000,
+          "prob": 0.01235,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Nacho Alvarez Jr.": {
+      "best_american": 1500,
+      "best_prob": 0.0625,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1500,
+          "prob": 0.0625,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 20000,
+          "prob": 0.00498,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Drake Baldwin": {
+      "best_american": 575,
+      "best_prob": 0.14815,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 575,
+          "prob": 0.14815,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 7500,
+          "prob": 0.01316,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Jake Fraley": {
+      "best_american": 1100,
+      "best_prob": 0.08333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1100,
+          "prob": 0.08333,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Michael Harris II": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 7000,
+          "prob": 0.01408,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Ha-Seong Kim": {
+      "best_american": 950,
+      "best_prob": 0.09524,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 950,
+          "prob": 0.09524,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 10000,
+          "prob": 0.0099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Matt Olson": {
+      "best_american": 425,
+      "best_prob": 0.19048,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 425,
+          "prob": 0.19048,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 4500,
+          "prob": 0.02174,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Jurickson Profar": {
+      "best_american": 525,
+      "best_prob": 0.16,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 525,
+          "prob": 0.16,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 6000,
+          "prob": 0.01639,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Cal Raleigh/Seattle Mariners": {
+      "best_american": 475,
+      "best_prob": 0.17391,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 475,
+          "prob": 0.17391,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Matt Olson/Atlanta Braves": {
+      "best_american": 550,
+      "best_prob": 0.15385,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 550,
+          "prob": 0.15385,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Ronald Acuna Jr./Atlanta Braves": {
+      "best_american": 550,
+      "best_prob": 0.15385,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 550,
+          "prob": 0.15385,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Marcell Ozuna/Atlanta Braves": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Randy Arozarena/Seattle Mariners": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Julio Rodriguez/Seattle Mariners": {
+      "best_american": 650,
+      "best_prob": 0.13333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 650,
+          "prob": 0.13333,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Eugenio Suarez/Seattle Mariners": {
+      "best_american": 650,
+      "best_prob": 0.13333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 650,
+          "prob": 0.13333,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Drake Baldwin/Atlanta Braves": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jurickson Profar/Atlanta Braves": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Michael Harris II/Atlanta Braves": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Mitch Garver/Seattle Mariners": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Ozzie Albies/Atlanta Braves": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jorge Polanco/Seattle Mariners": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Ha-Seong Kim/Atlanta Braves": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Josh Naylor/Seattle Mariners": {
+      "best_american": 1100,
+      "best_prob": 0.08333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1100,
+          "prob": 0.08333,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Victor Robles/Seattle Mariners": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Nacho Alvarez/Atlanta Braves": {
+      "best_american": 1800,
+      "best_prob": 0.05263,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1800,
+          "prob": 0.05263,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "J.P. Crawford/Seattle Mariners": {
+      "best_american": 2000,
+      "best_prob": 0.04762,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 2000,
+          "prob": 0.04762,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Gabriel Arias": {
+      "best_american": 775,
+      "best_prob": 0.11429,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 775,
+          "prob": 0.11429,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 10000,
+          "prob": 0.0099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "David Fry": {
+      "best_american": 550,
+      "best_prob": 0.15385,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 550,
+          "prob": 0.15385,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 6500,
+          "prob": 0.01515,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Austin Hedges": {
+      "best_american": 950,
+      "best_prob": 0.09524,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 950,
+          "prob": 0.09524,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Steven Kwan": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 14000,
+          "prob": 0.00709,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Kyle Manzardo": {
+      "best_american": 425,
+      "best_prob": 0.19048,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 425,
+          "prob": 0.19048,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 4500,
+          "prob": 0.02174,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Angel Martinez": {
+      "best_american": 650,
+      "best_prob": 0.13333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 650,
+          "prob": 0.13333,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 9000,
+          "prob": 0.01099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Jhonkensy Noel": {
+      "best_american": 550,
+      "best_prob": 0.15385,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 550,
+          "prob": 0.15385,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Jose Ramirez": {
+      "best_american": 340,
+      "best_prob": 0.22727,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 340,
+          "prob": 0.22727,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 3500,
+          "prob": 0.02778,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Brayan Rocchio": {
+      "best_american": 1300,
+      "best_prob": 0.07143,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1300,
+          "prob": 0.07143,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 14000,
+          "prob": 0.00709,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Junior Caminero": {
+      "best_american": 280,
+      "best_prob": 0.26316,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 280,
+          "prob": 0.26316,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 2500,
+          "prob": 0.03846,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Yandy Diaz": {
+      "best_american": 475,
+      "best_prob": 0.17391,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 475,
+          "prob": 0.17391,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 6000,
+          "prob": 0.01639,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Hunter Feduccia": {
+      "best_american": 900,
+      "best_prob": 0.1,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 900,
+          "prob": 0.1,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Brandon Lowe": {
+      "best_american": 375,
+      "best_prob": 0.21053,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 375,
+          "prob": 0.21053,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 5000,
+          "prob": 0.01961,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Josh Lowe": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 8000,
+          "prob": 0.01235,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Jake Mangum": {
+      "best_american": 1400,
+      "best_prob": 0.06667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1400,
+          "prob": 0.06667,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 20000,
+          "prob": 0.00498,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Richie Palacios": {
+      "best_american": 950,
+      "best_prob": 0.09524,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 950,
+          "prob": 0.09524,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Chandler Simpson": {
+      "best_american": 2500,
+      "best_prob": 0.03846,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 2500,
+          "prob": 0.03846,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Carson Williams": {
+      "best_american": 650,
+      "best_prob": 0.13333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 650,
+          "prob": 0.13333,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 9000,
+          "prob": 0.01099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Junior Caminero/Tampa Bay Rays": {
+      "best_american": 425,
+      "best_prob": 0.19048,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 425,
+          "prob": 0.19048,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Brandon Lowe/Tampa Bay Rays": {
+      "best_american": 550,
+      "best_prob": 0.15385,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 550,
+          "prob": 0.15385,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Yandy Diaz/Tampa Bay Rays": {
+      "best_american": 550,
+      "best_prob": 0.15385,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 550,
+          "prob": 0.15385,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jose Ramirez/Cleveland Guardians": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Kyle Manzardo/Cleveland Guardians": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "David Fry/Cleveland Guardians": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jhonkensy Noel/Cleveland Guardians": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Carson Williams/Tampa Bay Rays": {
+      "best_american": 900,
+      "best_prob": 0.1,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 900,
+          "prob": 0.1,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Josh Lowe/Tampa Bay Rays": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Gabriel Arias/Cleveland Guardians": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Angel Martinez/Cleveland Guardians": {
+      "best_american": 1100,
+      "best_prob": 0.08333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1100,
+          "prob": 0.08333,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Richie Palacios/Tampa Bay Rays": {
+      "best_american": 1100,
+      "best_prob": 0.08333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1100,
+          "prob": 0.08333,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Hunter Feduccia/Tampa Bay Rays": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Brayan Rocchio/Cleveland Guardians": {
+      "best_american": 1600,
+      "best_prob": 0.05882,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1600,
+          "prob": 0.05882,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Steven Kwan/Cleveland Guardians": {
+      "best_american": 1800,
+      "best_prob": 0.05263,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1800,
+          "prob": 0.05263,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Austin Hedges/Cleveland Guardians": {
+      "best_american": 1800,
+      "best_prob": 0.05263,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1800,
+          "prob": 0.05263,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jake Mangum/Tampa Bay Rays": {
+      "best_american": 2000,
+      "best_prob": 0.04762,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 2000,
+          "prob": 0.04762,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Chandler Simpson/Tampa Bay Rays": {
+      "best_american": 2800,
+      "best_prob": 0.03448,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 2800,
+          "prob": 0.03448,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Adam Frazier": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "Player to Hit a Home Run in the Game"
+        },
+        {
+          "book": "Bovada",
+          "american": 15000,
+          "prob": 0.00662,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Bobby Witt Jr.": {
+      "best_american": 400,
+      "best_prob": 0.2,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 400,
+          "prob": 0.2,
+          "market": "Player to Hit a Home Run in the Game"
+        },
+        {
+          "book": "Bovada",
+          "american": 4000,
+          "prob": 0.02439,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Jac Caglianone": {
+      "best_american": 950,
+      "best_prob": 0.09524,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 950,
+          "prob": 0.09524,
+          "market": "Player to Hit a Home Run in the Game"
+        },
+        {
+          "book": "Bovada",
+          "american": 12000,
+          "prob": 0.00826,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Kyle Isbel": {
+      "best_american": 1300,
+      "best_prob": 0.07143,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1300,
+          "prob": 0.07143,
+          "market": "Player to Hit a Home Run in the Game"
+        },
+        {
+          "book": "Bovada",
+          "american": 15000,
+          "prob": 0.00662,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Maikel Garcia": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "Player to Hit a Home Run in the Game"
+        },
+        {
+          "book": "Bovada",
+          "american": 12000,
+          "prob": 0.00826,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Michael Massey": {
+      "best_american": 950,
+      "best_prob": 0.09524,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 950,
+          "prob": 0.09524,
+          "market": "Player to Hit a Home Run in the Game"
+        },
+        {
+          "book": "Bovada",
+          "american": 13000,
+          "prob": 0.00763,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Mike Yastrzemski": {
+      "best_american": 500,
+      "best_prob": 0.16667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 500,
+          "prob": 0.16667,
+          "market": "Player to Hit a Home Run in the Game"
+        },
+        {
+          "book": "Bovada",
+          "american": 5000,
+          "prob": 0.01961,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Salvador Perez": {
+      "best_american": 500,
+      "best_prob": 0.16667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 500,
+          "prob": 0.16667,
+          "market": "Player to Hit a Home Run in the Game"
+        },
+        {
+          "book": "Bovada",
+          "american": 7000,
+          "prob": 0.01408,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Vinnie Pasquantino": {
+      "best_american": 550,
+      "best_prob": 0.15385,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 550,
+          "prob": 0.15385,
+          "market": "Player to Hit a Home Run in the Game"
+        },
+        {
+          "book": "Bovada",
+          "american": 6500,
+          "prob": 0.01515,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Austin Martin": {
+      "best_american": 1500,
+      "best_prob": 0.0625,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1500,
+          "prob": 0.0625,
+          "market": "Player to Hit a Home Run in the Game"
+        }
+      ]
+    },
+    "Brooks Lee": {
+      "best_american": 750,
+      "best_prob": 0.11765,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 750,
+          "prob": 0.11765,
+          "market": "Player to Hit a Home Run in the Game"
+        },
+        {
+          "book": "Bovada",
+          "american": 10000,
+          "prob": 0.0099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Byron Buxton": {
+      "best_american": 350,
+      "best_prob": 0.22222,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 350,
+          "prob": 0.22222,
+          "market": "Player to Hit a Home Run in the Game"
+        },
+        {
+          "book": "Bovada",
+          "american": 3300,
+          "prob": 0.02941,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Kody Clemens": {
+      "best_american": 450,
+      "best_prob": 0.18182,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 450,
+          "prob": 0.18182,
+          "market": "Player to Hit a Home Run in the Game"
+        },
+        {
+          "book": "Bovada",
+          "american": 6000,
+          "prob": 0.01639,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Luke Keaschall": {
+      "best_american": 850,
+      "best_prob": 0.10526,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 850,
+          "prob": 0.10526,
+          "market": "Player to Hit a Home Run in the Game"
+        },
+        {
+          "book": "Bovada",
+          "american": 11000,
+          "prob": 0.00901,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Matt Wallner": {
+      "best_american": 350,
+      "best_prob": 0.22222,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 350,
+          "prob": 0.22222,
+          "market": "Player to Hit a Home Run in the Game"
+        },
+        {
+          "book": "Bovada",
+          "american": 4000,
+          "prob": 0.02439,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Michael Gasper": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "Player to Hit a Home Run in the Game"
+        }
+      ]
+    },
+    "Royce Lewis": {
+      "best_american": 450,
+      "best_prob": 0.18182,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 450,
+          "prob": 0.18182,
+          "market": "Player to Hit a Home Run in the Game"
+        },
+        {
+          "book": "Bovada",
+          "american": 7000,
+          "prob": 0.01408,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Ryan Fitzgerald": {
+      "best_american": 850,
+      "best_prob": 0.10526,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 850,
+          "prob": 0.10526,
+          "market": "Player to Hit a Home Run in the Game"
+        }
+      ]
+    },
+    "Byron Buxton/Minnesota Twins": {
+      "best_american": 550,
+      "best_prob": 0.15385,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 550,
+          "prob": 0.15385,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Bobby Witt Jr./Kansas City Royals": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Matt Wallner/Minnesota Twins": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Salvador Perez/Kansas City Royals": {
+      "best_american": 650,
+      "best_prob": 0.13333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 650,
+          "prob": 0.13333,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Vinnie Pasquantino/Kansas City Royals": {
+      "best_american": 750,
+      "best_prob": 0.11765,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 750,
+          "prob": 0.11765,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Mike Yastrzemski/Kansas City Royals": {
+      "best_american": 750,
+      "best_prob": 0.11765,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 750,
+          "prob": 0.11765,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Kody Clemens/Minnesota Twins": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Royce Lewis/Minnesota Twins": {
+      "best_american": 850,
+      "best_prob": 0.10526,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 850,
+          "prob": 0.10526,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Michael Massey/Kansas City Royals": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jac Caglianone/Kansas City Royals": {
+      "best_american": 1300,
+      "best_prob": 0.07143,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1300,
+          "prob": 0.07143,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Luke Keaschall/Minnesota Twins": {
+      "best_american": 1400,
+      "best_prob": 0.06667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1400,
+          "prob": 0.06667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Maikel Garcia/Kansas City Royals": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Brooks Lee/Minnesota Twins": {
+      "best_american": 1300,
+      "best_prob": 0.07143,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1300,
+          "prob": 0.07143,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Ryan Fitzgerald/Minnesota Twins": {
+      "best_american": 1300,
+      "best_prob": 0.07143,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1300,
+          "prob": 0.07143,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Mickey Gasper/Minnesota Twins": {
+      "best_american": 1400,
+      "best_prob": 0.06667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1400,
+          "prob": 0.06667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Adam Frazier/Kansas City Royals": {
+      "best_american": 2200,
+      "best_prob": 0.04348,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 2200,
+          "prob": 0.04348,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Kyle Isbel/Kansas City Royals": {
+      "best_american": 2200,
+      "best_prob": 0.04348,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 2200,
+          "prob": 0.04348,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Austin Martin/Minnesota Twins": {
+      "best_american": 2500,
+      "best_prob": 0.03846,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 2500,
+          "prob": 0.03846,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jose Altuve": {
+      "best_american": 575,
+      "best_prob": 0.14815,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 575,
+          "prob": 0.14815,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Yordan Alvarez": {
+      "best_american": 260,
+      "best_prob": 0.27778,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 260,
+          "prob": 0.27778,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Carlos Correa": {
+      "best_american": 625,
+      "best_prob": 0.13793,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 625,
+          "prob": 0.13793,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Yainer Diaz": {
+      "best_american": 575,
+      "best_prob": 0.14815,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 575,
+          "prob": 0.14815,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Jeremy Pena": {
+      "best_american": 650,
+      "best_prob": 0.13333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 650,
+          "prob": 0.13333,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Jesus Sanchez": {
+      "best_american": 500,
+      "best_prob": 0.16667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 500,
+          "prob": 0.16667,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Taylor Trammell": {
+      "best_american": 550,
+      "best_prob": 0.15385,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 550,
+          "prob": 0.15385,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Ramon Urias": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Christian Walker": {
+      "best_american": 450,
+      "best_prob": 0.18182,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 450,
+          "prob": 0.18182,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Yordan Alvarez/Houston Astros": {
+      "best_american": 380,
+      "best_prob": 0.20833,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 380,
+          "prob": 0.20833,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jesus Sanchez/Houston Astros": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Christian Walker/Houston Astros": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Joc Pederson/Texas Rangers": {
+      "best_american": 650,
+      "best_prob": 0.13333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 650,
+          "prob": 0.13333,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jake Burger/Texas Rangers": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Wyatt Langford/Texas Rangers": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jose Altuve/Houston Astros": {
+      "best_american": 750,
+      "best_prob": 0.11765,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 750,
+          "prob": 0.11765,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Carlos Correa/Houston Astros": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Ramon Urias/Houston Astros": {
+      "best_american": 850,
+      "best_prob": 0.10526,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 850,
+          "prob": 0.10526,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Yainer Diaz/Houston Astros": {
+      "best_american": 900,
+      "best_prob": 0.1,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 900,
+          "prob": 0.1,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jeremy Pena/Houston Astros": {
+      "best_american": 900,
+      "best_prob": 0.1,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 900,
+          "prob": 0.1,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Taylor Trammell/Houston Astros": {
+      "best_american": 900,
+      "best_prob": 0.1,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 900,
+          "prob": 0.1,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Cody Freeman/Texas Rangers": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jonah Heim/Texas Rangers": {
+      "best_american": 1100,
+      "best_prob": 0.08333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1100,
+          "prob": 0.08333,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Josh Smith/Texas Rangers": {
+      "best_american": 1100,
+      "best_prob": 0.08333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1100,
+          "prob": 0.08333,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Josh Jung/Texas Rangers": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Michael Helman/Texas Rangers": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Alejandro Osuna/Texas Rangers": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Willy Adames": {
+      "best_american": 450,
+      "best_prob": 0.18182,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 450,
+          "prob": 0.18182,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 5500,
+          "prob": 0.01786,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Patrick Bailey": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Matt Chapman": {
+      "best_american": 525,
+      "best_prob": 0.16,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 525,
+          "prob": 0.16,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 4500,
+          "prob": 0.02174,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Rafael Devers": {
+      "best_american": 280,
+      "best_prob": 0.26316,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 280,
+          "prob": 0.26316,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 3500,
+          "prob": 0.02778,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Drew Gilbert": {
+      "best_american": 750,
+      "best_prob": 0.11765,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 750,
+          "prob": 0.11765,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 9000,
+          "prob": 0.01099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Jung Hoo Lee": {
+      "best_american": 850,
+      "best_prob": 0.10526,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 850,
+          "prob": 0.10526,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 12000,
+          "prob": 0.00826,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Heliot Ramos": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 8000,
+          "prob": 0.01235,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Casey Schmitt": {
+      "best_american": 650,
+      "best_prob": 0.13333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 650,
+          "prob": 0.13333,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 7000,
+          "prob": 0.01408,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Dominic Smith": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 7500,
+          "prob": 0.01316,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Nolan Gorman": {
+      "best_american": 425,
+      "best_prob": 0.19048,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 425,
+          "prob": 0.19048,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 5500,
+          "prob": 0.01786,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Ivan Herrera": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 9000,
+          "prob": 0.01099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Lars Nootbaar": {
+      "best_american": 525,
+      "best_prob": 0.16,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 525,
+          "prob": 0.16,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 4500,
+          "prob": 0.02174,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Pedro Pages": {
+      "best_american": 900,
+      "best_prob": 0.1,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 900,
+          "prob": 0.1,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 11000,
+          "prob": 0.00901,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Thomas Saggese": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 12000,
+          "prob": 0.00826,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Victor Scott II": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 15000,
+          "prob": 0.00662,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Jordan Walker": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 9000,
+          "prob": 0.01099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Masyn Winn": {
+      "best_american": 850,
+      "best_prob": 0.10526,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 850,
+          "prob": 0.10526,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 15000,
+          "prob": 0.00662,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Cesar Prieto": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Willson Contreras": {
+      "best_american": 5500,
+      "best_prob": 0.01786,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 5500,
+          "prob": 0.01786,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Rafael Devers/San Francisco Giants": {
+      "best_american": 550,
+      "best_prob": 0.15385,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 550,
+          "prob": 0.15385,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Nolan Gorman/St. Louis Cardinals": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Matt Chapman/San Francisco Giants": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Lars Nootbaar/St. Louis Cardinals": {
+      "best_american": 750,
+      "best_prob": 0.11765,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 750,
+          "prob": 0.11765,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Willy Adames/San Francisco Giants": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Willson Contreras/St. Louis Cardinals": {
+      "best_american": 850,
+      "best_prob": 0.10526,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 850,
+          "prob": 0.10526,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Ivan Herrera/St. Louis Cardinals": {
+      "best_american": 950,
+      "best_prob": 0.09524,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 950,
+          "prob": 0.09524,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Heliot Ramos/San Francisco Giants": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Casey Schmitt/San Francisco Giants": {
+      "best_american": 1100,
+      "best_prob": 0.08333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1100,
+          "prob": 0.08333,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jordan Walker/St. Louis Cardinals": {
+      "best_american": 1100,
+      "best_prob": 0.08333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1100,
+          "prob": 0.08333,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Dominic Smith/San Francisco Giants": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Pedro Pages/St. Louis Cardinals": {
+      "best_american": 1300,
+      "best_prob": 0.07143,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1300,
+          "prob": 0.07143,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Patrick Bailey/San Francisco Giants": {
+      "best_american": 1300,
+      "best_prob": 0.07143,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1300,
+          "prob": 0.07143,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Luis Matos/San Francisco Giants": {
+      "best_american": 1400,
+      "best_prob": 0.06667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1400,
+          "prob": 0.06667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Thomas Saggese/St. Louis Cardinals": {
+      "best_american": 1400,
+      "best_prob": 0.06667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1400,
+          "prob": 0.06667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Masyn Winn/St. Louis Cardinals": {
+      "best_american": 1400,
+      "best_prob": 0.06667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1400,
+          "prob": 0.06667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Victor Scott II/St. Louis Cardinals": {
+      "best_american": 1600,
+      "best_prob": 0.05882,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1600,
+          "prob": 0.05882,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jung Hoo Lee/San Francisco Giants": {
+      "best_american": 1900,
+      "best_prob": 0.05,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1900,
+          "prob": 0.05,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Manny Machado/San Diego Padres": {
+      "best_american": 420,
+      "best_prob": 0.19231,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 420,
+          "prob": 0.19231,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Ramon Laureano/San Diego Padres": {
+      "best_american": 480,
+      "best_prob": 0.17241,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 480,
+          "prob": 0.17241,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Fernando Tatis Jr./San Diego Padres": {
+      "best_american": 500,
+      "best_prob": 0.16667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 500,
+          "prob": 0.16667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Hunter Goodman/Colorado Rockies": {
+      "best_american": 750,
+      "best_prob": 0.11765,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 750,
+          "prob": 0.11765,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Ryan O'Hearn/San Diego Padres": {
+      "best_american": 750,
+      "best_prob": 0.11765,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 750,
+          "prob": 0.11765,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Mickey Moniak/Colorado Rockies": {
+      "best_american": 850,
+      "best_prob": 0.10526,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 850,
+          "prob": 0.10526,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Gavin Sheets/San Diego Padres": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jake Cronenworth/San Diego Padres": {
+      "best_american": 850,
+      "best_prob": 0.10526,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 850,
+          "prob": 0.10526,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Freddy Fermin/San Diego Padres": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Ezequiel Tovar/Colorado Rockies": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Brenton Doyle/Colorado Rockies": {
+      "best_american": 1300,
+      "best_prob": 0.07143,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1300,
+          "prob": 0.07143,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Warming Bernabel/Colorado Rockies": {
+      "best_american": 1300,
+      "best_prob": 0.07143,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1300,
+          "prob": 0.07143,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jordan Beck/Colorado Rockies": {
+      "best_american": 1400,
+      "best_prob": 0.06667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1400,
+          "prob": 0.06667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Luis Arraez/San Diego Padres": {
+      "best_american": 1600,
+      "best_prob": 0.05882,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1600,
+          "prob": 0.05882,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Tyler Freeman/Colorado Rockies": {
+      "best_american": 1600,
+      "best_prob": 0.05882,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1600,
+          "prob": 0.05882,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jose Iglesias/San Diego Padres": {
+      "best_american": 1600,
+      "best_prob": 0.05882,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1600,
+          "prob": 0.05882,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Yanquiel Fernandez/Colorado Rockies": {
+      "best_american": 1600,
+      "best_prob": 0.05882,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1600,
+          "prob": 0.05882,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Kyle Karros/Colorado Rockies": {
+      "best_american": 1900,
+      "best_prob": 0.05,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1900,
+          "prob": 0.05,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "JJ Bleday": {
+      "best_american": 650,
+      "best_prob": 0.13333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 650,
+          "prob": 0.13333,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 10000,
+          "prob": 0.0099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Lawrence Butler": {
+      "best_american": 750,
+      "best_prob": 0.11765,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 750,
+          "prob": 0.11765,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 7500,
+          "prob": 0.01316,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Zack Gelof": {
+      "best_american": 850,
+      "best_prob": 0.10526,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 850,
+          "prob": 0.10526,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 9000,
+          "prob": 0.01099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Darell Hernaiz": {
+      "best_american": 1100,
+      "best_prob": 0.08333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1100,
+          "prob": 0.08333,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 15000,
+          "prob": 0.00662,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Nick Kurtz": {
+      "best_american": 325,
+      "best_prob": 0.23529,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 325,
+          "prob": 0.23529,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 3500,
+          "prob": 0.02778,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Shea Langeliers": {
+      "best_american": 350,
+      "best_prob": 0.22222,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 350,
+          "prob": 0.22222,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 4500,
+          "prob": 0.02174,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Brent Rooker": {
+      "best_american": 475,
+      "best_prob": 0.17391,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 475,
+          "prob": 0.17391,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 5000,
+          "prob": 0.01961,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Tyler Soderstrom": {
+      "best_american": 650,
+      "best_prob": 0.13333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 650,
+          "prob": 0.13333,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 6500,
+          "prob": 0.01515,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Jacob Wilson": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 14000,
+          "prob": 0.00709,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Jo Adell": {
+      "best_american": 240,
+      "best_prob": 0.29412,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 240,
+          "prob": 0.29412,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 3000,
+          "prob": 0.03226,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Yoan Moncada": {
+      "best_american": 350,
+      "best_prob": 0.22222,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 350,
+          "prob": 0.22222,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 5500,
+          "prob": 0.01786,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Logan O'Hoppe": {
+      "best_american": 350,
+      "best_prob": 0.22222,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 350,
+          "prob": 0.22222,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 3500,
+          "prob": 0.02778,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Oswald Peraza": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 10000,
+          "prob": 0.0099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Luis Rengifo": {
+      "best_american": 850,
+      "best_prob": 0.10526,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 850,
+          "prob": 0.10526,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 8000,
+          "prob": 0.01235,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Bryce Teodosio": {
+      "best_american": 950,
+      "best_prob": 0.09524,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 950,
+          "prob": 0.09524,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 10000,
+          "prob": 0.0099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Taylor Ward": {
+      "best_american": 350,
+      "best_prob": 0.22222,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 350,
+          "prob": 0.22222,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 4000,
+          "prob": 0.02439,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Mike Trout": {
+      "best_american": 1500,
+      "best_prob": 0.0625,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1500,
+          "prob": 0.0625,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Zach Neto": {
+      "best_american": 3500,
+      "best_prob": 0.02778,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 3500,
+          "prob": 0.02778,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Jo Adell/Los Angeles Angels": {
+      "best_american": 400,
+      "best_prob": 0.2,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 400,
+          "prob": 0.2,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Mike Trout/Los Angeles Angels": {
+      "best_american": 500,
+      "best_prob": 0.16667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 500,
+          "prob": 0.16667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Taylor Ward/Los Angeles Angels": {
+      "best_american": 500,
+      "best_prob": 0.16667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 500,
+          "prob": 0.16667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Zach Neto/Los Angeles Angels": {
+      "best_american": 500,
+      "best_prob": 0.16667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 500,
+          "prob": 0.16667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Yoan Moncada/Los Angeles Angels": {
+      "best_american": 550,
+      "best_prob": 0.15385,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 550,
+          "prob": 0.15385,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Brent Rooker/Athletics": {
+      "best_american": 650,
+      "best_prob": 0.13333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 650,
+          "prob": 0.13333,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Travis d'Arnaud/Los Angeles Angels": {
+      "best_american": 650,
+      "best_prob": 0.13333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 650,
+          "prob": 0.13333,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Nick Kurtz/Athletics": {
+      "best_american": 650,
+      "best_prob": 0.13333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 650,
+          "prob": 0.13333,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Shea Langeliers/Athletics": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Luis Rengifo/Los Angeles Angels": {
+      "best_american": 850,
+      "best_prob": 0.10526,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 850,
+          "prob": 0.10526,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Lawrence Butler/Athletics": {
+      "best_american": 950,
+      "best_prob": 0.09524,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 950,
+          "prob": 0.09524,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Oswald Peraza/Los Angeles Angels": {
+      "best_american": 950,
+      "best_prob": 0.09524,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 950,
+          "prob": 0.09524,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Tyler Soderstrom/Athletics": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "JJ Bleday/Athletics": {
+      "best_american": 1100,
+      "best_prob": 0.08333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1100,
+          "prob": 0.08333,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Bryce Teodosio/Los Angeles Angels": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Zack Gelof/Athletics": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Darrell Hernaiz/Athletics": {
+      "best_american": 2200,
+      "best_prob": 0.04348,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 2200,
+          "prob": 0.04348,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jacob Wilson/Athletics": {
+      "best_american": 2200,
+      "best_prob": 0.04348,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 2200,
+          "prob": 0.04348,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Alex Bregman": {
+      "best_american": 550,
+      "best_prob": 0.15385,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 550,
+          "prob": 0.15385,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 8000,
+          "prob": 0.01235,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Jarren Duran": {
+      "best_american": 750,
+      "best_prob": 0.11765,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 750,
+          "prob": 0.11765,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 11000,
+          "prob": 0.00901,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Nate Eaton": {
+      "best_american": 900,
+      "best_prob": 0.1,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 900,
+          "prob": 0.1,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 14000,
+          "prob": 0.00709,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Romy Gonzalez": {
+      "best_american": 525,
+      "best_prob": 0.16,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 525,
+          "prob": 0.16,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Carlos Narvaez": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Ceddanne Rafaela": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 8000,
+          "prob": 0.01235,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Rob Refsnyder": {
+      "best_american": 750,
+      "best_prob": 0.11765,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 750,
+          "prob": 0.11765,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 7500,
+          "prob": 0.01316,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Nick Sogard": {
+      "best_american": 1100,
+      "best_prob": 0.08333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1100,
+          "prob": 0.08333,
+          "market": "Player to hit a Home Run"
+        }
+      ]
+    },
+    "Trevor Story": {
+      "best_american": 525,
+      "best_prob": 0.16,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 525,
+          "prob": 0.16,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 7000,
+          "prob": 0.01408,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Blaze Alexander": {
+      "best_american": 750,
+      "best_prob": 0.11765,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 750,
+          "prob": 0.11765,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 10000,
+          "prob": 0.0099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Jorge Barrosa": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 10000,
+          "prob": 0.0099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Corbin Carroll": {
+      "best_american": 525,
+      "best_prob": 0.16,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 525,
+          "prob": 0.16,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 5500,
+          "prob": 0.01786,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Jordan Lawlar": {
+      "best_american": 950,
+      "best_prob": 0.09524,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 950,
+          "prob": 0.09524,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 14000,
+          "prob": 0.00709,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Tyler Locklear": {
+      "best_american": 850,
+      "best_prob": 0.10526,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 850,
+          "prob": 0.10526,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 9000,
+          "prob": 0.01099,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Ketel Marte": {
+      "best_american": 325,
+      "best_prob": 0.23529,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 325,
+          "prob": 0.23529,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 4000,
+          "prob": 0.02439,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Gabriel Moreno": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 13000,
+          "prob": 0.00763,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Geraldo Perdomo": {
+      "best_american": 1300,
+      "best_prob": 0.07143,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1300,
+          "prob": 0.07143,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 14000,
+          "prob": 0.00709,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Ildemaro Vargas": {
+      "best_american": 1300,
+      "best_prob": 0.07143,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1300,
+          "prob": 0.07143,
+          "market": "Player to hit a Home Run"
+        },
+        {
+          "book": "Bovada",
+          "american": 12000,
+          "prob": 0.00826,
+          "market": "Player to Hit 2+ Home Runs"
+        }
+      ]
+    },
+    "Ketel Marte/Arizona Diamondbacks": {
+      "best_american": 600,
+      "best_prob": 0.14286,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 600,
+          "prob": 0.14286,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Trevor Story/Boston Red Sox": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Romy Gonzalez/Boston Red Sox": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Corbin Carroll/Arizona Diamondbacks": {
+      "best_american": 700,
+      "best_prob": 0.125,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 700,
+          "prob": 0.125,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Robert Refsnyder/Boston Red Sox": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Alex Bregman/Boston Red Sox": {
+      "best_american": 800,
+      "best_prob": 0.11111,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 800,
+          "prob": 0.11111,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Carlos Narvaez/Boston Red Sox": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Ceddanne Rafaela/Boston Red Sox": {
+      "best_american": 1000,
+      "best_prob": 0.09091,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1000,
+          "prob": 0.09091,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Blaze Alexander/Arizona Diamondbacks": {
+      "best_american": 1100,
+      "best_prob": 0.08333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1100,
+          "prob": 0.08333,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jarren Duran/Boston Red Sox": {
+      "best_american": 1100,
+      "best_prob": 0.08333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1100,
+          "prob": 0.08333,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Nathaniel Lowe/Boston Red Sox": {
+      "best_american": 1100,
+      "best_prob": 0.08333,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1100,
+          "prob": 0.08333,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Tyler Locklear/Arizona Diamondbacks": {
+      "best_american": 1200,
+      "best_prob": 0.07692,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1200,
+          "prob": 0.07692,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Nate Eaton/Boston Red Sox": {
+      "best_american": 1400,
+      "best_prob": 0.06667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1400,
+          "prob": 0.06667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "James McCann/Arizona Diamondbacks": {
+      "best_american": 1400,
+      "best_prob": 0.06667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1400,
+          "prob": 0.06667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jorge Barrosa/Arizona Diamondbacks": {
+      "best_american": 1400,
+      "best_prob": 0.06667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1400,
+          "prob": 0.06667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Geraldo Perdomo/Arizona Diamondbacks": {
+      "best_american": 1400,
+      "best_prob": 0.06667,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1400,
+          "prob": 0.06667,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Ildemaro Vargas/Arizona Diamondbacks": {
+      "best_american": 1600,
+      "best_prob": 0.05882,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1600,
+          "prob": 0.05882,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    },
+    "Jordan Lawlar/Arizona Diamondbacks": {
+      "best_american": 1600,
+      "best_prob": 0.05882,
+      "offers": [
+        {
+          "book": "Bovada",
+          "american": 1600,
+          "prob": 0.05882,
+          "market": "To Hit a Home Run / Game Winner Parlay"
+        }
+      ]
+    }
+  }
+}
