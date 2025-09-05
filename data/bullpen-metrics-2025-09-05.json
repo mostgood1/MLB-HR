@@ -1,0 +1,178 @@
+{
+  "date": "2025-09-05",
+  "bullpens": {
+    "CHC": {
+      "hr9": 1.2536231884057971
+    },
+    "WSH": {
+      "hr9": 1.3285948605795517
+    },
+    "CIN": {
+      "hr9": 1.2051626781392846
+    },
+    "NYM": {
+      "hr9": 0.907258064516129
+    },
+    "DET": {
+      "hr9": 1.1513859275053304
+    },
+    "CWS": {
+      "hr9": 1.144747502025385
+    },
+    "PIT": {
+      "hr9": 0.9769498793889038
+    },
+    "MIL": {
+      "hr9": 1.0607910804353597
+    },
+    "BAL": {
+      "hr9": 1.383495145631068
+    },
+    "LAD": {
+      "hr9": 1.1679204728640515
+    },
+    "NYY": {
+      "hr9": 1.099973197534173
+    },
+    "TOR": {
+      "hr9": 1.3684633950120675
+    },
+    "MIA": {
+      "hr9": 1.1900026874496104
+    },
+    "PHI": {
+      "hr9": 1.079420445398444
+    },
+    "ATL": {
+      "hr9": 1.2203389830508475
+    },
+    "SEA": {
+      "hr9": 1.2074622916115374
+    },
+    "TB": {
+      "hr9": 1.33512496640688
+    },
+    "CLE": {
+      "hr9": 1.1085899513776336
+    },
+    "KC": {
+      "hr9": 1.033734939759036
+    },
+    "MIN": {
+      "hr9": 1.2481751824817517
+    },
+    "TEX": {
+      "hr9": 1.0716568993074056
+    },
+    "HOU": {
+      "hr9": 1.2389920424403182
+    },
+    "STL": {
+      "hr9": 1.0548568370350548
+    },
+    "SF": {
+      "hr9": 0.8857219682710405
+    },
+    "COL": {
+      "hr9": 1.562227074235808
+    },
+    "SD": {
+      "hr9": 1.0776699029126213
+    },
+    "LAA": {
+      "hr9": 1.3946731234866827
+    },
+    "ATH": {
+      "hr9": 1.4240809802876933
+    },
+    "AZ": {
+      "hr9": 1.196973719139899
+    },
+    "BOS": {
+      "hr9": 1.0332541567695963
+    }
+  },
+  "starters": {
+    "Javier Assad": {
+      "expected_ip": 5.5
+    },
+    "Jake Irvin": {
+      "expected_ip": 5.5
+    },
+    "Andrew Abbott": {
+      "expected_ip": 5.5
+    },
+    "David Peterson": {
+      "expected_ip": 5.5
+    },
+    "Jack Flaherty": {
+      "expected_ip": 5.5
+    },
+    "Shane Smith": {
+      "expected_ip": 5.5
+    },
+    "Johan Oviedo": {
+      "expected_ip": 5.5
+    },
+    "Quinn Priester": {
+      "expected_ip": 5.5
+    },
+    "Dean Kremer": {
+      "expected_ip": 5.5
+    },
+    "Tyler Glasnow": {
+      "expected_ip": 5.5
+    },
+    "Cam Schlittler": {
+      "expected_ip": 5.5
+    },
+    "Kevin Gausman": {
+      "expected_ip": 5.5
+    },
+    "Valente Bellozo": {
+      "expected_ip": 5.5
+    },
+    "Cristopher S\u00e1nchez": {
+      "expected_ip": 5.5
+    },
+    "Chris Sale": {
+      "expected_ip": 5.5
+    },
+    "Logan Gilbert": {
+      "expected_ip": 5.5
+    },
+    "Griffin Jax": {
+      "expected_ip": 5.5
+    },
+    "Gavin Williams": {
+      "expected_ip": 5.5
+    },
+    "Michael Wacha": {
+      "expected_ip": 5.5
+    },
+    "Merrill Kelly": {
+      "expected_ip": 5.5
+    },
+    "Michael McGreevy": {
+      "expected_ip": 5.5
+    },
+    "Carson Seymour": {
+      "expected_ip": 5.5
+    },
+    "Kyle Freeland": {
+      "expected_ip": 5.5
+    },
+    "Jos\u00e9 Soriano": {
+      "expected_ip": 5.5
+    },
+    "Mason Barnett": {
+      "expected_ip": 5.5
+    },
+    "Eduardo Rodriguez": {
+      "expected_ip": 5.5
+    },
+    "Payton Tolle": {
+      "expected_ip": 5.5
+    }
+  }
+}

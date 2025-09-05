@@ -1,4 +1,69 @@
 {
   "date": "2025-09-04",
-  "hitters": {}
+  "hitters": {
+    "663757": {
+      "name": "Ort, Kaleb",
+      "hr": 1
+    },
+    "660821": {
+      "name": "Weaver, Luke",
+      "hr": 1
+    },
+    "641857": {
+      "name": "Javier, Cristian",
+      "hr": 1
+    },
+    "670541": {
+      "name": "Rod\u00f3n, Carlos",
+      "hr": 1
+    },
+    "677951": {
+      "name": "Zeferjahn, Ryan",
+      "hr": 1
+    },
+    "521692": {
+      "name": "Fermin, Jos\u00e9",
+      "hr": 1
+    },
+    "686469": {
+      "name": "Hendricks, Kyle",
+      "hr": 1
+    },
+    "624428": {
+      "name": "Hendricks, Kyle",
+      "hr": 1
+    },
+    "650859": {
+      "name": "Cameron, Noah",
+      "hr": 1
+    },
+    "665019": {
+      "name": "Wilson, Steven",
+      "hr": 1
+    },
+    "695657": {
+      "name": "Davis, Noah",
+      "hr": 1
+    },
+    "691019": {
+      "name": "Adams, Travis",
+      "hr": 1
+    },
+    "670242": {
+      "name": "Alexander, Tyler",
+      "hr": 1
+    },
+    "605141": {
+      "name": "Moreta, Dauri",
+      "hr": 1
+    },
+    "700932": {
+      "name": "Fairbanks, Pete",
+      "hr": 1
+    },
+    "608070": {
+      "name": "Fairbanks, Pete",
+      "hr": 1
+    }
+  }
 }
