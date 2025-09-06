@@ -1,0 +1,185 @@
+{
+  "date": "2025-09-06",
+  "pitchers": [
+    {
+      "name": "Chris Bassitt",
+      "mlbam_id": 605135,
+      "era": 4.1,
+      "homeRunsAllowed": 22
+    },
+    {
+      "name": "Matthew Boyd",
+      "mlbam_id": 571510,
+      "era": 2.94,
+      "homeRunsAllowed": 15
+    },
+    {
+      "name": "Luis Gil",
+      "mlbam_id": 661563,
+      "era": 3.68,
+      "homeRunsAllowed": 2
+    },
+    {
+      "name": "Mart\u00edn P\u00e9rez",
+      "mlbam_id": 527048,
+      "era": 2.16,
+      "homeRunsAllowed": 2
+    },
+    {
+      "name": "Jonah Tong",
+      "mlbam_id": 804636,
+      "era": 1.8,
+      "homeRunsAllowed": 0
+    },
+    {
+      "name": "Brady Singer",
+      "mlbam_id": 663903,
+      "era": 4.08,
+      "homeRunsAllowed": 14
+    },
+    {
+      "name": "Tarik Skubal",
+      "mlbam_id": 669373,
+      "era": 2.18,
+      "homeRunsAllowed": 15
+    },
+    {
+      "name": "Mitch Keller",
+      "mlbam_id": 656605,
+      "era": 4.21,
+      "homeRunsAllowed": 16
+    },
+    {
+      "name": "Jes\u00fas Luzardo",
+      "mlbam_id": 666200,
+      "era": 4.05,
+      "homeRunsAllowed": 14
+    },
+    {
+      "name": "Brad Lord",
+      "mlbam_id": 695418,
+      "era": 4.34,
+      "homeRunsAllowed": 11
+    },
+    {
+      "name": "Brandon Woodruff",
+      "mlbam_id": 605540,
+      "era": 3.69,
+      "homeRunsAllowed": 8
+    },
+    {
+      "name": "Sandy Alcantara",
+      "mlbam_id": 645261,
+      "era": 5.66,
+      "homeRunsAllowed": 17
+    },
+    {
+      "name": "Yoshinobu Yamamoto",
+      "mlbam_id": 808967,
+      "era": 2.82,
+      "homeRunsAllowed": 13
+    },
+    {
+      "name": "Trevor Rogers",
+      "mlbam_id": 669432,
+      "era": 1.39,
+      "homeRunsAllowed": 3
+    },
+    {
+      "name": "Shane Baz",
+      "mlbam_id": 669358,
+      "era": 4.98,
+      "homeRunsAllowed": 26
+    },
+    {
+      "name": "Justin Verlander",
+      "mlbam_id": 434378,
+      "era": 4.29,
+      "homeRunsAllowed": 12
+    },
+    {
+      "name": "Tanner Bibee",
+      "mlbam_id": 676440,
+      "era": 4.77,
+      "homeRunsAllowed": 26
+    },
+    {
+      "name": "Andre Pallante",
+      "mlbam_id": 669467,
+      "era": 5.38,
+      "homeRunsAllowed": 20
+    },
+    {
+      "name": "Jacob deGrom",
+      "mlbam_id": 594798,
+      "era": 2.69,
+      "homeRunsAllowed": 20
+    },
+    {
+      "name": "Hunter Brown",
+      "mlbam_id": 686613,
+      "era": 2.34,
+      "homeRunsAllowed": 14
+    },
+    {
+      "name": "Bryce Miller",
+      "mlbam_id": 682243,
+      "era": 5.71,
+      "homeRunsAllowed": 11
+    },
+    {
+      "name": "Stephen Kolek",
+      "mlbam_id": 663568,
+      "era": 3.99,
+      "homeRunsAllowed": 8
+    },
+    {
+      "name": "Hurston Waldrep",
+      "mlbam_id": 694462,
+      "era": 1.01,
+      "homeRunsAllowed": 1
+    },
+    {
+      "name": "Joe Ryan",
+      "mlbam_id": 657746,
+      "era": 3.08,
+      "homeRunsAllowed": 19
+    },
+    {
+      "name": "Brandon Pfaadt",
+      "mlbam_id": 694297,
+      "era": 5.33,
+      "homeRunsAllowed": 22
+    },
+    {
+      "name": "Lucas Giolito",
+      "mlbam_id": 608337,
+      "era": 3.38,
+      "homeRunsAllowed": 16
+    },
+    {
+      "name": "McCade Brown",
+      "mlbam_id": 685326,
+      "era": 8.22,
+      "homeRunsAllowed": 1
+    },
+    {
+      "name": "Yusei Kikuchi",
+      "mlbam_id": 579328,
+      "era": 3.83,
+      "homeRunsAllowed": 22
+    },
+    {
+      "name": "Randy V\u00e1squez",
+      "mlbam_id": 681190,
+      "era": 3.96,
+      "homeRunsAllowed": 14
+    },
+    {
+      "name": "J.T. Ginn",
+      "mlbam_id": 669372,
+      "era": 5.17,
+      "homeRunsAllowed": 16
+    }
+  ]
+}

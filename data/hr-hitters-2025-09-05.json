@@ -1,4 +1,133 @@
 {
   "date": "2025-09-05",
-  "hitters": {}
+  "hitters": {
+    "665489": {
+      "name": "Yarbrough, Ryan",
+      "hr": 1
+    },
+    "519317": {
+      "name": "Gausman, Kevin",
+      "hr": 1
+    },
+    "640459": {
+      "name": "Banks, Tanner",
+      "hr": 1
+    },
+    "681082": {
+      "name": "Soriano, George",
+      "hr": 1
+    },
+    "664056": {
+      "name": "Bachar, Lake",
+      "hr": 1
+    },
+    "669016": {
+      "name": "Bachar, Lake",
+      "hr": 1
+    },
+    "596146": {
+      "name": "Bellozo, Valente",
+      "hr": 1
+    },
+    "664023": {
+      "name": "Pilkington, Konnor",
+      "hr": 1
+    },
+    "663538": {
+      "name": "Ogasawara, Shinnosuke",
+      "hr": 1
+    },
+    "671277": {
+      "name": "Assad, Javier",
+      "hr": 1
+    },
+    "624512": {
+      "name": "Irvin, Jake",
+      "hr": 1
+    },
+    "621020": {
+      "name": "Irvin, Jake",
+      "hr": 1
+    },
+    "694212": {
+      "name": "Scott, Tanner",
+      "hr": 1
+    },
+    "518692": {
+      "name": "Enns, Dietrich",
+      "hr": 1
+    },
+    "695657": {
+      "name": "Montero, Keider",
+      "hr": 1
+    },
+    "643217": {
+      "name": "Horn, Bailey",
+      "hr": 1
+    },
+    "678009": {
+      "name": "Smith, Shane",
+      "hr": 1
+    },
+    "691406": {
+      "name": "Williams, Gavin",
+      "hr": 1
+    },
+    "595978": {
+      "name": "Van Belle, Brian",
+      "hr": 1
+    },
+    "668901": {
+      "name": "Abbott, Andrew",
+      "hr": 1
+    },
+    "621043": {
+      "name": "Martin, Chris",
+      "hr": 1
+    },
+    "669394": {
+      "name": "Gordon, Colton",
+      "hr": 1
+    },
+    "682998": {
+      "name": "Slaten, Justin",
+      "hr": 1
+    },
+    "545121": {
+      "name": "Tolle, Payton",
+      "hr": 1
+    },
+    "672695": {
+      "name": "Tolle, Payton",
+      "hr": 1
+    },
+    "672580": {
+      "name": "L\u00f3pez, Pablo",
+      "hr": 1
+    },
+    "671056": {
+      "name": "Beck, Tristan",
+      "hr": 1
+    },
+    "642715": {
+      "name": "McGreevy, Michael",
+      "hr": 1
+    },
+    "646240": {
+      "name": "McGreevy, Michael",
+      "hr": 1
+    },
+    "671732": {
+      "name": "Chafin, Andrew",
+      "hr": 1
+    },
+    "668709": {
+      "name": "Soriano, Jos\u00e9",
+      "hr": 1
+    },
+    "696100": {
+      "name": "Pivetta, Nick",
+      "hr": 1
+    }
+  }
 }

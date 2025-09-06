@@ -1,0 +1,187 @@
+{
+  "date": "2025-09-06",
+  "bullpens": {
+    "NYY": {
+      "hr9": 1.0992549228312931
+    },
+    "TOR": {
+      "hr9": 1.365814696485623
+    },
+    "CHC": {
+      "hr9": 1.2517985611510791
+    },
+    "WSH": {
+      "hr9": 1.3492667028788703
+    },
+    "MIA": {
+      "hr9": 1.2102454642475988
+    },
+    "PHI": {
+      "hr9": 1.0788492274906767
+    },
+    "DET": {
+      "hr9": 1.1574490605980416
+    },
+    "CWS": {
+      "hr9": 1.1436997319034854
+    },
+    "CIN": {
+      "hr9": 1.2036839295248265
+    },
+    "NYM": {
+      "hr9": 0.900720576461169
+    },
+    "PIT": {
+      "hr9": 0.9699308142629057
+    },
+    "MIL": {
+      "hr9": 1.0532419609910384
+    },
+    "BAL": {
+      "hr9": 1.380722891566265
+    },
+    "LAD": {
+      "hr9": 1.1670224119530417
+    },
+    "TB": {
+      "hr9": 1.3327107790821773
+    },
+    "CLE": {
+      "hr9": 1.1078037007240547
+    },
+    "STL": {
+      "hr9": 1.0616365568544102
+    },
+    "SF": {
+      "hr9": 0.886545648691938
+    },
+    "TEX": {
+      "hr9": 1.0686015831134565
+    },
+    "HOU": {
+      "hr9": 1.2353405206415986
+    },
+    "KC": {
+      "hr9": 1.0263157894736843
+    },
+    "MIN": {
+      "hr9": 1.2473811442385174
+    },
+    "ATL": {
+      "hr9": 1.2115384615384615
+    },
+    "SEA": {
+      "hr9": 1.1998422298185643
+    },
+    "AZ": {
+      "hr9": 1.1884554559831313
+    },
+    "BOS": {
+      "hr9": 1.0479937057435091
+    },
+    "COL": {
+      "hr9": 1.5507992413979952
+    },
+    "SD": {
+      "hr9": 1.0779742765273312
+    },
+    "LAA": {
+      "hr9": 1.3990384615384615
+    },
+    "ATH": {
+      "hr9": 1.4139116635810633
+    }
+  },
+  "starters": {
+    "Luis Gil": {
+      "expected_ip": 5.5
+    },
+    "Chris Bassitt": {
+      "expected_ip": 5.5
+    },
+    "Matthew Boyd": {
+      "expected_ip": 5.5
+    },
+    "Brad Lord": {
+      "expected_ip": 5.5
+    },
+    "Sandy Alcantara": {
+      "expected_ip": 5.5
+    },
+    "Jes\u00fas Luzardo": {
+      "expected_ip": 5.5
+    },
+    "Tarik Skubal": {
+      "expected_ip": 5.5
+    },
+    "Mart\u00edn P\u00e9rez": {
+      "expected_ip": 5.5
+    },
+    "Brady Singer": {
+      "expected_ip": 5.5
+    },
+    "Jonah Tong": {
+      "expected_ip": 5.5
+    },
+    "Mitch Keller": {
+      "expected_ip": 5.5
+    },
+    "Brandon Woodruff": {
+      "expected_ip": 5.5
+    },
+    "Trevor Rogers": {
+      "expected_ip": 5.5
+    },
+    "Yoshinobu Yamamoto": {
+      "expected_ip": 5.5
+    },
+    "Shane Baz": {
+      "expected_ip": 5.5
+    },
+    "Tanner Bibee": {
+      "expected_ip": 5.5
+    },
+    "Andre Pallante": {
+      "expected_ip": 5.5
+    },
+    "Justin Verlander": {
+      "expected_ip": 5.5
+    },
+    "Jacob deGrom": {
+      "expected_ip": 5.5
+    },
+    "Hunter Brown": {
+      "expected_ip": 5.5
+    },
+    "Stephen Kolek": {
+      "expected_ip": 5.5
+    },
+    "Joe Ryan": {
+      "expected_ip": 5.5
+    },
+    "Hurston Waldrep": {
+      "expected_ip": 5.5
+    },
+    "Bryce Miller": {
+      "expected_ip": 5.5
+    },
+    "Brandon Pfaadt": {
+      "expected_ip": 5.5
+    },
+    "Lucas Giolito": {
+      "expected_ip": 5.5
+    },
+    "McCade Brown": {
+      "expected_ip": 5.5
+    },
+    "Randy V\u00e1squez": {
+      "expected_ip": 5.5
+    },
+    "Yusei Kikuchi": {
+      "expected_ip": 5.5
+    },
+    "J.T. Ginn": {
+      "expected_ip": 5.5
+    }
+  }
+}
