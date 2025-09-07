@@ -1,4 +1,125 @@
 {
   "date": "2025-09-06",
-  "hitters": {}
+  "hitters": {
+    "663728": {
+      "name": "Brebbia, John",
+      "hr": 1
+    },
+    "647304": {
+      "name": "Brebbia, John",
+      "hr": 1
+    },
+    "553993": {
+      "name": "Hern\u00e1ndez, Daysbel",
+      "hr": 1
+    },
+    "677594": {
+      "name": "Hern\u00e1ndez, Daysbel",
+      "hr": 2
+    },
+    "621566": {
+      "name": "Miller, Bryce",
+      "hr": 1
+    },
+    "702616": {
+      "name": "Yamamoto, Yoshinobu",
+      "hr": 1
+    },
+    "694192": {
+      "name": "Sisk, Evan",
+      "hr": 1
+    },
+    "641343": {
+      "name": "Keller, Mitch",
+      "hr": 1
+    },
+    "695734": {
+      "name": "Boyd, Matthew",
+      "hr": 1
+    },
+    "676724": {
+      "name": "Barlow, Scott",
+      "hr": 1
+    },
+    "669720": {
+      "name": "Tong, Jonah",
+      "hr": 1
+    },
+    "680574": {
+      "name": "Tong, Jonah",
+      "hr": 1
+    },
+    "701398": {
+      "name": "Tong, Jonah",
+      "hr": 1
+    },
+    "666139": {
+      "name": "Bibee, Tanner",
+      "hr": 1
+    },
+    "650402": {
+      "name": "P\u00e9rez, Mart\u00edn",
+      "hr": 1
+    },
+    "663330": {
+      "name": "P\u00e9rez, Mart\u00edn",
+      "hr": 1
+    },
+    "521692": {
+      "name": "Ryan, Joe",
+      "hr": 1
+    },
+    "547180": {
+      "name": "Alcantara, Sandy",
+      "hr": 1
+    },
+    "670541": {
+      "name": "deGrom, Jacob",
+      "hr": 1
+    },
+    "572233": {
+      "name": "deGrom, Jacob",
+      "hr": 1
+    },
+    "666160": {
+      "name": "Suarez, Robert",
+      "hr": 1
+    },
+    "687597": {
+      "name": "Estrada, Jeremiah",
+      "hr": 1
+    },
+    "696100": {
+      "name": "V\u00e1squez, Randy",
+      "hr": 1
+    },
+    "665487": {
+      "name": "Brown, McCade",
+      "hr": 1
+    },
+    "668709": {
+      "name": "Kingery, Scott",
+      "hr": 1
+    },
+    "666176": {
+      "name": "McGough, Scott",
+      "hr": 1
+    },
+    "683090": {
+      "name": "McGough, Scott",
+      "hr": 1
+    },
+    "666126": {
+      "name": "Kingery, Scott",
+      "hr": 1
+    },
+    "701762": {
+      "name": "Silseth, Chase",
+      "hr": 1
+    },
+    "687515": {
+      "name": "Kikuchi, Yusei",
+      "hr": 1
+    }
+  }
 }

@@ -1,0 +1,1205 @@
+{
+  "date": "2025-09-07",
+  "players": [
+    {
+      "name": "Trent Grisham",
+      "mlbam_id": 663757,
+      "last_14_day_hr": 7
+    },
+    {
+      "name": "Rafael Devers",
+      "mlbam_id": 646240,
+      "last_14_day_hr": 6
+    },
+    {
+      "name": "Colson Montgomery",
+      "mlbam_id": 695657,
+      "last_14_day_hr": 6
+    },
+    {
+      "name": "Jazz Chisholm Jr.",
+      "mlbam_id": 665862,
+      "last_14_day_hr": 6
+    },
+    {
+      "name": "Julio Rodr\u00edguez",
+      "mlbam_id": 677594,
+      "last_14_day_hr": 5
+    },
+    {
+      "name": "Willy Adames",
+      "mlbam_id": 642715,
+      "last_14_day_hr": 5
+    },
+    {
+      "name": "Ozzie Albies",
+      "mlbam_id": 645277,
+      "last_14_day_hr": 5
+    },
+    {
+      "name": "Mark Vientos",
+      "mlbam_id": 668901,
+      "last_14_day_hr": 5
+    },
+    {
+      "name": "Junior Caminero",
+      "mlbam_id": 691406,
+      "last_14_day_hr": 5
+    },
+    {
+      "name": "Cal Raleigh",
+      "mlbam_id": 663728,
+      "last_14_day_hr": 5
+    },
+    {
+      "name": "Jo Adell",
+      "mlbam_id": 666176,
+      "last_14_day_hr": 5
+    },
+    {
+      "name": "George Springer",
+      "mlbam_id": 543807,
+      "last_14_day_hr": 5
+    },
+    {
+      "name": "Juan Soto",
+      "mlbam_id": 665742,
+      "last_14_day_hr": 5
+    },
+    {
+      "name": "Daulton Varsho",
+      "mlbam_id": 662139,
+      "last_14_day_hr": 4
+    },
+    {
+      "name": "Ian Happ",
+      "mlbam_id": 664023,
+      "last_14_day_hr": 4
+    },
+    {
+      "name": "Pete Alonso",
+      "mlbam_id": 624413,
+      "last_14_day_hr": 4
+    },
+    {
+      "name": "Dansby Swanson",
+      "mlbam_id": 621020,
+      "last_14_day_hr": 4
+    },
+    {
+      "name": "Iv\u00e1n Herrera",
+      "mlbam_id": 671056,
+      "last_14_day_hr": 4
+    },
+    {
+      "name": "Hunter Goodman",
+      "mlbam_id": 696100,
+      "last_14_day_hr": 4
+    },
+    {
+      "name": "Zach Neto",
+      "mlbam_id": 687263,
+      "last_14_day_hr": 4
+    },
+    {
+      "name": "Kyle Manzardo",
+      "mlbam_id": 700932,
+      "last_14_day_hr": 4
+    },
+    {
+      "name": "Matt Wallner",
+      "mlbam_id": 670242,
+      "last_14_day_hr": 4
+    },
+    {
+      "name": "Maikel Garcia",
+      "mlbam_id": 672580,
+      "last_14_day_hr": 4
+    },
+    {
+      "name": "Austin Hays",
+      "mlbam_id": 669720,
+      "last_14_day_hr": 4
+    },
+    {
+      "name": "Byron Buxton",
+      "mlbam_id": 621439,
+      "last_14_day_hr": 4
+    },
+    {
+      "name": "Andrew Benintendi",
+      "mlbam_id": 643217,
+      "last_14_day_hr": 4
+    },
+    {
+      "name": "Jorge Polanco",
+      "mlbam_id": 593871,
+      "last_14_day_hr": 4
+    },
+    {
+      "name": "Matt Chapman",
+      "mlbam_id": 656305,
+      "last_14_day_hr": 4
+    },
+    {
+      "name": "JJ Bleday",
+      "mlbam_id": 668709,
+      "last_14_day_hr": 4
+    },
+    {
+      "name": "Kyle Schwarber",
+      "mlbam_id": 656941,
+      "last_14_day_hr": 4
+    },
+    {
+      "name": "William Contreras",
+      "mlbam_id": 661388,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Jeremiah Jackson",
+      "mlbam_id": 669236,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Cody Bellinger",
+      "mlbam_id": 641355,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Matt Olson",
+      "mlbam_id": 621566,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Brandon Lowe",
+      "mlbam_id": 664040,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Yordan Alvarez",
+      "mlbam_id": 670541,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Brice Turang",
+      "mlbam_id": 668930,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Josh Lowe",
+      "mlbam_id": 666139,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Ram\u00f3n Laureano",
+      "mlbam_id": 657656,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Austin Wells",
+      "mlbam_id": 669224,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Corbin Carroll",
+      "mlbam_id": 682998,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Fernando Tatis Jr.",
+      "mlbam_id": 665487,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Salvador Perez",
+      "mlbam_id": 521692,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Christian Walker",
+      "mlbam_id": 572233,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Elias D\u00edaz",
+      "mlbam_id": 553869,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Aaron Judge",
+      "mlbam_id": 592450,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Bryce Harper",
+      "mlbam_id": 547180,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Joc Pederson",
+      "mlbam_id": 592626,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Caleb Durbin",
+      "mlbam_id": 702332,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Nick Kurtz",
+      "mlbam_id": 701762,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Trevor Story",
+      "mlbam_id": 596115,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Eugenio Su\u00e1rez",
+      "mlbam_id": 553993,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Freddie Freeman",
+      "mlbam_id": 518692,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Roman Anthony",
+      "mlbam_id": 701350,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Andy Pages",
+      "mlbam_id": 681624,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Luis Torrens",
+      "mlbam_id": 620443,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Geraldo Perdomo",
+      "mlbam_id": 672695,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Giancarlo Stanton",
+      "mlbam_id": 519317,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Matt McLain",
+      "mlbam_id": 680574,
+      "last_14_day_hr": 3
+    },
+    {
+      "name": "Michael Busch",
+      "mlbam_id": 683737,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Vinnie Pasquantino",
+      "mlbam_id": 686469,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Bo Bichette",
+      "mlbam_id": 666182,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Vladimir Guerrero Jr.",
+      "mlbam_id": 665489,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Drake Baldwin",
+      "mlbam_id": 686948,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Bobby Witt Jr.",
+      "mlbam_id": 677951,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Michael Helman",
+      "mlbam_id": 680737,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Jarren Duran",
+      "mlbam_id": 680776,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Nolan Jones",
+      "mlbam_id": 666134,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Randy Arozarena",
+      "mlbam_id": 668227,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Andr\u00e9s Gim\u00e9nez",
+      "mlbam_id": 665926,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Pedro Pag\u00e9s",
+      "mlbam_id": 686780,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Luis Garc\u00eda Jr.",
+      "mlbam_id": 671277,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Blaze Alexander",
+      "mlbam_id": 677942,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Spencer Steer",
+      "mlbam_id": 668715,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Riley Greene",
+      "mlbam_id": 682985,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Luis Matos",
+      "mlbam_id": 682641,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Alejandro Kirk",
+      "mlbam_id": 672386,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Noelvi Marte",
+      "mlbam_id": 682622,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Nasim Nu\u00f1ez",
+      "mlbam_id": 683083,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Nolan Gorman",
+      "mlbam_id": 669357,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Will Smith",
+      "mlbam_id": 669257,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Wenceel P\u00e9rez",
+      "mlbam_id": 672761,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Lenyn Sosa",
+      "mlbam_id": 672820,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Colton Cowser",
+      "mlbam_id": 681297,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Brandon Marsh",
+      "mlbam_id": 669016,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Royce Lewis",
+      "mlbam_id": 668904,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Davis Schneider",
+      "mlbam_id": 676914,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Lawrence Butler",
+      "mlbam_id": 671732,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Zack Gelof",
+      "mlbam_id": 680869,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Bryan Reynolds",
+      "mlbam_id": 668804,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Luke Keaschall",
+      "mlbam_id": 807712,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Wyatt Langford",
+      "mlbam_id": 694671,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Andruw Monasterio",
+      "mlbam_id": 655316,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Gleyber Torres",
+      "mlbam_id": 650402,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Yanquiel Fern\u00e1ndez",
+      "mlbam_id": 692585,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Weston Wilson",
+      "mlbam_id": 642215,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Jackson Chourio",
+      "mlbam_id": 694192,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Samuel Basallo",
+      "mlbam_id": 694212,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Ryan McMahon",
+      "mlbam_id": 641857,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Ben Rice",
+      "mlbam_id": 700250,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Corey Seager",
+      "mlbam_id": 608369,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Brandon Nimmo",
+      "mlbam_id": 607043,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Ketel Marte",
+      "mlbam_id": 606466,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Mookie Betts",
+      "mlbam_id": 605141,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Max Kepler",
+      "mlbam_id": 596146,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Austin Hedges",
+      "mlbam_id": 595978,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Jurickson Profar",
+      "mlbam_id": 595777,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Jackson Holliday",
+      "mlbam_id": 702616,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Mike Yastrzemski",
+      "mlbam_id": 573262,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Jacob Wilson",
+      "mlbam_id": 805779,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Ildemaro Vargas",
+      "mlbam_id": 545121,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Kyle Higashioka",
+      "mlbam_id": 543309,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Wilmer Flores",
+      "mlbam_id": 527038,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Jose Altuve",
+      "mlbam_id": 514888,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Coby Mayo",
+      "mlbam_id": 691723,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Ceddanne Rafaela",
+      "mlbam_id": 678882,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Harrison Bader",
+      "mlbam_id": 664056,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Nico Hoerner",
+      "mlbam_id": 663538,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Colby Thomas",
+      "mlbam_id": 687515,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Drew Gilbert",
+      "mlbam_id": 687551,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Alex Jackson",
+      "mlbam_id": 656577,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Shohei Ohtani",
+      "mlbam_id": 660271,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Kyle Teel",
+      "mlbam_id": 691019,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Jes\u00fas S\u00e1nchez",
+      "mlbam_id": 660821,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Jahmai Jones",
+      "mlbam_id": 663330,
+      "last_14_day_hr": 2
+    },
+    {
+      "name": "Maximo Acosta",
+      "mlbam_id": 691185,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Logan O'Hoppe",
+      "mlbam_id": 681351,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Sal Stewart",
+      "mlbam_id": 701398,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Colt Keith",
+      "mlbam_id": 690993,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Mickey Gasper",
+      "mlbam_id": 681508,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Kerry Carpenter",
+      "mlbam_id": 681481,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Brooks Baldwin",
+      "mlbam_id": 681460,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Joey Wiemer",
+      "mlbam_id": 686894,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Brooks Lee",
+      "mlbam_id": 686797,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Bryson Stott",
+      "mlbam_id": 681082,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Cam Smith",
+      "mlbam_id": 701358,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Chase Meidroth",
+      "mlbam_id": 805367,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Henry Davis",
+      "mlbam_id": 680779,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Liam Hicks",
+      "mlbam_id": 689414,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Spencer Torkelson",
+      "mlbam_id": 679529,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Jordan Beck",
+      "mlbam_id": 687597,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Addison Barger",
+      "mlbam_id": 680718,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "David Fry",
+      "mlbam_id": 681807,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Korey Lee",
+      "mlbam_id": 686676,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Daniel Schneemann",
+      "mlbam_id": 682177,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Dalton Rushing",
+      "mlbam_id": 687221,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Brady House",
+      "mlbam_id": 691781,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Jasson Dom\u00ednguez",
+      "mlbam_id": 691176,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Matthew Lugo",
+      "mlbam_id": 683090,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Cody Freeman",
+      "mlbam_id": 683227,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Dillon Dingler",
+      "mlbam_id": 693307,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Sal Frelick",
+      "mlbam_id": 686217,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Anthony Volpe",
+      "mlbam_id": 683011,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Gunnar Henderson",
+      "mlbam_id": 683002,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "James Wood",
+      "mlbam_id": 695578,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Isaac Collins",
+      "mlbam_id": 686555,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Christian Moore",
+      "mlbam_id": 695681,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Daylen Lile",
+      "mlbam_id": 695734,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Jacob Young",
+      "mlbam_id": 696285,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Tyler Locklear",
+      "mlbam_id": 682988,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Jimmy Crooks",
+      "mlbam_id": 699625,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Jordan Walker",
+      "mlbam_id": 691023,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Edgar Quero",
+      "mlbam_id": 700337,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Agust\u00edn Ram\u00edrez",
+      "mlbam_id": 682663,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Spencer Horwitz",
+      "mlbam_id": 687462,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Andrew McCutchen",
+      "mlbam_id": 457705,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Jhonkensy Noel",
+      "mlbam_id": 678877,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Jake Bauers",
+      "mlbam_id": 641343,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Dominic Smith",
+      "mlbam_id": 642086,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Rowdy Tellez",
+      "mlbam_id": 642133,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Eli White",
+      "mlbam_id": 642201,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Josh Naylor",
+      "mlbam_id": 647304,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Luis Arraez",
+      "mlbam_id": 650333,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Yandy D\u00edaz",
+      "mlbam_id": 650490,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Luis Rengifo",
+      "mlbam_id": 650859,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Tristan Gray",
+      "mlbam_id": 656484,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Gavin Sheets",
+      "mlbam_id": 657757,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Leo Rivas",
+      "mlbam_id": 660844,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Ryan Mountcastle",
+      "mlbam_id": 663624,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Ke'Bryan Hayes",
+      "mlbam_id": 663647,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Kyle Tucker",
+      "mlbam_id": 663656,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Nick Fortes",
+      "mlbam_id": 663743,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Nathaniel Lowe",
+      "mlbam_id": 663993,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Jonah Heim",
+      "mlbam_id": 641680,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Brian Navarreto",
+      "mlbam_id": 640459,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Ezequiel Tovar",
+      "mlbam_id": 678662,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Jake Cronenworth",
+      "mlbam_id": 630105,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Kyle Farmer",
+      "mlbam_id": 571657,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Willson Contreras",
+      "mlbam_id": 575929,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Manny Machado",
+      "mlbam_id": 592518,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "J.T. Realmuto",
+      "mlbam_id": 592663,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Christian Yelich",
+      "mlbam_id": 592885,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Francisco Lindor",
+      "mlbam_id": 596019,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Ram\u00f3n Ur\u00edas",
+      "mlbam_id": 602104,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Jos\u00e9 Ram\u00edrez",
+      "mlbam_id": 608070,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Carson Kelly",
+      "mlbam_id": 608348,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Rob Refsnyder",
+      "mlbam_id": 608701,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Carlos Correa",
+      "mlbam_id": 621043,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Taylor Ward",
+      "mlbam_id": 621493,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Michael Conforto",
+      "mlbam_id": 624424,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Adam Frazier",
+      "mlbam_id": 624428,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Reese McGuire",
+      "mlbam_id": 624512,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Ty France",
+      "mlbam_id": 664034,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Dylan Moore",
+      "mlbam_id": 664238,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Kody Clemens",
+      "mlbam_id": 665019,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Jeremy Pe\u00f1a",
+      "mlbam_id": 665161,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Gabriel Arias",
+      "mlbam_id": 672356,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Gabriel Moreno",
+      "mlbam_id": 672515,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Otto Lopez",
+      "mlbam_id": 672640,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Oswald Peraza",
+      "mlbam_id": 672724,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Alexander Canario",
+      "mlbam_id": 672744,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Ha-Seong Kim",
+      "mlbam_id": 673490,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Josh Jung",
+      "mlbam_id": 673962,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Alec Burleson",
+      "mlbam_id": 676475,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Eric Wagaman",
+      "mlbam_id": 676572,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Luis V\u00e1zquez",
+      "mlbam_id": 676679,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Jared Young",
+      "mlbam_id": 676724,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Brayan Rocchio",
+      "mlbam_id": 677587,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Everson Pereira",
+      "mlbam_id": 677592,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Parker Meadows",
+      "mlbam_id": 678009,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Miguel Vargas",
+      "mlbam_id": 678246,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Patrick Bailey",
+      "mlbam_id": 672275,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Michael Harris II",
+      "mlbam_id": 671739,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Heliot Ramos",
+      "mlbam_id": 671218,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Christopher Morel",
+      "mlbam_id": 666624,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Oneil Cruz",
+      "mlbam_id": 665833,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Andr\u00e9s Chaparro",
+      "mlbam_id": 665953,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Carlos Narv\u00e1ez",
+      "mlbam_id": 665966,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Carlos Cortes",
+      "mlbam_id": 666126,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "David Hamilton",
+      "mlbam_id": 666152,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Mickey Moniak",
+      "mlbam_id": 666160,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Adolis Garc\u00eda",
+      "mlbam_id": 666969,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "TJ Friedl",
+      "mlbam_id": 670770,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Lourdes Gurriel Jr.",
+      "mlbam_id": 666971,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Brent Rooker",
+      "mlbam_id": 667670,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Tommy Pham",
+      "mlbam_id": 502054,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Jake Burger",
+      "mlbam_id": 669394,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Casey Schmitt",
+      "mlbam_id": 669477,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Jared Triolo",
+      "mlbam_id": 669707,
+      "last_14_day_hr": 1
+    },
+    {
+      "name": "Shea Langeliers",
+      "mlbam_id": 669127,
+      "last_14_day_hr": 1
+    }
+  ]
+}

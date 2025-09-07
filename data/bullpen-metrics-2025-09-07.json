@@ -1,0 +1,184 @@
+{
+  "date": "2025-09-07",
+  "bullpens": {
+    "ATL": {
+      "hr9": 1.2386634844868736
+    },
+    "SEA": {
+      "hr9": 1.1984334203655351
+    },
+    "TB": {
+      "hr9": 1.32317880794702
+    },
+    "CLE": {
+      "hr9": 1.1070287539936101
+    },
+    "BAL": {
+      "hr9": 1.3708133971291867
+    },
+    "LAD": {
+      "hr9": 1.1661367249602543
+    },
+    "NYY": {
+      "hr9": 1.0914134742404227
+    },
+    "TOR": {
+      "hr9": 1.3571428571428572
+    },
+    "PIT": {
+      "hr9": 0.9772787318361954
+    },
+    "MIL": {
+      "hr9": 1.045799528919131
+    },
+    "CIN": {
+      "hr9": 1.2022263450834878
+    },
+    "NYM": {
+      "hr9": 0.9164677804295943
+    },
+    "DET": {
+      "hr9": 1.1492380451918023
+    },
+    "CWS": {
+      "hr9": 1.1507725093233885
+    },
+    "MIA": {
+      "hr9": 1.2087417218543046
+    },
+    "PHI": {
+      "hr9": 1.0711451996826238
+    },
+    "KC": {
+      "hr9": 1.0190023752969122
+    },
+    "MIN": {
+      "hr9": 1.2465972778222578
+    },
+    "STL": {
+      "hr9": 1.054075441835927
+    },
+    "SF": {
+      "hr9": 0.8809018567639256
+    },
+    "CHC": {
+      "hr9": 1.25
+    },
+    "WSH": {
+      "hr9": 1.3394445942302509
+    },
+    "TEX": {
+      "hr9": 1.0751899397432538
+    },
+    "HOU": {
+      "hr9": 1.2266318537859007
+    },
+    "COL": {
+      "hr9": 1.5467993544916623
+    },
+    "SD": {
+      "hr9": 1.091779728651237
+    },
+    "LAA": {
+      "hr9": 1.4176610978520285
+    },
+    "ATH": {
+      "hr9": 1.4180672268907564
+    },
+    "AZ": {
+      "hr9": 1.1800575765506411
+    },
+    "BOS": {
+      "hr9": 1.0414386239249414
+    }
+  },
+  "starters": {
+    "Joey Wentz": {
+      "expected_ip": 5.5
+    },
+    "Luis Castillo": {
+      "expected_ip": 5.5
+    },
+    "Drew Rasmussen": {
+      "expected_ip": 5.5
+    },
+    "Parker Messick": {
+      "expected_ip": 5.5
+    },
+    "Tomoyuki Sugano": {
+      "expected_ip": 5.5
+    },
+    "Clayton Kershaw": {
+      "expected_ip": 5.5
+    },
+    "Max Fried": {
+      "expected_ip": 5.5
+    },
+    "Max Scherzer": {
+      "expected_ip": 5.5
+    },
+    "Bubba Chandler": {
+      "expected_ip": 5.5
+    },
+    "Jacob Misiorowski": {
+      "expected_ip": 5.5
+    },
+    "Hunter Greene": {
+      "expected_ip": 5.5
+    },
+    "Brandon Sproat": {
+      "expected_ip": 5.5
+    },
+    "Charlie Morton": {
+      "expected_ip": 5.5
+    },
+    "Davis Martin": {
+      "expected_ip": 5.5
+    },
+    "Taijuan Walker": {
+      "expected_ip": 5.5
+    },
+    "Michael Lorenzen": {
+      "expected_ip": 5.5
+    },
+    "Bailey Ober": {
+      "expected_ip": 5.5
+    },
+    "Sonny Gray": {
+      "expected_ip": 5.5
+    },
+    "Kai-Wei Teng": {
+      "expected_ip": 5.5
+    },
+    "Drew Pomeranz": {
+      "expected_ip": 5.5
+    },
+    "Andrew Alvarez": {
+      "expected_ip": 5.5
+    },
+    "Patrick Corbin": {
+      "expected_ip": 5.5
+    },
+    "Framber Valdez": {
+      "expected_ip": 5.5
+    },
+    "Tanner Gordon": {
+      "expected_ip": 5.5
+    },
+    "Dylan Cease": {
+      "expected_ip": 5.5
+    },
+    "Mitch Farris": {
+      "expected_ip": 5.5
+    },
+    "Luis Severino": {
+      "expected_ip": 5.5
+    },
+    "Ryne Nelson": {
+      "expected_ip": 5.5
+    },
+    "Brayan Bello": {
+      "expected_ip": 5.5
+    }
+  }
+}

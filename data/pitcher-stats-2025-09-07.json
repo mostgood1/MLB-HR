@@ -1,0 +1,179 @@
+{
+  "date": "2025-09-07",
+  "pitchers": [
+    {
+      "name": "Hunter Greene",
+      "mlbam_id": 668881,
+      "era": 2.7,
+      "homeRunsAllowed": 12
+    },
+    {
+      "name": "Bubba Chandler",
+      "mlbam_id": 696149,
+      "era": 2.25,
+      "homeRunsAllowed": 2
+    },
+    {
+      "name": "Jacob Misiorowski",
+      "mlbam_id": 694819,
+      "era": 4.5,
+      "homeRunsAllowed": 6
+    },
+    {
+      "name": "Parker Messick",
+      "mlbam_id": 800048,
+      "era": 2.08,
+      "homeRunsAllowed": 0
+    },
+    {
+      "name": "Clayton Kershaw",
+      "mlbam_id": 477132,
+      "era": 3.28,
+      "homeRunsAllowed": 7
+    },
+    {
+      "name": "Max Fried",
+      "mlbam_id": 608331,
+      "era": 2.98,
+      "homeRunsAllowed": 13
+    },
+    {
+      "name": "Joey Wentz",
+      "mlbam_id": 666214,
+      "era": 5.12,
+      "homeRunsAllowed": 8
+    },
+    {
+      "name": "Max Scherzer",
+      "mlbam_id": 453286,
+      "era": 4.11,
+      "homeRunsAllowed": 15
+    },
+    {
+      "name": "Luis Castillo",
+      "mlbam_id": 622491,
+      "era": 3.94,
+      "homeRunsAllowed": 21
+    },
+    {
+      "name": "Drew Rasmussen",
+      "mlbam_id": 656876,
+      "era": 2.74,
+      "homeRunsAllowed": 16
+    },
+    {
+      "name": "Brandon Sproat",
+      "mlbam_id": 687075,
+      "era": 0.0,
+      "homeRunsAllowed": 0
+    },
+    {
+      "name": "Tomoyuki Sugano",
+      "mlbam_id": 608372,
+      "era": 4.41,
+      "homeRunsAllowed": 24
+    },
+    {
+      "name": "Davis Martin",
+      "mlbam_id": 663436,
+      "era": 4.06,
+      "homeRunsAllowed": 19
+    },
+    {
+      "name": "Charlie Morton",
+      "mlbam_id": 450203,
+      "era": 5.51,
+      "homeRunsAllowed": 21
+    },
+    {
+      "name": "Taijuan Walker",
+      "mlbam_id": 592836,
+      "era": 3.92,
+      "homeRunsAllowed": 17
+    },
+    {
+      "name": "Michael Lorenzen",
+      "mlbam_id": 547179,
+      "era": 4.54,
+      "homeRunsAllowed": 19
+    },
+    {
+      "name": "Sonny Gray",
+      "mlbam_id": 543243,
+      "era": 4.43,
+      "homeRunsAllowed": 23
+    },
+    {
+      "name": "Kai-Wei Teng",
+      "mlbam_id": 678906,
+      "era": 7.23,
+      "homeRunsAllowed": 1
+    },
+    {
+      "name": "Bailey Ober",
+      "mlbam_id": 641927,
+      "era": 5.23,
+      "homeRunsAllowed": 29
+    },
+    {
+      "name": "Andrew Alvarez",
+      "mlbam_id": 674841,
+      "era": 0.0,
+      "homeRunsAllowed": 0
+    },
+    {
+      "name": "Drew Pomeranz",
+      "mlbam_id": 519141,
+      "era": 2.4,
+      "homeRunsAllowed": 4
+    },
+    {
+      "name": "Patrick Corbin",
+      "mlbam_id": 571578,
+      "era": 4.48,
+      "homeRunsAllowed": 21
+    },
+    {
+      "name": "Framber Valdez",
+      "mlbam_id": 664285,
+      "era": 3.4,
+      "homeRunsAllowed": 11
+    },
+    {
+      "name": "Tanner Gordon",
+      "mlbam_id": 685299,
+      "era": 6.07,
+      "homeRunsAllowed": 7
+    },
+    {
+      "name": "Mitch Farris",
+      "mlbam_id": 815083,
+      "era": 1.8,
+      "homeRunsAllowed": 0
+    },
+    {
+      "name": "Dylan Cease",
+      "mlbam_id": 656302,
+      "era": 4.81,
+      "homeRunsAllowed": 20
+    },
+    {
+      "name": "Luis Severino",
+      "mlbam_id": 622663,
+      "era": 4.65,
+      "homeRunsAllowed": 13
+    },
+    {
+      "name": "Ryne Nelson",
+      "mlbam_id": 669194,
+      "era": 3.57,
+      "homeRunsAllowed": 15
+    },
+    {
+      "name": "Brayan Bello",
+      "mlbam_id": 678394,
+      "era": 3.07,
+      "homeRunsAllowed": 14
+    }
+  ]
+}
