@@ -477,9 +477,9 @@ def index():
     except Exception:
         strong_pctl = 0.9
     try:
-        min_model_prob_for_value = float(os.environ.get('VALUE_BADGE_MIN_MODEL_PROB', '0.00'))
+        min_model_prob_for_value = float(os.environ.get('VALUE_BADGE_MIN_MODEL_PROB', '0.05'))  # raised default gate
     except Exception:
-        min_model_prob_for_value = 0.0
+        min_model_prob_for_value = 0.05
 
     for p in filtered.get('players', []):
         pid = id_map.get((p.get('name'), p.get('team')))
@@ -599,22 +599,9 @@ def index():
         if strong_value_thresh_pp < value_thresh_pp + 0.25:
             strong_value_thresh_pp = value_thresh_pp + 0.25
 
-    # Assign badge tier flags using final thresholds + model prob gate
+    # Clear any prior tiers before capped assignment
     for p in filtered.get('players', []):
-        vpp = p.get('value_pp')
-        mp = p.get('model_prob')
-        if mp is None:
-            try:
-                mp = max(0.0, min(1.0, (p.get('hr_score') or 0) / 100.0))
-            except Exception:
-                mp = 0.0
-        qualifies = (isinstance(vpp, (int,float)) and vpp is not None and mp >= min_model_prob_for_value)
-        if qualifies and vpp >= strong_value_thresh_pp:
-            p['value_tier'] = 'strong'
-        elif qualifies and vpp >= value_thresh_pp:
-            p['value_tier'] = 'value'
-        else:
-            p['value_tier'] = None
+        p['value_tier'] = None
 
     # Additional gating: limit counts & enforce absolute floors to avoid badge saturation
     try:
@@ -626,9 +613,9 @@ def index():
     except Exception:
         max_total = 15
     try:
-        abs_min_strong = float(os.environ.get('VALUE_BADGE_MIN_STRONG_PP', '3.0'))
+        abs_min_strong = float(os.environ.get('VALUE_BADGE_MIN_STRONG_PP', '4.0'))  # higher floor
     except Exception:
-        abs_min_strong = 3.0
+        abs_min_strong = 4.0
     try:
         abs_min_value = float(os.environ.get('VALUE_BADGE_MIN_VALUE_PP', '1.5'))
     except Exception:
