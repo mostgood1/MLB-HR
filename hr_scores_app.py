@@ -616,6 +616,69 @@ def index():
         else:
             p['value_tier'] = None
 
+    # Additional gating: limit counts & enforce absolute floors to avoid badge saturation
+    try:
+        max_strong = int(os.environ.get('VALUE_BADGE_MAX_STRONG', '5'))
+    except Exception:
+        max_strong = 5
+    try:
+        max_total = int(os.environ.get('VALUE_BADGE_MAX_TOTAL', '15'))  # strong + value combined
+    except Exception:
+        max_total = 15
+    try:
+        abs_min_strong = float(os.environ.get('VALUE_BADGE_MIN_STRONG_PP', '3.0'))
+    except Exception:
+        abs_min_strong = 3.0
+    try:
+        abs_min_value = float(os.environ.get('VALUE_BADGE_MIN_VALUE_PP', '1.5'))
+    except Exception:
+        abs_min_value = 1.5
+
+    # Collect qualified players
+    qualified = []
+    for p in filtered.get('players', []):
+        vpp = p.get('value_pp')
+        mp = p.get('model_prob')
+        if mp is None:
+            try:
+                mp = max(0.0, min(1.0, (p.get('hr_score') or 0) / 100.0))
+            except Exception:
+                mp = 0.0
+        if isinstance(vpp,(int,float)) and vpp is not None and mp >= min_model_prob_for_value:
+            qualified.append(p)
+
+    # Sort by edge descending
+    qualified.sort(key=lambda x: x.get('value_pp') or 0, reverse=True)
+
+    # Assign strong first with both absolute and dynamic thresholds
+    strong_assigned = 0
+    total_assigned = 0
+    for p in qualified:
+        if strong_assigned >= max_strong:
+            break
+        vpp = p.get('value_pp') or 0
+        if vpp >= max(strong_value_thresh_pp, abs_min_strong):
+            p['value_tier'] = 'strong'
+            strong_assigned += 1
+            total_assigned += 1
+
+    # Assign value tier among remaining until max_total reached
+    if total_assigned < max_total:
+        for p in qualified:
+            if total_assigned >= max_total:
+                break
+            if p.get('value_tier'):
+                continue
+            vpp = p.get('value_pp') or 0
+            if vpp >= max(value_thresh_pp, abs_min_value):
+                p['value_tier'] = 'value'
+                total_assigned += 1
+
+    # Any others set to None explicitly
+    for p in filtered.get('players', []):
+        if p.get('value_tier') not in ('value','strong'):
+            p['value_tier'] = None
+
     return render_template('hr_scores.html',
                            date=filtered.get('date'),
                            generated_at=filtered.get('generated_at'),
