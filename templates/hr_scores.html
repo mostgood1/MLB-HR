@@ -210,8 +210,9 @@
               <div class="col-12 col-md-6">
                 <ul class="list-unstyled mb-0">
                   <li><span class="badge score-pill" style="background:#0d6efd">85</span> <strong>Score</strong>: Model HR score (0–100 scale for the slate).</li>
-                  <li><span class="badge rounded-pill bg-success">Value</span> Edge ≥ {{ value_thresh_pp|round(2) }} pp{% if value_dynamic_enabled %} (dynamic){% endif %} and EV > 0.</li>
-                  <li><span class="badge rounded-pill bg-danger">Strong</span> Edge ≥ {{ strong_value_thresh_pp|round(2) }} pp{% if value_dynamic_enabled %} (dynamic){% endif %} and EV > 0.</li>
+                  <li><span class="badge rounded-pill bg-success">Value</span> Among top edges after Strong tier fill (floor ≥ {{ value_badge_abs_min_value|round(2) }} pp & model p ≥ {{ (value_badge_min_model_prob*100)|round(1) }}%). Capped so total Value+Strong ≤ {{ value_badge_max_total }}.</li>
+                  <li><span class="badge rounded-pill bg-danger">Strong</span> Top {{ value_badge_max_strong }} edges meeting floor ≥ {{ value_badge_abs_min_strong|round(2) }} pp (and model p ≥ {{ (value_badge_min_model_prob*100)|round(1) }}%).</li>
+                  <li class="text-muted">Final daily cutoffs: Value ≥ {{ value_thresh_pp|round(2) }} pp, Strong ≥ {{ strong_value_thresh_pp|round(2) }} pp{% if value_dynamic_enabled %} (dynamic enabled){% endif %}.</li>
                   <li><span class="badge homered-badge" style="background:#D4AF37;">Homered</span> Player has hit a HR today (×N if multiple).</li>
                   <li><span class="badge state-live">Live</span> / <span class="badge state-final">Final</span> / <span class="badge state-scheduled">Scheduled</span> Game status (today only).</li>
                   <li><span class="badge rounded-pill bg-dark">+500 (8.5%)</span> <strong>Anytime HR Odds</strong>: Best line & implied probability.</li>
@@ -232,7 +233,7 @@
               </div>
             </div>
             <hr class="my-2" />
-            <div class="text-muted">Thresholds configurable via env: VALUE_BADGE_MIN_PP (current {{ value_thresh_pp|round(2) }}), VALUE_BADGE_STRONG_PP (current {{ strong_value_thresh_pp|round(2) }}).</div>
+            <div class="text-muted small">Config env: VALUE_BADGE_MAX_STRONG={{ value_badge_max_strong }}, VALUE_BADGE_MAX_TOTAL={{ value_badge_max_total }}, MIN_MODEL_PROB={{ (value_badge_min_model_prob*100)|round(1) }}%, VALUE_BADGE_MIN_VALUE_PP (floor {{ value_badge_abs_min_value|round(2) }}), VALUE_BADGE_MIN_STRONG_PP (floor {{ value_badge_abs_min_strong|round(2) }}).</div>
           </div>
         </div>
       </div>
@@ -288,16 +289,16 @@
   <input id="limit" type="number" min="8" max="200" value="{{ limit or 50 }}" class="form-control form-control-sm" onchange="applyFilters()" />
       </div>
       <div class="col-auto form-check ms-2">
-        <input class="form-check-input" type="checkbox" value="1" id="homeredOnly">
-        <label class="form-check-label" for="homeredOnly">
-          Homered only
-        </label>
+        <input class="form-check-input" type="checkbox" value="1" id="filterHomered">
+        <label class="form-check-label" for="filterHomered">Homered</label>
       </div>
       <div class="col-auto form-check ms-2">
-        <input class="form-check-input" type="checkbox" value="1" id="valueOnly">
-        <label class="form-check-label" for="valueOnly">
-          Value only
-        </label>
+        <input class="form-check-input" type="checkbox" value="1" id="filterValue">
+        <label class="form-check-label" for="filterValue">Value</label>
+      </div>
+      <div class="col-auto form-check ms-2">
+        <input class="form-check-input" type="checkbox" value="1" id="filterStrong">
+        <label class="form-check-label" for="filterStrong">Strong</label>
       </div>
   <div class="col-auto"><span id="showingCount" class="text-muted small" data-total="{{ total }}">Showing {{ shown }} of {{ total }}</span></div>
     </div>
@@ -305,7 +306,7 @@
     <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3">
       {% for p in players %}
   <div class="col">
-  <div class="card player-card" data-team="{{ p.team }}" data-primary="{{ p.team_primary }}" data-text="{{ p.team_text }}" data-mlbam-id="{{ p.mlbam_id or '' }}" data-player-name="{{ p.name }}" data-value="{% if p.value_pp is defined and p.value_pp >= value_thresh_pp %}1{% else %}0{% endif %}" role="button" tabindex="0" aria-label="Open details for {{ p.name }}"
+  <div class="card player-card" data-team="{{ p.team }}" data-primary="{{ p.team_primary }}" data-text="{{ p.team_text }}" data-mlbam-id="{{ p.mlbam_id or '' }}" data-player-name="{{ p.name }}" data-value="{% if p.value_tier in ['value','strong'] %}1{% else %}0{% endif %}" data-strong="{% if p.value_tier=='strong' %}1{% else %}0{% endif %}" data-homered="{% if p.homered %}1{% else %}0{% endif %}" role="button" tabindex="0" aria-label="Open details for {{ p.name }}"
        onclick="openPlayerModal('{{ p.name|e }}','{{ p.team|e }}')"
        onkeypress="if(event.key==='Enter'||event.key===' '){ openPlayerModal('{{ p.name|e }}','{{ p.team|e }}'); }">
           <div class="team-bar"></div>
@@ -422,37 +423,21 @@
         counter.textContent = `Showing ${visible} of ${total}`;
       }
     }
-    function applyHomeredFilter() {
-      const cb = document.getElementById('homeredOnly');
-      const enabled = !!(cb && cb.checked);
+    function applyCombinedFilters() {
+      const fHom = document.getElementById('filterHomered')?.checked;
+      const fVal = document.getElementById('filterValue')?.checked;
+      const fStrong = document.getElementById('filterStrong')?.checked;
       document.querySelectorAll('.player-card').forEach(card => {
         const col = card.closest('.col') || card.parentElement;
-        const badge = card.querySelector('.homered-badge');
-        const isVisible = !!(badge && !badge.classList.contains('d-none'));
-        if (enabled && !isVisible) {
-          if (col) col.style.display = 'none';
-        } else {
-          if (col) col.style.display = '';
-        }
-      });
-      updateShowingCount();
-    }
-    function applyValueFilter() {
-      const cb = document.getElementById('valueOnly');
-      const enabled = !!(cb && cb.checked);
-      document.querySelectorAll('.player-card').forEach(card => {
-        const col = card.closest('.col') || card.parentElement;
-        const isValue = (card.getAttribute('data-value')||'0') === '1';
-        if (enabled && !isValue) {
-          if (col) col.style.display = 'none';
-        } else {
-          // Only show if not hidden by other filters
-          if (col && col.style.display === 'none') {
-            // leave hidden (homered filter may have applied)
-          } else if (col) {
-            col.style.display = '';
-          }
-        }
+        if (!col) return;
+        let show = true;
+        const isHom = (card.getAttribute('data-homered')==='1') || !!card.querySelector('.homered-badge:not(.d-none)');
+        const isStrong = (card.getAttribute('data-strong')==='1');
+        const isValue = (card.getAttribute('data-value')==='1');
+        if (fHom && !isHom) show = false;
+        if (fStrong && !isStrong) show = false;
+        if (fVal && !isValue) show = false;
+        col.style.display = show ? '' : 'none';
       });
       updateShowingCount();
     }
@@ -469,26 +454,21 @@
       // Initialize Homered filter from URL param
       try {
         const params = new URLSearchParams(window.location.search);
+        // Preserve legacy params for back-compat; map to new checkboxes
         const hom = params.get('homered');
         const val = params.get('value');
-        const cb = document.getElementById('homeredOnly');
-        const vb = document.getElementById('valueOnly');
-        if (cb) {
-          cb.checked = (hom === '1' || hom === 'true');
-          cb.addEventListener('change', () => {
-            // Reload with homered param and bumped limit so all homers show
-            applyFilters();
-          });
-          if (cb.checked) applyHomeredFilter();
-        }
-        if (vb) {
-          vb.checked = (val === '1' || val === 'true');
-          vb.addEventListener('change', () => {
-            // Reload to persist param; client-side filter will apply on load
-            applyFilters();
-          });
-          if (vb.checked) applyValueFilter();
-        }
+        const strongParam = params.get('strong');
+        const chHom = document.getElementById('filterHomered');
+        const chVal = document.getElementById('filterValue');
+        const chStrong = document.getElementById('filterStrong');
+        if (chHom) chHom.checked = (hom==='1' || hom==='true');
+        if (chVal) chVal.checked = (val==='1' || val==='true');
+        if (chStrong) chStrong.checked = (strongParam==='1' || strongParam==='true');
+        ['filterHomered','filterValue','filterStrong'].forEach(id => {
+          const el = document.getElementById(id);
+            if (el) el.addEventListener('change', ()=>{ applyCombinedFilters(); });
+        });
+        applyCombinedFilters();
       } catch {}
       document.querySelectorAll('.player-card').forEach(card=>{
         const team=(card.getAttribute('data-team')||'').toUpperCase();
@@ -559,7 +539,7 @@
               }
             });
             // Re-apply homered filter if enabled
-            if (document.getElementById('homeredOnly')?.checked) applyHomeredFilter();
+            applyCombinedFilters();
           };
           const poll = async () => {
             try {
