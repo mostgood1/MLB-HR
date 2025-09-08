@@ -264,7 +264,7 @@
               <div class="d-flex flex-column align-items-end">
                 <span class="badge score-pill">{{ p.hr_score }}</span>
                 {% if p.value_pp is defined and p.value_pp >= 35 %}
-                  <span class="badge rounded-pill bg-success mt-1">Value</span>
+                  <span class="badge rounded-pill bg-success mt-1" {% if p.value_tooltip %}title="{{ p.value_tooltip }}"{% endif %}>Value</span>
                 {% endif %}
               </div>
             </div>

@@ -497,24 +497,38 @@ def index():
                 p['odds_prob'] = om.get('best_prob')
                 p['odds_american'] = om.get('best_american')
                 p['odds_source'] = odds_source
-                # Compute value vs market in percentage points and fair odds
+                # Vig adjustment heuristic: reduce market prob by vig / sqrt(n_offers)
                 try:
-                    # Prefer explicit model_prob if present (pure model before blending)
+                    vig_est = float(os.environ.get('HR_PROP_VIG_EST', '0.03'))
+                except Exception:
+                    vig_est = 0.03
+                offer_count = len(om.get('offers', [])) if isinstance(om.get('offers'), list) else 1
+                eff_vig = vig_est / max(1.0, offer_count ** 0.5)
+                p_market_raw = om.get('best_prob')
+                p_market_fair = None
+                if p_market_raw is not None:
+                    try:
+                        p_market_raw = float(p_market_raw)
+                        p_market_fair = max(0.0, min(1.0, p_market_raw * (1.0 - eff_vig)))
+                    except Exception:
+                        p_market_fair = None
+                if p_market_fair is not None:
+                    p['market_prob_fair'] = round(p_market_fair, 5)
+                # Value & EV
+                try:
                     p_model = p.get('model_prob')
                     if p_model is None:
                         p_model = max(0.0, min(1.0, (p.get('hr_score') or 0) / 100.0))
-                    p_market = float(om.get('best_prob')) if om.get('best_prob') is not None else None
-                    if p_market is not None:
-                        delta_pp = (p_model - p_market) * 100.0
+                    p_market_for_value = p_market_fair if p_market_fair is not None else p_market_raw
+                    if p_market_for_value is not None:
+                        delta_pp = (p_model - p_market_for_value) * 100.0
                         p['value_pp'] = round(delta_pp, 1)
                         p['fair_american'] = _prob_to_american(p_model)
-                        # Expected value using best offered American odds if provided
                         amer = om.get('best_american')
                         ev = None
                         if amer is not None:
                             try:
                                 amer_i = int(amer)
-                                # Convert American to decimal odds
                                 if amer_i >= 0:
                                     dec = 1 + (amer_i / 100.0)
                                 else:
@@ -526,6 +540,17 @@ def index():
                             p['ev_best'] = round(ev, 4)
                             p['ev_positive'] = ev > 0
                         p['has_value'] = (delta_pp >= value_thresh_pp and (ev is None or ev > 0))
+                        try:
+                            tooltip = (
+                                f"Model p: {p_model:.3f}\n" +
+                                (f"Raw p: {p.get('model_prob_raw'):.3f}\n" if p.get('model_prob_raw') is not None else "") +
+                                (f"Fair market p: {p_market_for_value:.3f}\n" if p_market_for_value is not None else "") +
+                                (f"Delta pp: {delta_pp:.1f}\n" if p_market_for_value is not None else "") +
+                                (f"EV: {p['ev_best']:.3f}" if ev is not None else "")
+                            )
+                            p['value_tooltip'] = tooltip.strip()
+                        except Exception:
+                            pass
                 except Exception:
                     pass
         except Exception:

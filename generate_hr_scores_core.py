@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import json
 import os
+from calibration import load_calibrator, apply_calibration
 from datetime import datetime
 from typing import Dict, List, Tuple, Optional
 import unicodedata
@@ -639,6 +640,11 @@ def _compute_scores(date_str: Optional[str] = None) -> Dict:
 
     games = schedule.get('games') or schedule.get('dates', [{}])[0].get('games', [])
 
+    # Load calibration model if present
+    calib_path = os.getenv('CALIBRATION_FILE', os.path.join(DATA_DIR, 'model_calibration.json'))
+    calibrator = load_calibrator(calib_path)
+    calib_method = calibrator.get('method') if calibrator else None
+
     for p in filtered_hitters:
         name = p.get('name')
         raw_team = p.get('team')
@@ -870,14 +876,17 @@ def _compute_scores(date_str: Optional[str] = None) -> Dict:
             'pa_multiplier_pct': round((pa_multiplier - 1.0) * 100.0, 1)
         }
 
-        model_prob = max(0.0, min(1.0, hr_score / 100.0))
+        model_prob_raw = max(0.0, min(1.0, hr_score / 100.0))
+        model_prob_cal = apply_calibration(model_prob_raw, calibrator) if calibrator else model_prob_raw
         results.append({
             'name': name,
             'team': team,
             'position': p.get('position') or 'Unknown',
             'hr_score': hr_score,
             'homer_likelihood_score': hr_score,
-            'model_prob': round(model_prob, 5),
+            'model_prob': round(model_prob_cal, 5),
+            'model_prob_raw': round(model_prob_raw, 5) if calibrator else None,
+            'calibration_method': calib_method if calibrator else None,
             'stats': {
                 'homeRuns': season_hr,
                 'battingAvg': _safe_float(p.get('battingAvg')),

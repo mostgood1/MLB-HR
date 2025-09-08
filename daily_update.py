@@ -52,7 +52,9 @@ def main():
         [sys.executable, os.path.join(APP_DIR, 'tools', 'fetch_hitter_vs_pitcher.py'), '--date', date],
         [sys.executable, os.path.join(APP_DIR, 'tools', 'fetch_hr_hitters.py'), '--date', yday],
         [sys.executable, os.path.join(APP_DIR, 'tools', 'fetch_hr_hitters.py'), '--date', date],
-        [sys.executable, os.path.join(APP_DIR, 'generate_hr_scores_core.py'), '--date', date],
+    [sys.executable, os.path.join(APP_DIR, 'generate_hr_scores_core.py'), '--date', date],
+    # Log outcomes (uses same date's hr-scores + hr-hitters to append to historical CSV)
+    [sys.executable, os.path.join(APP_DIR, 'tools', 'log_outcomes.py'), '--date', date],
     ]
     for cmd in steps:
         print('Running:', ' '.join(cmd))
