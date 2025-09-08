@@ -689,7 +689,12 @@ def index():
                topk_summary=topk_summary,
                value_thresh_pp=value_thresh_pp,
                strong_value_thresh_pp=strong_value_thresh_pp,
-               value_dynamic_enabled=value_dynamic_enabled)
+               value_dynamic_enabled=value_dynamic_enabled,
+               value_badge_max_strong=max_strong,
+               value_badge_max_total=max_total,
+               value_badge_min_model_prob=min_model_prob_for_value,
+               value_badge_abs_min_strong=abs_min_strong,
+               value_badge_abs_min_value=abs_min_value)
 
 
 @app.route('/api/player-detail')
