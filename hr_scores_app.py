@@ -459,6 +459,13 @@ def index():
         value_thresh_pp = float(os.environ.get('VALUE_BADGE_MIN_PP', '1.5'))
     except Exception:
         value_thresh_pp = 1.5
+    # Strong tier threshold (optional env), default 3.0 or at least 1 above base
+    try:
+        strong_value_thresh_pp = float(os.environ.get('VALUE_BADGE_STRONG_PP', '3.0'))
+    except Exception:
+        strong_value_thresh_pp = 3.0
+    if strong_value_thresh_pp < value_thresh_pp + 0.5:
+        strong_value_thresh_pp = max(value_thresh_pp + 0.5, strong_value_thresh_pp)
 
     for p in filtered.get('players', []):
         pid = id_map.get((p.get('name'), p.get('team')))
@@ -568,7 +575,9 @@ def index():
                games=games,
                is_today=is_today,
                players=filtered.get('players', []),
-               topk_summary=topk_summary)
+               topk_summary=topk_summary,
+               value_thresh_pp=value_thresh_pp,
+               strong_value_thresh_pp=strong_value_thresh_pp)
 
 
 @app.route('/api/player-detail')
@@ -676,6 +685,9 @@ def api_player_detail():
         'position': player.get('position'),
         'image_url': image_url,
         'hr_score': player.get('hr_score'),
+        'model_prob': player.get('model_prob'),
+        'model_prob_raw': player.get('model_prob_raw'),
+        'calibration_method': player.get('calibration_method'),
         'stats': player.get('stats'),
         'opposing_pitcher': opp_pitcher,
         'opponent_team': opp_team,
@@ -785,6 +797,114 @@ def _fetch_hr_hitters_from_statsapi(date: str) -> dict:
                 else:
                     rec['hr'] = int(rec.get('hr') or 0) + 1
     return {'date': date, 'hitters': hitters}
+
+
+@app.route('/api/calibration-stats')
+def api_calibration_stats():
+    """Return calibration diagnostics (reliability curve & Brier scores).
+    Query params:
+      days: optional int restricting to last N days
+    Response JSON keys:
+      total, homers, overall_pred_mean, overall_obs_rate,
+      brier_calibrated, brier_raw, bins (calibrated), raw_bins (raw), calibration
+    """
+    import csv
+    from statistics import mean
+    days_param = request.args.get('days')
+    try:
+        days_filter = int(days_param) if days_param else None
+    except Exception:
+        days_filter = None
+    hist_path = os.path.join(data_dir(), 'historical-hr-events.csv')
+    if not os.path.exists(hist_path):
+        return jsonify({'error': 'no data'}), 404
+    rows = []
+    with open(hist_path, 'r', encoding='utf-8') as f:
+        r = csv.DictReader(f)
+        for row in r:
+            try:
+                d = row.get('date')
+                p_cal = row.get('model_prob')
+                p_raw = row.get('model_prob_raw')
+                p_cal = float(p_cal) if p_cal not in (None, '', 'None') else None
+                p_raw = float(p_raw) if p_raw not in (None, '', 'None') else None
+                y = int(row.get('homered'))
+                rows.append({'date': d, 'p': p_cal, 'p_raw': p_raw, 'y': y})
+            except Exception:
+                continue
+    if not rows:
+        return jsonify({'error': 'no data'}), 404
+    if days_filter:
+        try:
+            from datetime import datetime, timedelta
+            cutoff = datetime.utcnow().date() - timedelta(days=days_filter)
+            rows = [r for r in rows if r['date'] and datetime.strptime(r['date'], '%Y-%m-%d').date() >= cutoff]
+        except Exception:
+            pass
+    if not rows:
+        return jsonify({'error': 'no data after filter'}), 404
+
+    def build_bins(key: str):
+        data = [r for r in rows if r[key] is not None]
+        if not data:
+            return None
+        data.sort(key=lambda x: x[key])
+        k = 10
+        # Use equal-count bins
+        n = len(data)
+        base = max(1, n // k)
+        bins = []
+        idx = 0
+        for i in range(k):
+            start = idx
+            # Distribute remainder across first bins
+            extra = 1 if i < (n % k) else 0
+            end = min(n, start + base + extra)
+            chunk = data[start:end]
+            idx = end
+            if not chunk:
+                continue
+            p_vals = [c[key] for c in chunk]
+            y_vals = [c['y'] for c in chunk]
+            pm = mean(p_vals)
+            ym = mean(y_vals)
+            bins.append({
+                'idx': i + 1,
+                'count': len(chunk),
+                'p_lo': round(min(p_vals), 5),
+                'p_hi': round(max(p_vals), 5),
+                'pred_mean': round(pm, 5),
+                'obs_rate': round(ym, 5),
+                'abs_error': round(abs(pm - ym), 5)
+            })
+        return bins
+
+    def brier(key: str):
+        arr = [(r[key] - r['y']) ** 2 for r in rows if r[key] is not None]
+        return (sum(arr) / len(arr)) if arr else None
+
+    # Lazy import calibration loader
+    try:
+        from calibration import load_calibrator
+        calib = load_calibrator(os.path.join(data_dir(), 'model_calibration.json'))
+    except Exception:
+        calib = None
+    try:
+        overall_pred_mean = mean([r['p'] for r in rows if r['p'] is not None]) if any(r['p'] is not None for r in rows) else None
+    except Exception:
+        overall_pred_mean = None
+    resp = {
+        'total': len(rows),
+        'homers': int(sum(r['y'] for r in rows)),
+        'overall_pred_mean': round(overall_pred_mean, 5) if overall_pred_mean is not None else None,
+        'overall_obs_rate': round(sum(r['y'] for r in rows) / len(rows), 5),
+        'brier_calibrated': (lambda v: round(v, 5) if v is not None else None)(brier('p')),
+        'brier_raw': (lambda v: round(v, 5) if v is not None else None)(brier('p_raw')),
+        'bins': build_bins('p'),
+        'raw_bins': build_bins('p_raw'),
+        'calibration': calib or None
+    }
+    return jsonify(resp)
 
 
 @app.route('/api/live-hr-hitters')

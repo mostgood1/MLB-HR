@@ -100,6 +100,32 @@
           <div class="col-6 col-md-4"><span class="badge bg-secondary">PA%</span> ${f.pa_multiplier_pct ?? '-'}% </div>
         </div>`;
       const w = d.weather || {}; const p = d.park || {}; const h = d.h2h || {};
+      // Probabilities (calibrated vs raw)
+      try {
+        const probLineElId = 'playerModalProbLine';
+        let probEl = document.getElementById(probLineElId);
+        if (!probEl) {
+          // Insert placeholder before odds container
+          const oddsParent = document.getElementById('playerModalOdds');
+          if (oddsParent) {
+            probEl = document.createElement('div');
+            probEl.id = probLineElId;
+            probEl.className = 'mb-2 small';
+            oddsParent.parentNode.insertBefore(probEl, oddsParent);
+          }
+        }
+        if (probEl) {
+          const pCal = (typeof d.model_prob === 'number') ? (d.model_prob*100).toFixed(2)+'%' : '-';
+          const pRaw = (typeof d.model_prob_raw === 'number') ? (d.model_prob_raw*100).toFixed(2)+'%' : '-';
+          if (pRaw !== '-' && pCal !== pRaw) {
+            probEl.innerHTML = `<span class="badge text-bg-primary me-1">Prob</span> Calibrated: <strong>${pCal}</strong> <span class="text-muted">(raw ${pRaw}${d.calibration_method?`, ${d.calibration_method}`:''})</span>`;
+          } else if (pCal !== '-') {
+            probEl.innerHTML = `<span class="badge text-bg-primary me-1">Prob</span> <strong>${pCal}</strong>`;
+          } else {
+            probEl.innerHTML = '';
+          }
+        }
+      } catch {}
       // Odds
       const o = d.odds || {};
       const best = o.best;
@@ -155,6 +181,9 @@
       <button class="btn btn-outline-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#scoringHelp" aria-expanded="false" aria-controls="scoringHelp">
         Scoring explainer
       </button>
+      <button class="btn btn-outline-secondary btn-sm ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#legendHelp" aria-expanded="false" aria-controls="legendHelp">
+        Legend
+      </button>
       <div class="collapse mt-2" id="scoringHelp">
         <div class="card">
           <div class="card-body">
@@ -170,6 +199,40 @@
               <li><strong>PA multiplier</strong>: lineup slot adjusts for expected plate appearances.</li>
             </ul>
             <p class="mb-0 small text-muted">Final scores are scaled and capped 0–100 using the selected date’s dataset.</p>
+          </div>
+        </div>
+      </div>
+      <div class="collapse mt-2" id="legendHelp">
+        <div class="card">
+          <div class="card-body small">
+            <h6 class="mb-2">Legend & Badges</h6>
+            <div class="row g-3">
+              <div class="col-12 col-md-6">
+                <ul class="list-unstyled mb-0">
+                  <li><span class="badge score-pill" style="background:#0d6efd">85</span> <strong>Score</strong>: Model HR score (0–100 scale for the slate).</li>
+                  <li><span class="badge rounded-pill bg-success">Value</span> Edge ≥ {{ value_thresh_pp|round(1) }} pp and EV > 0.</li>
+                  <li><span class="badge rounded-pill bg-danger">Strong</span> Edge ≥ {{ strong_value_thresh_pp|round(1) }} pp and EV > 0.</li>
+                  <li><span class="badge homered-badge" style="background:#D4AF37;">Homered</span> Player has hit a HR today (×N if multiple).</li>
+                  <li><span class="badge state-live">Live</span> / <span class="badge state-final">Final</span> / <span class="badge state-scheduled">Scheduled</span> Game status (today only).</li>
+                  <li><span class="badge rounded-pill bg-dark">+500 (8.5%)</span> <strong>Anytime HR Odds</strong>: Best line & implied probability.</li>
+                  <li><span class="badge text-bg-primary">Prob</span> In modal: calibrated probability (raw + method in parens if different).</li>
+                </ul>
+              </div>
+              <div class="col-12 col-md-6">
+                <ul class="list-unstyled mb-0">
+                  <li><strong>Edge (pp)</strong>: (Model p − Fair Market p) × 100; tiers feed Value / Strong.</li>
+                  <li><strong>EV</strong>: Expected value vs best line (must be positive to badge).</li>
+                  <li><strong>Fair</strong>: Model fair American odds (modal & tooltip).</li>
+                  <li><strong>Market adj.</strong>: Market prob reduced by vig heuristic (vig / √offers).</li>
+                  <li><strong>Pow / Rec / Pit / Park</strong>: Core component contributions.</li>
+                  <li><strong>Park/Weather %</strong>: Multiplicative factor contribution ( >100% boosts ).</li>
+                  <li><strong>PA%</strong>: Plate appearance multiplier percent scale.</li>
+                  <li><strong>Pitch-type</strong>: Bonus from pitch-type matchup (if any).</li>
+                </ul>
+              </div>
+            </div>
+            <hr class="my-2" />
+            <div class="text-muted">Thresholds configurable via env: VALUE_BADGE_MIN_PP (current {{ value_thresh_pp|round(2) }}), VALUE_BADGE_STRONG_PP (current {{ strong_value_thresh_pp|round(2) }}).</div>
           </div>
         </div>
       </div>
@@ -242,7 +305,7 @@
     <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3">
       {% for p in players %}
   <div class="col">
-  <div class="card player-card" data-team="{{ p.team }}" data-primary="{{ p.team_primary }}" data-text="{{ p.team_text }}" data-mlbam-id="{{ p.mlbam_id or '' }}" data-player-name="{{ p.name }}" data-value="{% if p.value_pp is defined and p.value_pp >= 35 %}1{% else %}0{% endif %}" role="button" tabindex="0" aria-label="Open details for {{ p.name }}"
+  <div class="card player-card" data-team="{{ p.team }}" data-primary="{{ p.team_primary }}" data-text="{{ p.team_text }}" data-mlbam-id="{{ p.mlbam_id or '' }}" data-player-name="{{ p.name }}" data-value="{% if p.value_pp is defined and p.value_pp >= value_thresh_pp %}1{% else %}0{% endif %}" role="button" tabindex="0" aria-label="Open details for {{ p.name }}"
        onclick="openPlayerModal('{{ p.name|e }}','{{ p.team|e }}')"
        onkeypress="if(event.key==='Enter'||event.key===' '){ openPlayerModal('{{ p.name|e }}','{{ p.team|e }}'); }">
           <div class="team-bar"></div>
@@ -263,8 +326,12 @@
               </div>
               <div class="d-flex flex-column align-items-end">
                 <span class="badge score-pill">{{ p.hr_score }}</span>
-                {% if p.value_pp is defined and p.value_pp >= 35 %}
-                  <span class="badge rounded-pill bg-success mt-1" {% if p.value_tooltip %}title="{{ p.value_tooltip }}"{% endif %}>Value</span>
+                {% if p.value_pp is defined and p.value_pp is not none %}
+                  {% if p.value_pp >= strong_value_thresh_pp %}
+                    <span class="badge rounded-pill bg-danger mt-1" {% if p.value_tooltip %}title="{{ p.value_tooltip }}"{% endif %}>Strong</span>
+                  {% elif p.value_pp >= value_thresh_pp %}
+                    <span class="badge rounded-pill bg-success mt-1" {% if p.value_tooltip %}title="{{ p.value_tooltip }}"{% endif %}>Value</span>
+                  {% endif %}
                 {% endif %}
               </div>
             </div>
