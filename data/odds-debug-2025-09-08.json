@@ -1,0 +1,6 @@
+{
+  "date": "2025-09-08",
+  "url": "https://api.the-odds-api.com/v4/sports/baseball_mlb/odds/?regions=us,us2,eu,uk,au&markets=team_totals,totals,h2h&oddsFormat=american&dateFormat=iso&apiKey=07da97d86f1b1e431b4e01341abbf9e2",
+  "status": 422,
+  "text": "{\"message\":\"Markets not supported by this endpoint: team_totals\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
+}

@@ -1,4 +1,113 @@
 {
   "date": "2025-09-07",
-  "hitters": {}
+  "hitters": {
+    "665742": {
+      "name": "Santillan, Tony",
+      "hr": 1
+    },
+    "683146": {
+      "name": "Greene, Hunter",
+      "hr": 1
+    },
+    "553993": {
+      "name": "Bruj\u00e1n, Vidal",
+      "hr": 2
+    },
+    "663728": {
+      "name": "Mu\u00f1oz, Rolddy",
+      "hr": 1
+    },
+    "595777": {
+      "name": "Castillo, Luis",
+      "hr": 1
+    },
+    "647304": {
+      "name": "Wentz, Joey",
+      "hr": 1
+    },
+    "593871": {
+      "name": "Wentz, Joey",
+      "hr": 1
+    },
+    "605141": {
+      "name": "Sugano, Tomoyuki",
+      "hr": 1
+    },
+    "660271": {
+      "name": "Sugano, Tomoyuki",
+      "hr": 2
+    },
+    "672640": {
+      "name": "Alvarado, Jos\u00e9",
+      "hr": 2
+    },
+    "607208": {
+      "name": "Faucher, Calvin",
+      "hr": 1
+    },
+    "672820": {
+      "name": "Morton, Charlie",
+      "hr": 1
+    },
+    "700250": {
+      "name": "Scherzer, Max",
+      "hr": 1
+    },
+    "665019": {
+      "name": "Lorenzen, Michael",
+      "hr": 1
+    },
+    "621439": {
+      "name": "Lorenzen, Michael",
+      "hr": 1
+    },
+    "700246": {
+      "name": "Messick, Parker",
+      "hr": 1
+    },
+    "605137": {
+      "name": "Palencia, Daniel",
+      "hr": 1
+    },
+    "690987": {
+      "name": "Palencia, Daniel",
+      "hr": 1
+    },
+    "608348": {
+      "name": "Thompson, Mason",
+      "hr": 2
+    },
+    "669394": {
+      "name": "Valdez, Framber",
+      "hr": 1
+    },
+    "657656": {
+      "name": "Peralta, Luis",
+      "hr": 1
+    },
+    "657757": {
+      "name": "Gordon, Tanner",
+      "hr": 1
+    },
+    "701538": {
+      "name": "Gordon, Tanner",
+      "hr": 1
+    },
+    "592518": {
+      "name": "Gordon, Tanner",
+      "hr": 1
+    },
+    "691016": {
+      "name": "Farris, Mitch",
+      "hr": 1
+    },
+    "680862": {
+      "name": "Farris, Mitch",
+      "hr": 1
+    },
+    "666176": {
+      "name": "Severino, Luis",
+      "hr": 1
+    }
+  }
 }

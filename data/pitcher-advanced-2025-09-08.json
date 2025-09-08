@@ -1,0 +1,257 @@
+{
+  "date": "2025-09-08",
+  "pitchers": [
+    {
+      "name": "Slade Cecconi",
+      "barrel_rate_allowed": null,
+      "hr_fb": null,
+      "fb_pct": null,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Ryan Bergert",
+      "barrel_rate_allowed": null,
+      "hr_fb": null,
+      "fb_pct": null,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Cade Cavalli",
+      "barrel_rate_allowed": null,
+      "hr_fb": null,
+      "fb_pct": null,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Shota Imanaga",
+      "barrel_rate_allowed": null,
+      "hr_fb": null,
+      "fb_pct": null,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Jose Quintana",
+      "barrel_rate_allowed": null,
+      "hr_fb": null,
+      "fb_pct": null,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Nolan McLean",
+      "barrel_rate_allowed": null,
+      "hr_fb": null,
+      "fb_pct": null,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Aaron Nola",
+      "barrel_rate_allowed": null,
+      "hr_fb": null,
+      "fb_pct": null,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Simeon Woods Richardson",
+      "barrel_rate_allowed": null,
+      "hr_fb": null,
+      "fb_pct": null,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Bryce Elder",
+      "barrel_rate_allowed": null,
+      "hr_fb": null,
+      "fb_pct": null,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Jacob Latz",
+      "barrel_rate_allowed": null,
+      "hr_fb": null,
+      "fb_pct": null,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Janson Junk",
+      "barrel_rate_allowed": null,
+      "hr_fb": null,
+      "fb_pct": null,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Caden Dana",
+      "barrel_rate_allowed": null,
+      "hr_fb": null,
+      "fb_pct": null,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Yu Darvish",
+      "barrel_rate_allowed": null,
+      "hr_fb": null,
+      "fb_pct": null,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Garrett Crochet",
+      "barrel_rate_allowed": null,
+      "hr_fb": null,
+      "fb_pct": null,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Nick Lodolo",
+      "barrel_rate_allowed": null,
+      "hr_fb": null,
+      "fb_pct": null,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Bryan Woo",
+      "barrel_rate_allowed": null,
+      "hr_fb": null,
+      "fb_pct": null,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Miles Mikolas",
+      "barrel_rate_allowed": null,
+      "hr_fb": null,
+      "fb_pct": null,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Nabil Crismatt",
+      "barrel_rate_allowed": null,
+      "hr_fb": null,
+      "fb_pct": null,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Chase Dollander",
+      "barrel_rate_allowed": null,
+      "hr_fb": null,
+      "fb_pct": null,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Logan Webb",
+      "barrel_rate_allowed": null,
+      "hr_fb": null,
+      "fb_pct": null,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    },
+    {
+      "name": "Luis Morales",
+      "barrel_rate_allowed": null,
+      "hr_fb": null,
+      "fb_pct": null,
+      "vsR": {
+        "xslg": null
+      },
+      "vsL": {
+        "xslg": null
+      }
+    }
+  ]
+}

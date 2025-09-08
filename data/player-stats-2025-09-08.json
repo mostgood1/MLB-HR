@@ -1,0 +1,5540 @@
+{
+  "date": "2025-09-08",
+  "players": [
+    {
+      "name": "Jake Cronenworth",
+      "team": "SD",
+      "mlbam_id": 630105,
+      "battingAvg": 0.248,
+      "sluggingPerc": 0.39,
+      "homeRuns": 10,
+      "position": "Second Base"
+    },
+    {
+      "name": "Tyler Ferguson",
+      "team": "ATH",
+      "mlbam_id": 621053,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jackson Merrill",
+      "team": "SD",
+      "mlbam_id": 701538,
+      "battingAvg": 0.259,
+      "sluggingPerc": 0.414,
+      "homeRuns": 10,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Luis Morales",
+      "team": "ATH",
+      "mlbam_id": 806960,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jo Adell",
+      "team": "LAA",
+      "mlbam_id": 666176,
+      "battingAvg": 0.243,
+      "sluggingPerc": 0.507,
+      "homeRuns": 35,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Agust\u00edn Ram\u00edrez",
+      "team": "MIA",
+      "mlbam_id": 682663,
+      "battingAvg": 0.228,
+      "sluggingPerc": 0.415,
+      "homeRuns": 19,
+      "position": "Catcher"
+    },
+    {
+      "name": "Robbie Ray",
+      "team": "SF",
+      "mlbam_id": 592662,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Gavin Sheets",
+      "team": "SD",
+      "mlbam_id": 657757,
+      "battingAvg": 0.264,
+      "sluggingPerc": 0.458,
+      "homeRuns": 19,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Shea Langeliers",
+      "team": "ATH",
+      "mlbam_id": 669127,
+      "battingAvg": 0.264,
+      "sluggingPerc": 0.533,
+      "homeRuns": 29,
+      "position": "Catcher"
+    },
+    {
+      "name": "James Outman",
+      "team": "MIN",
+      "mlbam_id": 681546,
+      "battingAvg": 0.129,
+      "sluggingPerc": 0.258,
+      "homeRuns": 2,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Dominic Canzone",
+      "team": "SEA",
+      "mlbam_id": 686527,
+      "battingAvg": 0.285,
+      "sluggingPerc": 0.435,
+      "homeRuns": 7,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Dylan Lee",
+      "team": "ATL",
+      "mlbam_id": 669276,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Edouard Julien",
+      "team": "MIN",
+      "mlbam_id": 666397,
+      "battingAvg": 0.192,
+      "sluggingPerc": 0.305,
+      "homeRuns": 3,
+      "position": "Second Base"
+    },
+    {
+      "name": "Hogan Harris",
+      "team": "ATH",
+      "mlbam_id": 663687,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Carl Edwards Jr.",
+      "team": "TEX",
+      "mlbam_id": 605218,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Sean Newcomb",
+      "team": "ATH",
+      "mlbam_id": 656794,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Eric Wagaman",
+      "team": "MIA",
+      "mlbam_id": 676572,
+      "battingAvg": 0.24,
+      "sluggingPerc": 0.374,
+      "homeRuns": 9,
+      "position": "First Base"
+    },
+    {
+      "name": "G\u00e9nesis Cabrera",
+      "team": "MIN",
+      "mlbam_id": 650893,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Rafael Devers",
+      "team": "SF",
+      "mlbam_id": 646240,
+      "battingAvg": 0.263,
+      "sluggingPerc": 0.492,
+      "homeRuns": 31,
+      "position": "Designated Hitter"
+    },
+    {
+      "name": "Pierce Johnson",
+      "team": "ATL",
+      "mlbam_id": 572955,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jose Iglesias",
+      "team": "SD",
+      "mlbam_id": 578428,
+      "battingAvg": 0.227,
+      "sluggingPerc": 0.273,
+      "homeRuns": 1,
+      "position": "Second Base"
+    },
+    {
+      "name": "Elias D\u00edaz",
+      "team": "SD",
+      "mlbam_id": 553869,
+      "battingAvg": 0.205,
+      "sluggingPerc": 0.335,
+      "homeRuns": 8,
+      "position": "Catcher"
+    },
+    {
+      "name": "Scott McGough",
+      "team": "ATH",
+      "mlbam_id": 543518,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Christian Roa",
+      "team": "MIA",
+      "mlbam_id": 685005,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Willy Adames",
+      "team": "SF",
+      "mlbam_id": 642715,
+      "battingAvg": 0.228,
+      "sluggingPerc": 0.425,
+      "homeRuns": 27,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Tyler Soderstrom",
+      "team": "ATH",
+      "mlbam_id": 691016,
+      "battingAvg": 0.276,
+      "sluggingPerc": 0.476,
+      "homeRuns": 24,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Scott Kingery",
+      "team": "LAA",
+      "mlbam_id": 664068,
+      "battingAvg": 0.154,
+      "sluggingPerc": 0.192,
+      "homeRuns": 0,
+      "position": "Second Base"
+    },
+    {
+      "name": "Raisel Iglesias",
+      "team": "ATL",
+      "mlbam_id": 628452,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Osvaldo Bido",
+      "team": "ATH",
+      "mlbam_id": 674370,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Josh Naylor",
+      "team": "SEA",
+      "mlbam_id": 647304,
+      "battingAvg": 0.282,
+      "sluggingPerc": 0.448,
+      "homeRuns": 18,
+      "position": "First Base"
+    },
+    {
+      "name": "Matt Strahm",
+      "team": "PHI",
+      "mlbam_id": 621381,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Kyle Hart",
+      "team": "SD",
+      "mlbam_id": 606996,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Nick Kurtz",
+      "team": "ATH",
+      "mlbam_id": 701762,
+      "battingAvg": 0.304,
+      "sluggingPerc": 0.631,
+      "homeRuns": 29,
+      "position": "First Base"
+    },
+    {
+      "name": "Sammy Peralta",
+      "team": "LAA",
+      "mlbam_id": 671111,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Tristan Beck",
+      "team": "SF",
+      "mlbam_id": 663941,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Danny Jansen",
+      "team": "MIL",
+      "mlbam_id": 643376,
+      "battingAvg": 0.201,
+      "sluggingPerc": 0.367,
+      "homeRuns": 11,
+      "position": "Catcher"
+    },
+    {
+      "name": "Michael Kelly",
+      "team": "ATH",
+      "mlbam_id": 547184,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Max Kepler",
+      "team": "PHI",
+      "mlbam_id": 596146,
+      "battingAvg": 0.215,
+      "sluggingPerc": 0.382,
+      "homeRuns": 15,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Casey Schmitt",
+      "team": "SF",
+      "mlbam_id": 669477,
+      "battingAvg": 0.239,
+      "sluggingPerc": 0.402,
+      "homeRuns": 10,
+      "position": "Third Base"
+    },
+    {
+      "name": "Max Schuemann",
+      "team": "ATH",
+      "mlbam_id": 680474,
+      "battingAvg": 0.204,
+      "sluggingPerc": 0.29,
+      "homeRuns": 2,
+      "position": "Third Base"
+    },
+    {
+      "name": "Jeremiah Estrada",
+      "team": "SD",
+      "mlbam_id": 669093,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Taijuan Walker",
+      "team": "PHI",
+      "mlbam_id": 592836,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Tim Mayza",
+      "team": "PHI",
+      "mlbam_id": 641835,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Bryce Teodosio",
+      "team": "LAA",
+      "mlbam_id": 669326,
+      "battingAvg": 0.193,
+      "sluggingPerc": 0.273,
+      "homeRuns": 0,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Ozzie Albies",
+      "team": "ATL",
+      "mlbam_id": 645277,
+      "battingAvg": 0.242,
+      "sluggingPerc": 0.37,
+      "homeRuns": 15,
+      "position": "Second Base"
+    },
+    {
+      "name": "Julio Rodr\u00edguez",
+      "team": "SEA",
+      "mlbam_id": 677594,
+      "battingAvg": 0.267,
+      "sluggingPerc": 0.479,
+      "homeRuns": 30,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Adrian Morejon",
+      "team": "SD",
+      "mlbam_id": 670970,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Bryce Johnson",
+      "team": "SD",
+      "mlbam_id": 669369,
+      "battingAvg": 0.367,
+      "sluggingPerc": 0.433,
+      "homeRuns": 0,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Gordon Graceffo",
+      "team": "STL",
+      "mlbam_id": 700669,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Christian Koss",
+      "team": "SF",
+      "mlbam_id": 683766,
+      "battingAvg": 0.252,
+      "sluggingPerc": 0.351,
+      "homeRuns": 3,
+      "position": "Second Base"
+    },
+    {
+      "name": "Jos\u00e9 Castillo",
+      "team": "SEA",
+      "mlbam_id": 620454,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Eduard Bazardo",
+      "team": "SEA",
+      "mlbam_id": 660825,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Mason Miller",
+      "team": "SD",
+      "mlbam_id": 695243,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Caden Dana",
+      "team": "LAA",
+      "mlbam_id": 702674,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Patrick Bailey",
+      "team": "SF",
+      "mlbam_id": 672275,
+      "battingAvg": 0.216,
+      "sluggingPerc": 0.3,
+      "homeRuns": 3,
+      "position": "Catcher"
+    },
+    {
+      "name": "William Contreras",
+      "team": "MIL",
+      "mlbam_id": 661388,
+      "battingAvg": 0.263,
+      "sluggingPerc": 0.41,
+      "homeRuns": 17,
+      "position": "Catcher"
+    },
+    {
+      "name": "Taylor Ward",
+      "team": "LAA",
+      "mlbam_id": 621493,
+      "battingAvg": 0.225,
+      "sluggingPerc": 0.466,
+      "homeRuns": 30,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Tobias Myers",
+      "team": "MIL",
+      "mlbam_id": 668964,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Sal Frelick",
+      "team": "MIL",
+      "mlbam_id": 686217,
+      "battingAvg": 0.299,
+      "sluggingPerc": 0.412,
+      "homeRuns": 10,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Xavier Edwards",
+      "team": "MIA",
+      "mlbam_id": 669364,
+      "battingAvg": 0.279,
+      "sluggingPerc": 0.35,
+      "homeRuns": 2,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Alejandro Osuna",
+      "team": "TEX",
+      "mlbam_id": 696030,
+      "battingAvg": 0.184,
+      "sluggingPerc": 0.224,
+      "homeRuns": 1,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Garrett Hampson",
+      "team": "STL",
+      "mlbam_id": 641658,
+      "battingAvg": 0.143,
+      "sluggingPerc": 0.169,
+      "homeRuns": 0,
+      "position": "Second Base"
+    },
+    {
+      "name": "Ezequiel Duran",
+      "team": "TEX",
+      "mlbam_id": 677649,
+      "battingAvg": 0.229,
+      "sluggingPerc": 0.306,
+      "homeRuns": 0,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Zebby Matthews",
+      "team": "MIN",
+      "mlbam_id": 805673,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Chris Roycroft",
+      "team": "STL",
+      "mlbam_id": 688297,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Bryce Elder",
+      "team": "ATL",
+      "mlbam_id": 693821,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Rob Zastryzny",
+      "team": "MIL",
+      "mlbam_id": 642239,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Victor Mesa Jr.",
+      "team": "MIA",
+      "mlbam_id": 683748,
+      "battingAvg": 0.176,
+      "sluggingPerc": 0.176,
+      "homeRuns": 0,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Matt Gage",
+      "team": "SF",
+      "mlbam_id": 657424,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Cole Young",
+      "team": "SEA",
+      "mlbam_id": 702284,
+      "battingAvg": 0.219,
+      "sluggingPerc": 0.319,
+      "homeRuns": 4,
+      "position": "Second Base"
+    },
+    {
+      "name": "Quinn Priester",
+      "team": "MIL",
+      "mlbam_id": 682990,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Freddy Fermin",
+      "team": "SD",
+      "mlbam_id": 666023,
+      "battingAvg": 0.262,
+      "sluggingPerc": 0.353,
+      "homeRuns": 4,
+      "position": "Catcher"
+    },
+    {
+      "name": "Luis Arraez",
+      "team": "SD",
+      "mlbam_id": 650333,
+      "battingAvg": 0.285,
+      "sluggingPerc": 0.389,
+      "homeRuns": 7,
+      "position": "First Base"
+    },
+    {
+      "name": "Trevor Larnach",
+      "team": "MIN",
+      "mlbam_id": 663616,
+      "battingAvg": 0.256,
+      "sluggingPerc": 0.41,
+      "homeRuns": 16,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Andrew Knizner",
+      "team": "SF",
+      "mlbam_id": 668800,
+      "battingAvg": 0.209,
+      "sluggingPerc": 0.269,
+      "homeRuns": 1,
+      "position": "Catcher"
+    },
+    {
+      "name": "Jacob Wilson",
+      "team": "ATH",
+      "mlbam_id": 805779,
+      "battingAvg": 0.315,
+      "sluggingPerc": 0.447,
+      "homeRuns": 12,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Joey Ortiz",
+      "team": "MIL",
+      "mlbam_id": 687401,
+      "battingAvg": 0.225,
+      "sluggingPerc": 0.315,
+      "homeRuns": 7,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Jared Koenig",
+      "team": "MIL",
+      "mlbam_id": 657649,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jos\u00e9 Fermin",
+      "team": "LAA",
+      "mlbam_id": 820862,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Joel Payamps",
+      "team": "MIL",
+      "mlbam_id": 606303,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Valente Bellozo",
+      "team": "MIA",
+      "mlbam_id": 678368,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Travis Adams",
+      "team": "MIN",
+      "mlbam_id": 701519,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jacob Misiorowski",
+      "team": "MIL",
+      "mlbam_id": 694819,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Robert Stephenson",
+      "team": "LAA",
+      "mlbam_id": 596112,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jake Bauers",
+      "team": "MIL",
+      "mlbam_id": 641343,
+      "battingAvg": 0.213,
+      "sluggingPerc": 0.373,
+      "homeRuns": 6,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Tyler Phillips",
+      "team": "MIA",
+      "mlbam_id": 663969,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Thomas Hatch",
+      "team": "MIN",
+      "mlbam_id": 641672,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Dylan Moore",
+      "team": "TEX",
+      "mlbam_id": 664238,
+      "battingAvg": 0.202,
+      "sluggingPerc": 0.374,
+      "homeRuns": 10,
+      "position": "Second Base"
+    },
+    {
+      "name": "Cole Winn",
+      "team": "TEX",
+      "mlbam_id": 668390,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Kenley Jansen",
+      "team": "LAA",
+      "mlbam_id": 445276,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jackson Chourio",
+      "team": "MIL",
+      "mlbam_id": 694192,
+      "battingAvg": 0.275,
+      "sluggingPerc": 0.479,
+      "homeRuns": 19,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Taj Bradley",
+      "team": "MIN",
+      "mlbam_id": 671737,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jose Quintana",
+      "team": "MIL",
+      "mlbam_id": 500779,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Freddy Peralta",
+      "team": "MIL",
+      "mlbam_id": 642547,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Troy Johnston",
+      "team": "MIA",
+      "mlbam_id": 687859,
+      "battingAvg": 0.278,
+      "sluggingPerc": 0.375,
+      "homeRuns": 1,
+      "position": "Outfield"
+    },
+    {
+      "name": "Jos\u00e9 Ure\u00f1a",
+      "team": "LAA",
+      "mlbam_id": 570632,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Alek Jacob",
+      "team": "SD",
+      "mlbam_id": 689690,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Sandy Alcantara",
+      "team": "MIA",
+      "mlbam_id": 645261,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Brooks Lee",
+      "team": "MIN",
+      "mlbam_id": 686797,
+      "battingAvg": 0.243,
+      "sluggingPerc": 0.379,
+      "homeRuns": 14,
+      "position": "Third Base"
+    },
+    {
+      "name": "Reid Detmers",
+      "team": "LAA",
+      "mlbam_id": 672282,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "David Morgan",
+      "team": "SD",
+      "mlbam_id": 688158,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Chris Sale",
+      "team": "ATL",
+      "mlbam_id": 519242,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Simeon Woods Richardson",
+      "team": "MIN",
+      "mlbam_id": 680573,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Seth Martinez",
+      "team": "MIA",
+      "mlbam_id": 661527,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Trea Turner",
+      "team": "PHI",
+      "mlbam_id": 607208,
+      "battingAvg": 0.305,
+      "sluggingPerc": 0.458,
+      "homeRuns": 15,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Carson Seymour",
+      "team": "SF",
+      "mlbam_id": 693313,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Bryan Woo",
+      "team": "SEA",
+      "mlbam_id": 693433,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Mason McCoy",
+      "team": "SD",
+      "mlbam_id": 669200,
+      "battingAvg": 0.083,
+      "sluggingPerc": 0.083,
+      "homeRuns": 0,
+      "position": "Second Base"
+    },
+    {
+      "name": "Oswald Peraza",
+      "team": "LAA",
+      "mlbam_id": 672724,
+      "battingAvg": 0.166,
+      "sluggingPerc": 0.254,
+      "homeRuns": 4,
+      "position": "Third Base"
+    },
+    {
+      "name": "Jos\u00e9 Soriano",
+      "team": "LAA",
+      "mlbam_id": 667755,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Wilmer Flores",
+      "team": "SF",
+      "mlbam_id": 527038,
+      "battingAvg": 0.244,
+      "sluggingPerc": 0.386,
+      "homeRuns": 15,
+      "position": "First Base"
+    },
+    {
+      "name": "Dustin Harris",
+      "team": "TEX",
+      "mlbam_id": 687957,
+      "battingAvg": 0.2,
+      "sluggingPerc": 0.35,
+      "homeRuns": 1,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Ram\u00f3n Laureano",
+      "team": "SD",
+      "mlbam_id": 657656,
+      "battingAvg": 0.3,
+      "sluggingPerc": 0.548,
+      "homeRuns": 23,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Royce Lewis",
+      "team": "MIN",
+      "mlbam_id": 668904,
+      "battingAvg": 0.234,
+      "sluggingPerc": 0.386,
+      "homeRuns": 10,
+      "position": "Third Base"
+    },
+    {
+      "name": "Ronny Henriquez",
+      "team": "MIA",
+      "mlbam_id": 678692,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Manny Machado",
+      "team": "SD",
+      "mlbam_id": 592518,
+      "battingAvg": 0.28,
+      "sluggingPerc": 0.465,
+      "homeRuns": 23,
+      "position": "Third Base"
+    },
+    {
+      "name": "Ryan Walker",
+      "team": "SF",
+      "mlbam_id": 676254,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Michael Petersen",
+      "team": "MIA",
+      "mlbam_id": 656848,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Mason Barnett",
+      "team": "ATH",
+      "mlbam_id": 686930,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Ryan Fitzgerald",
+      "team": "MIN",
+      "mlbam_id": 680837,
+      "battingAvg": 0.2,
+      "sluggingPerc": 0.32,
+      "homeRuns": 1,
+      "position": "Third Base"
+    },
+    {
+      "name": "Nick Pivetta",
+      "team": "SD",
+      "mlbam_id": 601713,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Otto Lopez",
+      "team": "MIA",
+      "mlbam_id": 672640,
+      "battingAvg": 0.248,
+      "sluggingPerc": 0.376,
+      "homeRuns": 14,
+      "position": "Second Base"
+    },
+    {
+      "name": "Pablo L\u00f3pez",
+      "team": "MIN",
+      "mlbam_id": 641154,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Brett Harris",
+      "team": "ATH",
+      "mlbam_id": 695391,
+      "battingAvg": 0.233,
+      "sluggingPerc": 0.279,
+      "homeRuns": 0,
+      "position": "Third Base"
+    },
+    {
+      "name": "Mitch Farris",
+      "team": "LAA",
+      "mlbam_id": 815083,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Pierson Ohl",
+      "team": "MIN",
+      "mlbam_id": 701487,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Liam Hicks",
+      "team": "MIA",
+      "mlbam_id": 689414,
+      "battingAvg": 0.253,
+      "sluggingPerc": 0.356,
+      "homeRuns": 5,
+      "position": "Catcher"
+    },
+    {
+      "name": "Anthony Seigler",
+      "team": "MIL",
+      "mlbam_id": 678011,
+      "battingAvg": 0.194,
+      "sluggingPerc": 0.21,
+      "homeRuns": 0,
+      "position": "Second Base"
+    },
+    {
+      "name": "Maximo Acosta",
+      "team": "MIA",
+      "mlbam_id": 691185,
+      "battingAvg": 0.206,
+      "sluggingPerc": 0.5,
+      "homeRuns": 3,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Harry Ford",
+      "team": "SEA",
+      "mlbam_id": 695670,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Catcher"
+    },
+    {
+      "name": "Luis Severino",
+      "team": "ATH",
+      "mlbam_id": 622663,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Elvis Alvarado",
+      "team": "ATH",
+      "mlbam_id": 665660,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Mike Trout",
+      "team": "LAA",
+      "mlbam_id": 545361,
+      "battingAvg": 0.229,
+      "sluggingPerc": 0.42,
+      "homeRuns": 20,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Spencer Bivens",
+      "team": "SF",
+      "mlbam_id": 702352,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Mickey Gasper",
+      "team": "MIN",
+      "mlbam_id": 681508,
+      "battingAvg": 0.158,
+      "sluggingPerc": 0.211,
+      "homeRuns": 1,
+      "position": "Second Base"
+    },
+    {
+      "name": "Eli White",
+      "team": "ATL",
+      "mlbam_id": 642201,
+      "battingAvg": 0.233,
+      "sluggingPerc": 0.388,
+      "homeRuns": 8,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Lawrence Butler",
+      "team": "ATH",
+      "mlbam_id": 671732,
+      "battingAvg": 0.235,
+      "sluggingPerc": 0.41,
+      "homeRuns": 19,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Andruw Monasterio",
+      "team": "MIL",
+      "mlbam_id": 655316,
+      "battingAvg": 0.283,
+      "sluggingPerc": 0.481,
+      "homeRuns": 4,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Matthew Lugo",
+      "team": "LAA",
+      "mlbam_id": 683090,
+      "battingAvg": 0.213,
+      "sluggingPerc": 0.475,
+      "homeRuns": 4,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Lake Bachar",
+      "team": "MIA",
+      "mlbam_id": 669199,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Eugenio Su\u00e1rez",
+      "team": "SEA",
+      "mlbam_id": 553993,
+      "battingAvg": 0.238,
+      "sluggingPerc": 0.55,
+      "homeRuns": 45,
+      "position": "Third Base"
+    },
+    {
+      "name": "Matt Wallner",
+      "team": "MIN",
+      "mlbam_id": 670242,
+      "battingAvg": 0.205,
+      "sluggingPerc": 0.471,
+      "homeRuns": 21,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Tanner Banks",
+      "team": "PHI",
+      "mlbam_id": 621383,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Christian Yelich",
+      "team": "MIL",
+      "mlbam_id": 592885,
+      "battingAvg": 0.268,
+      "sluggingPerc": 0.464,
+      "homeRuns": 27,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Emerson Hancock",
+      "team": "SEA",
+      "mlbam_id": 676106,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Joey Wiemer",
+      "team": "MIA",
+      "mlbam_id": 686894,
+      "battingAvg": 0.265,
+      "sluggingPerc": 0.412,
+      "homeRuns": 1,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Cristopher S\u00e1nchez",
+      "team": "PHI",
+      "mlbam_id": 650911,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Kody Funderburk",
+      "team": "MIN",
+      "mlbam_id": 681892,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Isaac Collins",
+      "team": "MIL",
+      "mlbam_id": 686555,
+      "battingAvg": 0.275,
+      "sluggingPerc": 0.433,
+      "homeRuns": 9,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Carlos Rodriguez",
+      "team": "MIL",
+      "mlbam_id": 692230,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jakob Marsee",
+      "team": "MIA",
+      "mlbam_id": 805300,
+      "battingAvg": 0.315,
+      "sluggingPerc": 0.538,
+      "homeRuns": 4,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Bryce Harper",
+      "team": "PHI",
+      "mlbam_id": 547180,
+      "battingAvg": 0.264,
+      "sluggingPerc": 0.495,
+      "homeRuns": 24,
+      "position": "First Base"
+    },
+    {
+      "name": "Bailey Ober",
+      "team": "MIN",
+      "mlbam_id": 641927,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Austin Martin",
+      "team": "MIN",
+      "mlbam_id": 668885,
+      "battingAvg": 0.284,
+      "sluggingPerc": 0.375,
+      "homeRuns": 1,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Luke Keaschall",
+      "team": "MIN",
+      "mlbam_id": 807712,
+      "battingAvg": 0.321,
+      "sluggingPerc": 0.485,
+      "homeRuns": 4,
+      "position": "Second Base"
+    },
+    {
+      "name": "Bryson Stott",
+      "team": "PHI",
+      "mlbam_id": 681082,
+      "battingAvg": 0.249,
+      "sluggingPerc": 0.378,
+      "homeRuns": 10,
+      "position": "Second Base"
+    },
+    {
+      "name": "Justin Topa",
+      "team": "MIN",
+      "mlbam_id": 623437,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Caleb Durbin",
+      "team": "MIL",
+      "mlbam_id": 702332,
+      "battingAvg": 0.254,
+      "sluggingPerc": 0.389,
+      "homeRuns": 10,
+      "position": "Third Base"
+    },
+    {
+      "name": "Javier Sanoja",
+      "team": "MIA",
+      "mlbam_id": 691594,
+      "battingAvg": 0.24,
+      "sluggingPerc": 0.384,
+      "homeRuns": 5,
+      "position": "Second Base"
+    },
+    {
+      "name": "Luis Rengifo",
+      "team": "LAA",
+      "mlbam_id": 650859,
+      "battingAvg": 0.244,
+      "sluggingPerc": 0.344,
+      "homeRuns": 8,
+      "position": "Third Base"
+    },
+    {
+      "name": "Kody Clemens",
+      "team": "MIN",
+      "mlbam_id": 665019,
+      "battingAvg": 0.208,
+      "sluggingPerc": 0.431,
+      "homeRuns": 16,
+      "position": "Second Base"
+    },
+    {
+      "name": "Andrew Chafin",
+      "team": "LAA",
+      "mlbam_id": 605177,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Heriberto Hern\u00e1ndez",
+      "team": "MIA",
+      "mlbam_id": 681715,
+      "battingAvg": 0.26,
+      "sluggingPerc": 0.412,
+      "homeRuns": 7,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Joe Ryan",
+      "team": "MIN",
+      "mlbam_id": 657746,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jack Winkler",
+      "team": "MIA",
+      "mlbam_id": 676466,
+      "battingAvg": 0.231,
+      "sluggingPerc": 0.308,
+      "homeRuns": 0,
+      "position": "Second Base"
+    },
+    {
+      "name": "Harrison Bader",
+      "team": "PHI",
+      "mlbam_id": 664056,
+      "battingAvg": 0.27,
+      "sluggingPerc": 0.452,
+      "homeRuns": 15,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Luis Garc\u00eda",
+      "team": "LAA",
+      "mlbam_id": 472610,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "George Kirby",
+      "team": "SEA",
+      "mlbam_id": 669923,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Brice Turang",
+      "team": "MIL",
+      "mlbam_id": 668930,
+      "battingAvg": 0.293,
+      "sluggingPerc": 0.448,
+      "homeRuns": 17,
+      "position": "Second Base"
+    },
+    {
+      "name": "Carson McCusker",
+      "team": "MIN",
+      "mlbam_id": 676812,
+      "battingAvg": 0.222,
+      "sluggingPerc": 0.222,
+      "homeRuns": 0,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Michael Tonkin",
+      "team": "MIN",
+      "mlbam_id": 543859,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Shawn Armstrong",
+      "team": "TEX",
+      "mlbam_id": 542888,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Fernando Tatis Jr.",
+      "team": "SD",
+      "mlbam_id": 665487,
+      "battingAvg": 0.262,
+      "sluggingPerc": 0.433,
+      "homeRuns": 20,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Logan O'Hoppe",
+      "team": "LAA",
+      "mlbam_id": 681351,
+      "battingAvg": 0.217,
+      "sluggingPerc": 0.386,
+      "homeRuns": 19,
+      "position": "Catcher"
+    },
+    {
+      "name": "Andrew Vaughn",
+      "team": "MIL",
+      "mlbam_id": 683734,
+      "battingAvg": 0.248,
+      "sluggingPerc": 0.409,
+      "homeRuns": 14,
+      "position": "First Base"
+    },
+    {
+      "name": "Josh Simpson",
+      "team": "MIA",
+      "mlbam_id": 681006,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Garrett Stubbs",
+      "team": "PHI",
+      "mlbam_id": 596117,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Catcher"
+    },
+    {
+      "name": "George Soriano",
+      "team": "MIA",
+      "mlbam_id": 666277,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jhonny Pereda",
+      "team": "MIN",
+      "mlbam_id": 640902,
+      "battingAvg": 0.196,
+      "sluggingPerc": 0.261,
+      "homeRuns": 0,
+      "position": "Catcher"
+    },
+    {
+      "name": "Logan Davidson",
+      "team": "LAA",
+      "mlbam_id": 669722,
+      "battingAvg": 0.167,
+      "sluggingPerc": 0.208,
+      "homeRuns": 0,
+      "position": "First Base"
+    },
+    {
+      "name": "Eury P\u00e9rez",
+      "team": "MIA",
+      "mlbam_id": 691587,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Edmundo Sosa",
+      "team": "PHI",
+      "mlbam_id": 624641,
+      "battingAvg": 0.273,
+      "sluggingPerc": 0.426,
+      "homeRuns": 7,
+      "position": "Second Base"
+    },
+    {
+      "name": "Grant McCray",
+      "team": "SF",
+      "mlbam_id": 687529,
+      "battingAvg": 0.1,
+      "sluggingPerc": 0.2,
+      "homeRuns": 0,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Dylan Cease",
+      "team": "SD",
+      "mlbam_id": 656302,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "J.P. Crawford",
+      "team": "SEA",
+      "mlbam_id": 641487,
+      "battingAvg": 0.264,
+      "sluggingPerc": 0.356,
+      "homeRuns": 9,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Dominic Smith",
+      "team": "SF",
+      "mlbam_id": 642086,
+      "battingAvg": 0.292,
+      "sluggingPerc": 0.415,
+      "homeRuns": 4,
+      "position": "First Base"
+    },
+    {
+      "name": "Gabe Speier",
+      "team": "SEA",
+      "mlbam_id": 642100,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jorge Polanco",
+      "team": "SEA",
+      "mlbam_id": 593871,
+      "battingAvg": 0.258,
+      "sluggingPerc": 0.479,
+      "homeRuns": 24,
+      "position": "Second Base"
+    },
+    {
+      "name": "Iv\u00e1n Herrera",
+      "team": "STL",
+      "mlbam_id": 671056,
+      "battingAvg": 0.283,
+      "sluggingPerc": 0.45,
+      "homeRuns": 14,
+      "position": "Catcher"
+    },
+    {
+      "name": "Drew Gilbert",
+      "team": "SF",
+      "mlbam_id": 687551,
+      "battingAvg": 0.25,
+      "sluggingPerc": 0.5,
+      "homeRuns": 3,
+      "position": "Outfielder"
+    },
+    {
+      "name": "David Robertson",
+      "team": "PHI",
+      "mlbam_id": 502085,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Byron Buxton",
+      "team": "MIN",
+      "mlbam_id": 621439,
+      "battingAvg": 0.271,
+      "sluggingPerc": 0.562,
+      "homeRuns": 30,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Lou Trivino",
+      "team": "PHI",
+      "mlbam_id": 642152,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Brandon Woodruff",
+      "team": "MIL",
+      "mlbam_id": 605540,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Zack Gelof",
+      "team": "ATH",
+      "mlbam_id": 680869,
+      "battingAvg": 0.183,
+      "sluggingPerc": 0.31,
+      "homeRuns": 2,
+      "position": "Second Base"
+    },
+    {
+      "name": "Aaron Nola",
+      "team": "PHI",
+      "mlbam_id": 605400,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Heliot Ramos",
+      "team": "SF",
+      "mlbam_id": 671218,
+      "battingAvg": 0.267,
+      "sluggingPerc": 0.401,
+      "homeRuns": 16,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Blake Perkins",
+      "team": "MIL",
+      "mlbam_id": 663368,
+      "battingAvg": 0.206,
+      "sluggingPerc": 0.341,
+      "homeRuns": 3,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Willie MacIver",
+      "team": "ATH",
+      "mlbam_id": 680862,
+      "battingAvg": 0.2,
+      "sluggingPerc": 0.375,
+      "homeRuns": 3,
+      "position": "Catcher"
+    },
+    {
+      "name": "Wyatt Langford",
+      "team": "TEX",
+      "mlbam_id": 694671,
+      "battingAvg": 0.247,
+      "sluggingPerc": 0.439,
+      "homeRuns": 21,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Kyle Hendricks",
+      "team": "LAA",
+      "mlbam_id": 543294,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Rowdy Tellez",
+      "team": "TEX",
+      "mlbam_id": 642133,
+      "battingAvg": 0.22,
+      "sluggingPerc": 0.429,
+      "homeRuns": 15,
+      "position": "First Base"
+    },
+    {
+      "name": "Kyle Schwarber",
+      "team": "PHI",
+      "mlbam_id": 656941,
+      "battingAvg": 0.242,
+      "sluggingPerc": 0.563,
+      "homeRuns": 49,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Yusei Kikuchi",
+      "team": "LAA",
+      "mlbam_id": 579328,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Blaze Alexander",
+      "team": "AZ",
+      "mlbam_id": 677942,
+      "battingAvg": 0.234,
+      "sluggingPerc": 0.427,
+      "homeRuns": 7,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Keaton Winn",
+      "team": "SF",
+      "mlbam_id": 676775,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Carlos Cortes",
+      "team": "ATH",
+      "mlbam_id": 666126,
+      "battingAvg": 0.313,
+      "sluggingPerc": 0.484,
+      "homeRuns": 1,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Anthony DeSclafani",
+      "team": "AZ",
+      "mlbam_id": 543101,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Rolddy Mu\u00f1oz",
+      "team": "ATL",
+      "mlbam_id": 691548,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Chris Martin",
+      "team": "TEX",
+      "mlbam_id": 455119,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Adam Mazur",
+      "team": "MIA",
+      "mlbam_id": 800049,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Dylan Dodd",
+      "team": "ATL",
+      "mlbam_id": 689266,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Kyle Leahy",
+      "team": "STL",
+      "mlbam_id": 681517,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Drake Baldwin",
+      "team": "ATL",
+      "mlbam_id": 686948,
+      "battingAvg": 0.276,
+      "sluggingPerc": 0.447,
+      "homeRuns": 15,
+      "position": "Catcher"
+    },
+    {
+      "name": "J.T. Realmuto",
+      "team": "PHI",
+      "mlbam_id": 592663,
+      "battingAvg": 0.266,
+      "sluggingPerc": 0.4,
+      "homeRuns": 11,
+      "position": "Catcher"
+    },
+    {
+      "name": "JJ Bleday",
+      "team": "ATH",
+      "mlbam_id": 668709,
+      "battingAvg": 0.22,
+      "sluggingPerc": 0.426,
+      "homeRuns": 14,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Darell Hernaiz",
+      "team": "ATH",
+      "mlbam_id": 687231,
+      "battingAvg": 0.248,
+      "sluggingPerc": 0.35,
+      "homeRuns": 2,
+      "position": "Third Base"
+    },
+    {
+      "name": "Jes\u00fas Luzardo",
+      "team": "PHI",
+      "mlbam_id": 666200,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jorge Alcala",
+      "team": "STL",
+      "mlbam_id": 660896,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Bryce Miller",
+      "team": "SEA",
+      "mlbam_id": 682243,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Travis d'Arnaud",
+      "team": "LAA",
+      "mlbam_id": 518595,
+      "battingAvg": 0.201,
+      "sluggingPerc": 0.349,
+      "homeRuns": 6,
+      "position": "Catcher"
+    },
+    {
+      "name": "Logan Gilbert",
+      "team": "SEA",
+      "mlbam_id": 669302,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jhoan Duran",
+      "team": "PHI",
+      "mlbam_id": 661395,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Michael Helman",
+      "team": "TEX",
+      "mlbam_id": 680737,
+      "battingAvg": 0.217,
+      "sluggingPerc": 0.478,
+      "homeRuns": 3,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Justin Sterner",
+      "team": "ATH",
+      "mlbam_id": 686993,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Matt Chapman",
+      "team": "SF",
+      "mlbam_id": 656305,
+      "battingAvg": 0.238,
+      "sluggingPerc": 0.449,
+      "homeRuns": 20,
+      "position": "Third Base"
+    },
+    {
+      "name": "Weston Wilson",
+      "team": "PHI",
+      "mlbam_id": 642215,
+      "battingAvg": 0.219,
+      "sluggingPerc": 0.411,
+      "homeRuns": 4,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Rafael March\u00e1n",
+      "team": "PHI",
+      "mlbam_id": 665561,
+      "battingAvg": 0.178,
+      "sluggingPerc": 0.244,
+      "homeRuns": 1,
+      "position": "Catcher"
+    },
+    {
+      "name": "Zach Neto",
+      "team": "LAA",
+      "mlbam_id": 687263,
+      "battingAvg": 0.257,
+      "sluggingPerc": 0.474,
+      "homeRuns": 25,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Cade Gibson",
+      "team": "MIA",
+      "mlbam_id": 806188,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Merrill Kelly",
+      "team": "TEX",
+      "mlbam_id": 518876,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Abner Uribe",
+      "team": "MIL",
+      "mlbam_id": 682842,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Cal Raleigh",
+      "team": "SEA",
+      "mlbam_id": 663728,
+      "battingAvg": 0.243,
+      "sluggingPerc": 0.581,
+      "homeRuns": 53,
+      "position": "Catcher"
+    },
+    {
+      "name": "Adrian Del Castillo",
+      "team": "AZ",
+      "mlbam_id": 680728,
+      "battingAvg": 0.261,
+      "sluggingPerc": 0.38,
+      "homeRuns": 2,
+      "position": "Catcher"
+    },
+    {
+      "name": "Tyler Kinley",
+      "team": "ATL",
+      "mlbam_id": 641755,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Luke Raley",
+      "team": "SEA",
+      "mlbam_id": 670042,
+      "battingAvg": 0.209,
+      "sluggingPerc": 0.325,
+      "homeRuns": 4,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Vidal Bruj\u00e1n",
+      "team": "ATL",
+      "mlbam_id": 660644,
+      "battingAvg": 0.234,
+      "sluggingPerc": 0.286,
+      "homeRuns": 0,
+      "position": "Third Base"
+    },
+    {
+      "name": "Spencer Strider",
+      "team": "ATL",
+      "mlbam_id": 675911,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Robert Suarez",
+      "team": "SD",
+      "mlbam_id": 663158,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Calvin Faucher",
+      "team": "MIA",
+      "mlbam_id": 676534,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Brandon Marsh",
+      "team": "PHI",
+      "mlbam_id": 669016,
+      "battingAvg": 0.282,
+      "sluggingPerc": 0.433,
+      "homeRuns": 9,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Randy V\u00e1squez",
+      "team": "SD",
+      "mlbam_id": 681190,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Sean Murphy",
+      "team": "ATL",
+      "mlbam_id": 669221,
+      "battingAvg": 0.199,
+      "sluggingPerc": 0.409,
+      "homeRuns": 16,
+      "position": "Catcher"
+    },
+    {
+      "name": "Kai-Wei Teng",
+      "team": "SF",
+      "mlbam_id": 678906,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "J.T. Ginn",
+      "team": "ATH",
+      "mlbam_id": 669372,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jordan Walker",
+      "team": "STL",
+      "mlbam_id": 691023,
+      "battingAvg": 0.217,
+      "sluggingPerc": 0.308,
+      "homeRuns": 5,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Ronald Acu\u00f1a Jr.",
+      "team": "ATL",
+      "mlbam_id": 660670,
+      "battingAvg": 0.271,
+      "sluggingPerc": 0.487,
+      "homeRuns": 15,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Jos\u00e9 Ferm\u00edn",
+      "team": "STL",
+      "mlbam_id": 665877,
+      "battingAvg": 0.278,
+      "sluggingPerc": 0.417,
+      "homeRuns": 1,
+      "position": "Second Base"
+    },
+    {
+      "name": "Daysbel Hern\u00e1ndez",
+      "team": "ATL",
+      "mlbam_id": 678226,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Leo Rivas",
+      "team": "SEA",
+      "mlbam_id": 660844,
+      "battingAvg": 0.286,
+      "sluggingPerc": 0.357,
+      "homeRuns": 1,
+      "position": "Second Base"
+    },
+    {
+      "name": "Yohel Pozo",
+      "team": "STL",
+      "mlbam_id": 650968,
+      "battingAvg": 0.242,
+      "sluggingPerc": 0.392,
+      "homeRuns": 5,
+      "position": "Catcher"
+    },
+    {
+      "name": "Andre Pallante",
+      "team": "STL",
+      "mlbam_id": 669467,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Alek Thomas",
+      "team": "AZ",
+      "mlbam_id": 677950,
+      "battingAvg": 0.249,
+      "sluggingPerc": 0.368,
+      "homeRuns": 8,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Jung Hoo Lee",
+      "team": "SF",
+      "mlbam_id": 808982,
+      "battingAvg": 0.267,
+      "sluggingPerc": 0.411,
+      "homeRuns": 7,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Craig Yoho",
+      "team": "MIL",
+      "mlbam_id": 684974,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Victor Scott II",
+      "team": "STL",
+      "mlbam_id": 687363,
+      "battingAvg": 0.226,
+      "sluggingPerc": 0.312,
+      "homeRuns": 5,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Kyle Backhus",
+      "team": "AZ",
+      "mlbam_id": 679775,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jonah Heim",
+      "team": "TEX",
+      "mlbam_id": 641680,
+      "battingAvg": 0.213,
+      "sluggingPerc": 0.334,
+      "homeRuns": 10,
+      "position": "Catcher"
+    },
+    {
+      "name": "Sonny Gray",
+      "team": "STL",
+      "mlbam_id": 543243,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Joc Pederson",
+      "team": "TEX",
+      "mlbam_id": 592626,
+      "battingAvg": 0.18,
+      "sluggingPerc": 0.341,
+      "homeRuns": 8,
+      "position": "First Base"
+    },
+    {
+      "name": "Thomas Saggese",
+      "team": "STL",
+      "mlbam_id": 695336,
+      "battingAvg": 0.245,
+      "sluggingPerc": 0.319,
+      "homeRuns": 1,
+      "position": "Second Base"
+    },
+    {
+      "name": "Yo\u00e1n Moncada",
+      "team": "LAA",
+      "mlbam_id": 660162,
+      "battingAvg": 0.242,
+      "sluggingPerc": 0.465,
+      "homeRuns": 11,
+      "position": "Third Base"
+    },
+    {
+      "name": "Riley O'Brien",
+      "team": "STL",
+      "mlbam_id": 676617,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Joey Lucchesi",
+      "team": "SF",
+      "mlbam_id": 664192,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Ryan Fernandez",
+      "team": "STL",
+      "mlbam_id": 681676,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jordan Lawlar",
+      "team": "AZ",
+      "mlbam_id": 691783,
+      "battingAvg": 0.098,
+      "sluggingPerc": 0.146,
+      "homeRuns": 0,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Ranger Su\u00e1rez",
+      "team": "PHI",
+      "mlbam_id": 624133,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Pedro Pag\u00e9s",
+      "team": "STL",
+      "mlbam_id": 686780,
+      "battingAvg": 0.224,
+      "sluggingPerc": 0.371,
+      "homeRuns": 11,
+      "position": "Catcher"
+    },
+    {
+      "name": "Matt Brash",
+      "team": "SEA",
+      "mlbam_id": 666374,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Nolan Gorman",
+      "team": "STL",
+      "mlbam_id": 669357,
+      "battingAvg": 0.222,
+      "sluggingPerc": 0.404,
+      "homeRuns": 14,
+      "position": "Second Base"
+    },
+    {
+      "name": "Randy Arozarena",
+      "team": "SEA",
+      "mlbam_id": 668227,
+      "battingAvg": 0.242,
+      "sluggingPerc": 0.446,
+      "homeRuns": 26,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Nathan Church",
+      "team": "STL",
+      "mlbam_id": 701675,
+      "battingAvg": 0.19,
+      "sluggingPerc": 0.286,
+      "homeRuns": 1,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Mitch Garver",
+      "team": "SEA",
+      "mlbam_id": 641598,
+      "battingAvg": 0.212,
+      "sluggingPerc": 0.346,
+      "homeRuns": 8,
+      "position": "Catcher"
+    },
+    {
+      "name": "Brian Navarreto",
+      "team": "MIA",
+      "mlbam_id": 640459,
+      "battingAvg": 1.0,
+      "sluggingPerc": 4.0,
+      "homeRuns": 1,
+      "position": "Catcher"
+    },
+    {
+      "name": "Hayden Harris",
+      "team": "ATL",
+      "mlbam_id": 802686,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Miles Mikolas",
+      "team": "STL",
+      "mlbam_id": 571945,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Logan Webb",
+      "team": "SF",
+      "mlbam_id": 657277,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Hurston Waldrep",
+      "team": "ATL",
+      "mlbam_id": 694462,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Michael McGreevy",
+      "team": "STL",
+      "mlbam_id": 700241,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Colby Thomas",
+      "team": "ATH",
+      "mlbam_id": 687515,
+      "battingAvg": 0.227,
+      "sluggingPerc": 0.443,
+      "homeRuns": 5,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Caleb Ferguson",
+      "team": "SEA",
+      "mlbam_id": 657571,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Andrew Saalfrank",
+      "team": "AZ",
+      "mlbam_id": 685314,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Nick Allen",
+      "team": "ATL",
+      "mlbam_id": 669397,
+      "battingAvg": 0.221,
+      "sluggingPerc": 0.249,
+      "homeRuns": 0,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Jalen Beeks",
+      "team": "AZ",
+      "mlbam_id": 656222,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Cody Freeman",
+      "team": "TEX",
+      "mlbam_id": 683227,
+      "battingAvg": 0.211,
+      "sluggingPerc": 0.351,
+      "homeRuns": 2,
+      "position": "Third Base"
+    },
+    {
+      "name": "Luis Matos",
+      "team": "SF",
+      "mlbam_id": 682641,
+      "battingAvg": 0.227,
+      "sluggingPerc": 0.442,
+      "homeRuns": 8,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Matthew Liberatore",
+      "team": "STL",
+      "mlbam_id": 669461,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Matt Svanson",
+      "team": "STL",
+      "mlbam_id": 694335,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jake McCarthy",
+      "team": "AZ",
+      "mlbam_id": 664983,
+      "battingAvg": 0.195,
+      "sluggingPerc": 0.314,
+      "homeRuns": 3,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Carlos Vargas",
+      "team": "SEA",
+      "mlbam_id": 672841,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Nacho Alvarez Jr.",
+      "team": "ATL",
+      "mlbam_id": 805373,
+      "battingAvg": 0.256,
+      "sluggingPerc": 0.338,
+      "homeRuns": 0,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Ha-Seong Kim",
+      "team": "ATL",
+      "mlbam_id": 673490,
+      "battingAvg": 0.228,
+      "sluggingPerc": 0.347,
+      "homeRuns": 3,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Erick Fedde",
+      "team": "MIL",
+      "mlbam_id": 607200,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jake Woodford",
+      "team": "AZ",
+      "mlbam_id": 663765,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Geraldo Perdomo",
+      "team": "AZ",
+      "mlbam_id": 672695,
+      "battingAvg": 0.284,
+      "sluggingPerc": 0.447,
+      "homeRuns": 17,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Nick Castellanos",
+      "team": "PHI",
+      "mlbam_id": 592206,
+      "battingAvg": 0.252,
+      "sluggingPerc": 0.406,
+      "homeRuns": 16,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Ildemaro Vargas",
+      "team": "AZ",
+      "mlbam_id": 545121,
+      "battingAvg": 0.25,
+      "sluggingPerc": 0.453,
+      "homeRuns": 3,
+      "position": "Second Base"
+    },
+    {
+      "name": "Cole Sands",
+      "team": "MIN",
+      "mlbam_id": 663485,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Masyn Winn",
+      "team": "STL",
+      "mlbam_id": 691026,
+      "battingAvg": 0.254,
+      "sluggingPerc": 0.365,
+      "homeRuns": 9,
+      "position": "Shortstop"
+    },
+    {
+      "name": "JT Brubaker",
+      "team": "SF",
+      "mlbam_id": 664141,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Brent Rooker",
+      "team": "ATH",
+      "mlbam_id": 667670,
+      "battingAvg": 0.268,
+      "sluggingPerc": 0.49,
+      "homeRuns": 27,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Andre Granillo",
+      "team": "STL",
+      "mlbam_id": 701552,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Gabriel Moreno",
+      "team": "AZ",
+      "mlbam_id": 672515,
+      "battingAvg": 0.277,
+      "sluggingPerc": 0.432,
+      "homeRuns": 7,
+      "position": "Catcher"
+    },
+    {
+      "name": "Andr\u00e9s Mu\u00f1oz",
+      "team": "SEA",
+      "mlbam_id": 662253,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jos\u00e9 Alvarado",
+      "team": "PHI",
+      "mlbam_id": 621237,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Joel Peguero",
+      "team": "SF",
+      "mlbam_id": 666711,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Eduardo Rodriguez",
+      "team": "AZ",
+      "mlbam_id": 593958,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Michael Harris II",
+      "team": "ATL",
+      "mlbam_id": 671739,
+      "battingAvg": 0.244,
+      "sluggingPerc": 0.401,
+      "homeRuns": 17,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Corbin Carroll",
+      "team": "AZ",
+      "mlbam_id": 682998,
+      "battingAvg": 0.259,
+      "sluggingPerc": 0.558,
+      "homeRuns": 30,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Max Lazar",
+      "team": "PHI",
+      "mlbam_id": 676661,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jos\u00e9 Butt\u00f3",
+      "team": "SF",
+      "mlbam_id": 676130,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jeffrey Springs",
+      "team": "ATH",
+      "mlbam_id": 605488,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Matt Olson",
+      "team": "ATL",
+      "mlbam_id": 621566,
+      "battingAvg": 0.27,
+      "sluggingPerc": 0.46,
+      "homeRuns": 22,
+      "position": "First Base"
+    },
+    {
+      "name": "Alec Bohm",
+      "team": "PHI",
+      "mlbam_id": 664761,
+      "battingAvg": 0.272,
+      "sluggingPerc": 0.384,
+      "homeRuns": 9,
+      "position": "Third Base"
+    },
+    {
+      "name": "Aaron Ashby",
+      "team": "MIL",
+      "mlbam_id": 676879,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Connor Kaiser",
+      "team": "AZ",
+      "mlbam_id": 663731,
+      "battingAvg": 0.143,
+      "sluggingPerc": 0.214,
+      "homeRuns": 0,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Marcell Ozuna",
+      "team": "ATL",
+      "mlbam_id": 542303,
+      "battingAvg": 0.227,
+      "sluggingPerc": 0.4,
+      "homeRuns": 20,
+      "position": "Designated Hitter"
+    },
+    {
+      "name": "Brandyn Garcia",
+      "team": "AZ",
+      "mlbam_id": 805299,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Justin Verlander",
+      "team": "SF",
+      "mlbam_id": 434378,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Chris Taylor",
+      "team": "LAA",
+      "mlbam_id": 621035,
+      "battingAvg": 0.186,
+      "sluggingPerc": 0.302,
+      "homeRuns": 1,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Patrick Corbin",
+      "team": "TEX",
+      "mlbam_id": 571578,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Robert Garcia",
+      "team": "TEX",
+      "mlbam_id": 676395,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jacob Latz",
+      "team": "TEX",
+      "mlbam_id": 656641,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Brandon Pfaadt",
+      "team": "AZ",
+      "mlbam_id": 694297,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Kyle Higashioka",
+      "team": "TEX",
+      "mlbam_id": 543309,
+      "battingAvg": 0.244,
+      "sluggingPerc": 0.406,
+      "homeRuns": 10,
+      "position": "Catcher"
+    },
+    {
+      "name": "Hoby Milner",
+      "team": "TEX",
+      "mlbam_id": 571948,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Yuki Matsui",
+      "team": "SD",
+      "mlbam_id": 673513,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Phil Maton",
+      "team": "TEX",
+      "mlbam_id": 664208,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jack Leiter",
+      "team": "TEX",
+      "mlbam_id": 683004,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Luke Jackson",
+      "team": "SEA",
+      "mlbam_id": 592426,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Luis Curvelo",
+      "team": "TEX",
+      "mlbam_id": 681168,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Yu Darvish",
+      "team": "SD",
+      "mlbam_id": 506433,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Brady Basso",
+      "team": "ATH",
+      "mlbam_id": 669620,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jurickson Profar",
+      "team": "ATL",
+      "mlbam_id": 595777,
+      "battingAvg": 0.261,
+      "sluggingPerc": 0.486,
+      "homeRuns": 13,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Jake Burger",
+      "team": "TEX",
+      "mlbam_id": 669394,
+      "battingAvg": 0.244,
+      "sluggingPerc": 0.434,
+      "homeRuns": 14,
+      "position": "First Base"
+    },
+    {
+      "name": "Josh Smith",
+      "team": "TEX",
+      "mlbam_id": 669701,
+      "battingAvg": 0.254,
+      "sluggingPerc": 0.371,
+      "homeRuns": 9,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Josh Jung",
+      "team": "TEX",
+      "mlbam_id": 673962,
+      "battingAvg": 0.255,
+      "sluggingPerc": 0.396,
+      "homeRuns": 13,
+      "position": "Third Base"
+    },
+    {
+      "name": "Lars Nootbaar",
+      "team": "STL",
+      "mlbam_id": 663457,
+      "battingAvg": 0.241,
+      "sluggingPerc": 0.381,
+      "homeRuns": 13,
+      "position": "Outfielder"
+    },
+    {
+      "name": "John Brebbia",
+      "team": "ATL",
+      "mlbam_id": 605154,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "JoJo Romero",
+      "team": "STL",
+      "mlbam_id": 668941,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jacob deGrom",
+      "team": "TEX",
+      "mlbam_id": 594798,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Will Wagner",
+      "team": "SD",
+      "mlbam_id": 695238,
+      "battingAvg": 0.23,
+      "sluggingPerc": 0.287,
+      "homeRuns": 0,
+      "position": "Third Base"
+    },
+    {
+      "name": "Wandy Peralta",
+      "team": "SD",
+      "mlbam_id": 593974,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jimmy Crooks",
+      "team": "STL",
+      "mlbam_id": 699625,
+      "battingAvg": 0.143,
+      "sluggingPerc": 0.357,
+      "homeRuns": 1,
+      "position": "Catcher"
+    },
+    {
+      "name": "Luis Castillo",
+      "team": "SEA",
+      "mlbam_id": 622491,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Joey Wentz",
+      "team": "ATL",
+      "mlbam_id": 666214,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jacob Webb",
+      "team": "TEX",
+      "mlbam_id": 657097,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Ryan O'Hearn",
+      "team": "SD",
+      "mlbam_id": 656811,
+      "battingAvg": 0.277,
+      "sluggingPerc": 0.445,
+      "homeRuns": 16,
+      "position": "First Base"
+    },
+    {
+      "name": "Ron Marinaccio",
+      "team": "SD",
+      "mlbam_id": 676760,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jake Fraley",
+      "team": "ATL",
+      "mlbam_id": 641584,
+      "battingAvg": 0.239,
+      "sluggingPerc": 0.383,
+      "homeRuns": 6,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Victor Robles",
+      "team": "SEA",
+      "mlbam_id": 645302,
+      "battingAvg": 0.273,
+      "sluggingPerc": 0.333,
+      "homeRuns": 0,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Brock Burke",
+      "team": "LAA",
+      "mlbam_id": 656271,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Orion Kerkering",
+      "team": "PHI",
+      "mlbam_id": 689147,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "John Curtiss",
+      "team": "AZ",
+      "mlbam_id": 595928,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Nabil Crismatt",
+      "team": "AZ",
+      "mlbam_id": 622503,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jorge Barrosa",
+      "team": "AZ",
+      "mlbam_id": 678489,
+      "battingAvg": 0.13,
+      "sluggingPerc": 0.196,
+      "homeRuns": 0,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Ketel Marte",
+      "team": "AZ",
+      "mlbam_id": 606466,
+      "battingAvg": 0.283,
+      "sluggingPerc": 0.52,
+      "homeRuns": 25,
+      "position": "Second Base"
+    },
+    {
+      "name": "Ryan Thompson",
+      "team": "AZ",
+      "mlbam_id": 657044,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "James McCann",
+      "team": "AZ",
+      "mlbam_id": 543510,
+      "battingAvg": 0.256,
+      "sluggingPerc": 0.4,
+      "homeRuns": 3,
+      "position": "Catcher"
+    },
+    {
+      "name": "Tyler Locklear",
+      "team": "AZ",
+      "mlbam_id": 682988,
+      "battingAvg": 0.175,
+      "sluggingPerc": 0.262,
+      "homeRuns": 3,
+      "position": "First Base"
+    },
+    {
+      "name": "Ryne Nelson",
+      "team": "AZ",
+      "mlbam_id": 669194,
+      "battingAvg": 1.0,
+      "sluggingPerc": 1.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Taylor Rashi",
+      "team": "AZ",
+      "mlbam_id": 688497,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Zac Gallen",
+      "team": "AZ",
+      "mlbam_id": 668678,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Alex Bregman",
+      "team": "BOS",
+      "mlbam_id": 608324,
+      "battingAvg": 0.278,
+      "sluggingPerc": 0.477,
+      "homeRuns": 16,
+      "position": "Third Base"
+    },
+    {
+      "name": "Ali S\u00e1nchez",
+      "team": "BOS",
+      "mlbam_id": 645305,
+      "battingAvg": 0.217,
+      "sluggingPerc": 0.304,
+      "homeRuns": 0,
+      "position": "Catcher"
+    },
+    {
+      "name": "Aroldis Chapman",
+      "team": "BOS",
+      "mlbam_id": 547973,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Brennan Bernardino",
+      "team": "BOS",
+      "mlbam_id": 657514,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Brayan Bello",
+      "team": "BOS",
+      "mlbam_id": 678394,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Carlos Narv\u00e1ez",
+      "team": "BOS",
+      "mlbam_id": 665966,
+      "battingAvg": 0.249,
+      "sluggingPerc": 0.419,
+      "homeRuns": 12,
+      "position": "Catcher"
+    },
+    {
+      "name": "Chris Murphy",
+      "team": "BOS",
+      "mlbam_id": 669684,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Ceddanne Rafaela",
+      "team": "BOS",
+      "mlbam_id": 678882,
+      "battingAvg": 0.245,
+      "sluggingPerc": 0.416,
+      "homeRuns": 16,
+      "position": "Outfielder"
+    },
+    {
+      "name": "David Hamilton",
+      "team": "BOS",
+      "mlbam_id": 666152,
+      "battingAvg": 0.203,
+      "sluggingPerc": 0.316,
+      "homeRuns": 4,
+      "position": "Second Base"
+    },
+    {
+      "name": "Connor Wong",
+      "team": "BOS",
+      "mlbam_id": 657136,
+      "battingAvg": 0.192,
+      "sluggingPerc": 0.238,
+      "homeRuns": 0,
+      "position": "Catcher"
+    },
+    {
+      "name": "Dustin May",
+      "team": "BOS",
+      "mlbam_id": 669160,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Garrett Whitlock",
+      "team": "BOS",
+      "mlbam_id": 676477,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Garrett Crochet",
+      "team": "BOS",
+      "mlbam_id": 676979,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Greg Weissert",
+      "team": "BOS",
+      "mlbam_id": 669711,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jarren Duran",
+      "team": "BOS",
+      "mlbam_id": 680776,
+      "battingAvg": 0.257,
+      "sluggingPerc": 0.442,
+      "homeRuns": 14,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Justin Slaten",
+      "team": "BOS",
+      "mlbam_id": 686580,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Justin Wilson",
+      "team": "BOS",
+      "mlbam_id": 458677,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Lucas Giolito",
+      "team": "BOS",
+      "mlbam_id": 608337,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Masataka Yoshida",
+      "team": "BOS",
+      "mlbam_id": 807799,
+      "battingAvg": 0.234,
+      "sluggingPerc": 0.344,
+      "homeRuns": 2,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Nathaniel Lowe",
+      "team": "BOS",
+      "mlbam_id": 663993,
+      "battingAvg": 0.226,
+      "sluggingPerc": 0.39,
+      "homeRuns": 18,
+      "position": "First Base"
+    },
+    {
+      "name": "Nick Sogard",
+      "team": "BOS",
+      "mlbam_id": 686765,
+      "battingAvg": 0.254,
+      "sluggingPerc": 0.343,
+      "homeRuns": 0,
+      "position": "First Base"
+    },
+    {
+      "name": "Nate Eaton",
+      "team": "BOS",
+      "mlbam_id": 681987,
+      "battingAvg": 0.26,
+      "sluggingPerc": 0.32,
+      "homeRuns": 0,
+      "position": "Third Base"
+    },
+    {
+      "name": "Payton Tolle",
+      "team": "BOS",
+      "mlbam_id": 801139,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Steven Matz",
+      "team": "BOS",
+      "mlbam_id": 571927,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Romy Gonzalez",
+      "team": "BOS",
+      "mlbam_id": 663853,
+      "battingAvg": 0.307,
+      "sluggingPerc": 0.492,
+      "homeRuns": 8,
+      "position": "First Base"
+    },
+    {
+      "name": "Trevor Story",
+      "team": "BOS",
+      "mlbam_id": 596115,
+      "battingAvg": 0.262,
+      "sluggingPerc": 0.436,
+      "homeRuns": 23,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Rob Refsnyder",
+      "team": "BOS",
+      "mlbam_id": 608701,
+      "battingAvg": 0.277,
+      "sluggingPerc": 0.484,
+      "homeRuns": 7,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Zack Kelly",
+      "team": "BOS",
+      "mlbam_id": 677161,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Andrew Kittredge",
+      "team": "CHC",
+      "mlbam_id": 552640,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Aaron Civale",
+      "team": "CHC",
+      "mlbam_id": 650644,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Ben Brown",
+      "team": "CHC",
+      "mlbam_id": 676962,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Caleb Thielbar",
+      "team": "CHC",
+      "mlbam_id": 573204,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Brad Keller",
+      "team": "CHC",
+      "mlbam_id": 641745,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Cade Horton",
+      "team": "CHC",
+      "mlbam_id": 690990,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Carlos Santana",
+      "team": "CHC",
+      "mlbam_id": 467793,
+      "battingAvg": 0.219,
+      "sluggingPerc": 0.325,
+      "homeRuns": 11,
+      "position": "First Base"
+    },
+    {
+      "name": "Carson Kelly",
+      "team": "CHC",
+      "mlbam_id": 608348,
+      "battingAvg": 0.256,
+      "sluggingPerc": 0.453,
+      "homeRuns": 16,
+      "position": "Catcher"
+    },
+    {
+      "name": "Colin Rea",
+      "team": "CHC",
+      "mlbam_id": 607067,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Daniel Palencia",
+      "team": "CHC",
+      "mlbam_id": 694037,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Dansby Swanson",
+      "team": "CHC",
+      "mlbam_id": 621020,
+      "battingAvg": 0.246,
+      "sluggingPerc": 0.422,
+      "homeRuns": 22,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Drew Pomeranz",
+      "team": "CHC",
+      "mlbam_id": 519141,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Ian Happ",
+      "team": "CHC",
+      "mlbam_id": 664023,
+      "battingAvg": 0.237,
+      "sluggingPerc": 0.41,
+      "homeRuns": 20,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Michael Busch",
+      "team": "CHC",
+      "mlbam_id": 683737,
+      "battingAvg": 0.256,
+      "sluggingPerc": 0.486,
+      "homeRuns": 26,
+      "position": "First Base"
+    },
+    {
+      "name": "Porter Hodge",
+      "team": "CHC",
+      "mlbam_id": 687863,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Javier Assad",
+      "team": "CHC",
+      "mlbam_id": 665871,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Justin Turner",
+      "team": "CHC",
+      "mlbam_id": 457759,
+      "battingAvg": 0.209,
+      "sluggingPerc": 0.307,
+      "homeRuns": 3,
+      "position": "First Base"
+    },
+    {
+      "name": "Kevin Alc\u00e1ntara",
+      "team": "CHC",
+      "mlbam_id": 682634,
+      "battingAvg": 0.167,
+      "sluggingPerc": 0.167,
+      "homeRuns": 0,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Kyle Tucker",
+      "team": "CHC",
+      "mlbam_id": 663656,
+      "battingAvg": 0.27,
+      "sluggingPerc": 0.472,
+      "homeRuns": 22,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Matt Shaw",
+      "team": "CHC",
+      "mlbam_id": 807713,
+      "battingAvg": 0.228,
+      "sluggingPerc": 0.393,
+      "homeRuns": 11,
+      "position": "Third Base"
+    },
+    {
+      "name": "Nico Hoerner",
+      "team": "CHC",
+      "mlbam_id": 663538,
+      "battingAvg": 0.291,
+      "sluggingPerc": 0.387,
+      "homeRuns": 6,
+      "position": "Second Base"
+    },
+    {
+      "name": "Matthew Boyd",
+      "team": "CHC",
+      "mlbam_id": 571510,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Pete Crow-Armstrong",
+      "team": "CHC",
+      "mlbam_id": 691718,
+      "battingAvg": 0.254,
+      "sluggingPerc": 0.496,
+      "homeRuns": 28,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Reese McGuire",
+      "team": "CHC",
+      "mlbam_id": 624512,
+      "battingAvg": 0.23,
+      "sluggingPerc": 0.451,
+      "homeRuns": 8,
+      "position": "Catcher"
+    },
+    {
+      "name": "Seiya Suzuki",
+      "team": "CHC",
+      "mlbam_id": 673548,
+      "battingAvg": 0.243,
+      "sluggingPerc": 0.464,
+      "homeRuns": 27,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Shota Imanaga",
+      "team": "CHC",
+      "mlbam_id": 684007,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Brady Singer",
+      "team": "CIN",
+      "mlbam_id": 663903,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Austin Hays",
+      "team": "CIN",
+      "mlbam_id": 669720,
+      "battingAvg": 0.263,
+      "sluggingPerc": 0.46,
+      "homeRuns": 14,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Taylor Rogers",
+      "team": "CHC",
+      "mlbam_id": 573124,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Willi Castro",
+      "team": "CHC",
+      "mlbam_id": 650489,
+      "battingAvg": 0.229,
+      "sluggingPerc": 0.377,
+      "homeRuns": 11,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Andrew Abbott",
+      "team": "CIN",
+      "mlbam_id": 671096,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Brent Suter",
+      "team": "CIN",
+      "mlbam_id": 608718,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Lyon Richardson",
+      "team": "CIN",
+      "mlbam_id": 680689,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Connor Phillips",
+      "team": "CIN",
+      "mlbam_id": 683175,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Elly De La Cruz",
+      "team": "CIN",
+      "mlbam_id": 682829,
+      "battingAvg": 0.267,
+      "sluggingPerc": 0.445,
+      "homeRuns": 19,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Emilio Pag\u00e1n",
+      "team": "CIN",
+      "mlbam_id": 641941,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Hunter Greene",
+      "team": "CIN",
+      "mlbam_id": 668881,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Matt McLain",
+      "team": "CIN",
+      "mlbam_id": 680574,
+      "battingAvg": 0.229,
+      "sluggingPerc": 0.356,
+      "homeRuns": 14,
+      "position": "Second Base"
+    },
+    {
+      "name": "Gavin Lux",
+      "team": "CIN",
+      "mlbam_id": 666158,
+      "battingAvg": 0.271,
+      "sluggingPerc": 0.375,
+      "homeRuns": 5,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Ke'Bryan Hayes",
+      "team": "CIN",
+      "mlbam_id": 663647,
+      "battingAvg": 0.246,
+      "sluggingPerc": 0.324,
+      "homeRuns": 5,
+      "position": "Third Base"
+    },
+    {
+      "name": "Jose Trevino",
+      "team": "CIN",
+      "mlbam_id": 624431,
+      "battingAvg": 0.247,
+      "sluggingPerc": 0.371,
+      "homeRuns": 4,
+      "position": "Catcher"
+    },
+    {
+      "name": "Nick Martinez",
+      "team": "CIN",
+      "mlbam_id": 607259,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Nick Lodolo",
+      "team": "CIN",
+      "mlbam_id": 666157,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Miguel Andujar",
+      "team": "CIN",
+      "mlbam_id": 609280,
+      "battingAvg": 0.314,
+      "sluggingPerc": 0.47,
+      "homeRuns": 9,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Spencer Steer",
+      "team": "CIN",
+      "mlbam_id": 668715,
+      "battingAvg": 0.239,
+      "sluggingPerc": 0.401,
+      "homeRuns": 17,
+      "position": "First Base"
+    },
+    {
+      "name": "Yosver Zulueta",
+      "team": "CIN",
+      "mlbam_id": 691172,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Sal Stewart",
+      "team": "CIN",
+      "mlbam_id": 701398,
+      "battingAvg": 0.2,
+      "sluggingPerc": 0.4,
+      "homeRuns": 1,
+      "position": "Third Base"
+    },
+    {
+      "name": "Noelvi Marte",
+      "team": "CIN",
+      "mlbam_id": 682622,
+      "battingAvg": 0.285,
+      "sluggingPerc": 0.496,
+      "homeRuns": 12,
+      "position": "Third Base"
+    },
+    {
+      "name": "Scott Barlow",
+      "team": "CIN",
+      "mlbam_id": 605130,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Santiago Espinal",
+      "team": "CIN",
+      "mlbam_id": 669289,
+      "battingAvg": 0.245,
+      "sluggingPerc": 0.285,
+      "homeRuns": 0,
+      "position": "Third Base"
+    },
+    {
+      "name": "Tony Santillan",
+      "team": "CIN",
+      "mlbam_id": 663574,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Will Benson",
+      "team": "CIN",
+      "mlbam_id": 666181,
+      "battingAvg": 0.223,
+      "sluggingPerc": 0.409,
+      "homeRuns": 9,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Zach Maxwell",
+      "team": "CIN",
+      "mlbam_id": 687209,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "TJ Friedl",
+      "team": "CIN",
+      "mlbam_id": 670770,
+      "battingAvg": 0.265,
+      "sluggingPerc": 0.376,
+      "homeRuns": 11,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Tyler Stephenson",
+      "team": "CIN",
+      "mlbam_id": 663886,
+      "battingAvg": 0.226,
+      "sluggingPerc": 0.393,
+      "homeRuns": 9,
+      "position": "Catcher"
+    },
+    {
+      "name": "Zack Littell",
+      "team": "CIN",
+      "mlbam_id": 641793,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Angel Mart\u00ednez",
+      "team": "CLE",
+      "mlbam_id": 682657,
+      "battingAvg": 0.228,
+      "sluggingPerc": 0.36,
+      "homeRuns": 10,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Austin Hedges",
+      "team": "CLE",
+      "mlbam_id": 595978,
+      "battingAvg": 0.146,
+      "sluggingPerc": 0.277,
+      "homeRuns": 5,
+      "position": "Catcher"
+    },
+    {
+      "name": "Bo Naylor",
+      "team": "CLE",
+      "mlbam_id": 666310,
+      "battingAvg": 0.178,
+      "sluggingPerc": 0.346,
+      "homeRuns": 11,
+      "position": "Catcher"
+    },
+    {
+      "name": "C.J. Kayfus",
+      "team": "CLE",
+      "mlbam_id": 692216,
+      "battingAvg": 0.19,
+      "sluggingPerc": 0.357,
+      "homeRuns": 2,
+      "position": "First Base"
+    },
+    {
+      "name": "Cade Smith",
+      "team": "CLE",
+      "mlbam_id": 671922,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Brayan Rocchio",
+      "team": "CLE",
+      "mlbam_id": 677587,
+      "battingAvg": 0.229,
+      "sluggingPerc": 0.329,
+      "homeRuns": 4,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Daniel Schneemann",
+      "team": "CLE",
+      "mlbam_id": 682177,
+      "battingAvg": 0.217,
+      "sluggingPerc": 0.373,
+      "homeRuns": 11,
+      "position": "Second Base"
+    },
+    {
+      "name": "Erik Sabrowski",
+      "team": "CLE",
+      "mlbam_id": 681870,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Gabriel Arias",
+      "team": "CLE",
+      "mlbam_id": 672356,
+      "battingAvg": 0.222,
+      "sluggingPerc": 0.363,
+      "homeRuns": 10,
+      "position": "Shortstop"
+    },
+    {
+      "name": "David Fry",
+      "team": "CLE",
+      "mlbam_id": 681807,
+      "battingAvg": 0.162,
+      "sluggingPerc": 0.346,
+      "homeRuns": 7,
+      "position": "First Base"
+    },
+    {
+      "name": "George Valera",
+      "team": "CLE",
+      "mlbam_id": 671655,
+      "battingAvg": 0.3,
+      "sluggingPerc": 0.3,
+      "homeRuns": 0,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Gavin Williams",
+      "team": "CLE",
+      "mlbam_id": 668909,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Hunter Gaddis",
+      "team": "CLE",
+      "mlbam_id": 683769,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jhonkensy Noel",
+      "team": "CLE",
+      "mlbam_id": 678877,
+      "battingAvg": 0.144,
+      "sluggingPerc": 0.232,
+      "homeRuns": 3,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Jakob Junis",
+      "team": "CLE",
+      "mlbam_id": 596001,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Joey Cantillo",
+      "team": "CLE",
+      "mlbam_id": 676282,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jos\u00e9 Ram\u00edrez",
+      "team": "CLE",
+      "mlbam_id": 608070,
+      "battingAvg": 0.283,
+      "sluggingPerc": 0.503,
+      "homeRuns": 27,
+      "position": "Third Base"
+    },
+    {
+      "name": "Kolby Allard",
+      "team": "CLE",
+      "mlbam_id": 663465,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Kyle Manzardo",
+      "team": "CLE",
+      "mlbam_id": 700932,
+      "battingAvg": 0.234,
+      "sluggingPerc": 0.465,
+      "homeRuns": 25,
+      "position": "First Base"
+    },
+    {
+      "name": "Logan Allen",
+      "team": "CLE",
+      "mlbam_id": 671106,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Matt Festa",
+      "team": "CLE",
+      "mlbam_id": 670036,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Nolan Jones",
+      "team": "CLE",
+      "mlbam_id": 666134,
+      "battingAvg": 0.216,
+      "sluggingPerc": 0.31,
+      "homeRuns": 5,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Tanner Bibee",
+      "team": "CLE",
+      "mlbam_id": 676440,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Steven Kwan",
+      "team": "CLE",
+      "mlbam_id": 680757,
+      "battingAvg": 0.275,
+      "sluggingPerc": 0.38,
+      "homeRuns": 10,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Chase Dollander",
+      "team": "COL",
+      "mlbam_id": 801403,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Parker Messick",
+      "team": "CLE",
+      "mlbam_id": 800048,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Tim Herrin",
+      "team": "CLE",
+      "mlbam_id": 682120,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Slade Cecconi",
+      "team": "CLE",
+      "mlbam_id": 677944,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Drew Romo",
+      "team": "COL",
+      "mlbam_id": 691011,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Catcher"
+    },
+    {
+      "name": "Anthony Molina",
+      "team": "COL",
+      "mlbam_id": 683627,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Angel Chivilli",
+      "team": "COL",
+      "mlbam_id": 683409,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Zak Kent",
+      "team": "CLE",
+      "mlbam_id": 687849,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Antonio Senzatela",
+      "team": "COL",
+      "mlbam_id": 622608,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Brenton Doyle",
+      "team": "COL",
+      "mlbam_id": 686668,
+      "battingAvg": 0.247,
+      "sluggingPerc": 0.395,
+      "homeRuns": 14,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Braxton Fulford",
+      "team": "COL",
+      "mlbam_id": 690924,
+      "battingAvg": 0.211,
+      "sluggingPerc": 0.333,
+      "homeRuns": 1,
+      "position": "Catcher"
+    },
+    {
+      "name": "Ezequiel Tovar",
+      "team": "COL",
+      "mlbam_id": 678662,
+      "battingAvg": 0.274,
+      "sluggingPerc": 0.435,
+      "homeRuns": 8,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Germ\u00e1n M\u00e1rquez",
+      "team": "COL",
+      "mlbam_id": 608566,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Hunter Goodman",
+      "team": "COL",
+      "mlbam_id": 696100,
+      "battingAvg": 0.284,
+      "sluggingPerc": 0.541,
+      "homeRuns": 29,
+      "position": "Catcher"
+    },
+    {
+      "name": "Jaden Hill",
+      "team": "COL",
+      "mlbam_id": 677955,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jimmy Herget",
+      "team": "COL",
+      "mlbam_id": 623474,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jordan Beck",
+      "team": "COL",
+      "mlbam_id": 687597,
+      "battingAvg": 0.271,
+      "sluggingPerc": 0.44,
+      "homeRuns": 15,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Mickey Moniak",
+      "team": "COL",
+      "mlbam_id": 666160,
+      "battingAvg": 0.265,
+      "sluggingPerc": 0.504,
+      "homeRuns": 19,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Kyle Freeland",
+      "team": "COL",
+      "mlbam_id": 607536,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Kyle Karros",
+      "team": "COL",
+      "mlbam_id": 691720,
+      "battingAvg": 0.25,
+      "sluggingPerc": 0.33,
+      "homeRuns": 1,
+      "position": "Third Base"
+    },
+    {
+      "name": "Juan Mejia",
+      "team": "COL",
+      "mlbam_id": 675848,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Kyle Farmer",
+      "team": "COL",
+      "mlbam_id": 571657,
+      "battingAvg": 0.227,
+      "sluggingPerc": 0.362,
+      "homeRuns": 7,
+      "position": "Second Base"
+    },
+    {
+      "name": "Luis Peralta",
+      "team": "COL",
+      "mlbam_id": 678821,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Roansy Contreras",
+      "team": "COL",
+      "mlbam_id": 672710,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "McCade Brown",
+      "team": "COL",
+      "mlbam_id": 685326,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Ryan Ritter",
+      "team": "COL",
+      "mlbam_id": 690022,
+      "battingAvg": 0.245,
+      "sluggingPerc": 0.348,
+      "homeRuns": 1,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Orlando Arcia",
+      "team": "COL",
+      "mlbam_id": 606115,
+      "battingAvg": 0.204,
+      "sluggingPerc": 0.301,
+      "homeRuns": 3,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Tanner Gordon",
+      "team": "COL",
+      "mlbam_id": 685299,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Tyler Freeman",
+      "team": "COL",
+      "mlbam_id": 671289,
+      "battingAvg": 0.284,
+      "sluggingPerc": 0.367,
+      "homeRuns": 2,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Victor Vodnik",
+      "team": "COL",
+      "mlbam_id": 680767,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Yanquiel Fern\u00e1ndez",
+      "team": "COL",
+      "mlbam_id": 692585,
+      "battingAvg": 0.262,
+      "sluggingPerc": 0.388,
+      "homeRuns": 3,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Angel Zerpa",
+      "team": "KC",
+      "mlbam_id": 672582,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Adam Frazier",
+      "team": "KC",
+      "mlbam_id": 624428,
+      "battingAvg": 0.268,
+      "sluggingPerc": 0.369,
+      "homeRuns": 6,
+      "position": "Second Base"
+    },
+    {
+      "name": "Warming Bernabel",
+      "team": "COL",
+      "mlbam_id": 682653,
+      "battingAvg": 0.264,
+      "sluggingPerc": 0.434,
+      "homeRuns": 4,
+      "position": "Third Base"
+    },
+    {
+      "name": "Bobby Witt Jr.",
+      "team": "KC",
+      "mlbam_id": 677951,
+      "battingAvg": 0.294,
+      "sluggingPerc": 0.503,
+      "homeRuns": 21,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Carter Jensen",
+      "team": "KC",
+      "mlbam_id": 695600,
+      "battingAvg": 0.143,
+      "sluggingPerc": 0.286,
+      "homeRuns": 0,
+      "position": "Catcher"
+    },
+    {
+      "name": "Daniel Lynch IV",
+      "team": "KC",
+      "mlbam_id": 663738,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Carlos Est\u00e9vez",
+      "team": "KC",
+      "mlbam_id": 608032,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "John Schreiber",
+      "team": "KC",
+      "mlbam_id": 670167,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jonathan Bowlan",
+      "team": "KC",
+      "mlbam_id": 680742,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jac Caglianone",
+      "team": "KC",
+      "mlbam_id": 695506,
+      "battingAvg": 0.151,
+      "sluggingPerc": 0.277,
+      "homeRuns": 5,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Lucas Erceg",
+      "team": "KC",
+      "mlbam_id": 668674,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Kyle Isbel",
+      "team": "KC",
+      "mlbam_id": 664728,
+      "battingAvg": 0.261,
+      "sluggingPerc": 0.365,
+      "homeRuns": 4,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Luinder Avila",
+      "team": "KC",
+      "mlbam_id": 679883,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Luke Maile",
+      "team": "KC",
+      "mlbam_id": 571912,
+      "battingAvg": 0.211,
+      "sluggingPerc": 0.316,
+      "homeRuns": 1,
+      "position": "Catcher"
+    },
+    {
+      "name": "Maikel Garcia",
+      "team": "KC",
+      "mlbam_id": 672580,
+      "battingAvg": 0.294,
+      "sluggingPerc": 0.471,
+      "homeRuns": 16,
+      "position": "Third Base"
+    },
+    {
+      "name": "Michael Wacha",
+      "team": "KC",
+      "mlbam_id": 608379,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Mike Yastrzemski",
+      "team": "KC",
+      "mlbam_id": 573262,
+      "battingAvg": 0.231,
+      "sluggingPerc": 0.396,
+      "homeRuns": 15,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Noah Cameron",
+      "team": "KC",
+      "mlbam_id": 702070,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Michael Lorenzen",
+      "team": "KC",
+      "mlbam_id": 547179,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Michael Massey",
+      "team": "KC",
+      "mlbam_id": 686681,
+      "battingAvg": 0.222,
+      "sluggingPerc": 0.278,
+      "homeRuns": 2,
+      "position": "Second Base"
+    },
+    {
+      "name": "Nick Loftin",
+      "team": "KC",
+      "mlbam_id": 679845,
+      "battingAvg": 0.211,
+      "sluggingPerc": 0.366,
+      "homeRuns": 4,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Salvador Perez",
+      "team": "KC",
+      "mlbam_id": 521692,
+      "battingAvg": 0.238,
+      "sluggingPerc": 0.444,
+      "homeRuns": 25,
+      "position": "Catcher"
+    },
+    {
+      "name": "Taylor Clarke",
+      "team": "KC",
+      "mlbam_id": 664199,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Sam Long",
+      "team": "KC",
+      "mlbam_id": 669674,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Ryan Bergert",
+      "team": "KC",
+      "mlbam_id": 686701,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Tyler Tolbert",
+      "team": "KC",
+      "mlbam_id": 686475,
+      "battingAvg": 0.222,
+      "sluggingPerc": 0.333,
+      "homeRuns": 1,
+      "position": "Second Base"
+    },
+    {
+      "name": "Vinnie Pasquantino",
+      "team": "KC",
+      "mlbam_id": 686469,
+      "battingAvg": 0.262,
+      "sluggingPerc": 0.47,
+      "homeRuns": 29,
+      "position": "First Base"
+    },
+    {
+      "name": "Randal Grichuk",
+      "team": "KC",
+      "mlbam_id": 545341,
+      "battingAvg": 0.23,
+      "sluggingPerc": 0.412,
+      "homeRuns": 8,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Stephen Kolek",
+      "team": "KC",
+      "mlbam_id": 663568,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Alex Call",
+      "team": "LAD",
+      "mlbam_id": 669743,
+      "battingAvg": 0.268,
+      "sluggingPerc": 0.378,
+      "homeRuns": 4,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Andy Pages",
+      "team": "LAD",
+      "mlbam_id": 681624,
+      "battingAvg": 0.27,
+      "sluggingPerc": 0.456,
+      "homeRuns": 24,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Ben Casparius",
+      "team": "LAD",
+      "mlbam_id": 676508,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Anthony Banda",
+      "team": "LAD",
+      "mlbam_id": 607455,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Chuckie Robinson",
+      "team": "LAD",
+      "mlbam_id": 642020,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Catcher"
+    },
+    {
+      "name": "Blake Snell",
+      "team": "LAD",
+      "mlbam_id": 605483,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Blake Treinen",
+      "team": "LAD",
+      "mlbam_id": 595014,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Enrique Hern\u00e1ndez",
+      "team": "LAD",
+      "mlbam_id": 571771,
+      "battingAvg": 0.198,
+      "sluggingPerc": 0.345,
+      "homeRuns": 8,
+      "position": "First Base"
+    },
+    {
+      "name": "Ben Rortvedt",
+      "team": "LAD",
+      "mlbam_id": 666163,
+      "battingAvg": 0.113,
+      "sluggingPerc": 0.127,
+      "homeRuns": 0,
+      "position": "Catcher"
+    },
+    {
+      "name": "Freddie Freeman",
+      "team": "LAD",
+      "mlbam_id": 518692,
+      "battingAvg": 0.295,
+      "sluggingPerc": 0.496,
+      "homeRuns": 19,
+      "position": "First Base"
+    },
+    {
+      "name": "Clayton Kershaw",
+      "team": "LAD",
+      "mlbam_id": 477132,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Edgardo Henriquez",
+      "team": "LAD",
+      "mlbam_id": 683618,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Emmet Sheehan",
+      "team": "LAD",
+      "mlbam_id": 686218,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jack Dreyer",
+      "team": "LAD",
+      "mlbam_id": 676263,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Hyeseong Kim",
+      "team": "LAD",
+      "mlbam_id": 808975,
+      "battingAvg": 0.291,
+      "sluggingPerc": 0.385,
+      "homeRuns": 2,
+      "position": "Second Base"
+    },
+    {
+      "name": "Justin Dean",
+      "team": "LAD",
+      "mlbam_id": 681909,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Justin Wrobleski",
+      "team": "LAD",
+      "mlbam_id": 680736,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Kirby Yates",
+      "team": "LAD",
+      "mlbam_id": 489446,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Michael Conforto",
+      "team": "LAD",
+      "mlbam_id": 624424,
+      "battingAvg": 0.194,
+      "sluggingPerc": 0.328,
+      "homeRuns": 10,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Michael Kopech",
+      "team": "LAD",
+      "mlbam_id": 656629,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Will Smith",
+      "team": "LAD",
+      "mlbam_id": 669257,
+      "battingAvg": 0.296,
+      "sluggingPerc": 0.497,
+      "homeRuns": 17,
+      "position": "Catcher"
+    },
+    {
+      "name": "Mookie Betts",
+      "team": "LAD",
+      "mlbam_id": 605141,
+      "battingAvg": 0.253,
+      "sluggingPerc": 0.39,
+      "homeRuns": 16,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Shohei Ohtani",
+      "team": "LAD",
+      "mlbam_id": 660271,
+      "battingAvg": 0.279,
+      "sluggingPerc": 0.612,
+      "homeRuns": 48,
+      "position": "Two-Way Player"
+    },
+    {
+      "name": "Teoscar Hern\u00e1ndez",
+      "team": "LAD",
+      "mlbam_id": 606192,
+      "battingAvg": 0.242,
+      "sluggingPerc": 0.44,
+      "homeRuns": 21,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Miguel Rojas",
+      "team": "LAD",
+      "mlbam_id": 500743,
+      "battingAvg": 0.261,
+      "sluggingPerc": 0.394,
+      "homeRuns": 6,
+      "position": "Second Base"
+    },
+    {
+      "name": "Andr\u00e9s Chaparro",
+      "team": "WSH",
+      "mlbam_id": 665953,
+      "battingAvg": 0.154,
+      "sluggingPerc": 0.282,
+      "homeRuns": 1,
+      "position": "First Base"
+    },
+    {
+      "name": "Yoshinobu Yamamoto",
+      "team": "LAD",
+      "mlbam_id": 808967,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Tanner Scott",
+      "team": "LAD",
+      "mlbam_id": 656945,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Brad Lord",
+      "team": "WSH",
+      "mlbam_id": 695418,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Andrew Alvarez",
+      "team": "WSH",
+      "mlbam_id": 674841,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Tyler Glasnow",
+      "team": "LAD",
+      "mlbam_id": 607192,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Brady House",
+      "team": "WSH",
+      "mlbam_id": 691781,
+      "battingAvg": 0.239,
+      "sluggingPerc": 0.329,
+      "homeRuns": 3,
+      "position": "Third Base"
+    },
+    {
+      "name": "CJ Abrams",
+      "team": "WSH",
+      "mlbam_id": 682928,
+      "battingAvg": 0.265,
+      "sluggingPerc": 0.446,
+      "homeRuns": 17,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Cade Cavalli",
+      "team": "WSH",
+      "mlbam_id": 676917,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Cole Henry",
+      "team": "WSH",
+      "mlbam_id": 669371,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Clayton Beeter",
+      "team": "WSH",
+      "mlbam_id": 690925,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "James Wood",
+      "team": "WSH",
+      "mlbam_id": 695578,
+      "battingAvg": 0.255,
+      "sluggingPerc": 0.466,
+      "homeRuns": 27,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Dylan Crews",
+      "team": "WSH",
+      "mlbam_id": 686611,
+      "battingAvg": 0.199,
+      "sluggingPerc": 0.336,
+      "homeRuns": 7,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Daylen Lile",
+      "team": "WSH",
+      "mlbam_id": 695734,
+      "battingAvg": 0.282,
+      "sluggingPerc": 0.444,
+      "homeRuns": 4,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Jacob Young",
+      "team": "WSH",
+      "mlbam_id": 696285,
+      "battingAvg": 0.233,
+      "sluggingPerc": 0.284,
+      "homeRuns": 1,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Jackson Rutledge",
+      "team": "WSH",
+      "mlbam_id": 671131,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Josh Bell",
+      "team": "WSH",
+      "mlbam_id": 605137,
+      "battingAvg": 0.225,
+      "sluggingPerc": 0.385,
+      "homeRuns": 17,
+      "position": "First Base"
+    },
+    {
+      "name": "Jake Irvin",
+      "team": "WSH",
+      "mlbam_id": 663623,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jose A. Ferrer",
+      "team": "WSH",
+      "mlbam_id": 678606,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Konnor Pilkington",
+      "team": "WSH",
+      "mlbam_id": 663455,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jorge Alfaro",
+      "team": "WSH",
+      "mlbam_id": 595751,
+      "battingAvg": 0.375,
+      "sluggingPerc": 0.5,
+      "homeRuns": 0,
+      "position": "Catcher"
+    },
+    {
+      "name": "Luis Garc\u00eda Jr.",
+      "team": "WSH",
+      "mlbam_id": 671277,
+      "battingAvg": 0.261,
+      "sluggingPerc": 0.411,
+      "homeRuns": 12,
+      "position": "Second Base"
+    },
+    {
+      "name": "Mason Thompson",
+      "team": "WSH",
+      "mlbam_id": 666168,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Mitchell Parker",
+      "team": "WSH",
+      "mlbam_id": 680730,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Nasim Nu\u00f1ez",
+      "team": "WSH",
+      "mlbam_id": 683083,
+      "battingAvg": 0.22,
+      "sluggingPerc": 0.38,
+      "homeRuns": 2,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Orlando Ribalta",
+      "team": "WSH",
+      "mlbam_id": 687377,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "PJ Poulin",
+      "team": "WSH",
+      "mlbam_id": 676571,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Paul DeJong",
+      "team": "WSH",
+      "mlbam_id": 657557,
+      "battingAvg": 0.231,
+      "sluggingPerc": 0.394,
+      "homeRuns": 6,
+      "position": "Third Base"
+    },
+    {
+      "name": "Robert Hassell III",
+      "team": "WSH",
+      "mlbam_id": 690987,
+      "battingAvg": 0.228,
+      "sluggingPerc": 0.336,
+      "homeRuns": 3,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Riley Adams",
+      "team": "WSH",
+      "mlbam_id": 656180,
+      "battingAvg": 0.2,
+      "sluggingPerc": 0.345,
+      "homeRuns": 8,
+      "position": "Catcher"
+    },
+    {
+      "name": "Brandon Nimmo",
+      "team": "NYM",
+      "mlbam_id": 607043,
+      "battingAvg": 0.265,
+      "sluggingPerc": 0.448,
+      "homeRuns": 22,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Brandon Sproat",
+      "team": "NYM",
+      "mlbam_id": 687075,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Shinnosuke Ogasawara",
+      "team": "WSH",
+      "mlbam_id": 829272,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Clay Holmes",
+      "team": "NYM",
+      "mlbam_id": 605280,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Brett Baty",
+      "team": "NYM",
+      "mlbam_id": 683146,
+      "battingAvg": 0.251,
+      "sluggingPerc": 0.432,
+      "homeRuns": 16,
+      "position": "Third Base"
+    },
+    {
+      "name": "David Peterson",
+      "team": "NYM",
+      "mlbam_id": 656849,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Brooks Raley",
+      "team": "NYM",
+      "mlbam_id": 548384,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Cedric Mullins",
+      "team": "NYM",
+      "mlbam_id": 656775,
+      "battingAvg": 0.218,
+      "sluggingPerc": 0.399,
+      "homeRuns": 16,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Edwin D\u00edaz",
+      "team": "NYM",
+      "mlbam_id": 621242,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Francisco Alvarez",
+      "team": "NYM",
+      "mlbam_id": 682626,
+      "battingAvg": 0.259,
+      "sluggingPerc": 0.425,
+      "homeRuns": 7,
+      "position": "Catcher"
+    },
+    {
+      "name": "Francisco Lindor",
+      "team": "NYM",
+      "mlbam_id": 596019,
+      "battingAvg": 0.268,
+      "sluggingPerc": 0.461,
+      "homeRuns": 26,
+      "position": "Shortstop"
+    },
+    {
+      "name": "Gregory Soto",
+      "team": "NYM",
+      "mlbam_id": 642397,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Jared Young",
+      "team": "NYM",
+      "mlbam_id": 676724,
+      "battingAvg": 0.19,
+      "sluggingPerc": 0.5,
+      "homeRuns": 4,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Jonah Tong",
+      "team": "NYM",
+      "mlbam_id": 804636,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Justin Hagenman",
+      "team": "NYM",
+      "mlbam_id": 663795,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Juan Soto",
+      "team": "NYM",
+      "mlbam_id": 665742,
+      "battingAvg": 0.262,
+      "sluggingPerc": 0.527,
+      "homeRuns": 38,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Luisangel Acu\u00f1a",
+      "team": "NYM",
+      "mlbam_id": 682668,
+      "battingAvg": 0.242,
+      "sluggingPerc": 0.285,
+      "homeRuns": 0,
+      "position": "Second Base"
+    },
+    {
+      "name": "Jeff McNeil",
+      "team": "NYM",
+      "mlbam_id": 643446,
+      "battingAvg": 0.263,
+      "sluggingPerc": 0.448,
+      "homeRuns": 12,
+      "position": "Second Base"
+    },
+    {
+      "name": "Luis Torrens",
+      "team": "NYM",
+      "mlbam_id": 620443,
+      "battingAvg": 0.225,
+      "sluggingPerc": 0.348,
+      "homeRuns": 5,
+      "position": "Catcher"
+    },
+    {
+      "name": "Pete Alonso",
+      "team": "NYM",
+      "mlbam_id": 624413,
+      "battingAvg": 0.267,
+      "sluggingPerc": 0.516,
+      "homeRuns": 33,
+      "position": "First Base"
+    },
+    {
+      "name": "Mark Vientos",
+      "team": "NYM",
+      "mlbam_id": 668901,
+      "battingAvg": 0.243,
+      "sluggingPerc": 0.436,
+      "homeRuns": 16,
+      "position": "Third Base"
+    },
+    {
+      "name": "Nolan McLean",
+      "team": "NYM",
+      "mlbam_id": 690997,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Reed Garrett",
+      "team": "NYM",
+      "mlbam_id": 657585,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Ryan Helsley",
+      "team": "NYM",
+      "mlbam_id": 664854,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Ronny Mauricio",
+      "team": "NYM",
+      "mlbam_id": 677595,
+      "battingAvg": 0.231,
+      "sluggingPerc": 0.385,
+      "homeRuns": 6,
+      "position": "Third Base"
+    },
+    {
+      "name": "Ryne Stanek",
+      "team": "NYM",
+      "mlbam_id": 592773,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Sean Manaea",
+      "team": "NYM",
+      "mlbam_id": 640455,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    },
+    {
+      "name": "Starling Marte",
+      "team": "NYM",
+      "mlbam_id": 516782,
+      "battingAvg": 0.27,
+      "sluggingPerc": 0.415,
+      "homeRuns": 8,
+      "position": "Outfielder"
+    },
+    {
+      "name": "Tyler Rogers",
+      "team": "NYM",
+      "mlbam_id": 643511,
+      "battingAvg": 0.0,
+      "sluggingPerc": 0.0,
+      "homeRuns": 0,
+      "position": "Pitcher"
+    }
+  ]
+}

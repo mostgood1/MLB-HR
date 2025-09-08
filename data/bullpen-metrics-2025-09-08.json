@@ -1,0 +1,136 @@
+{
+  "date": "2025-09-08",
+  "bullpens": {
+    "CLE": {
+      "hr9": 1.1062648691514672
+    },
+    "KC": {
+      "hr9": 1.025943396226415
+    },
+    "MIA": {
+      "hr9": 1.2072593371909521
+    },
+    "WSH": {
+      "hr9": 1.344218415417559
+    },
+    "PHI": {
+      "hr9": 1.0785808147174771
+    },
+    "NYM": {
+      "hr9": 0.9106719367588932
+    },
+    "ATL": {
+      "hr9": 1.2654028436018958
+    },
+    "CHC": {
+      "hr9": 1.2553191489361701
+    },
+    "TEX": {
+      "hr9": 1.0676378772112383
+    },
+    "MIL": {
+      "hr9": 1.0384615384615383
+    },
+    "LAA": {
+      "hr9": 1.4218009478672986
+    },
+    "MIN": {
+      "hr9": 1.2376788553259142
+    },
+    "SD": {
+      "hr9": 1.0839936608557845
+    },
+    "CIN": {
+      "hr9": 1.2078947368421051
+    },
+    "SEA": {
+      "hr9": 1.1970443349753694
+    },
+    "STL": {
+      "hr9": 1.0466212676794133
+    },
+    "SF": {
+      "hr9": 0.87532946758039
+    },
+    "AZ": {
+      "hr9": 1.1717775467775466
+    },
+    "ATH": {
+      "hr9": 1.416231732776618
+    },
+    "BOS": {
+      "hr9": 1.0341614906832297
+    },
+    "LAD": {
+      "hr9": 1.1578531965272296
+    },
+    "COL": {
+      "hr9": 1.5644859813084113
+    }
+  },
+  "starters": {
+    "Slade Cecconi": {
+      "expected_ip": 5.5
+    },
+    "Ryan Bergert": {
+      "expected_ip": 5.5
+    },
+    "Janson Junk": {
+      "expected_ip": 5.5
+    },
+    "Cade Cavalli": {
+      "expected_ip": 5.5
+    },
+    "Aaron Nola": {
+      "expected_ip": 5.5
+    },
+    "Nolan McLean": {
+      "expected_ip": 5.5
+    },
+    "Bryce Elder": {
+      "expected_ip": 5.5
+    },
+    "Shota Imanaga": {
+      "expected_ip": 5.5
+    },
+    "Jacob Latz": {
+      "expected_ip": 5.5
+    },
+    "Jose Quintana": {
+      "expected_ip": 5.5
+    },
+    "Caden Dana": {
+      "expected_ip": 5.5
+    },
+    "Simeon Woods Richardson": {
+      "expected_ip": 5.5
+    },
+    "Yu Darvish": {
+      "expected_ip": 5.5
+    },
+    "Nick Lodolo": {
+      "expected_ip": 5.5
+    },
+    "Bryan Woo": {
+      "expected_ip": 5.5
+    },
+    "Miles Mikolas": {
+      "expected_ip": 5.5
+    },
+    "Logan Webb": {
+      "expected_ip": 5.5
+    },
+    "Nabil Crismatt": {
+      "expected_ip": 5.5
+    },
+    "Luis Morales": {
+      "expected_ip": 5.5
+    },
+    "Garrett Crochet": {
+      "expected_ip": 5.5
+    },
+    "Chase Dollander": {
+      "expected_ip": 5.5
+    }
+  }
+}

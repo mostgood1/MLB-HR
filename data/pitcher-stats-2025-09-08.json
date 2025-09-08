@@ -1,0 +1,131 @@
+{
+  "date": "2025-09-08",
+  "pitchers": [
+    {
+      "name": "Slade Cecconi",
+      "mlbam_id": 677944,
+      "era": 4.78,
+      "homeRunsAllowed": 22
+    },
+    {
+      "name": "Ryan Bergert",
+      "mlbam_id": 686701,
+      "era": 2.61,
+      "homeRunsAllowed": 8
+    },
+    {
+      "name": "Cade Cavalli",
+      "mlbam_id": 676917,
+      "era": 4.85,
+      "homeRunsAllowed": 6
+    },
+    {
+      "name": "Shota Imanaga",
+      "mlbam_id": 684007,
+      "era": 3.15,
+      "homeRunsAllowed": 23
+    },
+    {
+      "name": "Jose Quintana",
+      "mlbam_id": 500779,
+      "era": 3.72,
+      "homeRunsAllowed": 17
+    },
+    {
+      "name": "Nolan McLean",
+      "mlbam_id": 690997,
+      "era": 1.37,
+      "homeRunsAllowed": 1
+    },
+    {
+      "name": "Aaron Nola",
+      "mlbam_id": 605400,
+      "era": 6.78,
+      "homeRunsAllowed": 15
+    },
+    {
+      "name": "Simeon Woods Richardson",
+      "mlbam_id": 680573,
+      "era": 4.53,
+      "homeRunsAllowed": 16
+    },
+    {
+      "name": "Bryce Elder",
+      "mlbam_id": 693821,
+      "era": 5.54,
+      "homeRunsAllowed": 20
+    },
+    {
+      "name": "Jacob Latz",
+      "mlbam_id": 656641,
+      "era": 3.15,
+      "homeRunsAllowed": 6
+    },
+    {
+      "name": "Janson Junk",
+      "mlbam_id": 676083,
+      "era": 4.09,
+      "homeRunsAllowed": 6
+    },
+    {
+      "name": "Caden Dana",
+      "mlbam_id": 702674,
+      "era": 4.91,
+      "homeRunsAllowed": 2
+    },
+    {
+      "name": "Yu Darvish",
+      "mlbam_id": 506433,
+      "era": 5.75,
+      "homeRunsAllowed": 9
+    },
+    {
+      "name": "Garrett Crochet",
+      "mlbam_id": 676979,
+      "era": 2.67,
+      "homeRunsAllowed": 20
+    },
+    {
+      "name": "Nick Lodolo",
+      "mlbam_id": 666157,
+      "era": 3.22,
+      "homeRunsAllowed": 17
+    },
+    {
+      "name": "Bryan Woo",
+      "mlbam_id": 693433,
+      "era": 3.02,
+      "homeRunsAllowed": 24
+    },
+    {
+      "name": "Miles Mikolas",
+      "mlbam_id": 571945,
+      "era": 4.89,
+      "homeRunsAllowed": 24
+    },
+    {
+      "name": "Nabil Crismatt",
+      "mlbam_id": 622503,
+      "era": 2.14,
+      "homeRunsAllowed": 1
+    },
+    {
+      "name": "Chase Dollander",
+      "mlbam_id": 801403,
+      "era": 6.77,
+      "homeRunsAllowed": 18
+    },
+    {
+      "name": "Logan Webb",
+      "mlbam_id": 657277,
+      "era": 3.17,
+      "homeRunsAllowed": 13
+    },
+    {
+      "name": "Luis Morales",
+      "mlbam_id": 806960,
+      "era": 1.59,
+      "homeRunsAllowed": 2
+    }
+  ]
+}
