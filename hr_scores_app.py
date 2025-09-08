@@ -679,6 +679,14 @@ def index():
         if p.get('value_tier') not in ('value','strong'):
             p['value_tier'] = None
 
+    try:
+        # Lightweight debug summary (prints once per request)
+        strong_cnt = sum(1 for p in filtered.get('players', []) if p.get('value_tier')=='strong')
+        value_cnt = sum(1 for p in filtered.get('players', []) if p.get('value_tier')=='value')
+        print(f"[VALUE_BADGES] strong={strong_cnt} value={value_cnt} thresh_val={value_thresh_pp} thresh_strong={strong_value_thresh_pp}")
+    except Exception:
+        pass
+
     return render_template('hr_scores.html',
                            date=filtered.get('date'),
                            generated_at=filtered.get('generated_at'),
