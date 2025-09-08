@@ -210,8 +210,8 @@
               <div class="col-12 col-md-6">
                 <ul class="list-unstyled mb-0">
                   <li><span class="badge score-pill" style="background:#0d6efd">85</span> <strong>Score</strong>: Model HR score (0–100 scale for the slate).</li>
-                  <li><span class="badge rounded-pill bg-success">Value</span> Edge ≥ {{ value_thresh_pp|round(1) }} pp and EV > 0.</li>
-                  <li><span class="badge rounded-pill bg-danger">Strong</span> Edge ≥ {{ strong_value_thresh_pp|round(1) }} pp and EV > 0.</li>
+                  <li><span class="badge rounded-pill bg-success">Value</span> Edge ≥ {{ value_thresh_pp|round(2) }} pp{% if value_dynamic_enabled %} (dynamic){% endif %} and EV > 0.</li>
+                  <li><span class="badge rounded-pill bg-danger">Strong</span> Edge ≥ {{ strong_value_thresh_pp|round(2) }} pp{% if value_dynamic_enabled %} (dynamic){% endif %} and EV > 0.</li>
                   <li><span class="badge homered-badge" style="background:#D4AF37;">Homered</span> Player has hit a HR today (×N if multiple).</li>
                   <li><span class="badge state-live">Live</span> / <span class="badge state-final">Final</span> / <span class="badge state-scheduled">Scheduled</span> Game status (today only).</li>
                   <li><span class="badge rounded-pill bg-dark">+500 (8.5%)</span> <strong>Anytime HR Odds</strong>: Best line & implied probability.</li>
@@ -326,12 +326,10 @@
               </div>
               <div class="d-flex flex-column align-items-end">
                 <span class="badge score-pill">{{ p.hr_score }}</span>
-                {% if p.value_pp is defined and p.value_pp is not none %}
-                  {% if p.value_pp >= strong_value_thresh_pp %}
-                    <span class="badge rounded-pill bg-danger mt-1" {% if p.value_tooltip %}title="{{ p.value_tooltip }}"{% endif %}>Strong</span>
-                  {% elif p.value_pp >= value_thresh_pp %}
-                    <span class="badge rounded-pill bg-success mt-1" {% if p.value_tooltip %}title="{{ p.value_tooltip }}"{% endif %}>Value</span>
-                  {% endif %}
+                {% if p.value_tier == 'strong' %}
+                  <span class="badge rounded-pill bg-danger mt-1" {% if p.value_tooltip %}title="{{ p.value_tooltip }}"{% endif %}>Strong</span>
+                {% elif p.value_tier == 'value' %}
+                  <span class="badge rounded-pill bg-success mt-1" {% if p.value_tooltip %}title="{{ p.value_tooltip }}"{% endif %}>Value</span>
                 {% endif %}
               </div>
             </div>

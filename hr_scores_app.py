@@ -466,6 +466,20 @@ def index():
         strong_value_thresh_pp = 3.0
     if strong_value_thresh_pp < value_thresh_pp + 0.5:
         strong_value_thresh_pp = max(value_thresh_pp + 0.5, strong_value_thresh_pp)
+    # Dynamic percentile-based thresholds (optional)
+    value_dynamic_enabled = (os.environ.get('VALUE_BADGE_DYNAMIC', '0').lower() in ('1','true','yes'))
+    try:
+        value_pctl = float(os.environ.get('VALUE_BADGE_VALUE_PCTL', '0.75'))  # 75th percentile
+    except Exception:
+        value_pctl = 0.75
+    try:
+        strong_pctl = float(os.environ.get('VALUE_BADGE_STRONG_PCTL', '0.9'))  # 90th percentile
+    except Exception:
+        strong_pctl = 0.9
+    try:
+        min_model_prob_for_value = float(os.environ.get('VALUE_BADGE_MIN_MODEL_PROB', '0.00'))
+    except Exception:
+        min_model_prob_for_value = 0.0
 
     for p in filtered.get('players', []):
         pid = id_map.get((p.get('name'), p.get('team')))
@@ -563,6 +577,45 @@ def index():
         except Exception:
             pass
 
+    # Dynamic threshold adjustment & badge assignment
+    if value_dynamic_enabled:
+        vals = [p.get('value_pp') for p in filtered.get('players', []) if isinstance(p.get('value_pp'), (int,float))]
+        if len(vals) >= 8:  # need a reasonable sample
+            sorted_vals = sorted(vals)
+            def pct(vs, q):
+                if not vs: return None
+                k = (len(vs)-1)*q
+                f = int(k)
+                c = min(len(vs)-1, f+1)
+                if f == c: return vs[f]
+                return vs[f] + (vs[c]-vs[f])*(k-f)
+            dyn_val = pct(sorted_vals, value_pctl)
+            dyn_strong = pct(sorted_vals, strong_pctl)
+            if dyn_val is not None:
+                value_thresh_pp = max(value_thresh_pp, round(dyn_val,2))
+            if dyn_strong is not None:
+                strong_value_thresh_pp = max(strong_value_thresh_pp, round(dyn_strong,2))
+        # Ensure ordering
+        if strong_value_thresh_pp < value_thresh_pp + 0.25:
+            strong_value_thresh_pp = value_thresh_pp + 0.25
+
+    # Assign badge tier flags using final thresholds + model prob gate
+    for p in filtered.get('players', []):
+        vpp = p.get('value_pp')
+        mp = p.get('model_prob')
+        if mp is None:
+            try:
+                mp = max(0.0, min(1.0, (p.get('hr_score') or 0) / 100.0))
+            except Exception:
+                mp = 0.0
+        qualifies = (isinstance(vpp, (int,float)) and vpp is not None and mp >= min_model_prob_for_value)
+        if qualifies and vpp >= strong_value_thresh_pp:
+            p['value_tier'] = 'strong'
+        elif qualifies and vpp >= value_thresh_pp:
+            p['value_tier'] = 'value'
+        else:
+            p['value_tier'] = None
+
     return render_template('hr_scores.html',
                            date=filtered.get('date'),
                            generated_at=filtered.get('generated_at'),
@@ -577,7 +630,8 @@ def index():
                players=filtered.get('players', []),
                topk_summary=topk_summary,
                value_thresh_pp=value_thresh_pp,
-               strong_value_thresh_pp=strong_value_thresh_pp)
+               strong_value_thresh_pp=strong_value_thresh_pp,
+               value_dynamic_enabled=value_dynamic_enabled)
 
 
 @app.route('/api/player-detail')
