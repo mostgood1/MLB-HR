@@ -829,22 +829,21 @@ def _compute_scores(date_str: Optional[str] = None) -> Dict:
             pa_multiplier = pa_map.get(int(slot), 1.0)
             hr_score = hr_score * pa_multiplier
 
-        # Optional market blend with player odds (logit blend)
+        # Optional market blend (only if RANK_MODE=blended). Default ranking is pure model for predictability.
         blend_delta_pts = 0.0
+        rank_mode = os.getenv('RANK_MODE', 'model').lower().strip()
         try:
-            alpha = float(os.getenv('PLAYER_MARKET_ALPHA', '0.1'))
+            alpha = float(os.getenv('PLAYER_MARKET_ALPHA', '0.0' if rank_mode != 'blended' else '0.1'))
         except Exception:
-            alpha = 0.1
-        if alpha > 0.0 and player_odds_map:
+            alpha = 0.0 if rank_mode != 'blended' else 0.1
+        if rank_mode == 'blended' and alpha > 0.0 and player_odds_map:
             key = _norm_name_key(name)
             p_market = player_odds_map.get(key)
             if p_market is not None and p_market > 0.0:
-                # Convert model score to pseudo-probability and blend on logit scale
-                p_model = max(0.01, min(0.99, hr_score / 100.0))
-                z_blend = (1.0 - alpha) * _logit(p_model) + alpha * _logit(max(0.01, min(0.99, float(p_market))))
+                p_model_prob = max(0.01, min(0.99, hr_score / 100.0))
+                z_blend = (1.0 - alpha) * _logit(p_model_prob) + alpha * _logit(max(0.01, min(0.99, float(p_market))))
                 p_blend = _sigmoid(z_blend)
                 score_blend = p_blend * 100.0
-                # Cap adjustment to ±cap points
                 try:
                     cap_pts = float(os.getenv('PLAYER_MARKET_BLEND_CAP', '3.0'))
                 except Exception:
@@ -871,12 +870,14 @@ def _compute_scores(date_str: Optional[str] = None) -> Dict:
             'pa_multiplier_pct': round((pa_multiplier - 1.0) * 100.0, 1)
         }
 
+        model_prob = max(0.0, min(1.0, hr_score / 100.0))
         results.append({
             'name': name,
             'team': team,
             'position': p.get('position') or 'Unknown',
             'hr_score': hr_score,
             'homer_likelihood_score': hr_score,
+            'model_prob': round(model_prob, 5),
             'stats': {
                 'homeRuns': season_hr,
                 'battingAvg': _safe_float(p.get('battingAvg')),

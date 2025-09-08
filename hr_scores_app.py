@@ -499,13 +499,33 @@ def index():
                 p['odds_source'] = odds_source
                 # Compute value vs market in percentage points and fair odds
                 try:
-                    p_model = max(0.0, min(1.0, (p.get('hr_score') or 0) / 100.0))
+                    # Prefer explicit model_prob if present (pure model before blending)
+                    p_model = p.get('model_prob')
+                    if p_model is None:
+                        p_model = max(0.0, min(1.0, (p.get('hr_score') or 0) / 100.0))
                     p_market = float(om.get('best_prob')) if om.get('best_prob') is not None else None
                     if p_market is not None:
                         delta_pp = (p_model - p_market) * 100.0
                         p['value_pp'] = round(delta_pp, 1)
                         p['fair_american'] = _prob_to_american(p_model)
-                        p['has_value'] = (delta_pp >= value_thresh_pp)
+                        # Expected value using best offered American odds if provided
+                        amer = om.get('best_american')
+                        ev = None
+                        if amer is not None:
+                            try:
+                                amer_i = int(amer)
+                                # Convert American to decimal odds
+                                if amer_i >= 0:
+                                    dec = 1 + (amer_i / 100.0)
+                                else:
+                                    dec = 1 + (100.0 / abs(amer_i))
+                                ev = p_model * (dec - 1.0) - (1 - p_model)
+                            except Exception:
+                                ev = None
+                        if ev is not None:
+                            p['ev_best'] = round(ev, 4)
+                            p['ev_positive'] = ev > 0
+                        p['has_value'] = (delta_pp >= value_thresh_pp and (ev is None or ev > 0))
                 except Exception:
                     pass
         except Exception:
