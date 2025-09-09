@@ -2,28 +2,28 @@
   "date": "2025-09-05",
   "pitchers": [
     {
-      "name": "Dean Kremer",
-      "mlbam_id": 665152,
-      "era": 4.52,
-      "homeRunsAllowed": 21
+      "name": "Johan Oviedo",
+      "mlbam_id": 670912,
+      "era": 3.6,
+      "homeRunsAllowed": 2
+    },
+    {
+      "name": "Andrew Abbott",
+      "mlbam_id": 671096,
+      "era": 2.65,
+      "homeRunsAllowed": 15
+    },
+    {
+      "name": "Jack Flaherty",
+      "mlbam_id": 656427,
+      "era": 4.74,
+      "homeRunsAllowed": 22
     },
     {
       "name": "Tyler Glasnow",
       "mlbam_id": 607192,
       "era": 3.41,
       "homeRunsAllowed": 10
-    },
-    {
-      "name": "Cam Schlittler",
-      "mlbam_id": 693645,
-      "era": 2.61,
-      "homeRunsAllowed": 6
-    },
-    {
-      "name": "Jake Irvin",
-      "mlbam_id": 663623,
-      "era": 5.42,
-      "homeRunsAllowed": 31
     },
     {
       "name": "Javier Assad",
@@ -38,10 +38,10 @@
       "homeRunsAllowed": 15
     },
     {
-      "name": "Andrew Abbott",
-      "mlbam_id": 671096,
-      "era": 2.65,
-      "homeRunsAllowed": 15
+      "name": "Quinn Priester",
+      "mlbam_id": 682990,
+      "era": 3.28,
+      "homeRunsAllowed": 17
     },
     {
       "name": "David Peterson",
@@ -50,22 +50,22 @@
       "homeRunsAllowed": 9
     },
     {
-      "name": "Jack Flaherty",
-      "mlbam_id": 656427,
-      "era": 4.74,
-      "homeRunsAllowed": 22
+      "name": "Dean Kremer",
+      "mlbam_id": 665152,
+      "era": 4.52,
+      "homeRunsAllowed": 21
     },
     {
-      "name": "Quinn Priester",
-      "mlbam_id": 682990,
-      "era": 3.28,
-      "homeRunsAllowed": 17
+      "name": "Cam Schlittler",
+      "mlbam_id": 693645,
+      "era": 2.61,
+      "homeRunsAllowed": 6
     },
     {
-      "name": "Johan Oviedo",
-      "mlbam_id": 670912,
-      "era": 3.6,
-      "homeRunsAllowed": 2
+      "name": "Jake Irvin",
+      "mlbam_id": 663623,
+      "era": 5.42,
+      "homeRunsAllowed": 31
     },
     {
       "name": "Kevin Gausman",
@@ -74,34 +74,10 @@
       "homeRunsAllowed": 20
     },
     {
-      "name": "Valente Bellozo",
-      "mlbam_id": 678368,
-      "era": 3.91,
-      "homeRunsAllowed": 8
-    },
-    {
-      "name": "Chris Sale",
-      "mlbam_id": 519242,
-      "era": 2.45,
-      "homeRunsAllowed": 8
-    },
-    {
       "name": "Cristopher S\u00e1nchez",
       "mlbam_id": 650911,
       "era": 2.66,
       "homeRunsAllowed": 10
-    },
-    {
-      "name": "Logan Gilbert",
-      "mlbam_id": 669302,
-      "era": 3.73,
-      "homeRunsAllowed": 16
-    },
-    {
-      "name": "Michael Wacha",
-      "mlbam_id": 608379,
-      "era": 3.52,
-      "homeRunsAllowed": 13
     },
     {
       "name": "Griffin Jax",
@@ -110,10 +86,40 @@
       "homeRunsAllowed": 7
     },
     {
+      "name": "Michael Wacha",
+      "mlbam_id": 608379,
+      "era": 3.52,
+      "homeRunsAllowed": 13
+    },
+    {
+      "name": "Chris Sale",
+      "mlbam_id": 519242,
+      "era": 2.45,
+      "homeRunsAllowed": 8
+    },
+    {
+      "name": "Valente Bellozo",
+      "mlbam_id": 678368,
+      "era": 3.91,
+      "homeRunsAllowed": 8
+    },
+    {
+      "name": "Logan Gilbert",
+      "mlbam_id": 669302,
+      "era": 3.73,
+      "homeRunsAllowed": 16
+    },
+    {
       "name": "Gavin Williams",
       "mlbam_id": 668909,
       "era": 3.26,
       "homeRunsAllowed": 20
+    },
+    {
+      "name": "Pablo L\u00f3pez",
+      "mlbam_id": 641154,
+      "era": 2.82,
+      "homeRunsAllowed": 5
     },
     {
       "name": "Merrill Kelly",
@@ -122,16 +128,16 @@
       "homeRunsAllowed": 21
     },
     {
-      "name": "Carson Seymour",
-      "mlbam_id": 693313,
-      "era": 4.74,
-      "homeRunsAllowed": 8
-    },
-    {
       "name": "Kyle Freeland",
       "mlbam_id": 607536,
       "era": 5.41,
       "homeRunsAllowed": 21
+    },
+    {
+      "name": "Carson Seymour",
+      "mlbam_id": 693313,
+      "era": 4.74,
+      "homeRunsAllowed": 8
     },
     {
       "name": "Michael McGreevy",
@@ -146,12 +152,6 @@
       "homeRunsAllowed": 11
     },
     {
-      "name": "Eduardo Rodriguez",
-      "mlbam_id": 593958,
-      "era": 5.4,
-      "homeRunsAllowed": 21
-    },
-    {
       "name": "Mason Barnett",
       "mlbam_id": 686930,
       "era": 11.25,
@@ -162,6 +162,12 @@
       "mlbam_id": 801139,
       "era": 3.38,
       "homeRunsAllowed": 0
+    },
+    {
+      "name": "Eduardo Rodriguez",
+      "mlbam_id": 593958,
+      "era": 5.4,
+      "homeRunsAllowed": 21
     }
   ]
 }

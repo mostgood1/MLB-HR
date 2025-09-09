@@ -1,78 +1,566 @@
 const hitterVsPitcherData = {
-  "Max Kepler": {
-    "Nolan McLean": {
+  "Andrew Knizner": {
+    "Zac Gallen": {
       "pa": 3,
       "hr": 0,
       "avg": 0.333,
       "slg": 0.333
     }
   },
-  "Luke Maile": {
-    "Slade Cecconi": {
+  "Nathan Lukes": {
+    "Luis Garcia": {
       "pa": 2,
       "hr": 0,
       "avg": 0.0,
       "slg": 0.0
     }
   },
-  "Nacho Alvarez Jr.": {
-    "Shota Imanaga": {
-      "pa": 2,
+  "Randy Arozarena": {
+    "Matthew Liberatore": {
+      "pa": 3,
       "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
+      "avg": 0.333,
+      "slg": 0.333
     }
   },
-  "Jorge Polanco": {
-    "Miles Mikolas": {
+  "Michael Busch": {
+    "Spencer Strider": {
       "pa": 5,
       "hr": 0,
-      "avg": 0.2,
-      "slg": 0.2
+      "avg": 0.0,
+      "slg": 0.0
     }
   },
-  "Zack Gelof": {
-    "Garrett Crochet": {
+  "Edouard Julien": {
+    "Kyle Hendricks": {
+      "pa": 3,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Connor Wong": {
+    "Jeffrey Springs": {
+      "pa": 2,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Bobby Witt Jr.": {
+    "Joey Cantillo": {
+      "pa": 3,
+      "hr": 0,
+      "avg": 0.667,
+      "slg": 1.0
+    }
+  },
+  "James Outman": {
+    "Kyle Hendricks": {
       "pa": 2,
       "hr": 0,
       "avg": 0.5,
       "slg": 1.0
     }
   },
-  "Jose Iglesias": {
-    "Nick Lodolo": {
-      "pa": 5,
-      "hr": 0,
-      "avg": 0.2,
-      "slg": 0.2
+  "Francisco Lindor": {
+    "Ranger Su\u00e1rez": {
+      "pa": 18,
+      "hr": 1,
+      "avg": 0.313,
+      "slg": 0.563
     }
   },
-  "Rowdy Tellez": {
-    "Jose Quintana": {
-      "pa": 8,
+  "Brandon Marsh": {
+    "Sean Manaea": {
+      "pa": 3,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Eric Wagaman": {
+    "Mitchell Parker": {
+      "pa": 7,
+      "hr": 0,
+      "avg": 0.286,
+      "slg": 0.429
+    }
+  },
+  "Willy Adames": {
+    "Zac Gallen": {
+      "pa": 20,
+      "hr": 1,
+      "avg": 0.053,
+      "slg": 0.211
+    }
+  },
+  "Jose Altuve": {
+    "Shane Bieber": {
+      "pa": 7,
+      "hr": 0,
+      "avg": 0.5,
+      "slg": 0.667
+    }
+  },
+  "Gavin Lux": {
+    "Michael King": {
+      "pa": 9,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "David Fry": {
+    "Noah Cameron": {
+      "pa": 2,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Byron Buxton": {
+    "Kyle Hendricks": {
+      "pa": 7,
+      "hr": 1,
+      "avg": 0.286,
+      "slg": 0.714
+    }
+  },
+  "Ji Hwan Bae": {
+    "Kyle Bradish": {
+      "pa": 2,
+      "hr": 0,
+      "avg": 0.5,
+      "slg": 0.5
+    }
+  },
+  "Gabriel Moreno": {
+    "Robbie Ray": {
+      "pa": 3,
       "hr": 0,
       "avg": 0.0,
       "slg": 0.0
     }
   },
   "Jeff McNeil": {
-    "Aaron Nola": {
-      "pa": 51,
-      "hr": 1,
-      "avg": 0.326,
-      "slg": 0.442
-    }
-  },
-  "J.P. Crawford": {
-    "Miles Mikolas": {
-      "pa": 5,
+    "Ranger Su\u00e1rez": {
+      "pa": 11,
       "hr": 0,
-      "avg": 0.25,
+      "avg": 0.2,
       "slg": 0.5
     }
   },
+  "Ronald Acu\u00f1a Jr.": {
+    "Cade Horton": {
+      "pa": 2,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Wilmer Flores": {
+    "Zac Gallen": {
+      "pa": 26,
+      "hr": 0,
+      "avg": 0.263,
+      "slg": 0.368
+    }
+  },
+  "Max Muncy": {
+    "Germ\u00e1n M\u00e1rquez": {
+      "pa": 41,
+      "hr": 4,
+      "avg": 0.235,
+      "slg": 0.618
+    }
+  },
+  "Michael Massey": {
+    "Joey Cantillo": {
+      "pa": 2,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Dansby Swanson": {
+    "Spencer Strider": {
+      "pa": 2,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Ty France": {
+    "Luis Garcia": {
+      "pa": 10,
+      "hr": 0,
+      "avg": 0.4,
+      "slg": 0.4
+    }
+  },
+  "Ezequiel Tovar": {
+    "Emmet Sheehan": {
+      "pa": 9,
+      "hr": 0,
+      "avg": 0.222,
+      "slg": 0.222
+    }
+  },
+  "Freddie Freeman": {
+    "Germ\u00e1n M\u00e1rquez": {
+      "pa": 33,
+      "hr": 2,
+      "avg": 0.233,
+      "slg": 0.467
+    }
+  },
+  "Kyle Schwarber": {
+    "Sean Manaea": {
+      "pa": 9,
+      "hr": 1,
+      "avg": 0.25,
+      "slg": 0.625
+    }
+  },
+  "Brenton Doyle": {
+    "Emmet Sheehan": {
+      "pa": 5,
+      "hr": 1,
+      "avg": 0.4,
+      "slg": 1.0
+    }
+  },
+  "Carlos Correa": {
+    "Shane Bieber": {
+      "pa": 15,
+      "hr": 1,
+      "avg": 0.286,
+      "slg": 0.5
+    }
+  },
+  "Josh Bell": {
+    "Adam Mazur": {
+      "pa": 3,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Dominic Smith": {
+    "Zac Gallen": {
+      "pa": 10,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Blaze Alexander": {
+    "Robbie Ray": {
+      "pa": 3,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Gabriel Arias": {
+    "Noah Cameron": {
+      "pa": 2,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
   "Danny Jansen": {
-    "Jacob Latz": {
+    "Jack Leiter": {
+      "pa": 2,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Matt Olson": {
+    "Cade Horton": {
+      "pa": 2,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Vladimir Guerrero Jr.": {
+    "Luis Garcia": {
+      "pa": 12,
+      "hr": 0,
+      "avg": 0.091,
+      "slg": 0.091
+    }
+  },
+  "Ildemaro Vargas": {
+    "Robbie Ray": {
+      "pa": 2,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Javier Sanoja": {
+    "Mitchell Parker": {
+      "pa": 7,
+      "hr": 0,
+      "avg": 0.167,
+      "slg": 0.167
+    }
+  },
+  "Andy Pages": {
+    "Germ\u00e1n M\u00e1rquez": {
+      "pa": 3,
+      "hr": 0,
+      "avg": 0.333,
+      "slg": 0.333
+    }
+  },
+  "Juan Soto": {
+    "Ranger Su\u00e1rez": {
+      "pa": 12,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Mauricio Dub\u00f3n": {
+    "Shane Bieber": {
+      "pa": 3,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Jos\u00e9 Caballero": {
+    "Casey Mize": {
+      "pa": 2,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Brayan Rocchio": {
+    "Noah Cameron": {
+      "pa": 2,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Adam Frazier": {
+    "Joey Cantillo": {
+      "pa": 1,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Geraldo Perdomo": {
+    "Robbie Ray": {
+      "pa": 4,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Luke Maile": {
+    "Joey Cantillo": {
+      "pa": 2,
+      "hr": 0,
+      "avg": 0.5,
+      "slg": 1.0
+    }
+  },
+  "Daulton Varsho": {
+    "Luis Garcia": {
+      "pa": 9,
+      "hr": 0,
+      "avg": 0.333,
+      "slg": 0.556
+    }
+  },
+  "Ram\u00f3n Laureano": {
+    "Zack Littell": {
+      "pa": 15,
+      "hr": 1,
+      "avg": 0.357,
+      "slg": 0.571
+    }
+  },
+  "Matt McLain": {
+    "Michael King": {
+      "pa": 1,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Kyle Isbel": {
+    "Joey Cantillo": {
+      "pa": 1,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Bryan Reynolds": {
+    "Kyle Bradish": {
+      "pa": 3,
+      "hr": 0,
+      "avg": 0.333,
+      "slg": 0.333
+    }
+  },
+  "Taylor Ward": {
+    "Zebby Matthews": {
+      "pa": 2,
+      "hr": 1,
+      "avg": 0.5,
+      "slg": 2.0
+    }
+  },
+  "Matt Shaw": {
+    "Spencer Strider": {
+      "pa": 2,
+      "hr": 0,
+      "avg": 1.0,
+      "slg": 2.0
+    }
+  },
+  "Jarren Duran": {
+    "Jeffrey Springs": {
+      "pa": 3,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Aaron Judge": {
+    "Casey Mize": {
+      "pa": 8,
+      "hr": 0,
+      "avg": 0.714,
+      "slg": 1.0
+    }
+  },
+  "Hunter Goodman": {
+    "Emmet Sheehan": {
+      "pa": 3,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Anthony Volpe": {
+    "Casey Mize": {
+      "pa": 6,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "James Wood": {
+    "Adam Mazur": {
+      "pa": 4,
+      "hr": 1,
+      "avg": 0.5,
+      "slg": 1.25
+    }
+  },
+  "Jose Trevino": {
+    "Michael King": {
+      "pa": 1,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Liam Hicks": {
+    "Mitchell Parker": {
+      "pa": 3,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Joey Wiemer": {
+    "Mitchell Parker": {
+      "pa": 2,
+      "hr": 1,
+      "avg": 1.0,
+      "slg": 4.0
+    }
+  },
+  "Ernie Clement": {
+    "Luis Garcia": {
+      "pa": 2,
+      "hr": 0,
+      "avg": 0.5,
+      "slg": 0.5
+    }
+  },
+  "Elias D\u00edaz": {
+    "Zack Littell": {
+      "pa": 8,
+      "hr": 1,
+      "avg": 0.375,
+      "slg": 0.75
+    }
+  },
+  "Brooks Lee": {
+    "Kyle Hendricks": {
+      "pa": 2,
+      "hr": 0,
+      "avg": 0.5,
+      "slg": 0.5
+    }
+  },
+  "Andrew Vaughn": {
+    "Jack Leiter": {
+      "pa": 2,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Miguel Rojas": {
+    "Germ\u00e1n M\u00e1rquez": {
+      "pa": 11,
+      "hr": 1,
+      "avg": 0.182,
+      "slg": 0.455
+    }
+  },
+  "Mike Tauchman": {
+    "Adrian Houser": {
+      "pa": 8,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Jacob Young": {
+    "Adam Mazur": {
+      "pa": 4,
+      "hr": 0,
+      "avg": 0.75,
+      "slg": 0.75
+    }
+  },
+  "J.P. Crawford": {
+    "Matthew Liberatore": {
+      "pa": 1,
+      "hr": 0,
+      "avg": 1.0,
+      "slg": 1.0
+    }
+  },
+  "Austin Wells": {
+    "Casey Mize": {
       "pa": 2,
       "hr": 0,
       "avg": 0.0,
@@ -80,655 +568,495 @@ const hitterVsPitcherData = {
     }
   },
   "Gavin Sheets": {
-    "Nick Lodolo": {
+    "Zack Littell": {
       "pa": 6,
+      "hr": 0,
+      "avg": 0.5,
+      "slg": 0.5
+    }
+  },
+  "Corbin Carroll": {
+    "Robbie Ray": {
+      "pa": 3,
       "hr": 0,
       "avg": 0.333,
       "slg": 0.333
     }
   },
-  "Freddie Freeman": {
-    "Chase Dollander": {
+  "Royce Lewis": {
+    "Kyle Hendricks": {
+      "pa": 3,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Andrew McCutchen": {
+    "Kyle Bradish": {
+      "pa": 3,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Elly De La Cruz": {
+    "Michael King": {
+      "pa": 3,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Christian Walker": {
+    "Shane Bieber": {
       "pa": 6,
       "hr": 1,
       "avg": 0.333,
       "slg": 0.833
     }
   },
-  "Luisangel Acu\u00f1a": {
-    "Aaron Nola": {
-      "pa": 3,
-      "hr": 0,
-      "avg": 0.333,
-      "slg": 0.333
-    }
-  },
-  "Ronald Acu\u00f1a Jr.": {
-    "Shota Imanaga": {
-      "pa": 6,
-      "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
-    }
-  },
-  "Eugenio Su\u00e1rez": {
-    "Miles Mikolas": {
-      "pa": 22,
-      "hr": 4,
-      "avg": 0.474,
-      "slg": 1.158
-    }
-  },
-  "Shea Langeliers": {
-    "Garrett Crochet": {
+  "Willson Contreras": {
+    "George Kirby": {
       "pa": 2,
       "hr": 0,
       "avg": 0.0,
       "slg": 0.0
     }
   },
-  "Vidal Bruj\u00e1n": {
-    "Shota Imanaga": {
-      "pa": 3,
+  "Josh Naylor": {
+    "Matthew Liberatore": {
+      "pa": 6,
       "hr": 0,
       "avg": 0.0,
       "slg": 0.0
     }
   },
-  "Josh Bell": {
-    "Janson Junk": {
+  "Trevor Larnach": {
+    "Kyle Hendricks": {
+      "pa": 5,
+      "hr": 0,
+      "avg": 0.75,
+      "slg": 1.0
+    }
+  },
+  "George Springer": {
+    "Luis Garcia": {
+      "pa": 9,
+      "hr": 2,
+      "avg": 0.429,
+      "slg": 1.429
+    }
+  },
+  "Jake Cronenworth": {
+    "Zack Littell": {
+      "pa": 8,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Ozzie Albies": {
+    "Cade Horton": {
+      "pa": 2,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Justin Turner": {
+    "Spencer Strider": {
+      "pa": 6,
+      "hr": 0,
+      "avg": 0.167,
+      "slg": 0.167
+    }
+  },
+  "Harrison Bader": {
+    "Sean Manaea": {
+      "pa": 2,
+      "hr": 0,
+      "avg": 0.5,
+      "slg": 0.5
+    }
+  },
+  "Bryce Harper": {
+    "Sean Manaea": {
+      "pa": 12,
+      "hr": 1,
+      "avg": 0.417,
+      "slg": 0.75
+    }
+  },
+  "Kyle Tucker": {
+    "Spencer Strider": {
+      "pa": 6,
+      "hr": 0,
+      "avg": 0.167,
+      "slg": 0.167
+    }
+  },
+  "Dylan Crews": {
+    "Adam Mazur": {
+      "pa": 3,
+      "hr": 0,
+      "avg": 0.333,
+      "slg": 0.667
+    }
+  },
+  "Ben Rice": {
+    "Casey Mize": {
+      "pa": 3,
+      "hr": 0,
+      "avg": 1.0,
+      "slg": 3.0
+    }
+  },
+  "Ian Happ": {
+    "Spencer Strider": {
       "pa": 3,
       "hr": 1,
       "avg": 0.667,
       "slg": 1.667
     }
   },
-  "Jackson Merrill": {
-    "Nick Lodolo": {
-      "pa": 3,
+  "Brandon Nimmo": {
+    "Ranger Su\u00e1rez": {
+      "pa": 29,
       "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
+      "avg": 0.12,
+      "slg": 0.12
     }
   },
-  "Juan Soto": {
-    "Aaron Nola": {
-      "pa": 53,
+  "Nick Castellanos": {
+    "Sean Manaea": {
+      "pa": 17,
       "hr": 3,
-      "avg": 0.237,
-      "slg": 0.526
+      "avg": 0.294,
+      "slg": 0.824
     }
   },
-  "Jo Adell": {
-    "Simeon Woods Richardson": {
+  "Michael Harris II": {
+    "Cade Horton": {
       "pa": 2,
       "hr": 0,
       "avg": 0.0,
       "slg": 0.0
     }
   },
-  "Dominic Smith": {
-    "Nabil Crismatt": {
-      "pa": 1,
-      "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
-    }
-  },
-  "Jacob Wilson": {
-    "Garrett Crochet": {
-      "pa": 1,
-      "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
-    }
-  },
-  "Jake Cronenworth": {
-    "Nick Lodolo": {
-      "pa": 9,
-      "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
-    }
-  },
-  "Dylan Moore": {
-    "Jose Quintana": {
-      "pa": 5,
-      "hr": 0,
-      "avg": 0.2,
-      "slg": 0.2
-    }
-  },
-  "Jared Young": {
-    "Aaron Nola": {
-      "pa": 2,
-      "hr": 1,
-      "avg": 0.5,
-      "slg": 2.0
-    }
-  },
-  "Carlos Santana": {
-    "Bryce Elder": {
-      "pa": 6,
-      "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
-    }
-  },
-  "Corbin Carroll": {
-    "Logan Webb": {
-      "pa": 18,
-      "hr": 0,
-      "avg": 0.412,
-      "slg": 0.412
-    }
-  },
-  "Liam Hicks": {
-    "Cade Cavalli": {
+  "Nolan Gorman": {
+    "George Kirby": {
       "pa": 2,
       "hr": 0,
       "avg": 0.0,
       "slg": 0.0
     }
   },
-  "J.T. Realmuto": {
-    "Nolan McLean": {
+  "Maikel Garcia": {
+    "Joey Cantillo": {
+      "pa": 4,
+      "hr": 0,
+      "avg": 0.333,
+      "slg": 0.667
+    }
+  },
+  "Daylen Lile": {
+    "Adam Mazur": {
       "pa": 3,
       "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
-    }
-  },
-  "Eli White": {
-    "Shota Imanaga": {
-      "pa": 2,
-      "hr": 1,
-      "avg": 0.5,
-      "slg": 2.0
-    }
-  },
-  "Ian Happ": {
-    "Bryce Elder": {
-      "pa": 9,
-      "hr": 0,
-      "avg": 0.111,
-      "slg": 0.111
-    }
-  },
-  "Ezequiel Duran": {
-    "Jose Quintana": {
-      "pa": 2,
-      "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
-    }
-  },
-  "Francisco Lindor": {
-    "Aaron Nola": {
-      "pa": 39,
-      "hr": 1,
-      "avg": 0.229,
-      "slg": 0.371
-    }
-  },
-  "Wilmer Flores": {
-    "Nabil Crismatt": {
-      "pa": 10,
-      "hr": 0,
-      "avg": 0.111,
-      "slg": 0.111
-    }
-  },
-  "Spencer Steer": {
-    "Yu Darvish": {
-      "pa": 2,
-      "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
-    }
-  },
-  "Kyle Tucker": {
-    "Bryce Elder": {
-      "pa": 3,
-      "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
-    }
-  },
-  "Julio Rodr\u00edguez": {
-    "Miles Mikolas": {
-      "pa": 5,
-      "hr": 0,
-      "avg": 0.4,
-      "slg": 0.6
-    }
-  },
-  "Otto Lopez": {
-    "Cade Cavalli": {
-      "pa": 2,
-      "hr": 0,
-      "avg": 1.0,
+      "avg": 0.667,
       "slg": 1.0
     }
   },
-  "Kyle Schwarber": {
-    "Nolan McLean": {
+  "Jakob Marsee": {
+    "Mitchell Parker": {
+      "pa": 3,
+      "hr": 0,
+      "avg": 0.333,
+      "slg": 0.333
+    }
+  },
+  "Orlando Arcia": {
+    "Emmet Sheehan": {
+      "pa": 1,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Jose Iglesias": {
+    "Zack Littell": {
+      "pa": 3,
+      "hr": 0,
+      "avg": 0.667,
+      "slg": 0.667
+    }
+  },
+  "Jake Meyers": {
+    "Shane Bieber": {
       "pa": 3,
       "hr": 0,
       "avg": 0.0,
       "slg": 0.0
     }
   },
-  "Andy Pages": {
-    "Chase Dollander": {
-      "pa": 4,
-      "hr": 0,
-      "avg": 0.25,
-      "slg": 0.5
-    }
-  },
-  "Francisco Alvarez": {
-    "Aaron Nola": {
-      "pa": 2,
+  "Enrique Hern\u00e1ndez": {
+    "Germ\u00e1n M\u00e1rquez": {
+      "pa": 6,
       "hr": 1,
-      "avg": 0.5,
-      "slg": 2.0
+      "avg": 0.2,
+      "slg": 0.8
     }
   },
-  "Dansby Swanson": {
-    "Bryce Elder": {
+  "Heriberto Hern\u00e1ndez": {
+    "Mitchell Parker": {
+      "pa": 5,
+      "hr": 0,
+      "avg": 0.333,
+      "slg": 0.333
+    }
+  },
+  "Bryson Stott": {
+    "Sean Manaea": {
       "pa": 8,
       "hr": 1,
-      "avg": 0.143,
-      "slg": 0.571
+      "avg": 0.333,
+      "slg": 0.833
     }
   },
-  "Andrew Knizner": {
-    "Nabil Crismatt": {
-      "pa": 2,
-      "hr": 0,
-      "avg": 0.5,
-      "slg": 0.5
-    }
-  },
-  "Christian Yelich": {
-    "Jacob Latz": {
-      "pa": 1,
+  "Alek Thomas": {
+    "Robbie Ray": {
+      "pa": 3,
       "hr": 0,
       "avg": 0.0,
       "slg": 0.0
+    }
+  },
+  "Matt Chapman": {
+    "Zac Gallen": {
+      "pa": 10,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Miguel Andujar": {
+    "Michael King": {
+      "pa": 6,
+      "hr": 0,
+      "avg": 0.333,
+      "slg": 0.333
+    }
+  },
+  "Brett Baty": {
+    "Ranger Su\u00e1rez": {
+      "pa": 3,
+      "hr": 0,
+      "avg": 0.333,
+      "slg": 0.333
     }
   },
   "Carson Kelly": {
-    "Bryce Elder": {
-      "pa": 2,
-      "hr": 0,
-      "avg": 0.5,
-      "slg": 0.5
-    }
-  },
-  "Matt Shaw": {
-    "Bryce Elder": {
-      "pa": 2,
-      "hr": 0,
-      "avg": 0.5,
-      "slg": 0.5
-    }
-  },
-  "Josh Naylor": {
-    "Miles Mikolas": {
-      "pa": 11,
-      "hr": 0,
-      "avg": 0.2,
-      "slg": 0.2
-    }
-  },
-  "Troy Johnston": {
-    "Cade Cavalli": {
-      "pa": 2,
-      "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
-    }
-  },
-  "Mike Yastrzemski": {
-    "Slade Cecconi": {
+    "Spencer Strider": {
       "pa": 4,
-      "hr": 1,
-      "avg": 0.5,
-      "slg": 1.25
-    }
-  },
-  "Adam Frazier": {
-    "Slade Cecconi": {
-      "pa": 2,
-      "hr": 0,
-      "avg": 0.5,
-      "slg": 1.0
-    }
-  },
-  "James Wood": {
-    "Janson Junk": {
-      "pa": 2,
-      "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
-    }
-  },
-  "Alex Call": {
-    "Chase Dollander": {
-      "pa": 2,
-      "hr": 0,
-      "avg": 1.0,
-      "slg": 1.0
-    }
-  },
-  "Andruw Monasterio": {
-    "Jacob Latz": {
-      "pa": 1,
-      "hr": 0,
-      "avg": 1.0,
-      "slg": 1.0
-    }
-  },
-  "Gabriel Moreno": {
-    "Logan Webb": {
-      "pa": 13,
-      "hr": 0,
-      "avg": 0.308,
-      "slg": 0.308
-    }
-  },
-  "Victor Mesa Jr.": {
-    "Cade Cavalli": {
-      "pa": 2,
       "hr": 0,
       "avg": 0.0,
       "slg": 0.0
     }
   },
   "CJ Abrams": {
-    "Janson Junk": {
-      "pa": 2,
+    "Adam Mazur": {
+      "pa": 7,
       "hr": 0,
       "avg": 0.5,
-      "slg": 0.5
+      "slg": 0.667
     }
   },
-  "Logan O'Hoppe": {
-    "Simeon Woods Richardson": {
+  "Bo Naylor": {
+    "Noah Cameron": {
       "pa": 2,
       "hr": 0,
       "avg": 0.0,
       "slg": 0.0
     }
   },
-  "Brett Baty": {
-    "Aaron Nola": {
-      "pa": 11,
+  "Manny Machado": {
+    "Zack Littell": {
+      "pa": 12,
       "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
+      "avg": 0.444,
+      "slg": 0.889
     }
   },
-  "Sean Murphy": {
-    "Shota Imanaga": {
-      "pa": 2,
-      "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
-    }
-  },
-  "Xavier Edwards": {
-    "Cade Cavalli": {
+  "Kyle Karros": {
+    "Emmet Sheehan": {
       "pa": 3,
-      "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
-    }
-  },
-  "Gavin Lux": {
-    "Yu Darvish": {
-      "pa": 16,
-      "hr": 0,
-      "avg": 0.154,
-      "slg": 0.231
-    }
-  },
-  "Harrison Bader": {
-    "Nolan McLean": {
-      "pa": 3,
-      "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
-    }
-  },
-  "Luis Rengifo": {
-    "Simeon Woods Richardson": {
-      "pa": 2,
-      "hr": 0,
-      "avg": 0.5,
-      "slg": 0.5
-    }
-  },
-  "Brandon Nimmo": {
-    "Aaron Nola": {
-      "pa": 67,
-      "hr": 2,
-      "avg": 0.255,
-      "slg": 0.4
-    }
-  },
-  "Taylor Ward": {
-    "Simeon Woods Richardson": {
-      "pa": 2,
-      "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
-    }
-  },
-  "Casey Schmitt": {
-    "Nabil Crismatt": {
-      "pa": 1,
-      "hr": 0,
-      "avg": 1.0,
-      "slg": 1.0
-    }
-  },
-  "Alek Thomas": {
-    "Logan Webb": {
-      "pa": 19,
-      "hr": 0,
-      "avg": 0.278,
-      "slg": 0.444
-    }
-  },
-  "Luis Arraez": {
-    "Nick Lodolo": {
-      "pa": 3,
-      "hr": 0,
-      "avg": 0.5,
-      "slg": 1.0
-    }
-  },
-  "Geraldo Perdomo": {
-    "Logan Webb": {
-      "pa": 23,
-      "hr": 0,
-      "avg": 0.136,
-      "slg": 0.182
-    }
-  },
-  "Ildemaro Vargas": {
-    "Logan Webb": {
-      "pa": 2,
-      "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
-    }
-  },
-  "Bryson Stott": {
-    "Nolan McLean": {
-      "pa": 3,
-      "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
-    }
-  },
-  "Willy Adames": {
-    "Nabil Crismatt": {
-      "pa": 2,
-      "hr": 0,
-      "avg": 1.0,
-      "slg": 1.0
-    }
-  },
-  "Jake Bauers": {
-    "Jacob Latz": {
-      "pa": 1,
-      "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
-    }
-  },
-  "Jake McCarthy": {
-    "Logan Webb": {
-      "pa": 24,
-      "hr": 0,
-      "avg": 0.304,
-      "slg": 0.348
-    }
-  },
-  "Ozzie Albies": {
-    "Shota Imanaga": {
-      "pa": 6,
       "hr": 1,
-      "avg": 0.667,
-      "slg": 1.167
-    }
-  },
-  "Freddy Fermin": {
-    "Nick Lodolo": {
-      "pa": 2,
-      "hr": 0,
-      "avg": 1.0,
-      "slg": 2.0
-    }
-  },
-  "Agust\u00edn Ram\u00edrez": {
-    "Cade Cavalli": {
-      "pa": 2,
-      "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
-    }
-  },
-  "Bryce Harper": {
-    "Nolan McLean": {
-      "pa": 3,
-      "hr": 0,
       "avg": 0.333,
-      "slg": 0.333
-    }
-  },
-  "Mike Trout": {
-    "Simeon Woods Richardson": {
-      "pa": 2,
-      "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
-    }
-  },
-  "Michael Busch": {
-    "Bryce Elder": {
-      "pa": 3,
-      "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
-    }
-  },
-  "Ha-Seong Kim": {
-    "Shota Imanaga": {
-      "pa": 5,
-      "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
-    }
-  },
-  "Michael Conforto": {
-    "Chase Dollander": {
-      "pa": 5,
-      "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
-    }
-  },
-  "Jonah Heim": {
-    "Jose Quintana": {
-      "pa": 3,
-      "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
-    }
-  },
-  "Trea Turner": {
-    "Nolan McLean": {
-      "pa": 3,
-      "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
-    }
-  },
-  "Lawrence Butler": {
-    "Garrett Crochet": {
-      "pa": 2,
-      "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
-    }
-  },
-  "Cal Raleigh": {
-    "Miles Mikolas": {
-      "pa": 5,
-      "hr": 0,
-      "avg": 0.4,
-      "slg": 0.4
-    }
-  },
-  "Sal Frelick": {
-    "Jacob Latz": {
-      "pa": 2,
-      "hr": 0,
-      "avg": 0.5,
-      "slg": 0.5
-    }
-  },
-  "Elly De La Cruz": {
-    "Yu Darvish": {
-      "pa": 2,
-      "hr": 0,
-      "avg": 0.0,
-      "slg": 0.0
+      "slg": 1.333
     }
   },
   "Ke'Bryan Hayes": {
-    "Yu Darvish": {
+    "Michael King": {
+      "pa": 4,
+      "hr": 0,
+      "avg": 0.25,
+      "slg": 0.25
+    }
+  },
+  "Cedric Mullins": {
+    "Ranger Su\u00e1rez": {
       "pa": 3,
       "hr": 0,
       "avg": 0.333,
-      "slg": 0.333
+      "slg": 0.667
     }
   },
-  "Elias D\u00edaz": {
-    "Nick Lodolo": {
+  "Max Kepler": {
+    "Sean Manaea": {
+      "pa": 8,
+      "hr": 1,
+      "avg": 0.143,
+      "slg": 0.571
+    }
+  },
+  "Patrick Bailey": {
+    "Zac Gallen": {
+      "pa": 9,
+      "hr": 1,
+      "avg": 0.333,
+      "slg": 0.778
+    }
+  },
+  "Alex Bregman": {
+    "Jeffrey Springs": {
+      "pa": 1,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Zach Neto": {
+    "Zebby Matthews": {
+      "pa": 2,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Luke Raley": {
+    "Matthew Liberatore": {
+      "pa": 1,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Giancarlo Stanton": {
+    "Casey Mize": {
+      "pa": 6,
+      "hr": 0,
+      "avg": 0.167,
+      "slg": 0.167
+    }
+  },
+  "Austin Hays": {
+    "Michael King": {
+      "pa": 10,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Drake Baldwin": {
+    "Cade Horton": {
+      "pa": 2,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Weston Wilson": {
+    "Sean Manaea": {
       "pa": 4,
       "hr": 0,
       "avg": 0.0,
       "slg": 0.0
     }
   },
-  "Max Schuemann": {
-    "Garrett Crochet": {
+  "Michael A. Taylor": {
+    "Adrian Houser": {
+      "pa": 1,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Angel Mart\u00ednez": {
+    "Noah Cameron": {
+      "pa": 3,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Cody Bellinger": {
+    "Casey Mize": {
+      "pa": 3,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Rafael Devers": {
+    "Zac Gallen": {
+      "pa": 6,
+      "hr": 0,
+      "avg": 0.5,
+      "slg": 0.75
+    }
+  },
+  "Francisco Alvarez": {
+    "Ranger Su\u00e1rez": {
+      "pa": 8,
+      "hr": 1,
+      "avg": 0.143,
+      "slg": 0.571
+    }
+  },
+  "Austin Martin": {
+    "Kyle Hendricks": {
+      "pa": 2,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Isiah Kiner-Falefa": {
+    "Luis Garcia": {
+      "pa": 10,
+      "hr": 0,
+      "avg": 0.1,
+      "slg": 0.1
+    }
+  },
+  "Mitch Garver": {
+    "Matthew Liberatore": {
+      "pa": 2,
+      "hr": 0,
+      "avg": 1.0,
+      "slg": 2.0
+    }
+  },
+  "C\u00e9sar Salazar": {
+    "Shane Bieber": {
+      "pa": 2,
+      "hr": 0,
+      "avg": 0.0,
+      "slg": 0.0
+    }
+  },
+  "Nacho Alvarez Jr.": {
+    "Cade Horton": {
       "pa": 1,
       "hr": 0,
       "avg": 0.0,

@@ -35,6 +35,7 @@
                 "losses": 83,
                 "pct": ".403"
               },
+              "score": 0,
               "team": {
                 "id": 120,
                 "name": "Washington Nationals",
@@ -54,6 +55,7 @@
                 "losses": 60,
                 "pct": ".571"
               },
+              "score": 0,
               "team": {
                 "id": 112,
                 "name": "Chicago Cubs",
@@ -777,6 +779,11 @@
                 "id": 142,
                 "name": "Minnesota Twins",
                 "link": "/api/v1/teams/142"
+              },
+              "probablePitcher": {
+                "id": 641154,
+                "fullName": "Pablo L\u00f3pez",
+                "link": "/api/v1/people/641154"
               },
               "splitSquad": false,
               "seriesNumber": 46

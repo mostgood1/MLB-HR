@@ -1,0 +1,185 @@
+{
+  "date": "2025-09-09",
+  "ballpark_factors": {
+    "TOR_park": {
+      "hr_factor": 1.0,
+      "venue_name": "Rogers Centre"
+    },
+    "CLE_park": {
+      "hr_factor": 0.98,
+      "venue_name": "Progressive Field"
+    },
+    "MIA_park": {
+      "hr_factor": 0.98,
+      "venue_name": "loanDepot park"
+    },
+    "ATL_park": {
+      "hr_factor": 0.98,
+      "venue_name": "Truist Park"
+    },
+    "NYY_park": {
+      "hr_factor": 1.07,
+      "venue_name": "Yankee Stadium"
+    },
+    "CWS_park": {
+      "hr_factor": 1.06,
+      "venue_name": "Guaranteed Rate Field"
+    },
+    "Sutter_Health_Park": {
+      "hr_factor": 1.0,
+      "venue_name": "Sutter Health Park"
+    },
+    "BAL_park": {
+      "hr_factor": 0.96,
+      "venue_name": "Oriole Park at Camden Yards"
+    },
+    "PHI_park": {
+      "hr_factor": 1.05,
+      "venue_name": "Citizens Bank Park"
+    },
+    "SEA_park": {
+      "hr_factor": 0.97,
+      "venue_name": "T-Mobile Park"
+    },
+    "TEX_park": {
+      "hr_factor": 1.04,
+      "venue_name": "Globe Life Field"
+    },
+    "LAD_park": {
+      "hr_factor": 1.08,
+      "venue_name": "Dodger Stadium"
+    },
+    "SF_park": {
+      "hr_factor": 0.91,
+      "venue_name": "Oracle Park"
+    },
+    "LAA_park": {
+      "hr_factor": 1.07,
+      "venue_name": "Angel Stadium of Anaheim"
+    },
+    "SD_park": {
+      "hr_factor": 1.02,
+      "venue_name": "Petco Park"
+    }
+  },
+  "weather_conditions": {
+    "TOR_park": {
+      "temperature": 68.72,
+      "wind_speed": 6.08,
+      "wind_direction": "E",
+      "game_period": "night",
+      "game_time_utc": "2025-09-09T23:07:00Z",
+      "game_time_local": "2025-09-09 19:07"
+    },
+    "CLE_park": {
+      "temperature": 73.13,
+      "wind_speed": 9.89,
+      "wind_direction": "NE",
+      "game_period": "night",
+      "game_time_utc": "2025-09-09T22:40:00Z",
+      "game_time_local": "2025-09-09 18:40"
+    },
+    "MIA_park": {
+      "temperature": 81.3,
+      "wind_speed": 9.35,
+      "wind_direction": "SW",
+      "game_period": "night",
+      "game_time_utc": "2025-09-09T22:40:00Z",
+      "game_time_local": "2025-09-09 18:40"
+    },
+    "ATL_park": {
+      "temperature": 76.96,
+      "wind_speed": 7.27,
+      "wind_direction": "E",
+      "game_period": "night",
+      "game_time_utc": "2025-09-09T23:15:00Z",
+      "game_time_local": "2025-09-09 19:15"
+    },
+    "NYY_park": {
+      "temperature": 69.24,
+      "wind_speed": 9.19,
+      "wind_direction": "E",
+      "game_period": "night",
+      "game_time_utc": "2025-09-09T23:05:00Z",
+      "game_time_local": "2025-09-09 19:05"
+    },
+    "CWS_park": {
+      "temperature": 73.81,
+      "wind_speed": 1.77,
+      "wind_direction": "E",
+      "game_period": "night",
+      "game_time_utc": "2025-09-09T23:40:00Z",
+      "game_time_local": "2025-09-09 18:40"
+    },
+    "Sutter_Health_Park": {
+      "temperature": 75,
+      "wind_speed": 0,
+      "wind_direction": "none",
+      "game_time_utc": "2025-09-10T02:05:00Z"
+    },
+    "BAL_park": {
+      "temperature": 72.45,
+      "wind_speed": 9.82,
+      "wind_direction": "E",
+      "game_period": "night",
+      "game_time_utc": "2025-09-09T22:35:00Z",
+      "game_time_local": "2025-09-09 18:35"
+    },
+    "PHI_park": {
+      "temperature": 69.89,
+      "wind_speed": 8.28,
+      "wind_direction": "E",
+      "game_period": "night",
+      "game_time_utc": "2025-09-09T22:45:00Z",
+      "game_time_local": "2025-09-09 18:45"
+    },
+    "SEA_park": {
+      "temperature": 66.13,
+      "wind_speed": 4.83,
+      "wind_direction": "N",
+      "game_period": "night",
+      "game_time_utc": "2025-09-10T01:40:00Z",
+      "game_time_local": "2025-09-09 18:40"
+    },
+    "TEX_park": {
+      "temperature": 86.9,
+      "wind_speed": 5.68,
+      "wind_direction": "SE",
+      "game_period": "night",
+      "game_time_utc": "2025-09-10T00:05:00Z",
+      "game_time_local": "2025-09-09 19:05"
+    },
+    "LAD_park": {
+      "temperature": 72.72,
+      "wind_speed": 5.88,
+      "wind_direction": "SW",
+      "game_period": "night",
+      "game_time_utc": "2025-09-10T02:10:00Z",
+      "game_time_local": "2025-09-09 19:10"
+    },
+    "SF_park": {
+      "temperature": 68.59,
+      "wind_speed": 9.04,
+      "wind_direction": "W",
+      "game_period": "night",
+      "game_time_utc": "2025-09-10T01:45:00Z",
+      "game_time_local": "2025-09-09 18:45"
+    },
+    "LAA_park": {
+      "temperature": 73.9,
+      "wind_speed": 8.25,
+      "wind_direction": "SW",
+      "game_period": "night",
+      "game_time_utc": "2025-09-10T01:38:00Z",
+      "game_time_local": "2025-09-09 18:38"
+    },
+    "SD_park": {
+      "temperature": 71.49,
+      "wind_speed": 8.41,
+      "wind_direction": "NW",
+      "game_period": "night",
+      "game_time_utc": "2025-09-10T01:40:00Z",
+      "game_time_local": "2025-09-09 18:40"
+    }
+  }
+}

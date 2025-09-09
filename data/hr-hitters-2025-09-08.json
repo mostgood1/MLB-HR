@@ -1,4 +1,89 @@
 {
   "date": "2025-09-08",
-  "hitters": {}
+  "hitters": {
+    "621566": {
+      "name": "Civale, Aaron",
+      "hr": 1
+    },
+    "645277": {
+      "name": "Imanaga, Shota",
+      "hr": 1
+    },
+    "681546": {
+      "name": "Stephenson, Robert",
+      "hr": 1
+    },
+    "668904": {
+      "name": "Dana, Caden",
+      "hr": 2
+    },
+    "665966": {
+      "name": "Morales, Luis",
+      "hr": 1
+    },
+    "596115": {
+      "name": "Morales, Luis",
+      "hr": 1
+    },
+    "805300": {
+      "name": "Ogasawara, Shinnosuke",
+      "hr": 1
+    },
+    "683748": {
+      "name": "Ogasawara, Shinnosuke",
+      "hr": 1
+    },
+    "605137": {
+      "name": "Soriano, George",
+      "hr": 2
+    },
+    "686611": {
+      "name": "Martinez, Seth",
+      "hr": 1
+    },
+    "671277": {
+      "name": "Junk, Janson",
+      "hr": 1
+    },
+    "669720": {
+      "name": "Darvish, Yu",
+      "hr": 1
+    },
+    "670770": {
+      "name": "Darvish, Yu",
+      "hr": 1
+    },
+    "680737": {
+      "name": "Quintana, Jose",
+      "hr": 1
+    },
+    "676475": {
+      "name": "Woo, Bryan",
+      "hr": 1
+    },
+    "672275": {
+      "name": "DeSclafani, Anthony",
+      "hr": 1
+    },
+    "672515": {
+      "name": "Beck, Tristan",
+      "hr": 1
+    },
+    "656305": {
+      "name": "DeSclafani, Anthony",
+      "hr": 1
+    },
+    "671218": {
+      "name": "DeSclafani, Anthony",
+      "hr": 1
+    },
+    "642086": {
+      "name": "Crismatt, Nabil",
+      "hr": 1
+    },
+    "808982": {
+      "name": "Crismatt, Nabil",
+      "hr": 1
+    }
+  }
 }

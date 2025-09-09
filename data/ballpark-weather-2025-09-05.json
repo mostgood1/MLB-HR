@@ -1,37 +1,37 @@
 {
   "date": "2025-09-05",
   "ballpark_factors": {
-    "CIN_park": {
-      "hr_factor": 1.18,
-      "venue_name": "Great American Ball Park"
+    "CHC_park": {
+      "hr_factor": 0.98,
+      "venue_name": "Wrigley Field"
     },
     "BAL_park": {
       "hr_factor": 0.96,
       "venue_name": "Oriole Park at Camden Yards"
     },
+    "ATL_park": {
+      "hr_factor": 0.98,
+      "venue_name": "Truist Park"
+    },
     "MIA_park": {
       "hr_factor": 0.98,
       "venue_name": "loanDepot park"
-    },
-    "CHC_park": {
-      "hr_factor": 0.98,
-      "venue_name": "Wrigley Field"
-    },
-    "NYY_park": {
-      "hr_factor": 1.07,
-      "venue_name": "Yankee Stadium"
     },
     "PIT_park": {
       "hr_factor": 0.94,
       "venue_name": "PNC Park"
     },
-    "ATL_park": {
-      "hr_factor": 0.98,
-      "venue_name": "Truist Park"
-    },
     "DET_park": {
       "hr_factor": 0.93,
       "venue_name": "Comerica Park"
+    },
+    "NYY_park": {
+      "hr_factor": 1.07,
+      "venue_name": "Yankee Stadium"
+    },
+    "CIN_park": {
+      "hr_factor": 1.18,
+      "venue_name": "Great American Ball Park"
     },
     "TB_park": {
       "hr_factor": 0.96,
@@ -41,9 +41,9 @@
       "hr_factor": 0.95,
       "venue_name": "Kauffman Stadium"
     },
-    "STL_park": {
-      "hr_factor": 0.95,
-      "venue_name": "Busch Stadium"
+    "LAA_park": {
+      "hr_factor": 1.07,
+      "venue_name": "Angel Stadium of Anaheim"
     },
     "COL_park": {
       "hr_factor": 1.07,
@@ -53,9 +53,9 @@
       "hr_factor": 1.04,
       "venue_name": "Globe Life Field"
     },
-    "LAA_park": {
-      "hr_factor": 1.07,
-      "venue_name": "Angel Stadium of Anaheim"
+    "STL_park": {
+      "hr_factor": 0.95,
+      "venue_name": "Busch Stadium"
     },
     "ARI_park": {
       "hr_factor": 0.91,
@@ -63,72 +63,72 @@
     }
   },
   "weather_conditions": {
-    "CIN_park": {
-      "temperature": 70.95,
-      "wind_speed": 8.46,
-      "wind_direction": "NW",
-      "game_period": "night",
-      "game_time_utc": "2025-09-05T22:40:00Z",
-      "game_time_local": "2025-09-05 18:40"
-    },
-    "BAL_park": {
-      "temperature": 84.54,
-      "wind_speed": 13.4,
-      "wind_direction": "S",
-      "game_period": "night",
-      "game_time_utc": "2025-09-05T23:05:00Z",
-      "game_time_local": "2025-09-05 19:05"
-    },
-    "MIA_park": {
-      "temperature": 77.68,
-      "wind_speed": 14.12,
-      "wind_direction": "SW",
-      "game_period": "night",
-      "game_time_utc": "2025-09-05T23:10:00Z",
-      "game_time_local": "2025-09-05 19:10"
-    },
     "CHC_park": {
-      "temperature": 62.47,
+      "temperature": 64.17,
       "wind_speed": 17.09,
       "wind_direction": "W",
       "game_period": "day",
       "game_time_utc": "2025-09-05T18:20:00Z",
       "game_time_local": "2025-09-05 13:20"
     },
-    "NYY_park": {
-      "temperature": 76.41,
-      "wind_speed": 8.99,
+    "BAL_park": {
+      "temperature": 84.65,
+      "wind_speed": 13.4,
       "wind_direction": "S",
       "game_period": "night",
       "game_time_utc": "2025-09-05T23:05:00Z",
       "game_time_local": "2025-09-05 19:05"
     },
-    "PIT_park": {
-      "temperature": 76.39,
-      "wind_speed": 6.11,
-      "wind_direction": "W",
-      "game_period": "night",
-      "game_time_utc": "2025-09-05T22:40:00Z",
-      "game_time_local": "2025-09-05 18:40"
-    },
     "ATL_park": {
-      "temperature": 82.17,
+      "temperature": 83.93,
       "wind_speed": 5.75,
       "wind_direction": "SW",
       "game_period": "night",
       "game_time_utc": "2025-09-05T23:15:00Z",
       "game_time_local": "2025-09-05 19:15"
     },
+    "MIA_park": {
+      "temperature": 79.92,
+      "wind_speed": 14.12,
+      "wind_direction": "SW",
+      "game_period": "night",
+      "game_time_utc": "2025-09-05T23:10:00Z",
+      "game_time_local": "2025-09-05 19:10"
+    },
+    "PIT_park": {
+      "temperature": 76.15,
+      "wind_speed": 6.11,
+      "wind_direction": "W",
+      "game_period": "night",
+      "game_time_utc": "2025-09-05T22:40:00Z",
+      "game_time_local": "2025-09-05 18:40"
+    },
     "DET_park": {
-      "temperature": 60.75,
+      "temperature": 64.35,
       "wind_speed": 10.8,
       "wind_direction": "NW",
       "game_period": "night",
       "game_time_utc": "2025-09-05T22:40:00Z",
       "game_time_local": "2025-09-05 18:40"
     },
+    "NYY_park": {
+      "temperature": 77.9,
+      "wind_speed": 8.99,
+      "wind_direction": "S",
+      "game_period": "night",
+      "game_time_utc": "2025-09-05T23:05:00Z",
+      "game_time_local": "2025-09-05 19:05"
+    },
+    "CIN_park": {
+      "temperature": 73.47,
+      "wind_speed": 8.46,
+      "wind_direction": "NW",
+      "game_period": "night",
+      "game_time_utc": "2025-09-05T22:40:00Z",
+      "game_time_local": "2025-09-05 18:40"
+    },
     "TB_park": {
-      "temperature": 82.56,
+      "temperature": 85.3,
       "wind_speed": 13.42,
       "wind_direction": "E",
       "game_period": "night",
@@ -136,36 +136,12 @@
       "game_time_local": "2025-09-05 19:35"
     },
     "KC_park": {
-      "temperature": 56.82,
+      "temperature": 58.91,
       "wind_speed": 8.95,
       "wind_direction": "SW",
       "game_period": "night",
       "game_time_utc": "2025-09-05T23:40:00Z",
       "game_time_local": "2025-09-05 18:40"
-    },
-    "STL_park": {
-      "temperature": 68.9,
-      "wind_speed": 6.69,
-      "wind_direction": "W",
-      "game_period": "night",
-      "game_time_utc": "2025-09-06T00:15:00Z",
-      "game_time_local": "2025-09-05 19:15"
-    },
-    "COL_park": {
-      "temperature": 68.18,
-      "wind_speed": 5.17,
-      "wind_direction": "NE",
-      "game_period": "night",
-      "game_time_utc": "2025-09-06T00:40:00Z",
-      "game_time_local": "2025-09-05 18:40"
-    },
-    "TEX_park": {
-      "temperature": 80.02,
-      "wind_speed": 12.33,
-      "wind_direction": "N",
-      "game_period": "night",
-      "game_time_utc": "2025-09-06T00:05:00Z",
-      "game_time_local": "2025-09-05 19:05"
     },
     "LAA_park": {
       "temperature": 68.32,
@@ -174,6 +150,30 @@
       "game_period": "night",
       "game_time_utc": "2025-09-06T01:38:00Z",
       "game_time_local": "2025-09-05 18:38"
+    },
+    "COL_park": {
+      "temperature": 65.77,
+      "wind_speed": 5.17,
+      "wind_direction": "NE",
+      "game_period": "night",
+      "game_time_utc": "2025-09-06T00:40:00Z",
+      "game_time_local": "2025-09-05 18:40"
+    },
+    "TEX_park": {
+      "temperature": 83.52,
+      "wind_speed": 12.33,
+      "wind_direction": "N",
+      "game_period": "night",
+      "game_time_utc": "2025-09-06T00:05:00Z",
+      "game_time_local": "2025-09-05 19:05"
+    },
+    "STL_park": {
+      "temperature": 70.23,
+      "wind_speed": 6.69,
+      "wind_direction": "W",
+      "game_period": "night",
+      "game_time_utc": "2025-09-06T00:15:00Z",
+      "game_time_local": "2025-09-05 19:15"
     },
     "ARI_park": {
       "temperature": 88.18,

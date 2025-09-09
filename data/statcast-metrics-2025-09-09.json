@@ -1,0 +1,3365 @@
+{
+  "date": "2025-09-09",
+  "metrics": {
+    "Manny Machado": {
+      "exit_velocity": 85.32,
+      "barrel_rate": 0.0938
+    },
+    "Yoendrys G\u00f3mez": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Daysbel Hern\u00e1ndez": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Chris Bassitt": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Freddy Peralta": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Max Schuemann": {
+      "exit_velocity": 81.07,
+      "barrel_rate": 0.0094
+    },
+    "Alejandro Osuna": {
+      "exit_velocity": 80.81,
+      "barrel_rate": 0.053
+    },
+    "Aaron Judge": {
+      "exit_velocity": 87.59,
+      "barrel_rate": 0.1404
+    },
+    "Bailey Ober": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Luis Curvelo": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Braxton Ashcraft": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Lou Trivino": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "JJ Bleday": {
+      "exit_velocity": 83.65,
+      "barrel_rate": 0.0517
+    },
+    "Merrill Kelly": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Anthony DeSclafani": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Andrew Saalfrank": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Kyle Schwarber": {
+      "exit_velocity": 87.5,
+      "barrel_rate": 0.1368
+    },
+    "George Springer": {
+      "exit_velocity": 83.51,
+      "barrel_rate": 0.0963
+    },
+    "Sonny Gray": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Andrew Chafin": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Andrew McCutchen": {
+      "exit_velocity": 83.6,
+      "barrel_rate": 0.0587
+    },
+    "Austin Martin": {
+      "exit_velocity": 78.69,
+      "barrel_rate": 0.0244
+    },
+    "Aaron Nola": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jacob Webb": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Matt Olson": {
+      "exit_velocity": 85.31,
+      "barrel_rate": 0.0828
+    },
+    "Josh Simpson": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Adrian Houser": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Carson Seymour": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Davis Schneider": {
+      "exit_velocity": 86.11,
+      "barrel_rate": 0.1316
+    },
+    "Drew Gilbert": {
+      "exit_velocity": 83.27,
+      "barrel_rate": 0.0597
+    },
+    "Luis Severino": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Brendon Little": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Christian Koss": {
+      "exit_velocity": 80.43,
+      "barrel_rate": 0.0432
+    },
+    "Phil Maton": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Otto Kemp": {
+      "exit_velocity": 83.08,
+      "barrel_rate": 0.0545
+    },
+    "Eric Lauer": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Dominic Smith": {
+      "exit_velocity": 83.11,
+      "barrel_rate": 0.0426
+    },
+    "Javier Sanoja": {
+      "exit_velocity": 81.52,
+      "barrel_rate": 0.0095
+    },
+    "Jes\u00fas Luzardo": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Abner Uribe": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Bubba Chandler": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Chandler Simpson": {
+      "exit_velocity": 78.37,
+      "barrel_rate": 0.0
+    },
+    "Chris Taylor": {
+      "exit_velocity": 80.21,
+      "barrel_rate": 0.0388
+    },
+    "Wikelman Gonz\u00e1lez": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Carson Williams": {
+      "exit_velocity": 77.83,
+      "barrel_rate": 0.0377
+    },
+    "Alexander Canario": {
+      "exit_velocity": 82.55,
+      "barrel_rate": 0.0885
+    },
+    "Kyle Higashioka": {
+      "exit_velocity": 83.55,
+      "barrel_rate": 0.0677
+    },
+    "Jos\u00e9 Alvarado": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jo Adell": {
+      "exit_velocity": 84.17,
+      "barrel_rate": 0.1134
+    },
+    "Mason Miller": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Brett Harris": {
+      "exit_velocity": 77.85,
+      "barrel_rate": 0.0
+    },
+    "Zach Neto": {
+      "exit_velocity": 84.85,
+      "barrel_rate": 0.0951
+    },
+    "Robert Garcia": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Josh Smith": {
+      "exit_velocity": 81.45,
+      "barrel_rate": 0.0413
+    },
+    "Matt Strahm": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Tyler Gilbert": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Nolan Gorman": {
+      "exit_velocity": 82.86,
+      "barrel_rate": 0.0599
+    },
+    "Yusei Kikuchi": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Ernie Clement": {
+      "exit_velocity": 80.65,
+      "barrel_rate": 0.0225
+    },
+    "Max Lazar": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Nathan Church": {
+      "exit_velocity": 81.03,
+      "barrel_rate": 0.0179
+    },
+    "Wilmer Flores": {
+      "exit_velocity": 81.12,
+      "barrel_rate": 0.0419
+    },
+    "Daulton Varsho": {
+      "exit_velocity": 82.87,
+      "barrel_rate": 0.1318
+    },
+    "Austin Wells": {
+      "exit_velocity": 83.39,
+      "barrel_rate": 0.0729
+    },
+    "Joey Wiemer": {
+      "exit_velocity": 82.43,
+      "barrel_rate": 0.1
+    },
+    "Yo\u00e1n Moncada": {
+      "exit_velocity": 83.07,
+      "barrel_rate": 0.0794
+    },
+    "Vidal Bruj\u00e1n": {
+      "exit_velocity": 82.99,
+      "barrel_rate": 0.0114
+    },
+    "Yariel Rodr\u00edguez": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Yandy D\u00edaz": {
+      "exit_velocity": 85.97,
+      "barrel_rate": 0.0546
+    },
+    "Willy Adames": {
+      "exit_velocity": 84.05,
+      "barrel_rate": 0.0905
+    },
+    "Bryce Teodosio": {
+      "exit_velocity": 76.54,
+      "barrel_rate": 0.0198
+    },
+    "Travis d'Arnaud": {
+      "exit_velocity": 82.68,
+      "barrel_rate": 0.0855
+    },
+    "Tristan Beck": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Bryan Reynolds": {
+      "exit_velocity": 84.94,
+      "barrel_rate": 0.072
+    },
+    "Vladimir Guerrero Jr.": {
+      "exit_velocity": 85.79,
+      "barrel_rate": 0.0879
+    },
+    "Nick Raquet": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Spencer Strider": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Shane Baz": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Carson McCusker": {
+      "exit_velocity": 67.58,
+      "barrel_rate": 0.0
+    },
+    "Andrew Vaughn": {
+      "exit_velocity": 85.41,
+      "barrel_rate": 0.0993
+    },
+    "Tyler Kinley": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Tristan Gray": {
+      "exit_velocity": 84.72,
+      "barrel_rate": 0.1186
+    },
+    "Taylor Ward": {
+      "exit_velocity": 84.56,
+      "barrel_rate": 0.0861
+    },
+    "Patrick Corbin": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Spencer Bivens": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Chase Meidroth": {
+      "exit_velocity": 83.16,
+      "barrel_rate": 0.011
+    },
+    "Sandy Le\u00f3n": {
+      "exit_velocity": 82.95,
+      "barrel_rate": 0.0
+    },
+    "Ryan Pepiot": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Ryan Walker": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Andrew Knizner": {
+      "exit_velocity": 80.81,
+      "barrel_rate": 0.0366
+    },
+    "Ronald Acu\u00f1a Jr.": {
+      "exit_velocity": 83.03,
+      "barrel_rate": 0.0769
+    },
+    "Richie Palacios": {
+      "exit_velocity": 87.54,
+      "barrel_rate": 0.0333
+    },
+    "Raisel Iglesias": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Ty France": {
+      "exit_velocity": 83.74,
+      "barrel_rate": 0.0574
+    },
+    "Pete Fairbanks": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Robbie Ray": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Pierce Johnson": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Tyler Heineman": {
+      "exit_velocity": 77.35,
+      "barrel_rate": 0.0187
+    },
+    "Nick Fortes": {
+      "exit_velocity": 82.74,
+      "barrel_rate": 0.0459
+    },
+    "Sebasti\u00e1n  Rivero": {
+      "exit_velocity": 90.45,
+      "barrel_rate": 0.25
+    },
+    "Ozzie Albies": {
+      "exit_velocity": 82.77,
+      "barrel_rate": 0.0365
+    },
+    "Brandon Marsh": {
+      "exit_velocity": 83.48,
+      "barrel_rate": 0.0428
+    },
+    "Shane Bieber": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Mason Montgomery": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Elvis Alvarado": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Brady Basso": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Scott Kingery": {
+      "exit_velocity": 79.54,
+      "barrel_rate": 0.0333
+    },
+    "Tommy Nance": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Christopher Morel": {
+      "exit_velocity": 83.87,
+      "barrel_rate": 0.0915
+    },
+    "Rafael Devers": {
+      "exit_velocity": 85.55,
+      "barrel_rate": 0.0937
+    },
+    "Cole Sands": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Kevin Kelly": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Andr\u00e9s Mu\u00f1oz": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Nick Allen": {
+      "exit_velocity": 78.32,
+      "barrel_rate": 0.0023
+    },
+    "Austin Slater": {
+      "exit_velocity": 84.73,
+      "barrel_rate": 0.0962
+    },
+    "Mason Barnett": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Seranthony Dom\u00ednguez": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Sammy Peralta": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Miles Mikolas": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "William Contreras": {
+      "exit_velocity": 84.98,
+      "barrel_rate": 0.0431
+    },
+    "Colby Thomas": {
+      "exit_velocity": 85.09,
+      "barrel_rate": 0.0642
+    },
+    "Nacho Alvarez Jr.": {
+      "exit_velocity": 78.74,
+      "barrel_rate": 0.0065
+    },
+    "Jeffrey Springs": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Junior Caminero": {
+      "exit_velocity": 85.46,
+      "barrel_rate": 0.1015
+    },
+    "Tobias Myers": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Michael Harris II": {
+      "exit_velocity": 84.41,
+      "barrel_rate": 0.0622
+    },
+    "Jhoan Duran": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Bryce Harper": {
+      "exit_velocity": 84.08,
+      "barrel_rate": 0.0802
+    },
+    "Nathan Lukes": {
+      "exit_velocity": 81.12,
+      "barrel_rate": 0.0253
+    },
+    "Willson Contreras": {
+      "exit_velocity": 83.64,
+      "barrel_rate": 0.1005
+    },
+    "Cam Schlittler": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Caden Dana": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Sal Frelick": {
+      "exit_velocity": 80.13,
+      "barrel_rate": 0.0276
+    },
+    "Byron Buxton": {
+      "exit_velocity": 85.44,
+      "barrel_rate": 0.1266
+    },
+    "Ben Rice": {
+      "exit_velocity": 86.79,
+      "barrel_rate": 0.1138
+    },
+    "Lake Bachar": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Patrick Bailey": {
+      "exit_velocity": 81.57,
+      "barrel_rate": 0.0333
+    },
+    "Brian Navarreto": {
+      "exit_velocity": 102.2,
+      "barrel_rate": 0.1667
+    },
+    "Max Scherzer": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Pedro Pag\u00e9s": {
+      "exit_velocity": 81.63,
+      "barrel_rate": 0.0472
+    },
+    "Isiah Kiner-Falefa": {
+      "exit_velocity": 79.88,
+      "barrel_rate": 0.0109
+    },
+    "Jared Triolo": {
+      "exit_velocity": 80.83,
+      "barrel_rate": 0.0447
+    },
+    "Myles Straw": {
+      "exit_velocity": 80.36,
+      "barrel_rate": 0.0352
+    },
+    "Victor Scott II": {
+      "exit_velocity": 78.0,
+      "barrel_rate": 0.0277
+    },
+    "Robert Stephenson": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Quinn Priester": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Matt Gage": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Colin Holderman": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jasson Dom\u00ednguez": {
+      "exit_velocity": 82.41,
+      "barrel_rate": 0.0429
+    },
+    "Rob Zastryzny": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Joey Ortiz": {
+      "exit_velocity": 80.79,
+      "barrel_rate": 0.0228
+    },
+    "Liam Hicks": {
+      "exit_velocity": 80.28,
+      "barrel_rate": 0.0193
+    },
+    "Maximo Acosta": {
+      "exit_velocity": 86.68,
+      "barrel_rate": 0.122
+    },
+    "Kevin Gausman": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Reid Detmers": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Eric Wagaman": {
+      "exit_velocity": 84.73,
+      "barrel_rate": 0.053
+    },
+    "Alek Thomas": {
+      "exit_velocity": 82.49,
+      "barrel_rate": 0.0494
+    },
+    "Danny Jansen": {
+      "exit_velocity": 82.91,
+      "barrel_rate": 0.0597
+    },
+    "Joey Bart": {
+      "exit_velocity": 81.89,
+      "barrel_rate": 0.0652
+    },
+    "Dauri Moreta": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Cade Gibson": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Dane Dunning": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Louis Varland": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Brock Burke": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jose Quintana": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Giancarlo Stanton": {
+      "exit_velocity": 86.5,
+      "barrel_rate": 0.125
+    },
+    "Curtis Mead": {
+      "exit_velocity": 82.19,
+      "barrel_rate": 0.0199
+    },
+    "Jos\u00e9 Berr\u00edos": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jared Koenig": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Calvin Faucher": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Cole Sulser": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Mike Tauchman": {
+      "exit_velocity": 82.28,
+      "barrel_rate": 0.0425
+    },
+    "Alexis D\u00edaz": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Oswald Peraza": {
+      "exit_velocity": 80.35,
+      "barrel_rate": 0.0482
+    },
+    "Tyler Alexander": {
+      "exit_velocity": 88.15,
+      "barrel_rate": 0.0
+    },
+    "Drake Baldwin": {
+      "exit_velocity": 85.04,
+      "barrel_rate": 0.0829
+    },
+    "Ryan Borucki": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Yohel Pozo": {
+      "exit_velocity": 81.7,
+      "barrel_rate": 0.0183
+    },
+    "Joel Payamps": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Brooks Baldwin": {
+      "exit_velocity": 82.52,
+      "barrel_rate": 0.0651
+    },
+    "Fernando Cruz": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Steven Wilson": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Joey Loperfido": {
+      "exit_velocity": 81.62,
+      "barrel_rate": 0.0309
+    },
+    "Josh Jung": {
+      "exit_velocity": 83.13,
+      "barrel_rate": 0.0479
+    },
+    "Janson Junk": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jacob deGrom": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Luis Morales": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Josh Lowe": {
+      "exit_velocity": 81.73,
+      "barrel_rate": 0.0426
+    },
+    "Matt Chapman": {
+      "exit_velocity": 84.75,
+      "barrel_rate": 0.0698
+    },
+    "Dennis Santana": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Will Robertson": {
+      "exit_velocity": 84.48,
+      "barrel_rate": 0.0909
+    },
+    "Mitch Farris": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Ji Hwan Bae": {
+      "exit_velocity": 77.84,
+      "barrel_rate": 0.0286
+    },
+    "Jeff Hoffman": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jake Bauers": {
+      "exit_velocity": 83.61,
+      "barrel_rate": 0.0821
+    },
+    "Michael A. Taylor": {
+      "exit_velocity": 81.53,
+      "barrel_rate": 0.0583
+    },
+    "Jonah Heim": {
+      "exit_velocity": 82.41,
+      "barrel_rate": 0.0419
+    },
+    "Logan Webb": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Devin Williams": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Joc Pederson": {
+      "exit_velocity": 86.09,
+      "barrel_rate": 0.0714
+    },
+    "Jakob Marsee": {
+      "exit_velocity": 84.14,
+      "barrel_rate": 0.0764
+    },
+    "Shawn Armstrong": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Luis Matos": {
+      "exit_velocity": 82.83,
+      "barrel_rate": 0.0564
+    },
+    "Jacob Misiorowski": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Weston Wilson": {
+      "exit_velocity": 83.06,
+      "barrel_rate": 0.0732
+    },
+    "Cam Devanney": {
+      "exit_velocity": 78.0,
+      "barrel_rate": 0.0323
+    },
+    "Jack Winkler": {
+      "exit_velocity": 80.69,
+      "barrel_rate": 0.0588
+    },
+    "Kai-Wei Teng": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jackson Chourio": {
+      "exit_velocity": 83.57,
+      "barrel_rate": 0.0646
+    },
+    "JoJo Romero": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Keaton Winn": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Ranger Su\u00e1rez": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Corbin Carroll": {
+      "exit_velocity": 84.55,
+      "barrel_rate": 0.1005
+    },
+    "Iv\u00e1n Herrera": {
+      "exit_velocity": 85.65,
+      "barrel_rate": 0.0718
+    },
+    "Matthew Lugo": {
+      "exit_velocity": 82.31,
+      "barrel_rate": 0.0988
+    },
+    "Isaac Collins": {
+      "exit_velocity": 81.35,
+      "barrel_rate": 0.0331
+    },
+    "Jimmy Crooks": {
+      "exit_velocity": 84.06,
+      "barrel_rate": 0.0
+    },
+    "Max Kepler": {
+      "exit_velocity": 83.65,
+      "barrel_rate": 0.0706
+    },
+    "Connor Kaiser": {
+      "exit_velocity": 78.15,
+      "barrel_rate": 0.0556
+    },
+    "Dylan Dodd": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Justin Verlander": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Grant Anderson": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Brent Rooker": {
+      "exit_velocity": 84.95,
+      "barrel_rate": 0.0961
+    },
+    "Mike Trout": {
+      "exit_velocity": 82.4,
+      "barrel_rate": 0.0684
+    },
+    "Jos\u00e9 Ferm\u00edn": {
+      "exit_velocity": 82.68,
+      "barrel_rate": 0.0161
+    },
+    "Luis Garc\u00eda": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Brandyn Garcia": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Adrian Morejon": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "David Bednar": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Colson Montgomery": {
+      "exit_velocity": 82.78,
+      "barrel_rate": 0.0995
+    },
+    "Jos\u00e9 Butt\u00f3": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Luis Rengifo": {
+      "exit_velocity": 82.71,
+      "barrel_rate": 0.0365
+    },
+    "Carl Edwards Jr.": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Brandon Pfaadt": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Braydon Fisher": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Cody Bellinger": {
+      "exit_velocity": 83.47,
+      "barrel_rate": 0.0622
+    },
+    "Heriberto Hern\u00e1ndez": {
+      "exit_velocity": 84.6,
+      "barrel_rate": 0.0636
+    },
+    "Wyatt Langford": {
+      "exit_velocity": 85.72,
+      "barrel_rate": 0.0964
+    },
+    "Kyle Hendricks": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Joel Peguero": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Blaze Alexander": {
+      "exit_velocity": 81.73,
+      "barrel_rate": 0.0493
+    },
+    "Carmen Mlodzinski": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Logan Davidson": {
+      "exit_velocity": 75.89,
+      "barrel_rate": 0.0
+    },
+    "George Soriano": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Carlos Rod\u00f3n": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Anthony Volpe": {
+      "exit_velocity": 84.26,
+      "barrel_rate": 0.0642
+    },
+    "Dylan Lee": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Bryson Stott": {
+      "exit_velocity": 82.24,
+      "barrel_rate": 0.0346
+    },
+    "Joey Lucchesi": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Kenley Jansen": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Heliot Ramos": {
+      "exit_velocity": 84.5,
+      "barrel_rate": 0.0547
+    },
+    "Eury P\u00e9rez": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jorge Alcala": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "JT Brubaker": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Tim Mayza": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Rowdy Tellez": {
+      "exit_velocity": 84.77,
+      "barrel_rate": 0.09
+    },
+    "Jos\u00e9 Ure\u00f1a": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Adam Mazur": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Shane Smith": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jordan Walker": {
+      "exit_velocity": 83.66,
+      "barrel_rate": 0.0628
+    },
+    "Grant McCray": {
+      "exit_velocity": 79.72,
+      "barrel_rate": 0.075
+    },
+    "Nick Castellanos": {
+      "exit_velocity": 81.27,
+      "barrel_rate": 0.0566
+    },
+    "Jos\u00e9 Soriano": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Riley O'Brien": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Darell Hernaiz": {
+      "exit_velocity": 78.7,
+      "barrel_rate": 0.028
+    },
+    "Jung Hoo Lee": {
+      "exit_velocity": 81.94,
+      "barrel_rate": 0.035
+    },
+    "Orion Kerkering": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jake Burger": {
+      "exit_velocity": 84.92,
+      "barrel_rate": 0.0958
+    },
+    "Thomas Saggese": {
+      "exit_velocity": 83.12,
+      "barrel_rate": 0.0444
+    },
+    "Jos\u00e9 Fermin": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Camilo Doval": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Ryan Fernandez": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jeremiah Estrada": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Joe Rock": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jos\u00e9 Caballero": {
+      "exit_velocity": 79.38,
+      "barrel_rate": 0.0229
+    },
+    "Jose Iglesias": {
+      "exit_velocity": 79.46,
+      "barrel_rate": 0.0091
+    },
+    "Jackson Merrill": {
+      "exit_velocity": 82.83,
+      "barrel_rate": 0.0892
+    },
+    "Matt Svanson": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Taijuan Walker": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jake Cronenworth": {
+      "exit_velocity": 81.34,
+      "barrel_rate": 0.0402
+    },
+    "Lars Nootbaar": {
+      "exit_velocity": 84.36,
+      "barrel_rate": 0.0636
+    },
+    "Yuki Matsui": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Will Warren": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Gavin Sheets": {
+      "exit_velocity": 84.69,
+      "barrel_rate": 0.0918
+    },
+    "James Outman": {
+      "exit_velocity": 82.67,
+      "barrel_rate": 0.0741
+    },
+    "Carlos Cortes": {
+      "exit_velocity": 83.59,
+      "barrel_rate": 0.0435
+    },
+    "Evan Sisk": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Edouard Julien": {
+      "exit_velocity": 82.11,
+      "barrel_rate": 0.0597
+    },
+    "Kyle Leahy": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "G\u00e9nesis Cabrera": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Elias D\u00edaz": {
+      "exit_velocity": 81.77,
+      "barrel_rate": 0.036
+    },
+    "Chris Sale": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Masyn Winn": {
+      "exit_velocity": 81.14,
+      "barrel_rate": 0.0306
+    },
+    "Connor Seabold": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Bryan Ramos": {
+      "exit_velocity": 81.82,
+      "barrel_rate": 0.069
+    },
+    "Isaac Mattson": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Lawrence Butler": {
+      "exit_velocity": 83.42,
+      "barrel_rate": 0.0576
+    },
+    "Victor Robles": {
+      "exit_velocity": 81.89,
+      "barrel_rate": 0.04
+    },
+    "Harrison Bader": {
+      "exit_velocity": 82.28,
+      "barrel_rate": 0.068
+    },
+    "Michael McGreevy": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jacob Wilson": {
+      "exit_velocity": 81.58,
+      "barrel_rate": 0.0232
+    },
+    "J.T. Realmuto": {
+      "exit_velocity": 83.7,
+      "barrel_rate": 0.0631
+    },
+    "Erick Fedde": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Bob Seymour": {
+      "exit_velocity": 82.06,
+      "barrel_rate": 0.0
+    },
+    "Brandon Woodruff": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Randy Arozarena": {
+      "exit_velocity": 84.89,
+      "barrel_rate": 0.0734
+    },
+    "Tanner Banks": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Henry Davis": {
+      "exit_velocity": 82.4,
+      "barrel_rate": 0.0923
+    },
+    "Ram\u00f3n Laureano": {
+      "exit_velocity": 84.25,
+      "barrel_rate": 0.0915
+    },
+    "Mitch Garver": {
+      "exit_velocity": 85.45,
+      "barrel_rate": 0.0739
+    },
+    "Liover Peguero": {
+      "exit_velocity": 82.31,
+      "barrel_rate": 0.0361
+    },
+    "Nick Pivetta": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Johan Oviedo": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Kyle Hart": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Caleb Ferguson": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Trent Grisham": {
+      "exit_velocity": 84.8,
+      "barrel_rate": 0.0911
+    },
+    "Matt Brash": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Luis Arraez": {
+      "exit_velocity": 81.03,
+      "barrel_rate": 0.0112
+    },
+    "Kyle Nicolas": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "J.T. Ginn": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Tim Hill": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "David Morgan": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Blake Perkins": {
+      "exit_velocity": 83.45,
+      "barrel_rate": 0.021
+    },
+    "Casey Schmitt": {
+      "exit_velocity": 84.19,
+      "barrel_rate": 0.0602
+    },
+    "Anthony Seigler": {
+      "exit_velocity": 82.78,
+      "barrel_rate": 0.0137
+    },
+    "Luis Gil": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Drew Rasmussen": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Zebby Matthews": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Xavier Edwards": {
+      "exit_velocity": 79.16,
+      "barrel_rate": 0.0034
+    },
+    "Alejandro Kirk": {
+      "exit_velocity": 85.24,
+      "barrel_rate": 0.0731
+    },
+    "Bryce Elder": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Valente Bellozo": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Luke Raley": {
+      "exit_velocity": 83.03,
+      "barrel_rate": 0.0642
+    },
+    "Carlos Vargas": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Victor Mesa Jr.": {
+      "exit_velocity": 83.92,
+      "barrel_rate": 0.0385
+    },
+    "Mason McCoy": {
+      "exit_velocity": 75.91,
+      "barrel_rate": 0.04
+    },
+    "Troy Johnston": {
+      "exit_velocity": 81.93,
+      "barrel_rate": 0.0494
+    },
+    "Rafael March\u00e1n": {
+      "exit_velocity": 81.25,
+      "barrel_rate": 0.0168
+    },
+    "Luke Jackson": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Bryan Baker": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Tyler Phillips": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Trevor Larnach": {
+      "exit_velocity": 84.97,
+      "barrel_rate": 0.0467
+    },
+    "Luis Castillo": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Seth Martinez": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Andr\u00e9s Gim\u00e9nez": {
+      "exit_velocity": 80.48,
+      "barrel_rate": 0.0329
+    },
+    "Travis Adams": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Cal Raleigh": {
+      "exit_velocity": 85.65,
+      "barrel_rate": 0.1283
+    },
+    "Logan Gilbert": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Chris Roycroft": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Thomas Hatch": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Alec Burleson": {
+      "exit_velocity": 85.15,
+      "barrel_rate": 0.0823
+    },
+    "Otto Lopez": {
+      "exit_velocity": 83.14,
+      "barrel_rate": 0.0501
+    },
+    "Leo Rivas": {
+      "exit_velocity": 80.23,
+      "barrel_rate": 0.0097
+    },
+    "Dustin Harris": {
+      "exit_velocity": 79.38,
+      "barrel_rate": 0.069
+    },
+    "Matthew Liberatore": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Paul Goldschmidt": {
+      "exit_velocity": 84.96,
+      "barrel_rate": 0.0729
+    },
+    "Bryan Woo": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Yu Darvish": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Ryan Yarbrough": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Michael Petersen": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Ryan McMahon": {
+      "exit_velocity": 83.82,
+      "barrel_rate": 0.0625
+    },
+    "Brooks Lee": {
+      "exit_velocity": 83.95,
+      "barrel_rate": 0.0504
+    },
+    "Justin Sterner": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Julio Rodr\u00edguez": {
+      "exit_velocity": 84.95,
+      "barrel_rate": 0.0782
+    },
+    "Ryan O'Hearn": {
+      "exit_velocity": 83.58,
+      "barrel_rate": 0.0547
+    },
+    "Ron Marinaccio": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jos\u00e9 Castillo": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Taj Bradley": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Josh Naylor": {
+      "exit_velocity": 83.76,
+      "barrel_rate": 0.0482
+    },
+    "Randy V\u00e1squez": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Alek Jacob": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "J.P. Crawford": {
+      "exit_velocity": 80.91,
+      "barrel_rate": 0.0441
+    },
+    "Bryce Johnson": {
+      "exit_velocity": 76.99,
+      "barrel_rate": 0.0135
+    },
+    "Jorge Polanco": {
+      "exit_velocity": 84.99,
+      "barrel_rate": 0.0962
+    },
+    "Freddy Fermin": {
+      "exit_velocity": 81.63,
+      "barrel_rate": 0.0307
+    },
+    "Dominic Fletcher": {
+      "exit_velocity": 86.27,
+      "barrel_rate": 0.0
+    },
+    "Dan Altavilla": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Simeon Woods Richardson": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Chris Martin": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Paul Blackburn": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "George Kirby": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Royce Lewis": {
+      "exit_velocity": 84.0,
+      "barrel_rate": 0.0826
+    },
+    "Brice Turang": {
+      "exit_velocity": 83.23,
+      "barrel_rate": 0.0508
+    },
+    "Davis Martin": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Cody Freeman": {
+      "exit_velocity": 82.32,
+      "barrel_rate": 0.0769
+    },
+    "Harry Ford": {
+      "exit_velocity": 84.27,
+      "barrel_rate": 0.0
+    },
+    "Ryan Fitzgerald": {
+      "exit_velocity": 84.74,
+      "barrel_rate": 0.0741
+    },
+    "Cole Winn": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Mark Leiter Jr.": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Carlos Rodriguez": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Andrew Benintendi": {
+      "exit_velocity": 82.91,
+      "barrel_rate": 0.081
+    },
+    "Addison Barger": {
+      "exit_velocity": 85.21,
+      "barrel_rate": 0.0978
+    },
+    "Mart\u00edn P\u00e9rez": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Pierson Ohl": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Michael Helman": {
+      "exit_velocity": 80.1,
+      "barrel_rate": 0.1071
+    },
+    "Gabe Speier": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Luke Weaver": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Wandy Peralta": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Andruw Monasterio": {
+      "exit_velocity": 82.08,
+      "barrel_rate": 0.0379
+    },
+    "Pablo L\u00f3pez": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Eugenio Su\u00e1rez": {
+      "exit_velocity": 84.12,
+      "barrel_rate": 0.0846
+    },
+    "Brandon Lowe": {
+      "exit_velocity": 85.27,
+      "barrel_rate": 0.0812
+    },
+    "Lenyn Sosa": {
+      "exit_velocity": 84.22,
+      "barrel_rate": 0.075
+    },
+    "Mickey Gasper": {
+      "exit_velocity": 83.91,
+      "barrel_rate": 0.028
+    },
+    "Emerson Hancock": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Will Wagner": {
+      "exit_velocity": 79.34,
+      "barrel_rate": 0.0126
+    },
+    "Andre Pallante": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Robert Suarez": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Kyle Teel": {
+      "exit_velocity": 82.2,
+      "barrel_rate": 0.0504
+    },
+    "Eduard Bazardo": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Bryce Miller": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Fernando Tatis Jr.": {
+      "exit_velocity": 85.99,
+      "barrel_rate": 0.0701
+    },
+    "Korey Lee": {
+      "exit_velocity": 78.84,
+      "barrel_rate": 0.0196
+    },
+    "Matt Wallner": {
+      "exit_velocity": 84.05,
+      "barrel_rate": 0.074
+    },
+    "Yohan Ram\u00edrez": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Zack Gelof": {
+      "exit_velocity": 83.93,
+      "barrel_rate": 0.0575
+    },
+    "Edwin Uceta": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Hurston Waldrep": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Dominic Canzone": {
+      "exit_velocity": 84.08,
+      "barrel_rate": 0.0837
+    },
+    "Tommy Pham": {
+      "exit_velocity": 85.63,
+      "barrel_rate": 0.0476
+    },
+    "Eli White": {
+      "exit_velocity": 81.28,
+      "barrel_rate": 0.0456
+    },
+    "Cole Young": {
+      "exit_velocity": 81.59,
+      "barrel_rate": 0.0408
+    },
+    "Willie MacIver": {
+      "exit_velocity": 82.31,
+      "barrel_rate": 0.033
+    },
+    "Ha-Seong Kim": {
+      "exit_velocity": 83.54,
+      "barrel_rate": 0.0427
+    },
+    "Kody Funderburk": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Everson Pereira": {
+      "exit_velocity": 83.07,
+      "barrel_rate": 0.0508
+    },
+    "Luke Keaschall": {
+      "exit_velocity": 82.15,
+      "barrel_rate": 0.0503
+    },
+    "Ezequiel Duran": {
+      "exit_velocity": 78.42,
+      "barrel_rate": 0.0243
+    },
+    "Jake Mangum": {
+      "exit_velocity": 81.42,
+      "barrel_rate": 0.0108
+    },
+    "Tyler Soderstrom": {
+      "exit_velocity": 85.29,
+      "barrel_rate": 0.0738
+    },
+    "Justin Topa": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Spencer Horwitz": {
+      "exit_velocity": 81.66,
+      "barrel_rate": 0.0484
+    },
+    "Tyler Ferguson": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "David Robertson": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Dylan Moore": {
+      "exit_velocity": 80.42,
+      "barrel_rate": 0.0637
+    },
+    "Marcell Ozuna": {
+      "exit_velocity": 83.15,
+      "barrel_rate": 0.0618
+    },
+    "Kody Clemens": {
+      "exit_velocity": 84.26,
+      "barrel_rate": 0.0653
+    },
+    "Sandy Alcantara": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jordan Leasure": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Ian Seymour": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Paul Skenes": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Agust\u00edn Ram\u00edrez": {
+      "exit_velocity": 84.61,
+      "barrel_rate": 0.0824
+    },
+    "Jacob Latz": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Amed Rosario": {
+      "exit_velocity": 83.06,
+      "barrel_rate": 0.0415
+    },
+    "Joe Ryan": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Shea Langeliers": {
+      "exit_velocity": 84.71,
+      "barrel_rate": 0.0856
+    },
+    "Cristopher S\u00e1nchez": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Oneil Cruz": {
+      "exit_velocity": 86.95,
+      "barrel_rate": 0.0949
+    },
+    "Jurickson Profar": {
+      "exit_velocity": 83.72,
+      "barrel_rate": 0.0714
+    },
+    "Dylan Cease": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Michael Tonkin": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Mike Vasil": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Grant Taylor": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jhonny Pereda": {
+      "exit_velocity": 84.21,
+      "barrel_rate": 0.029
+    },
+    "Nick Yorke": {
+      "exit_velocity": 83.99,
+      "barrel_rate": 0.0385
+    },
+    "Sean Newcomb": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Caleb Durbin": {
+      "exit_velocity": 79.83,
+      "barrel_rate": 0.0236
+    },
+    "Hunter Feduccia": {
+      "exit_velocity": 79.68,
+      "barrel_rate": 0.0278
+    },
+    "Joey Wentz": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Garrett Stubbs": {
+      "exit_velocity": 82.68,
+      "barrel_rate": 0.0
+    },
+    "Adrian Del Castillo": {
+      "exit_velocity": 85.09,
+      "barrel_rate": 0.0495
+    },
+    "Fraser Ellard": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Max Fried": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Gordon Graceffo": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Ronny Henriquez": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Scott McGough": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Brandon Eisert": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jazz Chisholm Jr.": {
+      "exit_velocity": 83.39,
+      "barrel_rate": 0.1
+    },
+    "Christian Yelich": {
+      "exit_velocity": 83.49,
+      "barrel_rate": 0.063
+    },
+    "Griffin Jax": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Edmundo Sosa": {
+      "exit_velocity": 81.65,
+      "barrel_rate": 0.0462
+    },
+    "Nick Gonzales": {
+      "exit_velocity": 82.59,
+      "barrel_rate": 0.0311
+    },
+    "Osvaldo Bido": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Edgar Quero": {
+      "exit_velocity": 84.58,
+      "barrel_rate": 0.0291
+    },
+    "Jack Leiter": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Mitch Keller": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Donovan Walton": {
+      "exit_velocity": 87.81,
+      "barrel_rate": 0.0667
+    },
+    "Nick Kurtz": {
+      "exit_velocity": 85.69,
+      "barrel_rate": 0.0972
+    },
+    "Hogan Harris": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Hoby Milner": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Michael Kelly": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Mike Burrows": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jake Fraley": {
+      "exit_velocity": 80.9,
+      "barrel_rate": 0.0346
+    },
+    "Aaron Ashby": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Garrett Cleavinger": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Geraldo Perdomo": {
+      "exit_velocity": 81.81,
+      "barrel_rate": 0.0515
+    },
+    "Ildemaro Vargas": {
+      "exit_velocity": 82.66,
+      "barrel_rate": 0.0449
+    },
+    "Jake McCarthy": {
+      "exit_velocity": 79.36,
+      "barrel_rate": 0.0305
+    },
+    "Jake Woodford": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Gabriel Moreno": {
+      "exit_velocity": 84.4,
+      "barrel_rate": 0.0654
+    },
+    "Jalen Beeks": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "John Curtiss": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "James McCann": {
+      "exit_velocity": 84.57,
+      "barrel_rate": 0.0294
+    },
+    "Eduardo Rodriguez": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jordan Lawlar": {
+      "exit_velocity": 82.0,
+      "barrel_rate": 0.0185
+    },
+    "Jorge Barrosa": {
+      "exit_velocity": 82.6,
+      "barrel_rate": 0.0208
+    },
+    "Ketel Marte": {
+      "exit_velocity": 85.43,
+      "barrel_rate": 0.1052
+    },
+    "Kyle Backhus": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Nabil Crismatt": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Tim Tawa": {
+      "exit_velocity": 82.84,
+      "barrel_rate": 0.0694
+    },
+    "Ryne Nelson": {
+      "exit_velocity": 89.8,
+      "barrel_rate": 0.0
+    },
+    "Zac Gallen": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Cade Povich": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Ryan Thompson": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Albert Su\u00e1rez": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Colton Cowser": {
+      "exit_velocity": 84.58,
+      "barrel_rate": 0.0701
+    },
+    "Dean Kremer": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Coby Mayo": {
+      "exit_velocity": 83.38,
+      "barrel_rate": 0.0498
+    },
+    "Taylor Rashi": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Dietrich Enns": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Dylan Beavers": {
+      "exit_velocity": 79.72,
+      "barrel_rate": 0.0263
+    },
+    "Daniel Johnson": {
+      "exit_velocity": 85.22,
+      "barrel_rate": 0.0909
+    },
+    "Alex Jackson": {
+      "exit_velocity": 81.86,
+      "barrel_rate": 0.0928
+    },
+    "Dylan Carlson": {
+      "exit_velocity": 82.0,
+      "barrel_rate": 0.0513
+    },
+    "Emmanuel Rivera": {
+      "exit_velocity": 81.27,
+      "barrel_rate": 0.009
+    },
+    "Grant Wolfram": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jeremiah Jackson": {
+      "exit_velocity": 84.92,
+      "barrel_rate": 0.0703
+    },
+    "Kade Strowd": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Keegan Akin": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jackson Holliday": {
+      "exit_velocity": 83.24,
+      "barrel_rate": 0.0584
+    },
+    "Ryan Mountcastle": {
+      "exit_velocity": 83.29,
+      "barrel_rate": 0.0706
+    },
+    "Kyle Bradish": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Luis V\u00e1zquez": {
+      "exit_velocity": 81.18,
+      "barrel_rate": 0.0625
+    },
+    "Jorge Mateo": {
+      "exit_velocity": 79.75,
+      "barrel_rate": 0.0122
+    },
+    "Gunnar Henderson": {
+      "exit_velocity": 84.47,
+      "barrel_rate": 0.0512
+    },
+    "Samuel Basallo": {
+      "exit_velocity": 83.68,
+      "barrel_rate": 0.0704
+    },
+    "Shawn Dubin": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Rico Garcia": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Tomoyuki Sugano": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Trevor Rogers": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Tyler Wells": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Ali S\u00e1nchez": {
+      "exit_velocity": 81.93,
+      "barrel_rate": 0.1111
+    },
+    "Alex Bregman": {
+      "exit_velocity": 85.44,
+      "barrel_rate": 0.0668
+    },
+    "Brennan Bernardino": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Aroldis Chapman": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Brayan Bello": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Yennier Cano": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Ceddanne Rafaela": {
+      "exit_velocity": 82.86,
+      "barrel_rate": 0.0812
+    },
+    "Carlos Narv\u00e1ez": {
+      "exit_velocity": 83.02,
+      "barrel_rate": 0.0484
+    },
+    "David Hamilton": {
+      "exit_velocity": 80.3,
+      "barrel_rate": 0.0263
+    },
+    "Chris Murphy": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Connor Wong": {
+      "exit_velocity": 79.41,
+      "barrel_rate": 0.0324
+    },
+    "Garrett Crochet": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Dustin May": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Garrett Whitlock": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Greg Weissert": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jarren Duran": {
+      "exit_velocity": 84.54,
+      "barrel_rate": 0.0521
+    },
+    "Justin Wilson": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Justin Slaten": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Nate Eaton": {
+      "exit_velocity": 81.04,
+      "barrel_rate": 0.0667
+    },
+    "Masataka Yoshida": {
+      "exit_velocity": 85.56,
+      "barrel_rate": 0.0701
+    },
+    "Lucas Giolito": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Payton Tolle": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Nathaniel Lowe": {
+      "exit_velocity": 82.77,
+      "barrel_rate": 0.0547
+    },
+    "Rob Refsnyder": {
+      "exit_velocity": 84.78,
+      "barrel_rate": 0.0821
+    },
+    "Nick Sogard": {
+      "exit_velocity": 82.49,
+      "barrel_rate": 0.0213
+    },
+    "Romy Gonzalez": {
+      "exit_velocity": 85.71,
+      "barrel_rate": 0.0751
+    },
+    "Trevor Story": {
+      "exit_velocity": 83.97,
+      "barrel_rate": 0.0662
+    },
+    "Steven Matz": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Zack Kelly": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Aaron Civale": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Andrew Kittredge": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Ben Brown": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Cade Horton": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Brad Keller": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Carlos Santana": {
+      "exit_velocity": 83.07,
+      "barrel_rate": 0.0489
+    },
+    "Caleb Thielbar": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Carson Kelly": {
+      "exit_velocity": 82.48,
+      "barrel_rate": 0.0809
+    },
+    "Dansby Swanson": {
+      "exit_velocity": 84.24,
+      "barrel_rate": 0.0691
+    },
+    "Colin Rea": {
+      "exit_velocity": 66.2,
+      "barrel_rate": 0.0
+    },
+    "Ethan Roberts": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Drew Pomeranz": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Ian Happ": {
+      "exit_velocity": 83.36,
+      "barrel_rate": 0.0809
+    },
+    "Javier Assad": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Justin Turner": {
+      "exit_velocity": 82.44,
+      "barrel_rate": 0.0391
+    },
+    "Kevin Alc\u00e1ntara": {
+      "exit_velocity": 79.93,
+      "barrel_rate": 0.0
+    },
+    "Kyle Tucker": {
+      "exit_velocity": 83.69,
+      "barrel_rate": 0.0664
+    },
+    "Matt Shaw": {
+      "exit_velocity": 80.34,
+      "barrel_rate": 0.0439
+    },
+    "Matthew Boyd": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Porter Hodge": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Michael Busch": {
+      "exit_velocity": 84.91,
+      "barrel_rate": 0.1029
+    },
+    "Reese McGuire": {
+      "exit_velocity": 80.38,
+      "barrel_rate": 0.0945
+    },
+    "Nico Hoerner": {
+      "exit_velocity": 81.75,
+      "barrel_rate": 0.0191
+    },
+    "Pete Crow-Armstrong": {
+      "exit_velocity": 82.52,
+      "barrel_rate": 0.0961
+    },
+    "Seiya Suzuki": {
+      "exit_velocity": 84.16,
+      "barrel_rate": 0.0954
+    },
+    "Shota Imanaga": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Taylor Rogers": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Willi Castro": {
+      "exit_velocity": 80.45,
+      "barrel_rate": 0.0508
+    },
+    "Andrew Abbott": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Brady Singer": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Brent Suter": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Austin Hays": {
+      "exit_velocity": 83.86,
+      "barrel_rate": 0.0791
+    },
+    "Connor Phillips": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Emilio Pag\u00e1n": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Elly De La Cruz": {
+      "exit_velocity": 84.71,
+      "barrel_rate": 0.0721
+    },
+    "Gavin Lux": {
+      "exit_velocity": 82.54,
+      "barrel_rate": 0.0302
+    },
+    "Matt McLain": {
+      "exit_velocity": 82.03,
+      "barrel_rate": 0.0392
+    },
+    "Jose Trevino": {
+      "exit_velocity": 83.39,
+      "barrel_rate": 0.0271
+    },
+    "Ke'Bryan Hayes": {
+      "exit_velocity": 84.37,
+      "barrel_rate": 0.0338
+    },
+    "Lyon Richardson": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Hunter Greene": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Nick Lodolo": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Miguel Andujar": {
+      "exit_velocity": 82.97,
+      "barrel_rate": 0.0367
+    },
+    "Nick Martinez": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Noelvi Marte": {
+      "exit_velocity": 83.2,
+      "barrel_rate": 0.0612
+    },
+    "Scott Barlow": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Sal Stewart": {
+      "exit_velocity": 86.57,
+      "barrel_rate": 0.1667
+    },
+    "Santiago Espinal": {
+      "exit_velocity": 81.05,
+      "barrel_rate": 0.0116
+    },
+    "Spencer Steer": {
+      "exit_velocity": 81.3,
+      "barrel_rate": 0.048
+    },
+    "TJ Friedl": {
+      "exit_velocity": 81.03,
+      "barrel_rate": 0.0223
+    },
+    "Tony Santillan": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Zach Maxwell": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Angel Mart\u00ednez": {
+      "exit_velocity": 80.9,
+      "barrel_rate": 0.0338
+    },
+    "Will Benson": {
+      "exit_velocity": 85.17,
+      "barrel_rate": 0.0896
+    },
+    "Yosver Zulueta": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Tyler Stephenson": {
+      "exit_velocity": 83.88,
+      "barrel_rate": 0.0644
+    },
+    "Brayan Rocchio": {
+      "exit_velocity": 80.53,
+      "barrel_rate": 0.0177
+    },
+    "Zack Littell": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Austin Hedges": {
+      "exit_velocity": 80.06,
+      "barrel_rate": 0.0337
+    },
+    "Bo Naylor": {
+      "exit_velocity": 83.1,
+      "barrel_rate": 0.0649
+    },
+    "Cade Smith": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "David Fry": {
+      "exit_velocity": 82.8,
+      "barrel_rate": 0.0567
+    },
+    "Daniel Schneemann": {
+      "exit_velocity": 81.92,
+      "barrel_rate": 0.0729
+    },
+    "C.J. Kayfus": {
+      "exit_velocity": 80.78,
+      "barrel_rate": 0.0505
+    },
+    "Gabriel Arias": {
+      "exit_velocity": 83.15,
+      "barrel_rate": 0.0744
+    },
+    "Erik Sabrowski": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Gavin Williams": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jakob Junis": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Hunter Gaddis": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Joey Cantillo": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jhonkensy Noel": {
+      "exit_velocity": 83.78,
+      "barrel_rate": 0.0263
+    },
+    "George Valera": {
+      "exit_velocity": 84.09,
+      "barrel_rate": 0.0
+    },
+    "Logan Allen": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Kolby Allard": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Kyle Manzardo": {
+      "exit_velocity": 83.69,
+      "barrel_rate": 0.0654
+    },
+    "Jos\u00e9 Ram\u00edrez": {
+      "exit_velocity": 84.01,
+      "barrel_rate": 0.0741
+    },
+    "Parker Messick": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Slade Cecconi": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Nolan Jones": {
+      "exit_velocity": 83.11,
+      "barrel_rate": 0.0605
+    },
+    "Matt Festa": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Steven Kwan": {
+      "exit_velocity": 80.55,
+      "barrel_rate": 0.019
+    },
+    "Tanner Bibee": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Tim Herrin": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Anthony Molina": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Braxton Fulford": {
+      "exit_velocity": 84.4,
+      "barrel_rate": 0.0385
+    },
+    "Angel Chivilli": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Zak Kent": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Brenton Doyle": {
+      "exit_velocity": 83.09,
+      "barrel_rate": 0.0727
+    },
+    "Antonio Senzatela": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Chase Dollander": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Drew Romo": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Ezequiel Tovar": {
+      "exit_velocity": 82.02,
+      "barrel_rate": 0.0643
+    },
+    "Jordan Beck": {
+      "exit_velocity": 81.71,
+      "barrel_rate": 0.0581
+    },
+    "Germ\u00e1n M\u00e1rquez": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Hunter Goodman": {
+      "exit_velocity": 85.34,
+      "barrel_rate": 0.0966
+    },
+    "Jaden Hill": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jimmy Herget": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Juan Mejia": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Kyle Farmer": {
+      "exit_velocity": 82.82,
+      "barrel_rate": 0.0453
+    },
+    "McCade Brown": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Kyle Freeland": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Kyle Karros": {
+      "exit_velocity": 83.89,
+      "barrel_rate": 0.009
+    },
+    "Orlando Arcia": {
+      "exit_velocity": 81.25,
+      "barrel_rate": 0.0279
+    },
+    "Ryan Ritter": {
+      "exit_velocity": 78.71,
+      "barrel_rate": 0.0226
+    },
+    "Mickey Moniak": {
+      "exit_velocity": 83.79,
+      "barrel_rate": 0.0941
+    },
+    "Luis Peralta": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Roansy Contreras": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Tanner Gordon": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Tyler Freeman": {
+      "exit_velocity": 82.71,
+      "barrel_rate": 0.0173
+    },
+    "Victor Vodnik": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Andy Ib\u00e1\u00f1ez": {
+      "exit_velocity": 82.39,
+      "barrel_rate": 0.0331
+    },
+    "Warming Bernabel": {
+      "exit_velocity": 81.73,
+      "barrel_rate": 0.0288
+    },
+    "Yanquiel Fern\u00e1ndez": {
+      "exit_velocity": 82.67,
+      "barrel_rate": 0.0435
+    },
+    "Bailey Horn": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Brenan Hanifee": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jack Flaherty": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Colt Keith": {
+      "exit_velocity": 83.88,
+      "barrel_rate": 0.0626
+    },
+    "Chris Paddack": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Charlie Morton": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Gleyber Torres": {
+      "exit_velocity": 84.28,
+      "barrel_rate": 0.0575
+    },
+    "Casey Mize": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jahmai Jones": {
+      "exit_velocity": 85.58,
+      "barrel_rate": 0.1053
+    },
+    "Dillon Dingler": {
+      "exit_velocity": 82.56,
+      "barrel_rate": 0.0567
+    },
+    "Jake Rogers": {
+      "exit_velocity": 83.13,
+      "barrel_rate": 0.053
+    },
+    "Javier B\u00e1ez": {
+      "exit_velocity": 81.5,
+      "barrel_rate": 0.0333
+    },
+    "Keider Montero": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Rafael Montero": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Parker Meadows": {
+      "exit_velocity": 78.62,
+      "barrel_rate": 0.035
+    },
+    "Kerry Carpenter": {
+      "exit_velocity": 84.75,
+      "barrel_rate": 0.0759
+    },
+    "Riley Greene": {
+      "exit_velocity": 82.52,
+      "barrel_rate": 0.1036
+    },
+    "Sawyer Gipson-Long": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Tarik Skubal": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Tommy Kahnle": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Spencer Torkelson": {
+      "exit_velocity": 84.39,
+      "barrel_rate": 0.0828
+    },
+    "Tyler Holton": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Trey Sweeney": {
+      "exit_velocity": 82.08,
+      "barrel_rate": 0.0402
+    },
+    "Will Vest": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Wenceel P\u00e9rez": {
+      "exit_velocity": 84.13,
+      "barrel_rate": 0.0679
+    },
+    "Troy Melton": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Zach McKinstry": {
+      "exit_velocity": 80.28,
+      "barrel_rate": 0.0383
+    },
+    "AJ Blubaugh": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Bryan Abreu": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Cam Smith": {
+      "exit_velocity": 81.27,
+      "barrel_rate": 0.0453
+    },
+    "Bryan King": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Carlos Correa": {
+      "exit_velocity": 84.53,
+      "barrel_rate": 0.0577
+    },
+    "C\u00e9sar Salazar": {
+      "exit_velocity": 75.15,
+      "barrel_rate": 0.0
+    },
+    "Christian Walker": {
+      "exit_velocity": 83.34,
+      "barrel_rate": 0.0803
+    },
+    "Hunter Brown": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Cristian Javier": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Craig Kimbrel": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Enyel De Los Santos": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "J.P. France": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jake Meyers": {
+      "exit_velocity": 82.8,
+      "barrel_rate": 0.032
+    },
+    "Framber Valdez": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jason Alexander": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jayden Murray": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jeremy Pe\u00f1a": {
+      "exit_velocity": 83.52,
+      "barrel_rate": 0.058
+    },
+    "Jes\u00fas S\u00e1nchez": {
+      "exit_velocity": 84.69,
+      "barrel_rate": 0.0856
+    },
+    "Luis Garcia": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Lance McCullers Jr.": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jose Altuve": {
+      "exit_velocity": 80.89,
+      "barrel_rate": 0.0458
+    },
+    "Mauricio Dub\u00f3n": {
+      "exit_velocity": 79.02,
+      "barrel_rate": 0.0107
+    },
+    "Ram\u00f3n Ur\u00edas": {
+      "exit_velocity": 83.33,
+      "barrel_rate": 0.0587
+    },
+    "Taylor Trammell": {
+      "exit_velocity": 82.97,
+      "barrel_rate": 0.065
+    },
+    "Yainer Diaz": {
+      "exit_velocity": 83.86,
+      "barrel_rate": 0.0676
+    },
+    "Adam Frazier": {
+      "exit_velocity": 79.78,
+      "barrel_rate": 0.014
+    },
+    "Victor Caratini": {
+      "exit_velocity": 83.65,
+      "barrel_rate": 0.0535
+    },
+    "Angel Zerpa": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Steven Okert": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Yordan Alvarez": {
+      "exit_velocity": 85.99,
+      "barrel_rate": 0.095
+    },
+    "Bobby Witt Jr.": {
+      "exit_velocity": 85.74,
+      "barrel_rate": 0.0839
+    },
+    "Carlos Est\u00e9vez": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Carter Jensen": {
+      "exit_velocity": 84.19,
+      "barrel_rate": 0.0
+    },
+    "Daniel Lynch IV": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jac Caglianone": {
+      "exit_velocity": 84.14,
+      "barrel_rate": 0.1038
+    },
+    "John Schreiber": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jonathan Bowlan": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Kyle Isbel": {
+      "exit_velocity": 80.12,
+      "barrel_rate": 0.0147
+    },
+    "Luinder Avila": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Michael Lorenzen": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Michael Wacha": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Maikel Garcia": {
+      "exit_velocity": 85.47,
+      "barrel_rate": 0.0495
+    },
+    "Luke Maile": {
+      "exit_velocity": 78.96,
+      "barrel_rate": 0.0392
+    },
+    "Michael Massey": {
+      "exit_velocity": 80.97,
+      "barrel_rate": 0.0261
+    },
+    "Noah Cameron": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Nick Loftin": {
+      "exit_velocity": 83.79,
+      "barrel_rate": 0.0707
+    },
+    "Mike Yastrzemski": {
+      "exit_velocity": 84.25,
+      "barrel_rate": 0.0627
+    },
+    "Lucas Erceg": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Randal Grichuk": {
+      "exit_velocity": 85.48,
+      "barrel_rate": 0.0964
+    },
+    "Ryan Bergert": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Stephen Kolek": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Sam Long": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Salvador Perez": {
+      "exit_velocity": 84.2,
+      "barrel_rate": 0.1177
+    },
+    "Taylor Clarke": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Ben Casparius": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Alex Call": {
+      "exit_velocity": 80.83,
+      "barrel_rate": 0.0245
+    },
+    "Andy Pages": {
+      "exit_velocity": 82.02,
+      "barrel_rate": 0.0562
+    },
+    "Anthony Banda": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Ben Rortvedt": {
+      "exit_velocity": 77.59,
+      "barrel_rate": 0.0097
+    },
+    "Vinnie Pasquantino": {
+      "exit_velocity": 86.09,
+      "barrel_rate": 0.099
+    },
+    "Tyler Tolbert": {
+      "exit_velocity": 84.24,
+      "barrel_rate": 0.0185
+    },
+    "Blake Treinen": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Blake Snell": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Edgardo Henriquez": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Clayton Kershaw": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Emmet Sheehan": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Enrique Hern\u00e1ndez": {
+      "exit_velocity": 84.35,
+      "barrel_rate": 0.0759
+    },
+    "Hyeseong Kim": {
+      "exit_velocity": 80.88,
+      "barrel_rate": 0.0126
+    },
+    "Freddie Freeman": {
+      "exit_velocity": 84.52,
+      "barrel_rate": 0.0718
+    },
+    "Jack Dreyer": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Max Muncy": {
+      "exit_velocity": 84.64,
+      "barrel_rate": 0.1039
+    },
+    "Justin Wrobleski": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Justin Dean": {
+      "exit_velocity": 58.5,
+      "barrel_rate": 0.0
+    },
+    "Kirby Yates": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Miguel Rojas": {
+      "exit_velocity": 81.83,
+      "barrel_rate": 0.0407
+    },
+    "Michael Kopech": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Michael Conforto": {
+      "exit_velocity": 83.33,
+      "barrel_rate": 0.0605
+    },
+    "Tanner Scott": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Mookie Betts": {
+      "exit_velocity": 84.58,
+      "barrel_rate": 0.0424
+    },
+    "Shohei Ohtani": {
+      "exit_velocity": 86.97,
+      "barrel_rate": 0.1326
+    },
+    "Teoscar Hern\u00e1ndez": {
+      "exit_velocity": 82.79,
+      "barrel_rate": 0.0739
+    },
+    "Tyler Glasnow": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Will Smith": {
+      "exit_velocity": 85.26,
+      "barrel_rate": 0.0682
+    },
+    "Yoshinobu Yamamoto": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Andr\u00e9s Chaparro": {
+      "exit_velocity": 84.56,
+      "barrel_rate": 0.1333
+    },
+    "Andrew Alvarez": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "CJ Abrams": {
+      "exit_velocity": 83.72,
+      "barrel_rate": 0.0597
+    },
+    "Clayton Beeter": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Cade Cavalli": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Brad Lord": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Cole Henry": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jackson Rutledge": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Daylen Lile": {
+      "exit_velocity": 82.09,
+      "barrel_rate": 0.0316
+    },
+    "Dylan Crews": {
+      "exit_velocity": 83.48,
+      "barrel_rate": 0.0605
+    },
+    "Brady House": {
+      "exit_velocity": 83.93,
+      "barrel_rate": 0.0267
+    },
+    "Jacob Young": {
+      "exit_velocity": 78.83,
+      "barrel_rate": 0.017
+    },
+    "Jake Irvin": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "James Wood": {
+      "exit_velocity": 86.92,
+      "barrel_rate": 0.0878
+    },
+    "Jorge Alfaro": {
+      "exit_velocity": 88.2,
+      "barrel_rate": 0.0
+    },
+    "Jose A. Ferrer": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Josh Bell": {
+      "exit_velocity": 84.71,
+      "barrel_rate": 0.0882
+    },
+    "Konnor Pilkington": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Mason Thompson": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Nasim Nu\u00f1ez": {
+      "exit_velocity": 81.69,
+      "barrel_rate": 0.0476
+    },
+    "Orlando Ribalta": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Riley Adams": {
+      "exit_velocity": 84.51,
+      "barrel_rate": 0.0703
+    },
+    "Luis Garc\u00eda Jr.": {
+      "exit_velocity": 83.9,
+      "barrel_rate": 0.0663
+    },
+    "PJ Poulin": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Mitchell Parker": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Paul DeJong": {
+      "exit_velocity": 81.39,
+      "barrel_rate": 0.0606
+    },
+    "Robert Hassell III": {
+      "exit_velocity": 82.48,
+      "barrel_rate": 0.0473
+    },
+    "Shinnosuke Ogasawara": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Brandon Nimmo": {
+      "exit_velocity": 85.12,
+      "barrel_rate": 0.0614
+    },
+    "Brandon Sproat": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Brett Baty": {
+      "exit_velocity": 84.25,
+      "barrel_rate": 0.0867
+    },
+    "Brooks Raley": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Cedric Mullins": {
+      "exit_velocity": 80.58,
+      "barrel_rate": 0.05
+    },
+    "Clay Holmes": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Edwin D\u00edaz": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "David Peterson": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Francisco Alvarez": {
+      "exit_velocity": 87.39,
+      "barrel_rate": 0.0724
+    },
+    "Gregory Soto": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Hayden Senger": {
+      "exit_velocity": 82.88,
+      "barrel_rate": 0.046
+    },
+    "Francisco Lindor": {
+      "exit_velocity": 84.01,
+      "barrel_rate": 0.0606
+    },
+    "Jonah Tong": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Jeff McNeil": {
+      "exit_velocity": 81.49,
+      "barrel_rate": 0.0422
+    },
+    "Jose Siri": {
+      "exit_velocity": 76.02,
+      "barrel_rate": 0.093
+    },
+    "Juan Soto": {
+      "exit_velocity": 87.61,
+      "barrel_rate": 0.1068
+    },
+    "Justin Hagenman": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Luisangel Acu\u00f1a": {
+      "exit_velocity": 81.02,
+      "barrel_rate": 0.0095
+    },
+    "Mark Vientos": {
+      "exit_velocity": 85.21,
+      "barrel_rate": 0.082
+    },
+    "Nolan McLean": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Reed Garrett": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Pete Alonso": {
+      "exit_velocity": 86.51,
+      "barrel_rate": 0.1307
+    },
+    "Ronny Mauricio": {
+      "exit_velocity": 81.94,
+      "barrel_rate": 0.0536
+    },
+    "Starling Marte": {
+      "exit_velocity": 80.57,
+      "barrel_rate": 0.053
+    },
+    "Ryan Helsley": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Sean Manaea": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Ryne Stanek": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    },
+    "Tyler Rogers": {
+      "exit_velocity": null,
+      "barrel_rate": null
+    }
+  }
+}
